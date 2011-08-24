@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>1800572</Client>
+<Contacts>
+<Contact>
+<Name>Karianne Christoffersen</Name>
+<Email>kc@eie.no</Email>
+<Mobile>452 45 258</Mobile>
+<Address CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE511021</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2010-09-09" ToDate="2010-12-18"/>
+<Type>leilighet</Type>
+<AdType>bolig_salg</AdType>
+<Title>2 roms på Carl Berner. Fastpris</Title>
+<Address Street="Jørgen Løvlandsgate 1" PostCode="0568" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="227" BNR="573" SNR="13"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">2090000</Price>
+<Price Name="Pris fra" Curr="NOK">1450000</Price>
+<Price Name="Pris til" Curr="NOK">3190000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">1013</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+<Price Name="Fellesutgifter_inkluderer">Kabel-tv, kommunale avgifter, ytre vedlikehold, trappevask, forsikring og forretningsførsel.</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">38</Area>
+<Area Name="Tomteareal">1705</Area>
+<Area Name="primaererom_areal">38</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+<Area Name="Bruttoareal fra">25</Area>
+<Area Name="Bruttoareal til">58</Area>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BedRooms>1</BedRooms>
+<Rooms>2</Rooms>
+<Floor>1</Floor>
+<Viewings>
+<Viewing Date="2010-10-17" From="15:00" To="16:00"/>
+</Viewings>
+<TextFields>
+<Text Name="Innhold">Leiligheten har svært god planløsning og inneholder 1 soverom, bad, entré, stue med åpen kjøkkenløsning, hems og en kjellerbod. Leiligheten har bruksrett til egen markterrasse med gode solforhold, skjermet og usjenert beliggenhet. Boligen er innflyttningsklar i desember 2010. 
+
+Den direkte adkomst gjennom egen hage til leilighet gjør at den og området passer både for gammel og ung. Leiligheten har livssløpstandard. Stor forgang egner seg meget godt til oppbevaring av barnevogn og lignende.</Text>
+<Text Name="Boder">1 kjellerbod.</Text>
+<Text Name="Standard">Gjennomgående høy standard. Kjøkkeninnredning fra Designa kjøkken med integrert oppvaskmaskin og komfyr. Opplegg for vaskemaskin på baderom. Parkett på gulv og fliser på badet. Ekstremt god takhøyde og store vinduer som gjør leiligheten lys og trivelig.</Text>
+<Text Name="Diverse">Dyrehold er tillatt i sameiet. 
+Takterrasse med kjøkkenfasiliteter på toppen, med panoramautsikt over hele Oslo.</Text>
+<Text Name="Parkering">Mulighet for kjøp av garasjeplass i parkeringsanlegg (begrenset antall plasser).</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="parkett"/>
+<Option Name="heis"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Stue" LastModified="2010-09-09 15:37">file:EIE511021-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Utgang til egen hage." LastModified="2010-09-09 15:37">file:EIE511021-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue med utgang til hage" LastModified="2010-09-09 15:37">file:EIE511021-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom. Garderobeskap medfølger" LastModified="2010-09-09 15:37">file:EIE511021-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkkeninnredning" LastModified="2010-09-09 15:37">file:EIE511021-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Baderom med dusj og opplegg for vaskemaskin" LastModified="2010-09-09 15:37">file:EIE511021-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Baderom med dusjhjørne" LastModified="2010-09-09 15:37">file:EIE511021-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Entré" LastModified="2010-09-09 15:37">file:EIE511021-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade" LastModified="2010-09-09 15:37">file:EIE511021-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt fra takterrassen" LastModified="2010-09-09 15:37">file:EIE511021-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt fra takterrassen" LastModified="2010-09-09 15:37">file:EIE511021-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Felles avdeling på takterrassen" LastModified="2010-09-09 15:37">file:EIE511021-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Nærområdet" LastModified="2010-09-09 15:37">file:EIE511021-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kart over området" LastModified="2010-09-09 15:37">file:EIE511021-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Nærområde" LastModified="2010-09-09 15:37">file:EIE511021-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="All offentlig komunikasjon i umiddelbar nærhet" LastModified="2010-09-09 15:37">file:EIE511021-16.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- definition of simple elements -->
+    <xs:element name="Kjoretoygruppe" type="xs:string"/>
+    <xs:element name="Merke" type="xs:string"/>
+    <xs:element name="Modell" type="xs:string"/>
+    <xs:element name="Karosserifasong" type="xs:string"/>
+    <xs:element name="Pris" type="xs:string"/>
+    <xs:element name="Arsmodell" type="xs:string"/>
+    <xs:element name="Kmstand" type="xs:string"/>
+    <xs:element name="Motorstorrelse" type="xs:string"/>
+    <xs:element name="Variant" type="xs:string"/>
+    <xs:element name="ChassisNr" type="xs:string"/>
+    <xs:element name="Solgt" type="xs:string"/>
+    <xs:element name="Farge" type="xs:string"/>
+    <xs:element name="Effekt" type="xs:string"/>
+    <xs:element name="InklOmreg" type="xs:string"/>
+    <xs:element name="InklArsavg" type="xs:string"/>
+    <xs:element name="Ekstrautstyr" type="xs:string"/>
+    <xs:element name="Reservert" type="xs:string"/>
+    <xs:element name="KommerInn" type="xs:string"/>
+    <xs:element name="SomForevist" type="xs:string"/>
+    <xs:element name="Drivstoff" type="xs:string"/>
+    <xs:element name="Lastevolum" type="xs:string"/>
+    <xs:element name="AntEiere" type="xs:string"/>
+    <xs:element name="AntSeter" type="xs:string"/>
+    <xs:element name="Kommentar" type="xs:string"/>
+    <xs:element name="Vekt" type="xs:string"/>
+    <xs:element name="Garanti" type="xs:string"/>
+    <xs:element name="RegNr" type="xs:string"/>
+    <xs:element name="Demobil" type="xs:string"/>
+    <xs:element name="Kommisjonsbil" type="xs:string"/>
+    <xs:element name="Basisfarge" type="xs:string"/>
+    <xs:element name="Drivhjul" type="xs:string"/>
+    <xs:element name="Girtype" type="xs:string"/>
+    <xs:element name="Tilstandsrapport" type="xs:string"/>
+    <xs:element name="Slepevekt" type="xs:string"/>
+    <xs:element name="FargeInnvendig" type="xs:string"/>
+    <xs:element name="OmregAvgift" type="xs:string"/>
+    <xs:element name="Kontaktperson" type="xs:string"/>
+
+    <xs:element name="Navn" type="xs:string"/>
+    <xs:element name="Telefon" type="xs:string"/>
+    <xs:element name="Mobil" type="xs:string"/>
+    <xs:element name="Email" type="xs:string"/>
+    <xs:element name="Beskrivelse" type="xs:string"/>
+    <xs:element name="Javascript" type="xs:string"/>
+
+    <!-- definition of attributes -->
+    <xs:attribute name="bilde" type="xs:string"/>
+    <xs:attribute name="prioritet" type="xs:string"/>
+    <xs:attribute name="md5" type="xs:string"/>
+    <xs:attribute name="desc" type="xs:string"/>
+
+    <xs:attribute name="id" type="xs:string"/>  
+
+    <xs:attribute name="unikid" type="xs:string"/>
+    <xs:attribute name="kontroll" type="xs:string"/>
+    <xs:attribute name="kommando" type="xs:string"/>
+
+    <xs:attribute name="brukerid" type="xs:string"/>
+    <xs:attribute name="passord" type="xs:string"/>
+    <xs:attribute name="navn" type="xs:string"/>
+    <xs:attribute name="adresse1" type="xs:string"/>
+    <xs:attribute name="adresse2" type="xs:string"/>
+    <xs:attribute name="adresse3" type="xs:string"/>
+    <xs:attribute name="postnr" type="xs:string"/>
+    <xs:attribute name="poststed" type="xs:string"/>
+    <xs:attribute name="url" type="xs:string"/>
+    <xs:attribute name="tlf" type="xs:string"/>
+    <xs:attribute name="fax" type="xs:string"/>
+    <xs:attribute name="epost" type="xs:string"/>
+    <xs:attribute name="fullupdate" type="xs:string"/>
+
+    <!-- definition of complex elements -->
+    <xs:element name="Bilde">
+        <xs:complexType>
+            <xs:attribute ref="bilde" use="required"/>
+            <xs:attribute ref="prioritet" use="required"/>
+            <xs:attribute ref="md5" use="required"/>
+            <xs:attribute ref="desc" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Bilder">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Bilde" minOccurs="0" maxOccurs="50"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Kontaktpersoner">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Kontaktperson" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Bil">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Kjoretoygruppe"/>
+                <xs:element ref="Merke"/>
+                <xs:element ref="Modell"/>
+                <xs:element ref="Karosserifasong"/>
+                <xs:element ref="Pris"/>
+                <xs:element ref="Arsmodell"/>
+                <xs:element ref="Kmstand"/>
+                <xs:element ref="Motorstorrelse"/>
+                <xs:element ref="Variant"/>
+                <xs:element ref="ChassisNr"/>
+                <xs:element ref="Solgt"/>
+                <xs:element ref="Farge"/>
+                <xs:element ref="Effekt"/>
+                <xs:element ref="Bilder"/>
+                <xs:element ref="InklOmreg"/>
+                <xs:element ref="InklArsavg"/>
+                <xs:element ref="Ekstrautstyr"/>
+                <xs:element ref="Reservert"/>
+                <xs:element ref="KommerInn"/>
+                <xs:element ref="SomForevist"/>
+                <xs:element ref="Drivstoff" minOccurs="0"/>
+                <xs:element ref="Lastevolum"/>
+                <xs:element ref="AntEiere"/>
+                <xs:element ref="AntSeter"/>
+                <xs:element ref="Kommentar"/>
+                <xs:element ref="Vekt"/>
+                <xs:element ref="Garanti"/>
+                <xs:element ref="RegNr"/>
+                <xs:element ref="Demobil"/>
+                <xs:element ref="Kommisjonsbil"/>
+                <xs:element ref="Basisfarge"/>
+                <xs:element ref="Drivhjul"/>
+                <xs:element ref="Girtype"/>
+                <xs:element ref="Tilstandsrapport" minOccurs="0"/>
+                <xs:element ref="Slepevekt"/>
+                <xs:element ref="FargeInnvendig"/>
+                <xs:element ref="OmregAvgift"/>
+                <xs:element ref="Kontaktpersoner" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="unikid" use="required"/>
+            <xs:attribute ref="kontroll" use="required"/>
+            <xs:attribute ref="kommando" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Kontaktpunkt">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Navn"/>
+                <xs:element ref="Telefon"/>
+                <xs:element ref="Mobil"/>
+                <xs:element ref="Email"/>
+                <xs:element ref="Beskrivelse"/>
+                <xs:element ref="Javascript" />
+            </xs:sequence>
+            <xs:attribute ref="id" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Kontaktpunktliste">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Kontaktpunkt" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Forhandler">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Bil" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="Kontaktpunktliste" />
+            </xs:sequence>
+            <xs:attribute ref="brukerid" use="required"/>
+            <xs:attribute ref="passord" use="required"/>
+            <xs:attribute ref="navn" use="required"/>
+            <xs:attribute ref="adresse1" use="required"/>
+            <xs:attribute ref="adresse2" use="required"/>
+            <xs:attribute ref="adresse3" use="required"/>
+            <xs:attribute ref="postnr" use="required"/>
+            <xs:attribute ref="poststed" use="required"/>
+            <xs:attribute ref="url" use="required"/>
+            <xs:attribute ref="tlf" use="required"/>
+            <xs:attribute ref="fax" use="required"/>
+            <xs:attribute ref="epost" use="required"/>
+            <xs:attribute ref="fullupdate" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+   <xs:element name="Bildata">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Forhandler"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

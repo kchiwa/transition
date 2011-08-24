@@ -1,0 +1,72 @@
+                    ------
+                    Paths description
+                    ------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The FTP path
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ The FTP path is where the ftp users are located. This is the path where the xml files get uploaded. Transition will
+ monitor these folders,
+ and consume the files as soon as the file is finish uploaded. Each client will get an ftp login which is the same
+ as the home folder.
+ It is important that the home folder of the clients get placed on the correct importformat folder. For example if
+ we have a client
+ with the login name "zeeie" and this client is using "itmakeriet" as the importformat and if the ftp.path is set to
+ 
++------------------------
+ ftp.path=/nfs/import/ftp
+ 
+ Then the full home folder for this client is:
+ 
+ /nfs/import/ftp/itmakeriet/zeeie
++---------------------------
+  
+ Another example if we have a client that use "zettxml" as importformat, and the client login is "triolink". 
+ Then this client home folder will be like this:
+
++------------------------
+ /nfs/import/ftp/zettxml/triolink
++------------------------
+ 
+  This mean the ftp.path is only a base path. Note that the ftp.path can be set to anything, "/nfs/import/ftp" is just
+  an example.
+  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The MEDIA path
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  The media path is where the media files are temporally stored, when the media files are uploaded by the client, they
+  will be moved to this
+  media path. Transition will use the same path structure as the ftp path. For example if we have a client "zeeie"
+  using "itmakeriet" as the importformat.
+  And the media.path is set to "/nfs/import/media". Then the media file of this client will be moved like this.
+  
++-------------------------
+ media.path=/nfs/import/media
+ 
+ /nfs/import/ftp/itmakeriet/zeeie/test.jpg
+ 
+ test.jpg will be moved to:
+ 
+ /nfs/import/media/itmakeriet/zeeie/test.jpg
+
++-------------------------
+ 
+ Based on the ftp path, Transition will automatically create the importformat folder and the clientloginname folder
+ in the media path if they
+ do not exist already.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The PRODUCTION path
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The media files will be copied to this production path so that they can be used by zett and other zett services.
+ So in other words the production path
+ is actually the path where the images are stored. This should be the same path where zett has its images.
+
++---------------------------
+/usr/local/import/tindeimport/spools/images
++--------------------------
+
+ Transition requires both read and write access to the paths.
+ 

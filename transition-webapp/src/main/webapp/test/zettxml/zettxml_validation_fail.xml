@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zett.no>
+  <Ad Status="ACTIVE" PublishFromTime="2011-01-29 18:04:03" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Opel Meriva 1.7 DT -A (2004)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <!--<Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000085</Reference>-->
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bjørn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kjøretøy">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Opel</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Meriva</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-dørs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">112253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="Årsmodell">2004</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">107000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.7 DT</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">-A</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Sølv</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">75</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="Årsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Ryddig, pen en eiers bil. Meget rimelig i drift med denne turbodieselmotor. Utstyrt med meget gode dekk. Siste service tatt nå. Selges verkstedkontrollert, med tilstandsrapport og garanti. Vi kan tilby meget god og rimelig forsikring og fiansiering. Velkommen til oss på Gustavsen Bil AS i Hunndalen, ved Gjøvik.  ( forbehold om finansiering )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="1" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Servostyring">Servostyring</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Sentrallås">Sentrallås</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Aircondition">Aircondition</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="http://localhost:8080/transition/test/zettxml/zett1.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="http://localhost:8080/transition/test/zettxml/zett2.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="http://localhost:8080/transition/test/zettxml/zett3.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+</zett.no>

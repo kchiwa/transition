@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE IAD.IF.STOP SYSTEM "http://www.finn.no/dtd/IADIF-stop30.dtd">
+<IAD.IF.STOP>
+    <HEAD>
+        <PARTNER>jobzone</PARTNER>
+    </HEAD>
+    <OBJECT>
+        <OBJECT_HEAD>
+            <ORDERNO>46933</ORDERNO>
+        </OBJECT_HEAD>
+    </OBJECT>
+</IAD.IF.STOP>

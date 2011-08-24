@@ -1,0 +1,768 @@
+<no.zett.model.AdObject>
+  <objectId>1989586</objectId>
+  <dataTable>ad</dataTable>
+  <statusValue>1</statusValue>
+  <adminStatusValue>1</adminStatusValue>
+  <category>Motor/Bil</category>
+  <title>Kia Cee´d Exe Crdi kombi (2007)</title>
+  <shortDescription>Meget pen 2007 modell Kia Ceed 1,6 Ex Crdi selges med eksisterende nybilgaranti t.o.m 15/3-2014. Bilen er en meget driftiskker og romslig kombi med mye utstyr som gir mye bil for pengene.</shortDescription>
+  <publishFromTime>2010-10-20 03:04:16.0 ICT</publishFromTime>
+  <systemCreatedTime>2010-10-20 03:04:18.52 ICT</systemCreatedTime>
+  <createdBy>carweb 1.6</createdBy>
+  <createdTime>2010-10-20 03:04:16.0 ICT</createdTime>
+  <systemModifiedTime>2010-10-20 03:04:24.230 ICT</systemModifiedTime>
+  <modifiedTime>2010-10-20 03:04:18.50 ICT</modifiedTime>
+  <additionalCategories/>
+  <contacts>
+    <no.zett.model.base.Contact>
+      <contactId>33198420</contactId>
+      <name>KIA og Daihatsu Oslo</name>
+      <email>richard.jensen@bos.no</email>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+      <attributesRaw>
+        <no.zett.model.base.ContactAttribute>
+          <attributeId>81890681</attributeId>
+          <section>DEFAULT</section>
+          <typeValue>1</typeValue>
+          <order>1</order>
+          <value>67 91 42 10/03</value>
+          <contact reference="../../.."/>
+        </no.zett.model.base.ContactAttribute>
+        <no.zett.model.base.ContactAttribute>
+          <attributeId>81890682</attributeId>
+          <section>DEFAULT</section>
+          <typeValue>3</typeValue>
+          <order>2</order>
+          <value>67 91 42 20</value>
+          <contact reference="../../.."/>
+        </no.zett.model.base.ContactAttribute>
+        <no.zett.model.base.ContactAttribute>
+          <attributeId>81890683</attributeId>
+          <section>DEFAULT</section>
+          <typeValue>11</typeValue>
+          <order>3</order>
+          <value>Solheimveien 15</value>
+          <contact reference="../../.."/>
+        </no.zett.model.base.ContactAttribute>
+        <no.zett.model.base.ContactAttribute>
+          <attributeId>81890684</attributeId>
+          <section>DEFAULT</section>
+          <typeValue>12</typeValue>
+          <order>4</order>
+          <value>1471</value>
+          <contact reference="../../.."/>
+        </no.zett.model.base.ContactAttribute>
+        <no.zett.model.base.ContactAttribute>
+          <attributeId>81890685</attributeId>
+          <section>DEFAULT</section>
+          <typeValue>13</typeValue>
+          <order>5</order>
+          <value>Lørenskog</value>
+          <contact reference="../../.."/>
+        </no.zett.model.base.ContactAttribute>
+      </attributesRaw>
+      <attributes>
+        <entry>
+          <string>DEFAULT</string>
+          <list>
+            <no.zett.model.base.ContactAttribute reference="../../../../attributesRaw/no.zett.model.base.ContactAttribute"/>
+            <no.zett.model.base.ContactAttribute reference="../../../../attributesRaw/no.zett.model.base.ContactAttribute[2]"/>
+            <no.zett.model.base.ContactAttribute reference="../../../../attributesRaw/no.zett.model.base.ContactAttribute[3]"/>
+            <no.zett.model.base.ContactAttribute reference="../../../../attributesRaw/no.zett.model.base.ContactAttribute[4]"/>
+            <no.zett.model.base.ContactAttribute reference="../../../../attributesRaw/no.zett.model.base.ContactAttribute[5]"/>
+          </list>
+        </entry>
+      </attributes>
+    </no.zett.model.base.Contact>
+  </contacts>
+  <attributes>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663022</attributeId>
+      <name>vehicletype</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Kjøretøy</label>
+      <value>Personbil</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663023</attributeId>
+      <name>make</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Merke</label>
+      <value>Kia</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663024</attributeId>
+      <name>model</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Modell</label>
+      <value>Cee´d</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663025</attributeId>
+      <name>type</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Type</label>
+      <value>Kombi</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663026</attributeId>
+      <name>price</name>
+      <typeValue>4</typeValue>
+      <order>1</order>
+      <label>Pris</label>
+      <value>178754</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663027</attributeId>
+      <name>modelyear</name>
+      <typeValue>3</typeValue>
+      <order>1</order>
+      <label>Årsmodell</label>
+      <value>2007</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663028</attributeId>
+      <name>mileage</name>
+      <typeValue>3</typeValue>
+      <order>1</order>
+      <label>Kilometerstand</label>
+      <value>47333</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663029</attributeId>
+      <name>enginevolume</name>
+      <typeValue>3</typeValue>
+      <order>1</order>
+      <label>Motorvolum</label>
+      <value>1.6</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663030</attributeId>
+      <name>variant</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Variant</label>
+      <value>Exe Crdi kombi</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663031</attributeId>
+      <name>color</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Farge</label>
+      <value>Svart</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663032</attributeId>
+      <name>enginehp</name>
+      <typeValue>3</typeValue>
+      <order>1</order>
+      <label>Hestekrefter</label>
+      <value>90</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663033</attributeId>
+      <name>reregistrationfeepaid</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Omreg. inklusiv</label>
+      <value>Ja</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663034</attributeId>
+      <name>yearlyfeepaid</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Årsavgift inklusiv</label>
+      <value>Nei</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663035</attributeId>
+      <name>fueltype</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Drivstoff</label>
+      <value>Diesel</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663036</attributeId>
+      <name>seats</name>
+      <typeValue>3</typeValue>
+      <order>1</order>
+      <label>Antall seter</label>
+      <value>5</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663037</attributeId>
+      <name>text</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Beskrivelse</label>
+      <value>Meget pen 2007 modell Kia Ceed 1,6 Ex Crdi selges med eksisterende nybilgaranti t.o.m 15/3-2014. Bilen er en meget driftiskker og romslig kombi med mye utstyr som gir mye bil for pengene.</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663038</attributeId>
+      <name>guarantee</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Garanti</label>
+      <value>Nybilgaranti</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663039</attributeId>
+      <name>registrationnumber</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Registreringsnummer</label>
+      <value>DL59602</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663040</attributeId>
+      <name>wheeldrive</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Drivhjul</label>
+      <value>Forhjulsdrift</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663041</attributeId>
+      <name>geartype</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Girtype</label>
+      <value>Manuell</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663042</attributeId>
+      <name>saletype</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Selgertype</label>
+      <value>Forhandler</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663043</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Metallic lakk</label>
+      <value>Metallic lakk</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663044</attributeId>
+      <name>_importsourcefile</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Kildefil</label>
+      <value>/usr/local/import/archive/carweb/2010/10/20_03-04-14_1473199_zett_bildata.xml</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663045</attributeId>
+      <name>cataloguri</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Katalogreferanse</label>
+      <value>Kia/Cee´d</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663067</attributeId>
+      <name>mapcoordinatex</name>
+      <typeValue>9</typeValue>
+      <order>1</order>
+      <label>Kart-koordinat (X-akse)</label>
+      <value>6651142.0</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663068</attributeId>
+      <name>mapcoordinatey</name>
+      <typeValue>9</typeValue>
+      <order>1</order>
+      <label>Kart-koordinat (Y-akse)</label>
+      <value>272901.0</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663069</attributeId>
+      <name>mapcoordinatelon</name>
+      <typeValue>9</typeValue>
+      <order>1</order>
+      <label>Kart-koordinat (Lengdegrader)</label>
+      <value>10.934774070498642</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663070</attributeId>
+      <name>mapcoordinatelat</name>
+      <typeValue>9</typeValue>
+      <order>1</order>
+      <label>Kart-koordinat (breddegrader)</label>
+      <value>59.93493447616267</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663071</attributeId>
+      <name>mapclienturl</name>
+      <typeValue>2</typeValue>
+      <order>1</order>
+      <label>URL til kartklient</label>
+      <value>http://zett.gisline.no/ZettBrowser/map.aspx?x=6651142&amp;y=272901&amp;scale=20000&amp;title=</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663072</attributeId>
+      <name>mappreviewurl</name>
+      <typeValue>2</typeValue>
+      <order>1</order>
+      <label>URL til kart-preview</label>
+      <value>http://www.webatlas.no/wms-location/?REQUEST=GetMap&amp;SERVICE=WMS&amp;LAYERS=N250_Hoydelag,N50_Arealdekke,N250_Vann,N50_Adm grenser,N50_Hoyde,N50_Samferdsel,N50_Bygg og anlegg,N50_Stedsnavn&amp;SRS=EPSG:32633&amp;BBOX=271651,6650142,274151,6652142&amp;WIDTH=250&amp;HEIGHT=200&amp;FORMAT=image/png&amp;</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663073</attributeId>
+      <name>mapresolvedaddress</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Adresse fra kartoppslag</label>
+      <value>SOLHEIMVEIEN 15, 1473 LØRENSKOG</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663074</attributeId>
+      <name>geographyzones</name>
+      <typeValue>1</typeValue>
+      <order>1</order>
+      <label>Geografiområder</label>
+      <value>Skårer/Høybråten</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663046</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>2</order>
+      <label>Alu sommer</label>
+      <value>Alu sommer</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663047</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>3</order>
+      <label>Aircondition</label>
+      <value>Aircondition</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663048</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>4</order>
+      <label>Miltifunksjonsratt</label>
+      <value>Miltifunksjonsratt</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663049</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>5</order>
+      <label>Kjørecomputer</label>
+      <value>Kjørecomputer</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663050</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>6</order>
+      <label>CD-spiller</label>
+      <value>CD-spiller</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663051</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>7</order>
+      <label>Alarm</label>
+      <value>Alarm</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663052</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>8</order>
+      <label>El.vinduer</label>
+      <value>El.vinduer</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663053</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>9</order>
+      <label>El speil</label>
+      <value>El speil</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663054</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>10</order>
+      <label>Oppvarmede seter</label>
+      <value>Oppvarmede seter</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663055</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>11</order>
+      <label>Fjernst. sentrallås</label>
+      <value>Fjernst. sentrallås</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663056</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>12</order>
+      <label>Startsperre</label>
+      <value>Startsperre</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663057</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>13</order>
+      <label>ESP</label>
+      <value>ESP</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663058</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>14</order>
+      <label>ABS-bremser</label>
+      <value>ABS-bremser</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663059</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>15</order>
+      <label>8 kollisjonsputer</label>
+      <value>8 kollisjonsputer</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663060</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>16</order>
+      <label>Midtarmlene</label>
+      <value>Midtarmlene</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663061</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>17</order>
+      <label>Tåkelys foran</label>
+      <value>Tåkelys foran</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663062</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>18</order>
+      <label>Utetempraturmåler</label>
+      <value>Utetempraturmåler</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663063</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>19</order>
+      <label>Automatisk blendfritt speil</label>
+      <value>Automatisk blendfritt speil</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663064</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>20</order>
+      <label>Klimaanlegg</label>
+      <value>Klimaanlegg</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663065</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>21</order>
+      <label>Navigasjon</label>
+      <value>Navigasjon</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+    <no.zett.model.base.ObjectAttribute>
+      <attributeId>1388663066</attributeId>
+      <name>feature</name>
+      <typeValue>1</typeValue>
+      <order>22</order>
+      <label>Regnsensor</label>
+      <value>Regnsensor</value>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+    </no.zett.model.base.ObjectAttribute>
+  </attributes>
+  <media/>
+  <externalReferences>
+    <no.zett.model.base.ObjectExternalReference>
+      <externalReferenceId>36037289</externalReferenceId>
+      <typeValue>1</typeValue>
+      <system>carweb</system>
+      <systemVersion>1.6</systemVersion>
+      <source>1473199</source>
+      <reference>1_3667</reference>
+      <object class="no.zett.model.AdObject" reference="../../.."/>
+      <objectId>1989586</objectId>
+    </no.zett.model.base.ObjectExternalReference>
+  </externalReferences>
+  <dataTypeValue>1</dataTypeValue>
+  <transactionTypeValue>1</transactionTypeValue>
+  <publishingStatusValue>1</publishingStatusValue>
+  <transactionStatusValue>0</transactionStatusValue>
+  <zettCode>A1989586</zettCode>
+  <contactPrivacyStatusValue>1</contactPrivacyStatusValue>
+  <expiredNotificationStatusValue>0</expiredNotificationStatusValue>
+  <categoryId>10200</categoryId>
+  <company>
+    <objectId>1473199</objectId>
+    <dataTable>company</dataTable>
+    <statusValue>1</statusValue>
+    <adminStatusValue>1</adminStatusValue>
+    <category>Firmaer/Bilforhandlere</category>
+    <title>Kia og Daihatsu Oslo</title>
+    <publishFromTime>2009-01-13 11:35:45.668 ICT</publishFromTime>
+    <systemCreatedTime>2009-01-13 11:44:18.171 ICT</systemCreatedTime>
+    <createdBy>ZettAdmin hege</createdBy>
+    <createdTime>2009-01-13 11:35:45.668 ICT</createdTime>
+    <systemModifiedTime>2009-06-02 09:25:37.684 ICT</systemModifiedTime>
+    <modifiedBy>ZettAdmin yvonne</modifiedBy>
+    <modifiedTime>2009-06-02 09:25:37.673 ICT</modifiedTime>
+    <additionalCategories/>
+    <contacts>
+      <no.zett.model.base.Contact>
+        <contactId>27634614</contactId>
+        <name>Richard Jensen</name>
+        <email>richard.jensen@bos.no</email>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+        <attributesRaw>
+          <no.zett.model.base.ContactAttribute>
+            <attributeId>68663421</attributeId>
+            <section>DEFAULT</section>
+            <typeValue>1</typeValue>
+            <order>2</order>
+            <value>67 91 42 00</value>
+            <contact reference="../../.."/>
+          </no.zett.model.base.ContactAttribute>
+        </attributesRaw>
+        <attributes>
+          <entry>
+            <string>DEFAULT</string>
+            <list>
+              <no.zett.model.base.ContactAttribute reference="../../../../attributesRaw/no.zett.model.base.ContactAttribute"/>
+            </list>
+          </entry>
+        </attributes>
+      </no.zett.model.base.Contact>
+    </contacts>
+    <attributes>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754751</attributeId>
+        <name>carweblogin</name>
+        <typeValue>1</typeValue>
+        <order>1</order>
+        <label>Brukernavn Carweb</label>
+        <value>1473199</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754752</attributeId>
+        <name>mapcoordinatex</name>
+        <typeValue>9</typeValue>
+        <order>1</order>
+        <label>Kart-koordinat (X-akse)</label>
+        <value>6651142.0</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754753</attributeId>
+        <name>mapcoordinatey</name>
+        <typeValue>9</typeValue>
+        <order>1</order>
+        <label>Kart-koordinat (Y-akse)</label>
+        <value>272901.0</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754754</attributeId>
+        <name>mapcoordinatelon</name>
+        <typeValue>9</typeValue>
+        <order>1</order>
+        <label>Kart-koordinat (Lengdegrader)</label>
+        <value>10.93477411610323</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754755</attributeId>
+        <name>mapcoordinatelat</name>
+        <typeValue>9</typeValue>
+        <order>1</order>
+        <label>Kart-koordinat (breddegrader)</label>
+        <value>59.93493449562855</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754756</attributeId>
+        <name>mapclienturl</name>
+        <typeValue>2</typeValue>
+        <order>1</order>
+        <label>URL til kartklient</label>
+        <value>http://zett.gisline.no/ZettBrowser/map.aspx?x=6651142&amp;y=272901&amp;scale=10800&amp;title=</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754757</attributeId>
+        <name>mappreviewurl</name>
+        <typeValue>2</typeValue>
+        <order>1</order>
+        <label>URL til kart-preview</label>
+        <value>http://www.webatlas.no/wms-location/?REQUEST=GetMap&amp;SERVICE=WMS&amp;LAYERS=N250_Hoydelag,N50_Arealdekke,N250_Vann,N50_Adm grenser,N50_Hoyde,N50_Samferdsel,N50_Bygg og anlegg,N50_Stedsnavn&amp;SRS=EPSG:32633&amp;BBOX=271901,6650342,273901,6651942&amp;WIDTH=250&amp;HEIGHT=200&amp;FORMAT=image/png&amp;</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754758</attributeId>
+        <name>mapresolvedaddress</name>
+        <typeValue>1</typeValue>
+        <order>1</order>
+        <label>Adresse fra kartoppslag</label>
+        <value>SOLHEIMVEIEN 15, 1473 LØRENSKOG</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754759</attributeId>
+        <name>parentcompanyname</name>
+        <typeValue>1</typeValue>
+        <order>1</order>
+        <label>Hovedfirma</label>
+        <value>Bertel O. Steen</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754760</attributeId>
+        <name>homepage</name>
+        <typeValue>2</typeValue>
+        <order>1</order>
+        <label>Hjemmeside</label>
+        <value>http://www.kiaoslo.no</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+      <no.zett.model.base.ObjectAttribute>
+        <attributeId>1095754761</attributeId>
+        <name>importformat</name>
+        <typeValue>1</typeValue>
+        <order>1</order>
+        <label>ImportFormat</label>
+        <value>CARWEB</value>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectAttribute>
+    </attributes>
+    <media>
+      <no.zett.model.base.ObjectMedia>
+        <mediaId>266105261</mediaId>
+        <typeValue>2</typeValue>
+        <order>1</order>
+        <title>Firmalogo</title>
+        <reference>15/ce/15ce432050421a12bcd34b7cc8447182</reference>
+        <object class="no.zett.model.CompanyObject" reference="../../.."/>
+      </no.zett.model.base.ObjectMedia>
+    </media>
+    <externalReferences/>
+    <parentId>1570341</parentId>
+    <address>
+      <addressId>7565458</addressId>
+      <primaryAddress>Solheimveien 15</primaryAddress>
+      <secondaryAddress></secondaryAddress>
+      <postCode>1473</postCode>
+      <postLocation>Lørenskog</postLocation>
+      <geography>Norge/Akershus/Lørenskog</geography>
+    </address>
+    <packagedeal>
+      <packageDealType>GOLD</packageDealType>
+      <packagefeatures>
+        <no.zett.model.enums.PackageFeatureType>OWN_BANNERS</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>NO_BANNERS</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>OWN_FINANCING</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>SEARCH_COLOR</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>SEARCH_BOOST1</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>SEARCH_GALLERY</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>COMPANYCHAT</no.zett.model.enums.PackageFeatureType>
+        <no.zett.model.enums.PackageFeatureType>SEARCH_LOGO</no.zett.model.enums.PackageFeatureType>
+      </packagefeatures>
+      <search__boost1>1200</search__boost1>
+      <search__boost2>800</search__boost2>
+      <search__boost3>600</search__boost3>
+      <search__boost4>400</search__boost4>
+    </packagedeal>
+  </company>
+  <additionalCompanies/>
+  <address>
+    <addressId>9263991</addressId>
+    <primaryAddress>Solheimveien 15</primaryAddress>
+    <postCode>1471</postCode>
+    <postLocation>Lørenskog</postLocation>
+    <geography>Norge/Akershus/Lørenskog</geography>
+  </address>
+  <adObjectCategories/>
+  <productCodes/>
+</no.zett.model.AdObject>

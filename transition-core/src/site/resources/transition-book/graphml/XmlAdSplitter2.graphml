@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.8-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key attr.name="Description" attr.type="string" for="graph" id="d7">
+    <default/>
+  </key>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="591.5" width="494.2500000000001" x="159.5068199999996" y="-170.26426000000026"/>
+          <y:Fill color="#FFFF99" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="563.9140625" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="419.9111328125" x="37.16943359375006" y="13.79296875">&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+&lt;Bildata&gt;
+    &lt;Forhandler brukerid="1707402"&gt;
+        &lt;Bil unikid="8_2342" kontroll="7" kommando="update"&gt;
+            &lt;Kjoretoygruppe&gt;1&lt;/Kjoretoygruppe&gt;
+            &lt;Merke&gt;Opel&lt;/Merke&gt;
+            &lt;Modell&gt;Astra&lt;/Modell&gt;
+            &lt;Karosserifasong&gt;4&lt;/Karosserifasong&gt;
+            &lt;Pris&gt;98372&lt;/Pris&gt;
+            &lt;Arsmodell&gt;2002&lt;/Arsmodell&gt;
+            &lt;Kmstand&gt;115500&lt;/Kmstand&gt;
+            &lt;Motorstorrelse&gt;1.7&lt;/Motorstorrelse&gt;
+            &lt;Variant&gt;DTI Comfort&lt;/Variant&gt;
+        &lt;/Bil&gt;
+        &lt;Bil unikid="8_2482" kontroll="1" kommando="update"&gt;
+            &lt;Kjoretoygruppe&gt;1&lt;/Kjoretoygruppe&gt;
+            &lt;Merke&gt;Toyota&lt;/Merke&gt;
+            &lt;Modell&gt;Yaris&lt;/Modell&gt;
+            &lt;Karosserifasong&gt;2&lt;/Karosserifasong&gt;
+            &lt;Pris&gt;159033&lt;/Pris&gt;
+            &lt;Arsmodell&gt;2006&lt;/Arsmodell&gt;
+            &lt;Kmstand&gt;59000&lt;/Kmstand&gt;
+            &lt;Motorstorrelse&gt;1.4&lt;/Motorstorrelse&gt;
+            &lt;Variant&gt;D4D diesel Sol&lt;/Variant&gt;
+        &lt;/Bil&gt;
+        &lt;Kontaktpunktliste&gt;
+            &lt;Kontaktpunkt id="8_46"&gt;
+                &lt;Navn&gt;Svein Gjevikhaug&lt;/Navn&gt;
+                &lt;Telefon/&gt;
+                &lt;Mobil/&gt;
+                &lt;Email/&gt;
+                &lt;Beskrivelse&gt;Svein Gjevikhaug&lt;/Beskrivelse&gt;
+                &lt;Javascript&gt;&lt;/Javascript&gt;
+            &lt;/Kontaktpunkt&gt;
+        &lt;/Kontaktpunktliste&gt;
+    &lt;/Forhandler&gt;
+&lt;/Bildata&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="199.5" width="430.2500000000001" x="903.0136399999992" y="-106.4375"/>
+          <y:Fill color="#99CC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="170.4609375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="386.8525390625" x="21.69873046875" y="14.51953125">&lt;Bil unikid="8_2342" kontroll="7" kommando="update"&gt;
+            &lt;Kjoretoygruppe&gt;1&lt;/Kjoretoygruppe&gt;
+            &lt;Merke&gt;Opel&lt;/Merke&gt;
+            &lt;Modell&gt;Astra&lt;/Modell&gt;
+            &lt;Karosserifasong&gt;4&lt;/Karosserifasong&gt;
+            &lt;Pris&gt;98372&lt;/Pris&gt;
+            &lt;Arsmodell&gt;2002&lt;/Arsmodell&gt;
+            &lt;Kmstand&gt;115500&lt;/Kmstand&gt;
+            &lt;Motorstorrelse&gt;1.7&lt;/Motorstorrelse&gt;
+            &lt;Variant&gt;DTI Comfort&lt;/Variant&gt;
+&lt;/Bil&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="199.5" width="430.2500000000001" x="906.2136399999993" y="151.73573999999974"/>
+          <y:Fill color="#99CC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="170.4609375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="386.8525390625" x="21.69873046875" y="14.51953125">&lt;Bil unikid="8_2482" kontroll="1" kommando="update"&gt;
+            &lt;Kjoretoygruppe&gt;1&lt;/Kjoretoygruppe&gt;
+            &lt;Merke&gt;Toyota&lt;/Merke&gt;
+            &lt;Modell&gt;Yaris&lt;/Modell&gt;
+            &lt;Karosserifasong&gt;2&lt;/Karosserifasong&gt;
+            &lt;Pris&gt;159033&lt;/Pris&gt;
+            &lt;Arsmodell&gt;2006&lt;/Arsmodell&gt;
+            &lt;Kmstand&gt;59000&lt;/Kmstand&gt;
+            &lt;Motorstorrelse&gt;1.4&lt;/Motorstorrelse&gt;
+            &lt;Variant&gt;D4D diesel Sol&lt;/Variant&gt;
+&lt;/Bil&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="199.5" width="430.2500000000001" x="903.0136399999992" y="508.61587343999986"/>
+          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="185.59375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="379.705078125" x="25.2724609375" y="6.953125">&lt;Kontaktpunktliste&gt;
+            &lt;Kontaktpunkt id="8_46"&gt;
+                &lt;Navn&gt;Svein Gjevikhaug&lt;/Navn&gt;
+                &lt;Telefon/&gt;
+                &lt;Mobil/&gt;
+                &lt;Email/&gt;
+                &lt;Beskrivelse&gt;Svein Gjevikhaug&lt;/Beskrivelse&gt;
+                &lt;Javascript&gt;&lt;/Javascript&gt;
+            &lt;/Kontaktpunkt&gt;
+        &lt;/Kontaktpunktliste&gt;
+    &lt;/Forhandler&gt;
+&lt;/Bildata&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="155.25" width="430.2500000000001" x="191.5068199999996" y="508.61587343999986"/>
+          <y:Fill color="#CC99FF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="109.9296875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="318.55810546875" x="55.845947265625" y="22.66015625">&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+&lt;Bildata&gt;
+    &lt;Forhandler brukerid="1707402"&gt;
+
+
+    &lt;/Forhandler&gt;
+&lt;/Bildata&gt;</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="417.0" x="683.7568199999996" y="-170.26426000000026"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="0.0" fontFamily="Dialog" fontSize="18" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="24.953125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="357.4169921875" x="29.79150390625" y="2.5234375">XmlAdSplitter (XML restructure design)</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="763.6417694399998" y="125.48573999999974"/>
+            <y:Point x="763.6417694399998" y="251.48573999999974"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="763.3818199999998" y="125.48573999999974"/>
+            <y:Point x="763.3818199999998" y="-6.6875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="stail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="86.435546875" x="10.12498406249972" y="1.9999993383786432">extractBody()</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n0" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="231.33173183999992" sy="187.88013344000018" tx="0.0" ty="0.0">
+            <y:Point x="761.7135518399996" y="313.3658734399999"/>
+            <y:Point x="761.7135518399996" y="608.3658734399999"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="77.828125" x="109.94890340249958" y="138.51562319585923">extractLeg()</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n0" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="six_pos" modelPosition="tail" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="112.90234375" x="2.0000145800777887" y="34.70568342898417">prepareSkeleton()</y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
+</graphml>

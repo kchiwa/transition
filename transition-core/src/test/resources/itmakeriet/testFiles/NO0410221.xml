@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>1966966</Client>
+<Contacts>
+<Contact>
+<Name>Stig Flemmen</Name>
+<Email>stig@notar.no</Email>
+<Mobile>928 06 215</Mobile>
+<Address Street="Wesselsgate 39B" PostCode="6507" City="KRISTIANSUND N" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>NO0410221</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2010-11-11" ToDate="2011-04-27"/>
+<Type>flermannsbolig</Type>
+<AdType>bolig_salg</AdType>
+<Title>Flermannsbolig med meget sentral beliggenhet. 4 leiligheter, 2 hybler og loft med muligheter.</Title>
+<Address Street="Konsul Johnsensgate 7" PostCode="6508" City="KRISTIANSUND N" CountryCode="NO"/>
+<Matrikkel Kommune="1505" GNR="3" BNR="251"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">4500000</Price>
+<Price Name="Verditakst" Curr="NOK">4500000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">608820</Price>
+<Price Name="Kommunale avgifter" Curr="NOK">37201</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruttoareal">496</Area>
+<Area Name="Bruksareal">470</Area>
+<Area Name="Tomteareal">329</Area>
+<Area Name="primaererom_areal">382</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder">&lt;B&gt;Bruksareal: &lt;/B&gt;&lt;BR&gt;Kjeller: 130m&amp;sup2;&lt;BR&gt;1. etasje: 135m&amp;sup2;&lt;BR&gt;2. etasje: 135m&amp;sup2;&lt;BR&gt;3. etasje: 70m&amp;sup2;&lt;BR&gt;&lt;B&gt;Primærrom:&lt;/B&gt;&lt;BR&gt;&amp;middot; Kjeller: &lt;BR&gt;Gang, trapperom, stue hybel venstre, kjøkken, wc, bad, vaskerom, stue/soverom(hybel høyre), kjøkken, bad/wc og gang.: 97 m&amp;sup2;&lt;BR&gt;&amp;middot; 1. etasje: &lt;BR&gt;Trapperom, entré leilighet høyre, kjøkken, bad/wc, stue(soverom), entre leilighet venstre, wc, bad, kjøkken, stue og 3 soverom.: 135 m&amp;sup2;&lt;BR&gt;Trapperom, entré, wc, bad, kjøkken, soverom, stue(soverom), entre, wc, bad, kjøkken, soverom og stue(soverom): 135 m&amp;sup2;&lt;BR&gt;&amp;middot; 3. etasje: &lt;BR&gt;Trapperom, gang og bad/wc.: 15 m&amp;sup2;</Text>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1947</BuiltYear>
+<BedRooms>8</BedRooms>
+<TextFields>
+<Text Name="Adkomst">Fra Kongens Plass: kjør opp Langveien og ta til venstre i første lyskryss. Ta deretter første vei til høyre. Dette er Konsul Johnsensgate. Boligen er grønn av farge og ligger på venstre side av veien på øversiden av parken. Se etter "Til Salgs" skilt fra Notar. Det vil bli skiltet fra Notar ved fellesvisninger.</Text>
+<Text Name="Beliggenhet">Eiendommen ligger i et etablert boligområde i bysentrum, med fine sol-/lysforhold. Gangavstand til sentrum med alle faseliteter Kristiansund sentrum kan by på.</Text>
+<Text Name="Beskrivelse">Velholdt flermannsbolig beliggende ved parken i sentrum av Kristiansund. Her er det gangavstand til alle bymessige fasiliteter Kristiansund har å by på. Boligen inneholder bl.a. 4 stk. 3-roms leiligheter og 2 hybler. I 3 av leilighetene er det ene soverommmet gjort om til stue, men kan enkelt føres tilbake til det opprinnelige. Loftet inneholder bl.a. 4 kvistrom og bad. Her bør det være mulig å utvikle loftet videre. Det bør påregner oppgradering av den ene leiligheten.</Text>
+<Text Name="Innhold">INNHOLD
+U.etasje: trapperom, felles toalett, felles vaskerom og 7 boder.
+Hybel 1: stue, kjøkken, dusjrom og sovealkove.
+Hybel 2: stue m/sovealkove, kjøkken og bad m/opplegg for vaskerom. 
+1.etasje: Trapperom
+Leilighet høyre: Gang, bad, kjøkken, stue m/spisestue og soverom.
+Leilighet venstre: Gang, bad, kjøkken, stue m/spisestue og 2 soverom. 
+2.etasje: Trapperom
+Leilighet høyre: Gang, bad, toalett, kjøkken, stue m/spisestue og soverom.
+Leilighet venstre: Gang, bad, toalett, kjøkken, stue m/spisestue og soverom.
+Loft: loftsrom, 5 disponible rom, bad og 4 kott.
+
+STANDARD
+Gulv: belegg, tepper, våtromsbelegg, laminat og flis.
+Vegg: glassfiberstrie, tapet, malte plater, flis og våtromsplater.
+Tak: malte plater, trukket tak og malt mur.
+
+Alle leilighetene har porttelefon. Alle leilighetene er i utgangspunktet 3-roms. I 3 av leilighetgene er en vegg fjernet for å gjøre stuen større. Dette kan enkelt føres tilbake til soverom. Leilighet høyre i 2. etasje trenger oppgradering. De andre leilighetene har god utleiestandard.</Text>
+<Text Name="Oppvarming">Ved og elektrisk. Panelovner medfølger der det er montert.</Text>
+<Text Name="Parkering">I gate. Det bør være mulig å opparbeide parkering i bakgården.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="rolig"/>
+<Option Name="off. vann"/>
+<Option Name="felles vaskerom"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Fasade" LastModified="2010-11-11 00:35">file:NO0410221-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Utsikt fra stue leil 4  " LastModified="2010-11-11 00:35">file:NO0410221-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade bakside" LastModified="2010-11-11 00:35">file:NO0410221-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 1 " LastModified="2010-11-11 00:35">file:NO0410221-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 1" LastModified="2010-11-11 00:35">file:NO0410221-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad leil 1  " LastModified="2010-11-11 00:35">file:NO0410221-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad leil 1" LastModified="2010-11-11 00:35">file:NO0410221-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 1 " LastModified="2010-11-11 00:35">file:NO0410221-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 1" LastModified="2010-11-11 00:35">file:NO0410221-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 1  " LastModified="2010-11-11 00:35">file:NO0410221-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom leil 1" LastModified="2010-11-11 00:35">file:NO0410221-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 2" LastModified="2010-11-11 00:35">file:NO0410221-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 2  " LastModified="2010-11-11 00:35">file:NO0410221-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 2 " LastModified="2010-11-11 00:35">file:NO0410221-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad leil 2" LastModified="2010-11-11 00:35">file:NO0410221-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 2 " LastModified="2010-11-11 00:35">file:NO0410221-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 2  " LastModified="2010-11-11 00:35">file:NO0410221-17.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 2" LastModified="2010-11-11 00:35">file:NO0410221-18.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom leil 2" LastModified="2010-11-11 00:35">file:NO0410221-19.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 2 i leil 2" LastModified="2010-11-11 00:35">file:NO0410221-20.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 3 " LastModified="2010-11-11 00:35">file:NO0410221-21.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 3" LastModified="2010-11-11 00:35">file:NO0410221-22.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 3" LastModified="2010-11-11 00:35">file:NO0410221-23.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 3  " LastModified="2010-11-11 00:35">file:NO0410221-24.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 3   " LastModified="2010-11-11 00:35">file:NO0410221-25.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 3 " LastModified="2010-11-11 00:35">file:NO0410221-26.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom leil 3" LastModified="2010-11-11 00:35">file:NO0410221-27.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 4" LastModified="2010-11-11 00:35">file:NO0410221-28.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken leil 4 " LastModified="2010-11-11 00:35">file:NO0410221-29.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 4" LastModified="2010-11-11 00:35">file:NO0410221-30.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 4  " LastModified="2010-11-11 00:35">file:NO0410221-31.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue leil 4 " LastModified="2010-11-11 00:35">file:NO0410221-32.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom leil 4 " LastModified="2010-11-11 00:35">file:NO0410221-33.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom leil 4" LastModified="2010-11-11 00:35">file:NO0410221-34.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue hybel 1" LastModified="2010-11-11 00:35">file:NO0410221-35.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue hybel 2 " LastModified="2010-11-11 00:35">file:NO0410221-36.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue hybel 2" LastModified="2010-11-11 00:35">file:NO0410221-37.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken hybel 2" LastModified="2010-11-11 00:35">file:NO0410221-38.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken hybel 2 " LastModified="2010-11-11 00:35">file:NO0410221-39.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad hybel 2" LastModified="2010-11-11 00:35">file:NO0410221-40.JPG</Picture>
+<Picture Type="image:jpeg" Title="Disp rom på loft" LastModified="2010-11-11 00:35">file:NO0410221-41.JPG</Picture>
+<Picture Type="image:jpeg" Title="Disp rom på loft " LastModified="2010-11-11 00:35">file:NO0410221-42.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad loft" LastModified="2010-11-11 00:35">file:NO0410221-43.JPG</Picture>
+<Picture Type="image:jpeg" Title="Veranda leil 4" LastModified="2010-11-11 00:35">file:NO0410221-44.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade " LastModified="2010-11-11 00:35">file:NO0410221-45.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt fra stue leil 4 " LastModified="2010-11-11 00:35">file:NO0410221-46.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt fra stue leil 4" LastModified="2010-11-11 00:35">file:NO0410221-47.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

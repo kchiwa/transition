@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Receipt>
+    <OrgFilename>it_ad.xml</OrgFilename>
+    <OrgRef>10000</OrgRef>
+    <ImportRef>10000</ImportRef>
+    <Link>http://www.zett.no/?123</Link>
+    <Status Code="code">status</Status>
+</Receipt>

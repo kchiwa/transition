@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+    <Property>
+        <Client>22075</Client>
+        <Contacts>
+            <Contact>
+                <Name>Christine Larsen</Name>
+                <Phone>35 57 31 26</Phone>
+                <Mobile>971 11 096</Mobile>
+                <Address Street="Jernbanegata 25" PostCode="3901" City="PORSGRUNN" CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>PBBL0111171</ClientsRef>
+        <Status Code="AKTIV"/>
+        <Publish FromDate="2011-06-30" ToDate="2011-12-23"/>
+        <Type>leilighet</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>Sentrumsnær leilighet med nytt bad</Title>
+        <Address Street="Solumsgata 9 A" PostCode="3919" City="PORSGRUNN" CountryCode="NO"/>
+        <Matrikkel Kommune="0805" GNR="200" BNR="2360"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">890000</Price>
+            <Price Name="Husleie" Curr="NOK" Per="Måned">4244</Price>
+            <Price Name="Ligningsverdi" Curr="NOK">322683</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">430151</Price>
+            <Price Name="Formue" Curr="NOK">54173</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruksareal">69</Area>
+            <Area Name="Tomteareal">1304</Area>
+            <Area Name="primaererom_areal">68</Area>
+            <Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+            <Text Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>andel</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>1957</BuiltYear>
+        <BedRooms>2</BedRooms>
+        <Rooms>3</Rooms>
+        <Floor>3</Floor>
+        <Viewings>
+            <Viewing Date="2011-07-06" From="18:00" To="19:00"/>
+        </Viewings>
+        <TextFields>
+            <Text Name="Borettslag">Grønlands Plass II Borettslag</Text>
+            <Text Name="Beliggenhet">Boligen tilhører Grønlands Plass II Borettslag som ligger på Vestsiden. &lt;br/&gt;Gangavstand til Vestsiden sentrum/Porsgrunn sentrum. Bussforbindelse. &lt;br/&gt;Nær forretningssenter med Post i Butikk, bank, barne- og ungdomsskole, barnehage.</Text>
+            <Text Name="Bebyggelse">Grønlands Plass II Borettslag er bygget i 1957 og består av 12 boliger.&lt;br/&gt;Byggemåte: Betong og mur. Nye balkonger 1984. Nye tak, fasader og &lt;br/&gt;drenering – 2002. Utvendig rehab. 2002/03. &lt;br/&gt;Kabel-tv inkl. i felleskostnadene. Internett betales utenom. &lt;br/&gt;Fellesvaskeri. Aktivitetsrom. &lt;br/&gt;Plenklipping er satt bort. Snørydding utføres av firma.&lt;br/&gt;Husdyrhold er ikke tillatt uten samtykke fra borettslagets styre.&lt;br/&gt;&lt;br/&gt;Det ble på årsmøte i borettslaget vedtatt å utrede muligheten for å bytte alle vinduer og balkong dører. Borettslaget håper og gjøre dette på oppstarte midler. Det er fremdeles usikkert om det vil bli en fremtidig økning i felleskostnadene da bindende avtale med entreprenør ennå ikke er inngått.</Text>
+            <Text Name="Standard">Gulv: Flis på bad. Teppe i kott. Laminat på kjøkken og i stue. Lakket tregulv i entrè og begge soverom. &lt;br/&gt;Vegger: Flis på bad. Sponplater i kott.Tapet på soverom 1. Malt strie i entrè, stue og soverom 2. Malt tapet på kjøkken.&lt;br/&gt;Tak: MDF-plater med spotter på bad. Sponplater i kott. Malte tak i øvrige rom.&lt;br/&gt;&lt;br/&gt;Kjøkken: Eldre malt kjøkkeninnredning med ventilator, flis over benk og  ny benkeplate. Spiseplass. Hvitevarer følger ikke ved salg.  &lt;br/&gt;Bad: Baderomsinnreding, dusjkabinett og veggholdt toalett. Opplegg for vaskemaskin og varmekabel. Vaskemaskin følger ikke leiligheten ved salg. &lt;br/&gt;&lt;br/&gt;Annet: &lt;br/&gt;Pen og lys leilighet med nytt flislagt bad via Brl. Leiligheten har stue med spisestueplass og utgang til solrik veranda. Det er også satt inn ny vedovn i stue med flott steinvegg. To store soverom og kott til lagring i leiligheten. Innebygde skap på begge soverom. Hyller i kott. &lt;br/&gt;2 lagringsboder i kjeller og 1 på loft. &lt;br/&gt;Nytt sikringsskap. &lt;br/&gt;Det er montert parabol, denne er det mulighet å kjøpe. &lt;br/&gt;&lt;br/&gt;Forpliktelser: Gang-/trappevask.</Text>
+            <Text Name="Oppvarming">Elektrisitet og pipe. I stue er det ny vedovn fra 2009.</Text>
+            <Text Name="Parkering">Asfaltert biloppstillingsplass.</Text>
+            <Text Name="Tomten">Pent opparbeidet med plen.</Text>
+            <Text Name="Diverse">Overtakelse: Etter avtale. &lt;br/&gt;&lt;br/&gt;Skatteopplysninger:	&lt;br/&gt;Boligens ligningsverdi (pr. 31.12): Kr 322 683,-&lt;br/&gt;Ihht. skatteetaten sin beregningskalkulator. &lt;br/&gt;Andel felles formue (pr. 31.12): Kr 54 173,-&lt;br/&gt;Andel felles gjeld (pr. 31.12): Kr 430 151,-&lt;br/&gt;Hvorav: &lt;br/&gt;Lån 1: Annuitetslån. Restgjeld kr. 203.485,- med 45 terminer til innfrielse og 2 terminer pr. år. Rentesats er pr. 23.06.11 4,4 %&lt;br/&gt;Husbanken har fastrente på frem til 01.07.2019.&lt;br/&gt;Lån 2: Annuitetslån. Restgjeld kr. 226.667,- med 120 terminer til innfrielse og 4 terminer pr. år. Rentesats er pr. 23.06.11 4,15 %&lt;br/&gt;Avdragsfrihet frem til 1.halvår i 2011. Dette vil ikke påvirke felleskostnaden. &lt;br/&gt;&lt;br/&gt;Av felleskostnad på kr. 4.244,- er kr. 799,- avdrag, kr. 1.493,- renter og kr. 1.952,- i faste driftkostnader.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="balkong"/>
+            <Option Name="peis"/>
+            <Option Name="kabel-tv"/>
+        </Options>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Stue 6" LastModified="2011-06-30 09:33">file:PBBL0111171-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Stue 1" LastModified="2011-06-30 09:33">file:PBBL0111171-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue 3" LastModified="2011-06-30 09:33">file:PBBL0111171-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue 7" LastModified="2011-06-30 09:33">file:PBBL0111171-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken " LastModified="2011-06-30 09:33">file:PBBL0111171-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Gang" LastModified="2011-06-30 09:33">file:PBBL0111171-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad " LastModified="2011-06-30 09:33">file:PBBL0111171-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom 1" LastModified="2011-06-30 09:33">file:PBBL0111171-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom 2" LastModified="2011-06-30 09:33">file:PBBL0111171-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Planløsning" LastModified="2011-06-30 09:33">file:PBBL0111171-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Balkong 1" LastModified="2011-06-30 09:33">file:PBBL0111171-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Balkong 2" LastModified="2011-06-30 09:33">file:PBBL0111171-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Balkong 3" LastModified="2011-06-30 09:33">file:PBBL0111171-13.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Balkong - utsikt" LastModified="2011-06-30 09:33">file:PBBL0111171-14.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade 1" LastModified="2011-06-30 09:33">file:PBBL0111171-15.JPG</Picture>
+        </Media>
+    </Property>
+</TAS.Import>

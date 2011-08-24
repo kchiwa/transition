@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bildata>
+    <Forhandler brukerid="32017" passord="ramb894" navn="Toyota Ramstad Bil AS avd Askim" adresse1="Sagveien 1" adresse2="" adresse3="" postnr="1814" poststed="ASKIM" url="www.ramstadbil.no" tlf="69 84 44 00" fax="69 84 44 01" epost="post.askim@toyota.no" fullupdate="1">
+        <Bil unikid="1_375" kontroll="9" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Peugeot</Merke>
+            <Modell>307</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>109000</Pris>
+            <Arsmodell>2005</Arsmodell>
+            <Kmstand>108200</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>XS klimaanlegg</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>bl&#229;/gr&#229; Metallic</Farge>
+            <Effekt>109</Effekt>
+            <Bilder>
+                <Bilde bilde="toyota1.jpg" prioritet="0" md5="4779dbe176bac47b70cd1bc54d6925f4" desc="Hovedbilde"/>
+                <Bilde bilde="toyota2.jpg" prioritet="1" md5="43d1f7ef944543ced3b383b0d9f886" desc="Bilde 2"/>
+                <Bilde bilde="toyota3.jpg" prioritet="2" md5="bac75dec73fd3da47264e13461beefb" desc="Bilde 3"/>
+                <Bilde bilde="toyota4.jpg" prioritet="3" md5="70abd45875a79110fe1444023a747e20" desc="Bilde 4"/>
+                <Bilde bilde="toyota5.jpg" prioritet="4" md5="cd9aec0ca3043a8d156a1312d94c762" desc="Bilde 5"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>1</InklArsavg>
+            <Ekstrautstyr>;Antiskrens,ESP;ABS-bremser,ABS-bremser;Air Condition,Air Condition;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Hengerfeste,Hengerfeste;Klimaanlegg,Klimaanlegg;Metallic lakk,Metallic lakk;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen 307 Selges,Bilen har tidligere kun hatt 1 EIER!  Bilen er bra utstyrt med Feks Automatisk klimaanegg.Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ59160</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>5</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1200</Slepevekt>
+            <FargeInnvendig>Sort stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_384" kontroll="6" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Opel</Merke>
+            <Modell>Astra</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>134233</Pris>
+            <Arsmodell>2004</Arsmodell>
+            <Kmstand>66500</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>Twinport Automat!</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Lys bl&#229; Metallic</Farge>
+            <Effekt>105</Effekt>
+            <Bilder>
+                <Bilde bilde="honda1.jpg" prioritet="0" md5="9cac8ecf3521fc7a652d863ba45cd437" desc="Hovedbilde"/>
+                <Bilde bilde="honda2.jpg" prioritet="1" md5="3c0d33be4b3f8528a9a1daa8090b5cc2" desc="Bilde 2"/>
+                <Bilde bilde="honda3.jpg" prioritet="2" md5="20a2110083285e4ecb22f0ca77006513" desc="Bilde 3"/>
+                <Bilde bilde="honda4.jpg" prioritet="3" md5="e67585954c86c635a612a96976f76af5" desc="Bilde 4"/>
+                <Bilde bilde="honda5.jpg" prioritet="4" md5="231f622ed3002acb97981112b96fbecd" desc="Bilde 5"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Automat,Automat;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;Automatgir,Automatgir;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Lettmet. felg sommer,Lettmet. felg sommer;Metallic lakk,Metallic lakk;Oppvarmede seter,Oppvarmede seter;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Meget vellholdt Opel Astra Automat selges! Bilen har Alu felger p&#229; sommer hjul og fremst&#229;r som meget godt behandlet!  Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt>1190</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ57879</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>2</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Automat</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>sort/gr&#229;tt Stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Kontaktpunktliste>
+            <Kontaktpunkt id="1_2">
+                <Navn>Avd Askim bilmeglingsansvarlig</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Daglig leder/bilmeglingsansvar</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+        </Kontaktpunktliste>
+    </Forhandler>
+</Bildata>

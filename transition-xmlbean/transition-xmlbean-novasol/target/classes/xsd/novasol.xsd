@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="NOVASOLproperties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LastUpdate"/>
+        <xs:element maxOccurs="unbounded" ref="PropertyData"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LastUpdate" type="xs:string"/>
+  <xs:element name="PropertyData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PropertyNumber"/>
+        <xs:element ref="Season"/>
+        <xs:element ref="NumberOfApartments"/>
+        <xs:element ref="PropertyName"/>
+        <xs:element ref="SubBrand"/>
+        <xs:element ref="PropertyNameExt"/>
+        <xs:element ref="AreaName"/>
+        <xs:element ref="AreaCode"/>
+        <xs:element ref="MainAreaCode"/>
+        <xs:element ref="CountryLetter"/>
+        <xs:element ref="CountryISO"/>
+        <xs:element ref="ZipCode"/>
+        <xs:element ref="MapCode"/>
+        <xs:element ref="LocalGovernment"/>
+        <xs:element ref="City"/>
+        <xs:element ref="Company"/>
+        <xs:element ref="DayOfChange"/>
+        <xs:element ref="OptionalArrival"/>
+        <xs:element ref="PropertyModule"/>
+        <xs:element ref="CapacityPersons"/>
+        <xs:element ref="CapacityChildrenOnly"/>
+        <xs:element ref="CapacityExtra"/>
+        <xs:element ref="YearBuild"/>
+        <xs:element ref="YearModernized"/>
+        <xs:element ref="PropertyM2"/>
+        <xs:element ref="PropertySiteM2"/>
+        <xs:element ref="SparGroup"/>
+        <xs:element ref="MiniVacationCode"/>
+        <xs:element ref="SpecialPrice"/>
+        <xs:element ref="CalendarType"/>
+        <xs:element ref="PropertySite"/>
+        <xs:element ref="PropertySite2"/>
+        <xs:element ref="Garage"/>
+        <xs:element ref="Heating"/>
+        <xs:element ref="Insulation"/>
+        <xs:element ref="OutdoorFurniture"/>
+        <xs:element ref="FitnessRoom"/>
+        <xs:element ref="ActivityRoom"/>
+        <xs:element ref="DistanceWater"/>
+        <xs:element ref="TypeDistanceWater"/>
+        <xs:element ref="AltDistanceWater"/>
+        <xs:element ref="AltTypeDistanceWater"/>
+        <xs:element ref="DistanceAirport"/>
+        <xs:element ref="DistanceSkiingCC"/>
+        <xs:element ref="DistanceFishing"/>
+        <xs:element ref="DistanceSkibus"/>
+        <xs:element ref="DistanceSkilift"/>
+        <xs:element ref="DistanceSkiarea"/>
+        <xs:element ref="DistanceShopping"/>
+        <xs:element ref="DistanceRestaurant"/>
+        <xs:element ref="DistanceCity"/>
+        <xs:element ref="BoatHP"/>
+        <xs:element ref="BoatFeet"/>
+        <xs:element ref="AltitudeM"/>
+        <xs:element ref="Alpine"/>
+        <xs:element ref="SwimmingpoolM2"/>
+        <xs:element ref="WhirlpoolSize"/>
+        <xs:element ref="KidChairs"/>
+        <xs:element ref="FreezerSize"/>
+        <xs:element ref="ParkingLots"/>
+        <xs:element ref="PetsNumber"/>
+        <xs:element ref="NearestCity"/>
+        <xs:element ref="SkiArea"/>
+        <xs:element ref="SkiLocation"/>
+        <xs:element ref="Kitchen"/>
+        <xs:element ref="Cooker"/>
+        <xs:element ref="Fridge"/>
+        <xs:element ref="Stars"/>
+        <xs:element ref="Comfort"/>
+        <xs:element ref="CataloguePage"/>
+        <xs:element ref="Bathrooms"/>
+        <xs:element ref="PropertyClass"/>
+        <xs:element ref="BathFacilities"/>
+        <xs:element ref="Toilet"/>
+        <xs:element ref="Aircondition"/>
+        <xs:element ref="Sleepingrooms"/>
+        <xs:element ref="DoubleBeds"/>
+        <xs:element ref="SingleBeds"/>
+        <xs:element ref="BunkBeds"/>
+        <xs:element ref="Sofas"/>
+        <xs:element ref="GrandLits"/>
+        <xs:element ref="Mattresses"/>
+        <xs:element ref="KidBeds"/>
+        <xs:element ref="ChildHouse"/>
+        <xs:element ref="Pets"/>
+        <xs:element ref="PetHouse"/>
+        <xs:element ref="FishingHouse"/>
+        <xs:element ref="Horses"/>
+        <xs:element ref="Pool"/>
+        <xs:element ref="Property"/>
+        <xs:element ref="ChildFriendly"/>
+        <xs:element ref="WhiteBeach"/>
+        <xs:element ref="LandingStage"/>
+        <xs:element ref="FatherSon"/>
+        <xs:element ref="MiniVacation"/>
+        <xs:element ref="MiniVacation2"/>
+        <xs:element ref="Min2Weeks"/>
+        <xs:element ref="Spar"/>
+        <xs:element ref="Waterpark"/>
+        <xs:element ref="CozyHouse"/>
+        <xs:element ref="PanoramaHouse"/>
+        <xs:element ref="ViewHouse"/>
+        <xs:element ref="Golf"/>
+        <xs:element ref="Tennis"/>
+        <xs:element ref="Art"/>
+        <xs:element ref="Duo"/>
+        <xs:element ref="CleaningHelp"/>
+        <xs:element ref="Floor"/>
+        <xs:element ref="PropertyType"/>
+        <xs:element ref="CityArea"/>
+        <xs:element ref="PetType"/>
+        <xs:element ref="Terrace"/>
+        <xs:element ref="Swimmingpool"/>
+        <xs:element ref="Sauna"/>
+        <xs:element ref="Whirlpool"/>
+        <xs:element ref="Television"/>
+        <xs:element ref="Antenna"/>
+        <xs:element ref="DVD"/>
+        <xs:element ref="Video"/>
+        <xs:element ref="Radio"/>
+        <xs:element ref="Fax"/>
+        <xs:element ref="Fireplace"/>
+        <xs:element ref="Dishwasher"/>
+        <xs:element ref="Washmachine"/>
+        <xs:element ref="Dryer"/>
+        <xs:element ref="Solarium"/>
+        <xs:element ref="MicroOven"/>
+        <xs:element ref="ExtraCosts"/>
+        <xs:element ref="ExtraCostsIncl"/>
+        <xs:element ref="ExtraCostsExcl"/>
+        <xs:element ref="Boat"/>
+        <xs:element ref="TypeSkiingAlpine"/>
+        <xs:element ref="TypeSkiingCC"/>
+        <xs:element ref="Toys"/>
+        <xs:element ref="Phone"/>
+        <xs:element ref="Activities"/>
+        <xs:element ref="ViewAlt"/>
+        <xs:element ref="PoolRoomEquipment"/>
+        <xs:element ref="Coffee"/>
+        <xs:element ref="Freezer"/>
+        <xs:element ref="FloorHeating"/>
+        <xs:element ref="FishCleaning"/>
+        <xs:element ref="HeatingAlt"/>
+        <xs:element ref="Buildings"/>
+        <xs:element ref="ExtraParameters"/>
+        <xs:element minOccurs="0" ref="Catalogues"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PropertyNumber" type="xs:string"/>
+  <xs:element name="Season" type="xs:integer"/>
+  <xs:element name="NumberOfApartments" type="xs:string"/>
+  <xs:element name="PropertyName" type="xs:string"/>
+  <xs:element name="SubBrand" type="xs:string"/>
+  <xs:element name="PropertyNameExt">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="AreaName" type="xs:string"/>
+  <xs:element name="AreaCode" type="xs:string"/>
+  <xs:element name="MainAreaCode" type="xs:string"/>
+  <xs:element name="CountryLetter" type="xs:string"/>
+  <xs:element name="CountryISO" type="xs:string"/>
+  <xs:element name="ZipCode" type="xs:string"/>
+  <xs:element name="MapCode" type="xs:string"/>
+  <xs:element name="LocalGovernment" type="xs:string"/>
+  <xs:element name="City" type="xs:string"/>
+  <xs:element name="Company" type="xs:string"/>
+  <xs:element name="DayOfChange" type="xs:integer"/>
+  <xs:element name="OptionalArrival" type="xs:string"/>
+  <xs:element name="PropertyModule" type="xs:integer"/>
+  <xs:element name="CapacityPersons" type="xs:integer"/>
+  <xs:element name="CapacityChildrenOnly" type="xs:integer"/>
+  <xs:element name="CapacityExtra" type="xs:integer"/>
+  <xs:element name="YearBuild" type="xs:integer"/>
+  <xs:element name="YearModernized" type="xs:string"/>
+  <xs:element name="PropertyM2" type="xs:integer"/>
+  <xs:element name="PropertySiteM2" type="xs:integer"/>
+  <xs:element name="SparGroup" type="xs:integer"/>
+  <xs:element name="MiniVacationCode" type="xs:integer"/>
+  <xs:element name="SpecialPrice" type="xs:string"/>
+  <xs:element name="CalendarType" type="xs:string"/>
+  <xs:element name="PropertySite" type="xs:string"/>
+  <xs:element name="PropertySite2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Garage" type="xs:string"/>
+  <xs:element name="Heating" type="xs:string"/>
+  <xs:element name="Insulation" type="xs:string"/>
+  <xs:element name="OutdoorFurniture" type="xs:string"/>
+  <xs:element name="FitnessRoom" type="xs:string"/>
+  <xs:element name="ActivityRoom" type="xs:string"/>
+  <xs:element name="DistanceWater" type="xs:string"/>
+  <xs:element name="TypeDistanceWater" type="xs:string"/>
+  <xs:element name="AltDistanceWater" type="xs:string"/>
+  <xs:element name="AltTypeDistanceWater" type="xs:string"/>
+  <xs:element name="DistanceAirport" type="xs:string"/>
+  <xs:element name="DistanceSkiingCC" type="xs:string"/>
+  <xs:element name="DistanceFishing" type="xs:string"/>
+  <xs:element name="DistanceSkibus" type="xs:string"/>
+  <xs:element name="DistanceSkilift" type="xs:string"/>
+  <xs:element name="DistanceSkiarea" type="xs:string"/>
+  <xs:element name="DistanceShopping" type="xs:string"/>
+  <xs:element name="DistanceRestaurant" type="xs:string"/>
+  <xs:element name="DistanceCity" type="xs:string"/>
+  <xs:element name="BoatHP" type="xs:string"/>
+  <xs:element name="BoatFeet" type="xs:string"/>
+  <xs:element name="AltitudeM" type="xs:string"/>
+  <xs:element name="Alpine" type="xs:string"/>
+  <xs:element name="SwimmingpoolM2" type="xs:string"/>
+  <xs:element name="WhirlpoolSize" type="xs:string"/>
+  <xs:element name="KidChairs" type="xs:string"/>
+  <xs:element name="FreezerSize" type="xs:string"/>
+  <xs:element name="ParkingLots" type="xs:string"/>
+  <xs:element name="PetsNumber" type="xs:string"/>
+  <xs:element name="NearestCity" type="xs:string"/>
+  <xs:element name="SkiArea" type="xs:string"/>
+  <xs:element name="SkiLocation" type="xs:string"/>
+  <xs:element name="Kitchen" type="xs:string"/>
+  <xs:element name="Cooker" type="xs:string"/>
+  <xs:element name="Fridge" type="xs:string"/>
+  <xs:element name="Stars" type="xs:integer"/>
+  <xs:element name="Comfort" type="xs:string"/>
+  <xs:element name="CataloguePage" type="xs:string"/>
+  <xs:element name="Bathrooms" type="xs:integer"/>
+  <xs:element name="PropertyClass" type="xs:string"/>
+  <xs:element name="BathFacilities" type="xs:string"/>
+  <xs:element name="Toilet" type="xs:string"/>
+  <xs:element name="Aircondition">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Sleepingrooms" type="xs:integer"/>
+  <xs:element name="DoubleBeds" type="xs:integer"/>
+  <xs:element name="SingleBeds" type="xs:integer"/>
+  <xs:element name="BunkBeds" type="xs:integer"/>
+  <xs:element name="Sofas" type="xs:integer"/>
+  <xs:element name="GrandLits" type="xs:integer"/>
+  <xs:element name="Mattresses" type="xs:integer"/>
+  <xs:element name="KidBeds" type="xs:integer"/>
+  <xs:element name="ChildHouse" type="xs:string"/>
+  <xs:element name="Pets" type="xs:string"/>
+  <xs:element name="PetHouse" type="xs:string"/>
+  <xs:element name="FishingHouse" type="xs:string"/>
+  <xs:element name="Horses" type="xs:string"/>
+  <xs:element name="Pool" type="xs:string"/>
+  <xs:element name="Property" type="xs:string"/>
+  <xs:element name="ChildFriendly" type="xs:string"/>
+  <xs:element name="WhiteBeach" type="xs:string"/>
+  <xs:element name="LandingStage" type="xs:string"/>
+  <xs:element name="FatherSon" type="xs:string"/>
+  <xs:element name="MiniVacation" type="xs:string"/>
+  <xs:element name="MiniVacation2" type="xs:string"/>
+  <xs:element name="Min2Weeks" type="xs:string"/>
+  <xs:element name="Spar" type="xs:string"/>
+  <xs:element name="Waterpark" type="xs:string"/>
+  <xs:element name="CozyHouse" type="xs:string"/>
+  <xs:element name="PanoramaHouse" type="xs:string"/>
+  <xs:element name="ViewHouse" type="xs:string"/>
+  <xs:element name="Golf" type="xs:string"/>
+  <xs:element name="Tennis" type="xs:string"/>
+  <xs:element name="Art" type="xs:string"/>
+  <xs:element name="Duo" type="xs:string"/>
+  <xs:element name="CleaningHelp" type="xs:string"/>
+  <xs:element name="Floor" type="xs:string"/>
+  <xs:element name="PropertyType" type="xs:string"/>
+  <xs:element name="CityArea" type="xs:string"/>
+  <xs:element name="PetType">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Terrace" type="xs:string"/>
+  <xs:element name="Swimmingpool" type="xs:string"/>
+  <xs:element name="Sauna" type="xs:string"/>
+  <xs:element name="Whirlpool" type="xs:string"/>
+  <xs:element name="Television" type="xs:string"/>
+  <xs:element name="Antenna" type="xs:string"/>
+  <xs:element name="DVD" type="xs:string"/>
+  <xs:element name="Video" type="xs:string"/>
+  <xs:element name="Radio" type="xs:string"/>
+  <xs:element name="Fax">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Fireplace" type="xs:string"/>
+  <xs:element name="Dishwasher" type="xs:string"/>
+  <xs:element name="Washmachine" type="xs:string"/>
+  <xs:element name="Dryer" type="xs:string"/>
+  <xs:element name="Solarium" type="xs:string"/>
+  <xs:element name="MicroOven" type="xs:string"/>
+  <xs:element name="ExtraCosts" type="xs:string"/>
+  <xs:element name="ExtraCostsIncl" type="xs:string"/>
+  <xs:element name="ExtraCostsExcl" type="xs:string"/>
+  <xs:element name="Boat" type="xs:string"/>
+  <xs:element name="TypeSkiingAlpine" type="xs:string"/>
+  <xs:element name="TypeSkiingCC" type="xs:string"/>
+  <xs:element name="Toys" type="xs:string"/>
+  <xs:element name="Phone" type="xs:string"/>
+  <xs:element name="Activities" type="xs:string"/>
+  <xs:element name="ViewAlt" type="xs:string"/>
+  <xs:element name="PoolRoomEquipment" type="xs:string"/>
+  <xs:element name="Coffee" type="xs:string"/>
+  <xs:element name="Freezer" type="xs:string"/>
+  <xs:element name="FloorHeating" type="xs:string"/>
+  <xs:element name="FishCleaning" type="xs:string"/>
+  <xs:element name="HeatingAlt" type="xs:string"/>
+  <xs:element name="Buildings">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Building"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Building">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="BuildingDescription"/>
+        <xs:element ref="Rooms"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuildingDescription" type="xs:string"/>
+  <xs:element name="Rooms">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="Room"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Room">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="RoomDescription"/>
+        <xs:element ref="RoomSize"/>
+        <xs:element ref="RoomFacility"/>
+        <xs:element ref="Beds"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RoomDescription" type="xs:string"/>
+  <xs:element name="RoomSize" type="xs:string"/>
+  <xs:element name="RoomFacility" type="xs:string"/>
+  <xs:element name="Beds">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="Bed"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bed">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="BedDescription"/>
+        <xs:element ref="BedCapacity"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BedDescription" type="xs:string"/>
+  <xs:element name="BedCapacity" type="xs:integer"/>
+  <xs:element name="ExtraParameters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ExtraGroup"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExtraGroup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ExtraGroupDescription"/>
+        <xs:element maxOccurs="unbounded" ref="ExtraParameter"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExtraGroupDescription" type="xs:string"/>
+  <xs:element name="ExtraParameter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ExtraDescription"/>
+        <xs:element ref="ExtraUnitValue"/>
+        <xs:element ref="ExtraUnit"/>
+        <xs:element ref="ExtraUnitDescription"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExtraDescription" type="xs:string"/>
+  <xs:element name="ExtraUnitValue" type="xs:string"/>
+  <xs:element name="ExtraUnit" type="xs:string"/>
+  <xs:element name="ExtraUnitDescription" type="xs:string"/>
+  <xs:element name="Catalogues">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Catalogue"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Catalogue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CatalogueID"/>
+        <xs:element ref="CataloguePagenumber"/>
+        <xs:element ref="CatalogueName"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CatalogueID" type="xs:integer"/>
+  <xs:element name="CataloguePagenumber" type="xs:integer"/>
+  <xs:element name="CatalogueName" type="xs:string"/>
+</xs:schema>

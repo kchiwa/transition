@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DATA>
+  <!--
+        Document generated: 02.05.2011 14:31:04
+        PropertyID:	502833-->
+  <!--
+        CommisionTypeID: 1-->
+  <MEGLERDATA>
+    <MEGLER_KONTOR_ID>21912</MEGLER_KONTOR_ID>
+    <MEGLER_KONTOR_NAVN>Meglerforum Narvik</MEGLER_KONTOR_NAVN>
+    <MEGLER_KONTOR_BESOKSADRESSE>Kongens gate 38 </MEGLER_KONTOR_BESOKSADRESSE>
+    <MEGLER_KONTOR_POSTNR>8514</MEGLER_KONTOR_POSTNR>
+    <MEGLER_KONTOR_POSTSTED>NARVIK</MEGLER_KONTOR_POSTSTED>
+    <MEGLER_KONTOR_EMAIL/>
+  </MEGLERDATA>
+  <OPPDRAG>
+    <!--
+        STATUS
+        0 - ukjent
+        1 - Online
+        2 - Solgt
+        3 - Trukket
+      -->
+    <STATUS>1</STATUS>
+    <OPPDRAGSNR>2011068</OPPDRAGSNR>
+    <EIENDOMSNAVN>Moslingsvei 44</EIENDOMSNAVN>
+    <OVERSKRIFT1>Pent og velholdt rekkeshus i borettslag Barnevennlig og solrik beliggenhet!</OVERSKRIFT1>
+    <BOLIGTYPE>pr02</BOLIGTYPE>
+    <!--
+        OPPDRAGS_TYPE:
+        0 Salg
+        1 Utleie
+      -->
+    <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+    <KOMMUNENR>1805</KOMMUNENR>
+    <TOMTESTORRELSE>2613</TOMTESTORRELSE>
+    <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+    <PRISANTYDNING_VERDI>1480000</PRISANTYDNING_VERDI>
+    <GNR>41</GNR>
+    <BNR>128</BNR>
+    <SNR>4</SNR>
+    <FNR/>
+    <ENERGY_LABEL/>
+    <ENERGY_LABEL_COLOR_CODE/>
+    <BRUTTOAREAL>128</BRUTTOAREAL>
+    <BOAREAL>0</BOAREAL>
+    <HUSLEIEINKLUDERER>Kabel-TV, forretningsførsel NBBL, avsetning til framtidig vedlikehold, felles forsikring, betjening av andel felles gjeld.</HUSLEIEINKLUDERER>
+    <OMKOSTNINGER/>
+    <LAANEVILKAARFELLESGJELD/>
+    <P-ROM>97</P-ROM>
+    <PRIMAERROM_BESKRIVELSE/>
+    <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+    <AREALBESKRIVELSE>U.etg. 38 kvm. - 1.etg. 38 kvm. - 2.etg. 36 kvm.</AREALBESKRIVELSE>
+    <EIERFORM>Andelsleilighet</EIERFORM>
+    <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+    <TOMTEBESKRIVELSE>Tomten er i hovedsak flat, men skråner noe i bakkant. Tomten er opparbeidet med plen på syd-siden og med belegningssten på nord-siden. Støpte plattinger fra veien frem til inngang på underetasjeplan. Strekkmetalltrapp fra gateplan og ned. Gjerde rundt plen.</TOMTEBESKRIVELSE>
+    <INNHOLD>Innholdsrik bolig bestående av:&lt;br&gt;&lt;br&gt;Underetasje med:&lt;br&gt;Innredet rom, vaskerom, wc, Kott, bod/disponibelt rom&lt;br&gt;&lt;br&gt;1. etasje med:&lt;br&gt;Vindfang, entré, stue med utgang til solrik balkong, kjøkken&lt;br&gt;&lt;br&gt;2. etasje med:&lt;br&gt;3 oppussede soverom, lekkert flislagt bad, gang</INNHOLD>
+    <STANDARD>Bolig av god standard hvor det er foretatt betydelige oppussingsarbeider både innvendig og utvendig. I 2. etasje er det meget pent, helfliset bad med varmekabler som ble renovert og utvidet i 2007. Innvendig er det meste av boligen oppusset de senere årene. Pene og tiltalende overflater. Vindu i stue og balkongdør i stue og 1 soverom ble skiftet i 2010. Ny hovedytterdør samme år. Ca 2005 ble det satt inn ny ytterdør og ca 2000 nytt vindu i innredet rom i underetasje. Ny varmtvannsbereder i 2006. Boligen har sentralstøvsuger. I 2010 ble  yttervegger utforet, tilleggsisolert med ca 5 cm&lt;br&gt;mineralull, og det ble lagt ny bordkledning. Yttervegger ble på ca 1980-tallet etterisolert ved innblåsning av Rockwool. Sikringsskap ble skiftet i 2003. Bygningen har Flexit sentralstøvsuger med sentralenhet i vaskerom og uttak i alle&lt;br&gt;etasjer.</STANDARD>
+    <BELIGGENHET>Boligen ligger i rekkehus i bydelen Indre Fagernes, ca 3 km fra Narvik sentrum i retning syd langs E6. Ca 100 meter til barneskole og til fotball-løkke samt skøytebane. Kort avstand til busstopp. Utsikt utover Beisfjorden og mot&lt;br&gt;Ankenesfjellet. Gode solforhold.</BELIGGENHET>
+    <ADKOMST/>
+    <ANTALL_SOVEROM>3</ANTALL_SOVEROM>
+    <BYGGEAAR>1953</BYGGEAAR>
+    <MODERNISERINGSAAR>2010</MODERNISERINGSAAR>
+    <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+    <MODERNISERINGSAAR_UTVENDIG>2010</MODERNISERINGSAAR_UTVENDIG>
+    <POSTNR>8514</POSTNR>
+    <POSTSTED>NARVIK</POSTSTED>
+    <ETASJE>0</ETASJE>
+    <VEI_VANN_KLOAKK>Privat vann og avløp ut til offentlig nett.</VEI_VANN_KLOAKK>
+    <FELLESUTGIFTER>3481</FELLESUTGIFTER>
+    <FELLESGJELD>277249</FELLESGJELD>
+    <FESTEAVGIFT/>
+    <MARKEDSVERDI>1480000</MARKEDSVERDI>
+    <LAANEVERDI>1350000</LAANEVERDI>
+    <SAKSBEHANDLER_NAVN>Jonny Stormo</SAKSBEHANDLER_NAVN>
+    <SAKSBEHANDLER_EMAIL>js@megler-forum.no</SAKSBEHANDLER_EMAIL>
+    <SAKSBEHANDLERS_TELEFON/>
+    <SAKSBEHANDLERS_MOBIL>92 80 63 24</SAKSBEHANDLERS_MOBIL>
+    <VISNINGSAVTALE/>
+    <VEDLEGG>
+      <VEDLEGGID>13819009</VEDLEGGID>
+      <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Front Moslingsvei 44</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110681.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>73-0A-1E-3F-EE-8A-CA-06-F1-4A-4D-9B-1D-9C-02-41</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819010</VEDLEGGID>
+      <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Inngangspartiet</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110682.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>2A-FA-0A-72-D6-13-AD-37-DA-4F-C6-81-7E-AD-F8-74</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819011</VEDLEGGID>
+      <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Kjøkkenbilde</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110683.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>27-57-C1-C1-11-E8-10-50-34-D1-41-E1-F7-F8-4E-07</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819012</VEDLEGGID>
+      <VEDLEGGSEKVENS>4</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Kjøkkenbilde 2</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110684.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>FD-4A-9F-D3-B3-F1-79-18-32-3F-56-39-A4-B2-B5-0C</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819013</VEDLEGGID>
+      <VEDLEGGSEKVENS>5</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Stuebilde</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110685.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>3B-79-D9-7E-0F-5B-DA-BE-8C-9F-13-90-14-45-0D-3D</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819014</VEDLEGGID>
+      <VEDLEGGSEKVENS>6</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Stuebilde 2</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110686.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>E0-0E-33-F5-50-ED-78-CD-DA-C2-61-76-35-35-53-F7</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819015</VEDLEGGID>
+      <VEDLEGGSEKVENS>7</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Stuebilde 3</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110687.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>B8-11-A3-8D-5D-68-AF-A7-35-CD-5C-C5-68-C3-CC-A7</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819016</VEDLEGGID>
+      <VEDLEGGSEKVENS>8</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Stuebilde 4</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110688.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>DB-C8-4D-D9-CB-BA-82-42-1F-6B-CB-68-B1-97-92-0D</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819017</VEDLEGGID>
+      <VEDLEGGSEKVENS>9</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Koslig solrik uteareal på balkong</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/20110689.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>89-73-44-B4-77-8B-7E-73-B8-61-79-8C-DC-47-18-6E</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819018</VEDLEGGID>
+      <VEDLEGGSEKVENS>10</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Badet</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106810.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>9A-9E-6F-30-2F-D7-06-95-87-1E-4E-27-92-BB-33-25</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819019</VEDLEGGID>
+      <VEDLEGGSEKVENS>11</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Dusjnisje badet</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106811.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>E1-46-F8-B7-85-0B-D7-67-6A-B6-90-FD-0B-27-52-FE</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819020</VEDLEGGID>
+      <VEDLEGGSEKVENS>12</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Romslig balkong</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106812.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>DF-3E-3A-35-48-F1-ED-88-B3-B5-3F-23-C4-42-FF-86</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819021</VEDLEGGID>
+      <VEDLEGGSEKVENS>13</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Soveromsbilde 2 soverom 1 av 3</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106813.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>C0-6F-67-14-FB-D6-45-8C-21-00-18-8F-05-52-FB-1D</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819022</VEDLEGGID>
+      <VEDLEGGSEKVENS>14</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Soveromsbilde soveorm 1 av 3</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106814.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>DE-78-E7-99-D1-5D-CC-71-2A-F7-30-43-39-3B-28-C6</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819023</VEDLEGGID>
+      <VEDLEGGSEKVENS>15</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Soveromsbilde 3 soverom 1 av 3</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106815.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>22-E1-96-71-0D-F9-F0-24-B8-E1-BD-C5-D2-75-78-C6</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819024</VEDLEGGID>
+      <VEDLEGGSEKVENS>16</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Soveromsbilde soverom 2 av 3</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106816.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>8C-8D-82-8F-D6-2D-F9-B1-71-CA-CC-B9-F0-A1-1B-56</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819025</VEDLEGGID>
+      <VEDLEGGSEKVENS>17</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Soveromsbilde 2 soverom 2 av 3</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106817.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>E4-3F-00-C5-E8-B8-8A-3D-39-EA-4C-52-FF-5F-B9-E0</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819026</VEDLEGGID>
+      <VEDLEGGSEKVENS>18</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Bilder 039</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106818.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>4B-A7-95-6B-06-AD-F0-DF-CE-C0-5D-34-4E-10-A0-A6</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13819027</VEDLEGGID>
+      <VEDLEGGSEKVENS>19</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Trapperom</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images/Megler-Forum/Megler%20Forum/Pictures/1024/201106819.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>67-7B-B1-ED-A6-FE-F6-C2-2A-A3-DB-A7-79-0B-3F-06</VEDLEGGHASH>
+    </VEDLEGG>
+  </OPPDRAG>
+</DATA>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IAD.IF.JOB SYSTEM "http://www.finn.no/dtd/IADIF-job51.dtd"[]>
+<IAD.IF.JOB>
+<HEAD>
+<PARTNER>adeccoingenior</PARTNER>
+</HEAD>
+<OBJECT>
+<OBJECT_HEAD>
+<ORDERNO>1502599</ORDERNO>
+<USER_REFERENCE></USER_REFERENCE>
+<OVERWRITE_MMO MODUS="images"></OVERWRITE_MMO>
+<VERSIONNO>MODIFY</VERSIONNO>
+<FROMDATE>22.07.2011</FROMDATE>
+<TODATE>15.08.2011</TODATE>
+<OBJECT_LOCATION>
+<STREETADDRESS></STREETADDRESS>
+<ZIPCODE>5346</ZIPCODE>
+<COUNTRYCODE>NO</COUNTRYCODE>
+</OBJECT_LOCATION>
+<HEADING>Vi søker dokumentkontroller assistent på Ågotnes</HEADING>
+</OBJECT_HEAD>
+<JOB>
+<JOB_TITLE>Document Controll Assistant</JOB_TITLE>
+<SITUATION></SITUATION>
+<SECTOR>private</SECTOR>
+<JOB_CATEGORY>
+<CATEGORY>engineering</CATEGORY>
+<SUBCATEGORY>other</SUBCATEGORY>
+</JOB_CATEGORY>
+<DURATION></DURATION>
+<SALARY></SALARY>
+<EXTENT>fulltime</EXTENT>
+<COMPANY>
+<COMPANY_NAME>Ingeniør Compagniet</COMPANY_NAME>
+<URL>http://www.adecco.no</URL>
+<INGRESS>Ingeniør Compagniet er en av Norges største leverandører av tekniske konsulenttjenester. Vi er totalleverandør av ingeniørtjenester, DAK tjenester og prosjektadministrative tjenester på alle nivåer. Våre kunder er oljeselskap, leverandørindustrien innen olje- og offshore, verft, landbasert industri, entreprenører og arkitekter over hele landet. Ingeniør Compagniet tilbyr spennende jobbmuligheter i Norge og utlandet, meget konkurransedyktige betingelser og profesjonell oppfølging. Ingeniør Compagniet er en del av Adecco, Norges største bemanningsselskap. Adecco har over 70 kontorer og avdelinger, og hver dag går over 8.000 personer til en jobb formidlet av Adecco.</INGRESS>
+</COMPANY>
+<GENERAL_TEXT_JOB>
+<GENERAL_HEADING></GENERAL_HEADING>
+<GENERAL_TEXT><![CDATA[Vår kunde er en av de store aktørene innen olje og gass, og vi søker etter flere Document Controll Assistants i 100 % stillinger i langvarige oppdrag.<br/ ><br/ ><p>The Customer Support Document Control Center has a dedicated unit for handling supplier documentation (SD) related to purchases of equipment and services from suppliers.</p><b>Typical work tasks include, but are not limited to, the following:<br /></b><br /><ul>    <li>Register Supplier Documents into SAP and document control system, and follow up approval process of SD</li>    <li>Follow up approved certificates and other supplier documents from inboxes, and upload into SAP</li>    <li>Scan certificates and other supplier documentation following equipment into SAP</li></ul><br/ ><br/ ><b>Qualifications:<br /></b><br /><ul>    <li>Technical background is an advantage</li>    <li>1-2 years of experience from similar jobs required</li>    <li>Good written and oral Norwegian and English skills</li>    <li>Orderly, systematic and service minded</li>    <li>Good general computer skills</li></ul><br/ ><br/ ><b>Vi tilbyr:<br /></b><br /><ul>    <li>Trivelig og inkluderende arbeidsmijø</li>    <li>Konkurransedyktige betingelser</li>    <li>God oppfølging og eget fordelsprogram, se link: <a href="http://www.adecco.no">www.adecco.no</a></li></ul><br/ ><br/ ><p>Dersom dette er interessant for deg, oppfordrer vi deg til å søke på stillingen. Spørsmål kan rettes til Solveig Wiik&nbsp;på telefon 56 32 54 50. Alle aktuelle kandidater vil bli kontaktet.</p>]]></GENERAL_TEXT>
+</GENERAL_TEXT_JOB>
+<APPLICATION_DEADLINE>15.08.2011</APPLICATION_DEADLINE>
+<START_DATE>01.09.2011</START_DATE>
+<JOB_CONTACT>
+<NAME>Kallestad, Kari Lise</NAME>
+<TITLE></TITLE>
+<PHONE>99799576</PHONE>
+<EMAIL></EMAIL>
+<FAX></FAX>
+</JOB_CONTACT>
+<APPLICATION_LABEL>1502599</APPLICATION_LABEL>
+<MOREINFO>
+<URL><![CDATA[http://www.adecco.no/Tools/Pages/VacancyApplication.aspx?IdVacancy=10210331&nameVacancy=Vi søker dokumentkontroller assistent på Ågotnes&navCtx=/ledige-stillinger/pages/ledige-stillinger.aspx&backUrl=/ledige-stillinger/FinnOgSokJobb/Pages/default.aspx&layout=Normal]]></URL>
+<URLTEXT>Søk her</URLTEXT>
+</MOREINFO>
+<NO_OF_POSITIONS>1</NO_OF_POSITIONS>
+</JOB>
+</OBJECT>
+</IAD.IF.JOB>

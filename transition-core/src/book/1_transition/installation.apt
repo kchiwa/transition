@@ -1,0 +1,65 @@
+                    ------
+                    Installation
+                    ------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Get transition project source code and related source code
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Use git clone to get transition project source code. Go to $home/workspace/git/code/ and use command below.
+
++----------
+git clone apdm.int.abctech-thailand.com:/opt/git/code/transition.git
++----------
+
++----------
+git clone apdm.int.abctech-thailand.com:/opt/git/code/mockland.git
++----------
+
+ Use svn checkout to get v3 project source code. Go to $home/workspace/svn/code/ and use command below.
+
++----------
+svn co http://svn.api.no/svn/trunk/api/maven-projects/v3/
++----------
+
+ After you have all the source code try to install it on your local. You may need to setup Nexus to get all the dependencies.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Get configuration from v3config to your local
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ You will need to create a symbolic link to /v3config/api inside your v3 project.
+
++----------
+sudo ln -s ~/svn/code/v3/v3config/api /etc/api
++----------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating the mysql database
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Create database "transitionmq" and grant all privileges for user "transitionmq" and password "pingu123"
+
++---------------
+mysql --user=root --password=<your local password>
+create database transitionmq character set utf8;
+# Add user
+grant all privileges on transitionmq.* to transitionmq identified by 'pingu123';
+grant all privileges on transitionmq.* to transitionmq@'localhost' identified by 'pingu123' ;
+FLUSH PRIVILEGES;
++---------------
+
+ Create database "transitionstate" and grant all privileges for user "transitionstate" and password "pingu123"
+
++---------------
+mysql --user=root --password=<your local password>
+create database transitionstate character set utf8;
+# Add user
+grant all privileges on transitionstate.* to transitionstate identified by 'pingu123';
+grant all privileges on transitionstate.* to transitionstate@'localhost' identified by 'pingu123' ;
+FLUSH PRIVILEGES;
++---------------
+
+ Then when you start the application, the Transition would be create the database schema and primary data  automatically.
+

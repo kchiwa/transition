@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="zett.no">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="Ad" />
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="zett.no"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Ad">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="Title" />
+                <xs:element ref="ShortDescription" minOccurs="0" />
+				<xs:element ref="Address" />
+				<xs:element ref="ExternalReferences" />
+				<xs:element ref="Contacts" />
+				<xs:element ref="Attributes" />
+				<xs:element ref="Media" />
+			</xs:all>
+			<xs:attribute name="AdCategoryId" type="xs:integer" use="required" />
+			<xs:attribute name="Company" type="xs:integer" use="required" />
+			<xs:attribute name="ContactPrivacyStatus" type="xs:string"
+				use="optional" default="SHOW_ALL" />
+			<xs:attribute name="CreatedBy" type="xs:string" use="optional"
+				default="zettxml" />
+			<xs:attribute name="PublishFromTime" type="xs:string"
+				use="optional" />
+			<xs:attribute name="PublishToTime" type="xs:string" use="optional" />
+			<xs:attribute name="PublishingStatus" type="xs:string"
+				use="optional" />
+			<xs:attribute name="Status" type="xs:string" use="optional" />
+			<xs:attribute name="TransactionStatus" type="xs:string"
+				use="required" />
+			<xs:attribute name="TransactionType" type="xs:string"
+				use="required" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Title" type="xs:string" />
+	<xs:element name="ShortDescription" type="xs:string" />
+	<xs:element name="Address">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="StreetAddress1" minOccurs="0"/>
+				<xs:element ref="PostCode" minOccurs="0"/>
+				<xs:element ref="PostLocation" minOccurs="0"/>
+				<xs:element ref="Geography" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="StreetAddress1" type="xs:string" />
+	<xs:element name="PostCode" type="xs:string" />
+	<xs:element name="PostLocation" type="xs:string" />
+	<xs:element name="Geography" type="xs:string" />
+	<xs:element name="ExternalReferences">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Reference" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Reference">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="Source" type="xs:integer" use="required" />
+					<xs:attribute name="System" type="xs:string" use="required" />
+					<xs:attribute name="SystemVersion" type="xs:string"
+						use="optional" />
+					<xs:attribute name="Type" type="xs:string" use="optional"
+						default="COMPANY_REFERENCE" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Contacts">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="Contact" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Contact">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ContactAttributes" />
+			</xs:sequence>
+			<xs:attribute name="Email" type="xs:string" />
+			<xs:attribute name="Name" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContactAttributes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ContactAttributeSection" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContactAttributeSection">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="ContactAttribute" />
+			</xs:sequence>
+			<xs:attribute name="Name" type="xs:string" use="required"
+				fixed="DEFAULT" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ContactAttribute">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="Order" type="xs:string" use="optional" />
+					<xs:attribute name="Type" type="xs:string" use="required" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Attributes">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="Attribute" minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Attribute">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="Label" type="xs:string" use="optional" />
+					<xs:attribute name="Name" type="xs:string" use="required" />
+					<xs:attribute name="Order" type="xs:string" use="optional" />
+					<xs:attribute name="Type" type="xs:string" use="optional" />
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Media">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0"
+					ref="MediaElement" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="MediaElement">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ElementTitle" />
+			</xs:sequence>
+			<xs:attribute name="Order" type="xs:string" use="optional" />
+			<xs:attribute name="Reference" type="xs:string" use="required" />
+			<xs:attribute name="Type" type="xs:string" use="required" />
+			<xs:attribute name="md5" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ElementTitle" type="xs:string" />
+</xs:schema>

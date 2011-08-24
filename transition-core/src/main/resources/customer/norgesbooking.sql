@@ -1,0 +1,1 @@
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'norgesbooking', 'znorgesbooking', 2, 'password');

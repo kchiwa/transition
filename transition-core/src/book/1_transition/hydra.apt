@@ -1,0 +1,51 @@
+                -----
+                Run Transition with Hydra Support
+                -----
+
+Overview
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ We use Hydra for security. We have a choice to enable / disable Hydra with
+ a system parameter. See below for more detail.
+
+
+How to enable / disable Hydra support
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Hydra is set up in <<<transition-context.xml,>>> and will use the system property <<<use.hydra>>>
+ to determine if hydra shall be used. If the value is not set, the default is <<true>>, This has
+ been overridden to false in the relevant pom file, which makes <<<mvn jetty:run>>> run without
+ hydra.
+
+ <<Optional :>> If you enable the Hydra Support for Dummy Login, please remember to
+ uncomment FakeAuthenticationManager in the hydra file: \
+ <<</v3/hydra/hydra-webapp/src/main/resources/hydra-security.xml>>>
+
++----
+ <authentication-provider user-service-ref="fakeUserDetailService" ref="fakeAuthenticationManager" />
++----
+
+
+Configuration
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ [[1]] Check out Hydra from subversion (hydra is part of v3).
+
++----
+svn co http://svn.api.no/svn/trunk/api/maven-projects/v3/hydra
++----
+
+ [[]] Add Property tag in /etc/api/wp/wp-override.xml
+
++----
+<Property name="hydra.to.transition.callback.url" overridable="false">http://localhost:8080/transition/authenticated.html?token=${token}</Property>
+<Property name="hydra.shall.ping.transition.on.this.url" overridable="false">http://localhost:8080/transition/apiadmin/ping?hydra=compatible</Property>
++----
+
+ [[]] Run hydra and make sure everything run correctly and then start transition respectively.
+
++----
+mvn jetty:run
++----
+
+ []
+

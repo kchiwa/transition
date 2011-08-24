@@ -1,0 +1,1 @@
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'c360', 'c360', 2, 'password');

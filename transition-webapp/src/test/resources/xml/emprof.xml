@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+  <!--
+        Document generated: 06.10.2010 09:08:01
+        PropertyID:	218129-->
+  <!--
+        CommisionTypeID: 5-->
+  <MEGLERDATA>
+    <MEGLER_KONTOR_ID>1039599</MEGLER_KONTOR_ID>
+    <MEGLER_KONTOR_NAVN>Advokat Midgaard &amp; Opthun</MEGLER_KONTOR_NAVN>
+    <MEGLER_KONTOR_BESOKSADRESSE>Postboks 122 </MEGLER_KONTOR_BESOKSADRESSE>
+    <MEGLER_KONTOR_POSTNR>3791</MEGLER_KONTOR_POSTNR>
+    <MEGLER_KONTOR_POSTSTED>KRAGERØ</MEGLER_KONTOR_POSTSTED>
+    <MEGLER_KONTOR_EMAIL>post@m-o.no</MEGLER_KONTOR_EMAIL>
+  </MEGLERDATA>
+  <OPPDRAG>
+    <!--
+        STATUS 
+        0 - ukjent
+        1 - Online
+        2 - Solgt
+        3 - Trukket
+      -->
+    <STATUS>3</STATUS>
+    <OPPDRAGSNR>207060</OPPDRAGSNR>
+    <EIENDOMSNAVN>Gautefall / Lia</EIENDOMSNAVN>
+    <OVERSKRIFT1>HYTTETOMT LIA GAUTEFALL </OVERSKRIFT1>
+    <BOLIGTYPE>ph01</BOLIGTYPE>
+    <!--
+        OPPDRAGS_TYPE:
+        0 Salg
+        1 Utleie
+      -->
+    <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+    <KOMMUNENR>817</KOMMUNENR>
+    <TOMTESTORRELSE>1700</TOMTESTORRELSE>
+    <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+    <PRISANTYDNING_VERDI>490000</PRISANTYDNING_VERDI>
+    <GNR>44</GNR>
+    <BNR>143</BNR>
+    <SNR>0</SNR>
+    <FNR></FNR>
+    <BRUTTOAREAL>0</BRUTTOAREAL>
+    <BOAREAL>0</BOAREAL>
+    <HUSLEIEINKLUDERER></HUSLEIEINKLUDERER>
+    <OMKOSTNINGER></OMKOSTNINGER>
+    <LAANEVILKAARFELLESGJELD />
+    <P-ROM>0</P-ROM>
+    <PRIMAERROM_BESKRIVELSE></PRIMAERROM_BESKRIVELSE>
+    <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+    <AREALBESKRIVELSE></AREALBESKRIVELSE>
+    <EIERFORM>Selveier</EIERFORM>
+    <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+    <TOMTEBESKRIVELSE></TOMTEBESKRIVELSE>
+    <INNHOLD>Selveiet flott naturtomt på ca 1,7 mål  med vei helt frem, strøm, vann, avløp og bredbånd.</INNHOLD>
+    <STANDARD></STANDARD>
+    <BELIGGENHET>Tomten ligger meget godt til i Lia hyttefelt. Det er kort vei til oppkjørte skiløyper. Fra eiendommen  er det ca 2 km å kjøre til Gautefall Alpinsenter. Det foreligger planer om å utvide alpinanlegget til å omfatte et område like i nærheten av tomta.</BELIGGENHET>
+    <ADKOMST>Vei helt frem til tomtegrensen. Følg RV 358 mot Gautefall Turisthotell. Kommer man fra Drangedal tar man av til venstre ca 500 meter etter Fjelltun Leirskole ved skilt "Lia". Kommer man fra Treungen tar man til høyre ca 2 km etter Gautefall Turisthotell. Følg denne veien ca 300 meter, ta deretter til høyre. Følg veien oppover til et "Til salgs"- skilt.</ADKOMST>
+    <ANTALL_SOVEROM>0</ANTALL_SOVEROM>
+    <BYGGEAAR>0</BYGGEAAR>
+    <MODERNISERINGSAAR>0</MODERNISERINGSAAR>
+    <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+    <MODERNISERINGSAAR_UTVENDIG>0</MODERNISERINGSAAR_UTVENDIG>
+    <POSTNR>3750</POSTNR>
+    <POSTSTED>DRANGEDAL</POSTSTED>
+    <ETASJE>0</ETASJE>
+    <VEI_VANN_KLOAKK></VEI_VANN_KLOAKK>
+    <FELLESUTGIFTER></FELLESUTGIFTER>
+    <FELLESGJELD></FELLESGJELD>
+    <FESTEAVGIFT></FESTEAVGIFT>
+    <MARKEDSVERDI>0</MARKEDSVERDI>
+    <LAANEVERDI>0</LAANEVERDI>
+    <SAKSBEHANDLER_NAVN>Bjørn Helliksen</SAKSBEHANDLER_NAVN>
+    <SAKSBEHANDLER_EMAIL>bjorn@m-o.no</SAKSBEHANDLER_EMAIL>
+    <SAKSBEHANDLERS_TELEFON>35 98 99 37</SAKSBEHANDLERS_TELEFON>
+    <SAKSBEHANDLERS_MOBIL>40 40 19 77</SAKSBEHANDLERS_MOBIL>
+    <VISNINGSAVTALE></VISNINGSAVTALE>
+  </OPPDRAG>
+</DATA>

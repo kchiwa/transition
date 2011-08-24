@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+    <!--
+         Document generated: 25.10.2010 11:28:02
+         PropertyID:	60996-->
+    <!--
+   CommisionTypeID: 5-->
+    <MEGLERDATA>
+        <MEGLER_KONTOR_ID>21790</MEGLER_KONTOR_ID>
+        <MEGLER_KONTOR_NAVN>Gran</MEGLER_KONTOR_NAVN>
+    </MEGLERDATA>
+    <OPPDRAG>
+        <!--
+          STATUS
+          0 - ukjent
+          1 - Online
+          2 - Solgt
+          3 - Trukket
+        -->
+        <!--
+          OPPDRAGS_TYPE:
+          0 Salg
+          1 Utleie
+        -->
+        <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+        <KOMMUNENR>533</KOMMUNENR>
+        <TOMTESTORRELSE>839</TOMTESTORRELSE>
+        <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+        <PRISANTYDNING_VERDI>400000</PRISANTYDNING_VERDI>
+        <GNR>104</GNR>
+        <BNR>132</BNR>
+        <SNR>0</SNR>
+        <FNR>0</FNR>
+        <BRUTTOAREAL>0</BRUTTOAREAL>
+        <BOAREAL>0</BOAREAL>
+        <HUSLEIEINKLUDERER></HUSLEIEINKLUDERER>
+        <OMKOSTNINGER></OMKOSTNINGER>
+        <LAANEVILKAARFELLESGJELD/>
+        <P-ROM>0</P-ROM>
+        <PRIMAERROM_BESKRIVELSE></PRIMAERROM_BESKRIVELSE>
+        <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+        <AREALBESKRIVELSE></AREALBESKRIVELSE>
+        <EIERFORM>Selveier</EIERFORM>
+        <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+        <TOMTEBESKRIVELSE>Feltet består av tilsammen 15 tomter, hvorav fire er regulert til tomannsboliger og resterende
+            til eneboliger. &lt;br&gt;Tre av tomtene regulert for tomannsbolig er solgt, mens en er ledig.&lt;br&gt;5
+            eneboligtomter er solgt.&lt;br&gt;Tomtene er grovplanert, det er opparbeidet veg på feltet og vann- og
+            avløpsnett ligger inntil tomtegrensene. Påkoblingsavgifter til Lunner kommune og Oppen Vannverk etter
+            gjeldende satser. Se forøvrig vedlagte priser.
+        </TOMTEBESKRIVELSE>
+        <INNHOLD></INNHOLD>
+        <STANDARD></STANDARD>
+        <BELIGGENHET>Tomtene ligger pent til ved Kalvsjøvannet, med kort avstand til turterreng sommer som vinter. Det
+            er godt med sol på de fleste tomtene. Gangavstand til Lunners nye barneskole , samt kort vei til Fagertun
+            Barnehage. Det er hhv. ca. 55 km og 40 km til Oslo og Gardermoen.
+        </BELIGGENHET>
+        <ADKOMST>Ta av mot Jevnaker i rundkjøring på Roa, følg denne veien til toppen. Ta av til høyre under bro, ta så
+            av til høyre igjen mot Kalvsjø. Kjør ca. 500 m hold høyre i kryss, følg veien langs vannet. Når du kommer
+            til enden av vannet, ta til høyre i skarp sving. Følg veien innover, du vil nå se et skilt med beskrivelse
+            av tomter.
+        </ADKOMST>
+        <ANTALL_SOVEROM>0</ANTALL_SOVEROM>
+        <BYGGEAAR>0</BYGGEAAR>
+        <MODERNISERINGSAAR>0</MODERNISERINGSAAR>
+        <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+        <MODERNISERINGSAAR_UTVENDIG>0</MODERNISERINGSAAR_UTVENDIG>
+        <POSTNR>2730</POSTNR>
+        <POSTSTED>LUNNER</POSTSTED>
+        <ETASJE>0</ETASJE>
+        <VEI_VANN_KLOAKK>Offentlig avløp og renovasjon. Privat veg fra fylkesveg 4 og privat vannverk.&lt;br&gt;Kjøper
+            forplikter seg til å betale påkoblingsgebyr til Oppen vannverk når kjøpekontrakter er undertegnet.
+        </VEI_VANN_KLOAKK>
+        <FELLESUTGIFTER>0</FELLESUTGIFTER>
+        <FELLESGJELD>0</FELLESGJELD>
+        <FESTEAVGIFT>0</FESTEAVGIFT>
+        <MARKEDSVERDI>0</MARKEDSVERDI>
+        <LAANEVERDI>0</LAANEVERDI>
+        <SAKSBEHANDLER_NAVN>Helle Taaje</SAKSBEHANDLER_NAVN>
+        <SAKSBEHANDLER_EMAIL>helle@em1hadeland.no</SAKSBEHANDLER_EMAIL>
+        <SAKSBEHANDLERS_TELEFON>61 32 70 23</SAKSBEHANDLERS_TELEFON>
+        <SAKSBEHANDLERS_MOBIL>91 54 72 77</SAKSBEHANDLERS_MOBIL>
+        <VISNINGSAVTALE>Etter avtale med saksbehandler</VISNINGSAVTALE>
+        <VEDLEGG>
+            <VEDLEGGID>8894932</VEDLEGGID>
+            <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_10</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151411.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>09-99-88-64-61-3E-B6-EA-1A-44-27-09-9C-96-F9-8E</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894933</VEDLEGGID>
+            <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_11</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151412.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>47-00-B9-69-7C-77-E7-61-97-BB-0D-2B-C6-16-88-FF</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894934</VEDLEGGID>
+            <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_18</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151413.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>98-C0-35-BF-E7-35-9D-0D-F4-24-90-17-67-0D-D5-7A</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894935</VEDLEGGID>
+            <VEDLEGGSEKVENS>4</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151414.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>97-0D-78-C3-7A-6A-CE-88-D5-2F-A1-ED-3E-55-41-42</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894936</VEDLEGGID>
+            <VEDLEGGSEKVENS>5</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_2</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151415.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>93-0D-DC-5A-4B-92-00-DD-08-06-1A-66-DC-24-73-6A</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894937</VEDLEGGID>
+            <VEDLEGGSEKVENS>6</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_3</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151416.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>E8-02-93-8D-DA-C0-62-2A-1F-3C-88-23-99-8F-2F-04</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894938</VEDLEGGID>
+            <VEDLEGGSEKVENS>7</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_4</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151417.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>F1-E7-C1-76-C0-77-D6-43-7C-6F-26-B2-D5-DD-F2-44</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136089</VEDLEGGID>
+            <VEDLEGGSEKVENS>8</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_5</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151418.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>C6-0A-1F-84-F0-FB-7C-76-F3-0F-10-E0-B9-1D-91-8E</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136090</VEDLEGGID>
+            <VEDLEGGSEKVENS>9</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_6</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/1151419.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>92-9B-5F-7F-45-41-DD-00-62-F3-E9-C2-D2-94-8D-98</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136091</VEDLEGGID>
+            <VEDLEGGSEKVENS>10</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_7</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514110.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>77-DB-E5-69-68-08-2C-BD-CD-45-8D-9B-3B-F0-F9-13</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136092</VEDLEGGID>
+            <VEDLEGGSEKVENS>11</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_8</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514111.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>0C-CF-F9-73-DA-70-4F-45-2D-FA-C0-8F-D7-1B-E4-24</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136093</VEDLEGGID>
+            <VEDLEGGSEKVENS>12</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_9</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514112.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>3E-7A-48-4F-87-4E-1A-79-1D-F4-D3-FC-16-4A-0C-83</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136094</VEDLEGGID>
+            <VEDLEGGSEKVENS>13</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_12</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514113.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>FD-DB-06-D9-91-39-D5-43-DD-C0-B1-8E-86-F1-10-3C</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136095</VEDLEGGID>
+            <VEDLEGGSEKVENS>14</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_13</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514114.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>91-8E-49-99-AA-BF-F3-B8-3E-76-09-D7-DF-7A-ED-83</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136096</VEDLEGGID>
+            <VEDLEGGSEKVENS>15</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_14</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514115.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>91-E4-65-7D-30-8D-33-85-7C-06-47-4C-64-46-58-1B</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>11136097</VEDLEGGID>
+            <VEDLEGGSEKVENS>16</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_16</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514116.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>F0-64-A6-CC-B5-BD-3C-72-6F-54-F3-6F-77-F5-34-FF</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>13100131</VEDLEGGID>
+            <VEDLEGGSEKVENS>17</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_15</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514117.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>A0-19-A7-F5-F6-A7-4F-F7-3C-10-E9-01-C1-EB-2E-AC</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>13100132</VEDLEGGID>
+            <VEDLEGGSEKVENS>18</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_17</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514118.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>50-5A-AF-ED-35-AF-A8-53-FB-17-AC-5E-4E-58-79-C8</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>13100133</VEDLEGGID>
+            <VEDLEGGSEKVENS>19</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_19</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514119.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>7A-A1-1E-89-AA-D5-22-B8-C5-B7-33-A8-EB-12-2C-AA</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>13100134</VEDLEGGID>
+            <VEDLEGGSEKVENS>20</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_20</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://att.emprof.no/images2/Eiendomsmegler1/EM1Ringerike/Gran/Pictures/1024/11514120.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>1D-AA-F6-86-23-4F-C1-4D-88-A8-A9-60-69-D1-E5-FA</VEDLEGGHASH>
+        </VEDLEGG>
+    </OPPDRAG>
+</DATA>

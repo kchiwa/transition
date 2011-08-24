@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+  <!--
+        Document generated: 05.10.2010 16:08:02
+        PropertyID:	465283-->
+  <!--
+        CommisionTypeID: 1-->
+  <MEGLERDATA>
+    <MEGLER_KONTOR_ID>22134</MEGLER_KONTOR_ID>
+    <MEGLER_KONTOR_NAVN>Jessheim</MEGLER_KONTOR_NAVN>
+    <MEGLER_KONTOR_BESOKSADRESSE>Rådhusvegen 4 </MEGLER_KONTOR_BESOKSADRESSE>
+    <MEGLER_KONTOR_POSTNR>2050</MEGLER_KONTOR_POSTNR>
+    <MEGLER_KONTOR_POSTSTED>JESSHEIM</MEGLER_KONTOR_POSTSTED>
+    <MEGLER_KONTOR_EMAIL>jessheim@aktiveiendom.no</MEGLER_KONTOR_EMAIL>
+  </MEGLERDATA>
+  <OPPDRAG>
+    <!--
+        STATUS 
+        0 - ukjent
+        1 - Online
+        2 - Solgt
+        3 - Trukket
+      -->
+    <STATUS>1</STATUS>
+    <OPPDRAGSNR></OPPDRAGSNR>
+    <EIENDOMSNAVN>Vestengsletta 22 a</EIENDOMSNAVN>
+    <OVERSKRIFT1>Råholt - Moderne 3-roms andelsleilighet i delt to- mannsbolig. Trivelig og barnevennlig boligområde.</OVERSKRIFT1>
+    <BOLIGTYPE>pr02</BOLIGTYPE>
+    <!--
+        OPPDRAGS_TYPE:
+        0 Salg
+        1 Utleie
+      -->
+    <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+    <KOMMUNENR>237</KOMMUNENR>
+    <TOMTESTORRELSE>9951</TOMTESTORRELSE>
+    <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+    <PRISANTYDNING_VERDI>400000</PRISANTYDNING_VERDI>
+    <GNR>96</GNR>
+    <BNR>39</BNR>
+    <SNR>37</SNR>
+    <FNR>0</FNR>
+    <BRUTTOAREAL>84</BRUTTOAREAL>
+    <BOAREAL>0</BOAREAL>
+    <HUSLEIEINKLUDERER>Fellesutgifter kr 6.160,- pr mnd.&lt;br&gt;Gass kr 500,- pr. mnd. &lt;br&gt;&lt;br&gt;Fellesutgiftene pr mnd. inkluderer: Nedbet. av fellesgjeld, kabel-tv, utv. forsikringer, gass, renovasjon og vedlikehold. Vann må avleses og regning på det kommer utenom fellesutg.  Opplyst fra eier.</HUSLEIEINKLUDERER>
+    <OMKOSTNINGER>kr   430,- tinglysing av skjøte&lt;br&gt;kr   430,- tinglysing av pantobligasjon&lt;br&gt;kr   298,- pantattest til kjøpers långiver&lt;br&gt;kr 3.440,- eierskiftegebyr &lt;br&gt;kr    675,- innmelding i boligbyggelaget romerike&lt;br&gt;--------------------------------------------------------&lt;br&gt;kr 5.273,- sum omkostninger</OMKOSTNINGER>
+    <LAANEVILKAARFELLESGJELD>Se vedlegg i salgsoppgaven.</LAANEVILKAARFELLESGJELD>
+    <P-ROM>68</P-ROM>
+    <PRIMAERROM_BESKRIVELSE></PRIMAERROM_BESKRIVELSE>
+    <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+    <AREALBESKRIVELSE></AREALBESKRIVELSE>
+    <EIERFORM>Andelsleilighet</EIERFORM>
+    <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+    <TOMTEBESKRIVELSE>Takstenheten ligger i 1 etg. i horisontaldelt tomannsbolig. Interne veier er hovedsakelig asfalterte, noe grusstier, grøntområder mellom bebyggelse, usjenerte egne uteplasser. Leiligheten har sydvestvendt markterrasse på 21 kvm, noe overbygget. Det disponeres 2 biloppstillingsplasser.</TOMTEBESKRIVELSE>
+    <INNHOLD>1.etg: Entre, kjøkken, stue, bad, 2 soverom, innvendig bod og utvendig bod. &lt;br&gt;&lt;br&gt;</INNHOLD>
+    <STANDARD>Gulv: Laminat. Bad har fliser. &lt;br&gt;Vegger: Malte panelplater. Bad har baderomsplater.&lt;br&gt;Himling: Himlingsplater.&lt;br&gt;&lt;br&gt;Kjøkken: Innredning er i lakkert glatt stil, ventilator tilknyttet fellesavtrekk, opplegg for oppvaskmaskin. &lt;br&gt;&lt;br&gt;Sanitær: Bad inneholder innredning i hvit glatt stil, servant, wc, dusjopplegg med dusjvegg i glass, opplegg for vask/tørk. Ventilasjon ved fellesavtrekk. &lt;br&gt;&lt;br&gt;Merknad i takst under våtrom er i utgangspkt. en reklamasjonssak mot utbygger. Bør følges opp.</STANDARD>
+    <BELIGGENHET>Beliggende på Råholtsmoen/Ladderudåsen. Ca 1 km til Råholt sentrum med butikker, jernbane, barnehage, skoler mv. Kort gangavstand til buss. Nærhet til tur- og friluftsområder. Blinvei, lite trafikk.</BELIGGENHET>
+    <ADKOMST>Se kartskisse.</ADKOMST>
+    <ANTALL_SOVEROM>2</ANTALL_SOVEROM>
+    <BYGGEAAR>2007</BYGGEAAR>
+    <MODERNISERINGSAAR>0</MODERNISERINGSAAR>
+    <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+    <MODERNISERINGSAAR_UTVENDIG>0</MODERNISERINGSAAR_UTVENDIG>
+    <POSTNR>2070</POSTNR>
+    <POSTSTED>RÅHOLT</POSTSTED>
+    <ETASJE>0</ETASJE>
+    <VEI_VANN_KLOAKK>Offentlig.</VEI_VANN_KLOAKK>
+    <FELLESUTGIFTER>6660</FELLESUTGIFTER>
+    <FELLESGJELD>1059981</FELLESGJELD>
+    <FESTEAVGIFT>0</FESTEAVGIFT>
+    <MARKEDSVERDI>400000</MARKEDSVERDI>
+    <LAANEVERDI>340000</LAANEVERDI>
+    <SAKSBEHANDLER_NAVN>Lise Blomberg</SAKSBEHANDLER_NAVN>
+    <SAKSBEHANDLER_EMAIL>lise.blomberg@aktiveiendom.no</SAKSBEHANDLER_EMAIL>
+    <SAKSBEHANDLERS_TELEFON>63 94 69 97</SAKSBEHANDLERS_TELEFON>
+    <SAKSBEHANDLERS_MOBIL>92 20 41 64</SAKSBEHANDLERS_MOBIL>
+    <VISNINGSAVTALE></VISNINGSAVTALE>
+    <VISNINGSTIDER>
+      <VISNING FRA="10.10.2010 15:00" TIL="16:00" />
+    </VISNINGSTIDER>
+    <VEDLEGG>
+      <VEDLEGGID>12968970</VEDLEGGID>
+      <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Hovedbilde</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101471.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>5A-01-44-4A-69-F1-B6-8F-39-08-D7-A7-0B-57-AB-C5</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968971</VEDLEGGID>
+      <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Fasade</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101472.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>15-13-10-E0-81-5D-5D-A3-09-90-2E-98-A0-59-25-A4</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968972</VEDLEGGID>
+      <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Terrasse</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101473.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>27-CE-EF-DE-F7-36-63-8B-C1-91-9E-E7-F2-41-C3-82</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968973</VEDLEGGID>
+      <VEDLEGGSEKVENS>4</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Stue</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101474.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>28-2A-3E-48-87-F4-56-2A-76-CF-95-77-BF-DC-C0-4E</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968974</VEDLEGGID>
+      <VEDLEGGSEKVENS>5</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Stue</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101475.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>D0-F3-0D-EE-24-B5-AB-B3-08-A3-32-82-63-7C-7A-76</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968975</VEDLEGGID>
+      <VEDLEGGSEKVENS>6</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Spiseplass</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101476.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>42-79-26-AC-4D-BF-FB-FD-D9-4E-C3-2B-FF-FD-5E-E8</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968976</VEDLEGGID>
+      <VEDLEGGSEKVENS>7</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Kjøkken</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101477.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>CB-6A-2E-7F-D2-B4-76-02-B1-55-3E-24-06-85-7A-D4</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968977</VEDLEGGID>
+      <VEDLEGGSEKVENS>8</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Kjøkken</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101478.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>CA-D8-27-CE-9D-A5-C3-08-57-DD-1A-FF-88-62-13-C9</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968978</VEDLEGGID>
+      <VEDLEGGSEKVENS>9</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Bad</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/58101479.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>6C-C7-DE-C5-BA-F7-08-01-C6-2E-70-E1-81-42-E2-4A</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968979</VEDLEGGID>
+      <VEDLEGGSEKVENS>10</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Soverom</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/581014710.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>D4-55-AB-FD-0A-4E-91-E7-A8-26-10-FF-EB-1A-4E-06</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12968980</VEDLEGGID>
+      <VEDLEGGSEKVENS>11</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Entré</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/AktivEiendom/Jessheim/Pictures/1024/581014711.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>66-82-AA-01-17-36-28-AE-2C-CD-DF-B1-2F-D4-E9-44</VEDLEGGHASH>
+    </VEDLEGG>
+    <LINKER>
+      <LINKTYPE>URL-C360TOURNR</LINKTYPE>
+      <EXTERNALURL>http://www.zentuvo.com/no/viewing.html?tour=218626&amp;mode=java</EXTERNALURL>
+    </LINKER>
+  </OPPDRAG>
+</DATA>

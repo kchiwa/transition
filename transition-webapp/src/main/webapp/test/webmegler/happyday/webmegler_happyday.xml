@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<eiendommer>
+ <eneiendom>
+   <felt navn="id" format="Long">3002346</felt>
+   <felt navn="databasenummer" format="Long">112</felt>
+   <felt navn="oppdragsnummer" format="Long">61110067</felt>
+   <felt navn="type_oppdrag" format="String" maxlen="50">01.Salg eiendom</felt>
+   <felt navn="type_eiendomstyper" format="String" maxlen="50">Enebolig</felt>
+   <felt navn="type_eierformbygninger" format="String" maxlen="50">Selveier</felt>
+   <felt navn="type_eierformtomt" format="String" maxlen="50">Festet tomt</felt>
+   <felt navn="type_energimerke" format="String" maxlen="50">Oppvarmingskarakter Oransje - Energikarakter G</felt>
+<styringskoder>
+<styringskode id="631" navn="Salg" mappenavn="Oppdragstype" />
+<styringskode id="636" navn="Bolig/Annet" mappenavn="Oppdragstype" />
+</styringskoder>
+   <felt navn="finn_eiendomstype" format="String" maxlen="50">Enebolig</felt>
+   <felt navn="finn_oppdragstype" format="String" maxlen="50">EIENDOM-SALG</felt>
+   <felt navn="finn_eierformbygninger" format="String" maxlen="50">Selveier</felt>
+   <felt navn="finn_eierformtomt" format="String" maxlen="50">FESTE</felt>
+   <felt navn="finn_orderno" format="String" maxlen="50">6111006701</felt>
+   <felt navn="tinde_oppdragstype" format="String" maxlen="50">Til salgs</felt>
+   <felt navn="tinde_eiendomstype" format="String" maxlen="50">Enebolig</felt>
+   <felt navn="tinde_eierformbygninger" format="String" maxlen="50">Selveier</felt>
+   <felt navn="tinde_eierformtomt" format="String" maxlen="50">Festet</felt>
+   <felt navn="energimerke_bokstav" format="String" maxlen="1">G</felt>
+   <felt navn="energimerke_farge" format="String" maxlen="15">ORANGE</felt>
+   <felt navn="befaringsdato" format="Date"></felt>
+   <felt navn="solgt" format="Boolean">0</felt>
+   <felt navn="oppdragsdato" format="Date">03.05.2011</felt>
+   <felt navn="utlopsdato" format="Date">03.11.2011</felt>
+   <felt navn="markedsforingsdato" format="Date">26.05.2011 13:07</felt>
+   <felt navn="markedsforingversjon" format="long">2</felt>
+   <felt navn="endretdato" format="Date">31.05.2011 11:23</felt>
+   <felt navn="markedsforingsklart" format="Boolean">-1</felt>
+   <felt navn="visisokemotor" format="Boolean">-1</felt>
+   <felt navn="vispaafinn" format="Boolean">-1</felt>
+   <felt navn="vispaatinde" format="Boolean">-1</felt>
+   <felt navn="vispaazett" format="Boolean">-1</felt>
+   <felt navn="urlnettversjon" format="String" maxlen="100">http&#58;&#47;&#47;82.134.19.103&#47;cgi-win&#47;wnviseiendom.exe&#63;&#47;k112&#47;i3002346&#47;c1&#47;j1009&#47;z43225</felt>
+   <felt navn="urlprospektbestilling" format="String" maxlen="255">http&#58;&#47;&#47;www.webmegler.no&#47;external&#47;nettregistrert_interessent&#47;default.aspx&#63;k&#61;112&#38;i&#61;3002346</felt>
+   <felt navn="urlinteressentregistrering" format="String" maxlen="255">http&#58;&#47;&#47;www.webmegler.no&#47;external&#47;nettregistrert_interessent&#47;default.aspx&#63;k&#61;112&#38;i&#61;3002346&#38;a&#61;im</felt>
+   <felt navn="kundenummer_tinde" format="String" maxlen="50">1572</felt>
+   <felt navn="kundenummer_zett" format="String" maxlen="50">21727</felt>
+   <felt navn="kundenummer_finn" format="String" maxlen="50">stavlund</felt>
+   <felt navn="avdeling_id" format="Long">1</felt>
+   <felt navn="avdeling_juridisknavn" format="String" maxlen="100">Stavlund AS</felt>
+   <felt navn="avdeling_organisasjonsnummer" format="String" maxlen="100">983261523</felt>
+   <felt navn="avdeling_navn" format="String" maxlen="100">Stavlund AS avd. Fredrikstad</felt>
+   <felt navn="logo_url_b" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2005&#92;1&#92;6&#92;3006432_1-myjzdb.jpg</felt>
+   <felt navn="logo_url_c" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2005&#92;1&#92;6&#92;3006432_1-myjzdc.jpg</felt>
+   <felt navn="logo_url_d" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2005&#92;1&#92;6&#92;3006432_1-myjzdd.jpg</felt>
+   <felt navn="avdeling_besoksadresse" format="String" maxlen="100">Farmanns gate 13 B</felt>
+   <felt navn="avdeling_postadresse" format="String" maxlen="100">Postboks 421</felt>
+   <felt navn="avdeling_postnummer" format="String" maxlen="50">1607</felt>
+   <felt navn="avdeling_poststed" format="String" maxlen="50">Fredrikstad</felt>
+   <felt navn="avdeling_telefon" format="String" maxlen="20">69 30 24 50</felt>
+   <felt navn="avdeling_telefax" format="String" maxlen="20">69 30 24 51</felt>
+   <felt navn="avdeling_email" format="String" maxlen="100">fredrikstad&#64;stavlund.no</felt>
+   <felt navn="avdeling_urlhjemmeside" format="String" maxlen="100">www.stavlund.no</felt>
+   <felt navn="ansatte1_id" format="Long">3000040</felt>
+   <felt navn="ansatte1_navn" format="String" maxlen="100">Henning Hesselberg</felt>
+   <felt navn="ansatte1_tittel" format="String" maxlen="50">Eiendomsmegler MNEF</felt>
+   <felt navn="ansatte1_email" format="String" maxlen="100">henning.hesselberg&#64;stavlund.no</felt>
+   <felt navn="ansatte1_mobiltelefon" format="String" maxlen="20">95 85 01 92</felt>
+   <felt navn="gaardsnummer" format="Long">51</felt>
+   <felt navn="bruksnummer" format="Long">42</felt>
+   <felt navn="festenummer" format="Long">55</felt>
+   <felt navn="fylkesnummer" format="Long">1</felt>
+   <felt navn="fylkesnavn" format="String" maxlen="50">&#216;stfold</felt>
+   <felt navn="kommuneomraade" format="String" maxlen="50">Fredrikstad</felt>
+   <felt navn="kommunenummer" format="String" maxlen="4">0106</felt>
+   <felt navn="kommunenavn" format="String" maxlen="50">Fredrikstad</felt>
+   <felt navn="overskrift" format="String" maxlen="255">Romslig familievilla med dobbel garasje -Gressvik</felt>
+   <felt navn="postnummer" format="String" maxlen="10">1621</felt>
+   <felt navn="poststed" format="String" maxlen="100">Gressvik</felt>
+   <felt navn="adresse" format="String" maxlen="255">&#197;lestrandveien 9</felt>
+   <felt navn="byggeaar" format="Long">1875</felt>
+   <felt navn="modernisert" format="Long">1998</felt>
+   <felt navn="fastpris" format="Boolean">0</felt>
+   <felt navn="prisantydning" format="Double">3100000</felt>
+   <felt navn="prissamletsum" format="Long">3100000</felt>
+   <felt navn="flertype_internett" format="String" maxlen="255">Vis p&#229; Finn, Vis p&#229; Tinde, Vis p&#229; ZETT</felt>
+   <felt navn="leieperkvm" format="Boolean">0</felt>
+   <felt navn="verditakst" format="Long">3100000</felt>
+   <felt navn="laanetakst" format="Long">2600000</felt>
+   <felt navn="leieinntekterperkvm" format="Boolean">0</felt>
+   <felt navn="prom" format="Double">194</felt>
+   <felt navn="bruksareal" format="Double">268</felt>
+   <felt navn="bruttoareal" format="Double">285</felt>
+   <felt navn="grunnflate" format="Double">110</felt>
+   <felt navn="soverom" format="Long">4</felt>
+   <felt navn="bad" format="Long">2</felt>
+   <felt navn="totalkostnadsomtekst" format="String" maxlen="512">3 100 000,- &#40;prisantydning&#41;&#13;&#10;&#13;&#10;Omkostninger&#58;&#13;&#10;77 500,- &#40;2,5&#37; dokumentavgift&#41;&#13;&#10;1548,- &#40;tinglysing av skj&#248;te&#41;&#13;&#10;1935,- &#40;tinglysing av pantobligasjon&#41;&#13;&#10;202,- &#40;pantattest til l&#229;ngivers bank&#41;&#13;&#10;--------------------------------------------------------&#13;&#10;81 185,- Kr &#40;omkostninger totalt&#41;&#13;&#10;&#13;&#10;NB&#58; Regnestykket forutsetter at det kun tinglyses en l&#229;neobligasjon og at eiendommen selges til prisantydning</felt>
+   <felt navn="totalkostnadsomtall" format="Double">3181185</felt>
+   <felt navn="totalomkostningsomtall" format="Double">81185</felt>
+   <felt navn="totalomkostningsomprosent" format="Double">2.61887096774194</felt>
+  <matchekriterier>
+  </matchekriterier>
+  <fritekster>
+   <fritekst nr="1">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">SAMMENDRAG</felt>
+    <felt navn="tekst" format="String" maxlen="2040">P&#229;bygget og velholdt boligeiendom i maritimt sm&#229;gatemilj&#248; p&#229; &#197;lestranda, Gressvik. Koselig trehusbebyggelse med s&#230;rpreg.</felt>
+   </fritekst>
+   <fritekst nr="2">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">BYGGE&#197;R</felt>
+    <felt navn="tekst" format="String" maxlen="2040">1875, p&#229;bygget&#47;modernisert 1998.</felt>
+   </fritekst>
+   <fritekst nr="3">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">BELIGGENHET</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Sentralt og solrikt beliggende i trivelig bomilj&#248; ned mot Gressvik b&#229;thavn. et idyllisk boomr&#229;de best&#229;ende av karakteristisk sm&#229;husbebyggelse oppf&#248;rt rundt 1900. Lite trafikkert omr&#229;de -barnevennlig. Kort vei til skoler, Gressvik Torg med diverse forretninger, ferge- og bussforbindelse til byen og treningssenter. Kort bilvei til flotte badesteder p&#229; Ons&#248;ylandet.</felt>
+   </fritekst>
+   <fritekst nr="4">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">VEIBESKRIVELSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Fra Fredrikstad sentrum&#58; Kj&#248;r til &#216;rebekk og til venstre i f&#248;rste rundkj&#248;ring mot Gressvik. Kj&#248;r igjennom Gressvik Sentrum og Christensens Bakeri og ta &#197;lestrandveien til venstre. F&#248;lg veien mot elva, nr 9 ligger p&#229; venstre side rett f&#248;r b&#229;thavn.</felt>
+   </fritekst>
+   <fritekst nr="5">
+    <felt navn="kolonner" format="Integer">5</felt>
+    <felt navn="uthevetforsterad" format="Boolean">-1</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">AREAL AV BEBYGGELSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Etasje&#59;BTA&#59;BRA&#59;P-ROM&#59;S-ROM&#59;1.etg.&#59;110&#59;100&#59;100&#59;0&#59;2. etg.&#59;96&#59;94&#59;90&#59;4&#59;Sum&#59;206&#59;194&#59;190&#59;4&#59;Garasje, 1. etg&#59;48&#59;44&#59;0&#59;44&#59;Garsje, 2. eg.&#59;31&#59;30&#59;0&#59;30&#59;Sum&#59;79&#59;74&#59;0&#59;74</felt>
+   </fritekst>
+   <fritekst nr="6">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">Regler for angivelse av areal</felt>
+    <felt navn="tekst" format="String" maxlen="2040">BRUKSAREAL &#40;BRA&#41;&#58;  Arealet som ligger innenfor boenhetens yttervegger, m&#229;lt fra innsiden av ytterveggen. PRIM&#198;RROM &#40; P-ROM&#41;&#58; Rom som f.eks. oppholdsrom, soverom, kj&#248;kken, bad og entre, samt ganger og trapper mellom denne type rom.  Arealet av P-ROM inkluderer ogs&#229; deleveggene mellom disse rommene.  SEKUND&#198;RROM &#40;S-ROM&#41;&#58; &#216;vrige rom og boder.  De arealer som er nevnt i denne oppgave og i evt. takst&#47; boligsalgsrapport er oppgitt iht. reglene i NS 3940 og ikke iht. Plan- og bygningslovens bestemmelser. Det er s&#229;ledes kun lagt til grunn kravene i NS 3940 mht. overflater, takh&#248;yder, adkomst og fluktveier m.m.  Plan og bygningslovens bestemmelser stiller flere krav for m&#229;lbart areal enn NS 3940.  De oppgitte areal er som regel oppgitt med bakgrunn i takstmannens oppm&#229;ling p&#229; eiendommen og er hentet ut fra takstmannens dokument.  Feil kan forekomme.  Ved innlevering av kj&#248;petilbud og&#47;eller inng&#229;else av kj&#248;pekontrakt forutsettes det at budgiver har hatt en kritisk gjennomgang av eiendommens areal og disses anvendelse.</felt>
+   </fritekst>
+   <fritekst nr="7">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">BEBYGGELSE&#47; BYGGEM&#197;TE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Enebolig over 1,5 etasjer og dobbel garasje med innredet kontor&#47;leilighet. Romantisk trehusbebyggelse fra slutten av 1800-tallet. Huset er p&#229;bygget i 1998 i samme byggestil.</felt>
+   </fritekst>
+   <fritekst nr="8">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">INNEHOLDER&#40; fordelt p&#229; P-rom og S-rom, jfr. Ns 3940 &#41;</felt>
+    <felt navn="tekst" format="String" maxlen="2040">1. etasje&#58; Hall, kj&#248;kken, bad, stue og soverom&#40;p-rom&#41;. 2. etasje&#58; Loftsstue, bad, vaskerom og tre soverom&#40;p-rom&#41;. Bod&#40;s-rom&#41;. Kontor&#47;leilighet&#58; 1. etasje. Gang og bad&#40;s-rom&#41;. 2. etasje&#58; Rom&#47;stue med kj&#248;kkenkrok og soveplass&#40;s-rom&#41;.</felt>
+   </fritekst>
+   <fritekst nr="9">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">STANDARD&#47; UTSTYR</felt>
+    <felt navn="tekst" format="String" maxlen="2040">En innholdrik bolig som framt&#229;r solid og godt vedlikeholdt -eiendommen gir et godt inntrykk. Det er bla downlights, varmekabler og skyved&#248;rsgarderober i mange rom. Gulver er belagt med parkett, fliser og laminat. P&#229; vegger er tapet, panel, malt panel og fliser. I himlinger er panel og malt panel. L&#248;se hvitevarer medf&#248;lger ikke.</felt>
+   </fritekst>
+   <fritekst nr="10">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">INNREDNINGER KJ&#216;KKEN&#47; BAD M.M.</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Kj&#248;kken&#58; Parkett p&#229; gulv, tapet p&#229; vegger og malt tak. Eik innredning med integrert stekeovn, kokeplater, microb&#248;lgeovn, oppvaskmakin og kj&#248;leskap. Ventilator. Fliser mellom over- og underskap. Grue. God plass for bespising. Bad, 1 etasje&#58; Fliser p&#229; gulv og vegger, malt tak. Dusj, wc og innredning med vask og speil. Varmekabler, ventilasjon og downlights. Bad 2. etasje&#58; Fliser p&#229; gulv og vegger, panel i tak. Dusjkabinett, wc og innredning med vak og speil. Varmebabler, ventilasjon og downlights.</felt>
+   </fritekst>
+   <fritekst nr="11">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">OPPVARMING</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Elektrisk og vedfyring. Det er installert vedovn i stue, 1. etasje.</felt>
+   </fritekst>
+   <fritekst nr="12">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">TAKST &#47; BOLIGSALGSRAPPORT</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Det foreligger boligsalgsrapport med takst  over eiendommen fra takstmann Svein Nes&#248;en, datert  12.05.11. Verditakst&#47; l&#229;netakst kr. 3.100.000&#47;2.600.000,-.</felt>
+   </fritekst>
+   <fritekst nr="13">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Bygninger</felt>
+    <felt navn="overskrift" format="String" maxlen="255">OVERTAGELSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Etter avtale.</felt>
+   </fritekst>
+   <fritekst nr="14">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">ADRESSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">&#197;lestandveien 9 1621 Gressvik.</felt>
+   </fritekst>
+   <fritekst nr="15">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">BESKRIVELSE AV TOMTEN</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Tomten er pent opparbeidet med plen, busker, tr&#230;r og hekk. Asfaltert til garasje, ellers gruset og heller. Stor, usjenert veranda mot vest. Nettinggjerde.</felt>
+   </fritekst>
+   <fritekst nr="16">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">TOMTENS AREAL</felt>
+    <felt navn="tekst" format="String" maxlen="2040">388 kvm. Eiendommen har bruksrett til en parsell nordvest for bebyggelsen, ca 480 kvm. Tilsammen ca 860 kvm. Se vedlegg om avtale.</felt>
+   </fritekst>
+   <fritekst nr="17">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">EIERFORHOLD TOMT</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Festet. Mulighet for innl&#248;sing av tomt, alle kostnader og gjennomf&#248;ring av delingen dekkes og utf&#248;res i sin helhet av kj&#248;per&#40;gjelder parsell nordvest for bebyggelsen&#41;.</felt>
+   </fritekst>
+   <fritekst nr="18">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">FESTEAVGIFT</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Kr. 490,-.</felt>
+   </fritekst>
+   <fritekst nr="19">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">FESTEFORHOLDETS VARIGHET</felt>
+    <felt navn="tekst" format="String" maxlen="2040">2098</felt>
+   </fritekst>
+   <fritekst nr="20">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Tomt</felt>
+    <felt navn="overskrift" format="String" maxlen="255">REGULERING AV FESTEAVGIFT</felt>
+    <felt navn="tekst" format="String" maxlen="2040">2017</felt>
+   </fritekst>
+   <fritekst nr="21">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">EIERSKIFTEFORSIKRING</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Eier har tegnet eierskifteforsikring for sitt mulige ansvar iht. avhendingslovens bestemmelser.  Forsikringen er tegnet i Protector Forsikring asa.  Selgers egenerkl&#230;ring om eiendommens tilstand utgj&#248;r en del av salgsoppgaven, og f&#229;es ved henvendelse til megler.</felt>
+   </fritekst>
+   <fritekst nr="22">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">BOLIGKJ&#216;PERFORSIKRING</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Det kan formidles Bolikj&#248;perforsikring gjennom selskapet HELP.  Boligkj&#248;perforsikring tegnes i samarbeid med eiendomsmegleren&#13;&#10;din senest ved kontraktssignering. For n&#230;rmere informasjon og priser, se prospektets vedlegg, eller kontakt ansvarlig megler for oppdraget.</felt>
+   </fritekst>
+   <fritekst nr="23">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">KOMMUNALE AVGIFTER</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Kr. 13.992,- inkl eiendomsskatt.</felt>
+   </fritekst>
+   <fritekst nr="24">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">ENERGIFORBRUK - L&#216;PENDE UTGIFTER</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Str&#248;mforbruk 2010&#58; Ca 11.000 kwh.</felt>
+   </fritekst>
+   <fritekst nr="25">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">ENERGIKLASSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Eiendommen er iht. eiers opplysninger klassifisert i energiklasse orange G.</felt>
+   </fritekst>
+   <fritekst nr="26">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">VANN&#47;AVL&#216;P, ANDRE TILKNYTTINGER</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Kommunalt tilknyttet.</felt>
+   </fritekst>
+   <fritekst nr="27">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">REGULERINGSFORHOLD</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Nr 265 &#197;lestranda endring. Boliger i spesialomr&#229;de, bevaringsverdig bygningsmilj&#248;.</felt>
+   </fritekst>
+   <fritekst nr="28">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">ADGANG TIL UTLEIE FOR BOLIGFORM&#197;L</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Boligen er registrert som &#233;n boenhet. Rom i garasje er ikke godkjent.</felt>
+   </fritekst>
+   <fritekst nr="29">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">FERDIGATTEST&#47; MIDLERTIDIG BRUKSTILLATELSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Dokumentet foreligger ikke.</felt>
+   </fritekst>
+   <fritekst nr="30">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">HEFTELSER&#47; SERVITUTTER</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Festekontrakt.</felt>
+   </fritekst>
+   <fritekst nr="31">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">LIGNINGSVERDI</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Kr. 256.000 for 2010.</felt>
+   </fritekst>
+   <fritekst nr="32">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">NYE BUDREGLER FRA 1.7.2010.</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Etter 1. juli 2010 er megler p&#229;lagt ikke &#229; formidle informasjon om innkomne kj&#248;petilbud som er gitt med kortere svarfrist enn kl 1200 p&#229;f&#248;lgende arbeidag, etter siste annonserte visnings slutt.</felt>
+   </fritekst>
+   <fritekst nr="33">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">KJ&#216;PERS ANSVAR&#47; BESIKTIGELSE</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Eiendommen selges som den st&#229;r &#40;&#34;as is&#34;&#41;, og i den stand den befinner seg ved kj&#248;pers besiktigelse, jfr. avhendings - lovens &#167; 3-9. Denne bestemmelsen inne b&#230;rer at&#13;&#10;avhendingslovens regler om n&#229;r eiendommen har mangel, fravikes til ugunst for kj&#248;per. Selgers ansvar etter avhendingslova blir med dette redusert for eventuelt mindre vesentlige, skjulte feil og mangler. Kj&#248;per oppfordres med dette til &#229; unders&#248;ke eiendommen inng&#229;ende, gjerne sammen&#13;&#10;med fagmann. Det anses for &#229; v&#230;re kj&#248;pers ansvar &#229; sette seg inn i omfanget og rekkevidden av de mangler som er p&#229;pekt i selgers egenerkl&#230;ring om eiendommens tilstand og i boligsalgsrapport. Budgivere anses ved innlevering av tilbud &#229; ha akseptert som forutsetning at det skal inng&#229;s Stavlund as sin standard kj&#248;pekontrakt, basert p&#229; avhendings&#13;&#10;lovens bestemmelser, men med som den st&#229;r &#40;&#34;as-is&#34;- klausul. Kopi av kontraktutkast kan f&#229;s ved henvendelse til megler. S&#230;rskilte unntak som forutsettes fra kj&#248;per, m&#229; spesifiseres som forbehold i kj&#248;petilbudet.</felt>
+   </fritekst>
+   <fritekst nr="34">
+    <felt navn="uthevetforsterad" format="Boolean">0</felt>
+    <felt navn="gruppenavn" format="String" maxlen="50">Annet</felt>
+    <felt navn="overskrift" format="String" maxlen="255">LOV OM HVITVASKING</felt>
+    <felt navn="tekst" format="String" maxlen="2040">Eiendomsmegler er underlagt lov om hvitvasking og er forpliktet til &#229; rapportere mistenkelige transaksjoner.  Lov om hvitvasking inneb&#230;rer ogs&#229; at oppdragstaker skal innhente legitimasjon fra alle parter i handelen, herunder selger, kj&#248;per og fullmektige for disse.  Tilsvarende gjelder for fysiske personer som direkte, eller indirekte kontrollerer mer enn 25 &#37; av eierandelene, eller stemmene i et selskap</felt>
+   </fritekst>
+  </fritekster>
+  <visninger>
+   <visning nr="1">
+    <felt navn="fra" format="Date">06.06.2011 18:00</felt>
+    <felt navn="til" format="Date">06.06.2011 19:00</felt>
+   </visning>
+  </visninger>
+  <bilder>
+   <bilde nr="1">
+     <felt navn="id" format="Long">3027536</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027536_1-qahtjd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027536_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027536_1-qahtjc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027536_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027536_1-qahtjb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027536_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027536_1-qahtja.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027536_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">1</felt>
+     <felt navn="type_navn" format="String" maxlen="50">Fasade</felt>
+   </bilde>
+   <bilde nr="2">
+     <felt navn="id" format="Long">3027537</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027537_1-jpcnbd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027537_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027537_1-jpcnbc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027537_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027537_1-jpcnbb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027537_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027537_1-jpcnba.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027537_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="3">
+     <felt navn="id" format="Long">3027538</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027538_1-znbmzd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027538_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027538_1-znbmzc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027538_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027538_1-znbmzb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027538_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027538_1-znbmza.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027538_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="4">
+     <felt navn="id" format="Long">3027539</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027539_1-dexmgd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027539_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027539_1-dexmgc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027539_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027539_1-dexmgb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027539_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027539_1-dexmga.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027539_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="5">
+     <felt navn="id" format="Long">3027540</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027540_1-oeewjd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027540_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027540_1-oeewjc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027540_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027540_1-oeewjb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027540_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027540_1-oeewja.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027540_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="6">
+     <felt navn="id" format="Long">3027541</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027541_1-qekmud.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027541_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027541_1-qekmuc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027541_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027541_1-qekmub.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027541_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027541_1-qekmua.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027541_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="7">
+     <felt navn="id" format="Long">3027542</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027542_1-suanad.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027542_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027542_1-suanac.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027542_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027542_1-suanab.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027542_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027542_1-suanaa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027542_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="8">
+     <felt navn="id" format="Long">3027543</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027543_1-cytodd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027543_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027543_1-cytodc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027543_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027543_1-cytodb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027543_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027543_1-cytoda.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027543_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="9">
+     <felt navn="id" format="Long">3027544</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027544_1-aopzcd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027544_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027544_1-aopzcc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027544_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027544_1-aopzcb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027544_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027544_1-aopzca.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027544_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="10">
+     <felt navn="id" format="Long">3027545</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027545_1-kqufwd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027545_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027545_1-kqufwc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027545_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027545_1-kqufwb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027545_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027545_1-kqufwa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027545_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="11">
+     <felt navn="id" format="Long">3027546</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027546_1-gcioud.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027546_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027546_1-gciouc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027546_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027546_1-gcioub.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027546_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027546_1-gcioua.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027546_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="12">
+     <felt navn="id" format="Long">3027547</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027547_1-ztzyvd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027547_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027547_1-ztzyvc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027547_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027547_1-ztzyvb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027547_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027547_1-ztzyva.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027547_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="13">
+     <felt navn="id" format="Long">3027548</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027548_1-pnqfld.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027548_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027548_1-pnqflc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027548_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027548_1-pnqflb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027548_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027548_1-pnqfla.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027548_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="14">
+     <felt navn="id" format="Long">3027549</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027549_1-smzihd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027549_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027549_1-smzihc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027549_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027549_1-smzihb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027549_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027549_1-smziha.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027549_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="15">
+     <felt navn="id" format="Long">3027550</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027550_1-nzmvtd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027550_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027550_1-nzmvtc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027550_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027550_1-nzmvtb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027550_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027550_1-nzmvta.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027550_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="16">
+     <felt navn="id" format="Long">3027551</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027551_1-kipayd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027551_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027551_1-kipayc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027551_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027551_1-kipayb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027551_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027551_1-kipaya.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027551_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="17">
+     <felt navn="id" format="Long">3027552</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027552_1-uljmbd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027552_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027552_1-uljmbc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027552_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027552_1-uljmbb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027552_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027552_1-uljmba.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027552_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="18">
+     <felt navn="id" format="Long">3027553</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027553_1-akkpgd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027553_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027553_1-akkpgc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027553_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027553_1-akkpgb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027553_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027553_1-akkpga.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027553_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="19">
+     <felt navn="id" format="Long">3027554</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027554_1-ibwqpd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027554_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027554_1-ibwqpc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027554_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027554_1-ibwqpb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027554_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027554_1-ibwqpa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027554_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="20">
+     <felt navn="id" format="Long">3027555</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027555_1-gfrred.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027555_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027555_1-gfrrec.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027555_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027555_1-gfrreb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027555_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027555_1-gfrrea.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027555_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="21">
+     <felt navn="id" format="Long">3027556</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027556_1-xolttd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027556_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027556_1-xolttc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027556_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027556_1-xolttb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027556_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027556_1-xoltta.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027556_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="22">
+     <felt navn="id" format="Long">3027557</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027557_1-wkdidd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027557_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027557_1-wkdidc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027557_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027557_1-wkdidb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027557_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027557_1-wkdida.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027557_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="23">
+     <felt navn="id" format="Long">3027558</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027558_1-inzzod.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027558_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027558_1-inzzoc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027558_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027558_1-inzzob.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027558_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027558_1-inzzoa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027558_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="24">
+     <felt navn="id" format="Long">3027559</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027559_1-vofjgd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027559_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027559_1-vofjgc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027559_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027559_1-vofjgb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027559_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027559_1-vofjga.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027559_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="25">
+     <felt navn="id" format="Long">3027560</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027560_1-wdozpd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027560_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027560_1-wdozpc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027560_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027560_1-wdozpb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027560_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027560_1-wdozpa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027560_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="26">
+     <felt navn="id" format="Long">3027561</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027561_1-jyfsxd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027561_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027561_1-jyfsxc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027561_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027561_1-jyfsxb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027561_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027561_1-jyfsxa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027561_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="27">
+     <felt navn="id" format="Long">3027564</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027564_1-htfncd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027564_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027564_1-htfncc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027564_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027564_1-htfncb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027564_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027564_1-htfnca.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027564_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+   <bilde nr="28">
+     <felt navn="id" format="Long">3027565</felt>
+     <felt navn="versjon" format="Long">1</felt>
+     <felt navn="urlthumbnail" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027565_1-ylvkfd.jpg</felt>
+     <felt navn="thumbnailfil" format="String" maxlen="20">3027565_1d.jpg</felt>
+     <felt navn="urllitebilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027565_1-ylvkfc.jpg</felt>
+     <felt navn="litebildefil" format="String" maxlen="20">3027565_1c.jpg</felt>
+     <felt navn="urlstandardbilde" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027565_1-ylvkfb.jpg</felt>
+     <felt navn="standardbildefil" format="String" maxlen="20">3027565_1b.jpg</felt>
+     <felt navn="urloriginalbilde" format="String" maxlen="510">http&#58;&#47;&#47;external.webmegler.no&#47;wngetbilde.ashx&#63;&#47;abilde&#47;k112&#47;f&#92;bilder&#92;2011&#92;1&#92;5&#92;3027565_1-ylvkfa.jpg</felt>
+     <felt navn="originalbildefil" format="String" maxlen="20">3027565_1a.jpg</felt>
+     <felt navn="type_mappenavn" format="String" maxlen="50">2</felt>
+     <felt navn="type_navn" format="String" maxlen="50">A</felt>
+   </bilde>
+  </bilder>
+  <dokumenter>
+   <dokument nr="1" autoprospekt="0">
+     <felt navn="id" format="Long">3049416</felt>
+     <felt navn="versjon" format="Integer">2</felt>
+     <felt navn="urldokument" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetfile.ashx&#63;&#47;k112&#47;apdokument&#47;i3049416&#47;pqqplkxlepg</felt>
+     <felt navn="filtype" format="String" maxlen="10">pdf</felt>
+     <felt navn="navn" format="String" maxlen="100">61110067 &#229;lestrandveien 9</felt>
+     <felt navn="mappenavn" format="String" maxlen="50">annet</felt>
+   </dokument>
+   <dokument nr="2" autoprospekt="0">
+     <felt navn="id" format="Long">3049383</felt>
+     <felt navn="versjon" format="Integer">2</felt>
+     <felt navn="urldokument" format="String" maxlen="100">http&#58;&#47;&#47;external.webmegler.no&#47;wngetfile.ashx&#63;&#47;k112&#47;apdokument&#47;i3049383&#47;pzjedxqpsdj</felt>
+     <felt navn="filtype" format="String" maxlen="10">pdf</felt>
+     <felt navn="navn" format="String" maxlen="100">&#229;lestrandveien 9</felt>
+     <felt navn="mappenavn" format="String" maxlen="50">annet</felt>
+   </dokument>
+  </dokumenter>
+  <lenker>
+  </lenker>
+ </eneiendom>
+</eiendommer>

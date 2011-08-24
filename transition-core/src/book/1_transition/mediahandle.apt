@@ -1,0 +1,104 @@
+                -----
+                Media Handling
+                -----
+
+~~~~~~~~~~~~~~~~~~~~~~
+MediaHandling
+~~~~~~~~~~~~~~~~~~~~~~
+
+ MediaHandle system responsible for handling media in each ad. Checking it status if the
+ media is missing, uploaded or already in production. And set mediastatus in mediastate
+ table accordingly.
+
+ For checking media in advertisement, we look into the xml and search for media information.
+ After we get the media information such as file name and md5 value. We then look in media
+ folder if the media is there. If the media is in media folder then we mark the media
+ status in mediastate table as UPLOADED and wait to be processed in MediaCopy.
+
+ However, if media is missing from the ad (media not found in media folder or md5 is not
+  match). The ad will be directed to media missing queue and wait to be processed again.
+  We doing this because sometime client upload media file after they send us the xml ad.
+  Thus, we need to wait for some time.
+
+ If client upload the missing media within the time limit, then we mark the media as
+ UPLOADED. Otherwise, mark media as MISSING.
+
+ The diagram below showing the general flow of the system. However, in practical each
+ format has it own way to send us the media. For example,
+ emprof does not uploaded is the media, but instead send us the image URL in the xml.
+ Then we need to try to download the image from URL before
+ checking in the media path.
+
+ The overview of the MadiaHandle system is as follows:
+
+[images/MediaHandler.png]
+
+ This component need 2 parameters.
+
+ 1.xmlStringAd is the xml contents that user upload into Transition.
+
+ 2.adType is the customer format that need to transform.
+
+ The MediaHandling component will check for the adType that Transition support or not.
+ If not the exception must be handle and keep the log into logerror.
+ Otherwise the xmlStringAd will be convert into XmlBean according to adType, then the Transition chek if the transaction
+ is closed or not.
+ It will be go to media copy queue when the transaction closed.
+
+ Otherwise  the Transition will retrieve AdStateModel for the ad from AdState table.
+
+ Then the Transition will retrieve media form the ad(now store in xmlBean) and put into MediaStateModel list and set
+ media status to "Missing' for it all.
+
+ After that the Transition will retrive the media from MediaState Table with the same ClientId and ClientRef(that store
+ in Exchange Header) and add them into the temporary list.Then the Transition will compare MediaStateModel list and
+ temporary list to check for each media in MediaStateModel if existed in the database set media status to "Production".
+  Otherwise the Transiton will be check if the client uploaded the media into the ftp upload path then set the media
+  status to "Uploaded"
+
+ After that mediaState will be save into Database and remove unused mediastate from database.
+
+ Then the Transiton will be check if the media still missing(client still not up load in to the ftp upload path) it's
+ will be send into the media missing queue otherwise send to media copy queue.
+
+ By the way the Transition will lookup for the media missing queue every 30 seconds it will get the ad from the queue
+ then check if the add timeout(10 minutes) or not (incoming time of the add was store in Exchange Header).
+    If it not time out it will send back to MediaHandling component again otherwise send to media copy queue.
+
+~~~~~~~~~~~~~~~~~~~~~~
+MediaCopy
+~~~~~~~~~~~~~~~~~~~~~~
+
+ MediaCopy component responsible for copy media from media path to production path in each ad. First it will check the
+ media in advertisement iff the status if the media is UPLOADED.
+ If yes, then media copy will try to copy the media from media folder to production folder and set status in mediastate
+ table to = PRODUCTION.
+
+ <<Note>>: MediaCopy component will copy media with status equals to UPLOADED only.
+
+[images/mediaCopy.png]
+
+    After finish on MedeaHandle component or timeout the ad will pass to MediaCopy Component.
+
+
+    MediaCopy component will get the media upload path from MediaHandlerUtility class and get the production path from
+    the TransitionProperties class and generate  the production file name (production path+MD5(prodRef).
+
+    Then the component extract the TransportWrapper to get the media list for each ad.Then looping for media list to
+    copy each media in ad from source to destination production file.If the component can copy the media from source
+    file(upload path + media file name) to production file the MediaStatus will set to PRODUCTION and the ad will move
+    to Transformation Queue.
+
+TransportWrapper Class Diagram
+
+[images/TransportWrapperClassDiagram.png]
+
+~~~~~~~~~~~~~~~~~~~~~~
+MediaDelete Component
+~~~~~~~~~~~~~~~~~~~~~~
+
+[images/MediaDeleteComponent.png]
+
+  MediaDelete's Component will be invoke by timer  every 24 hours (but can be change in transition configuration) to
+  lookup the file in FTP Media directory and check if files is expired or not (the files that store in FTP's folder
+  that older than 60 days ) if it will be delete the file from the FTP's folder..

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+    <Property>
+        <Client>21842</Client>
+        <Contacts>
+            <Contact>
+                <Name>Rita Høyen Hovde</Name>
+                <Email>rita.hoyen.hovde@garanti.no</Email>
+                <Phone>62 51 24 28</Phone>
+                <Mobile>472 83 384</Mobile>
+                <Address CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>HOBL011122</ClientsRef>
+        <Status Code="SOLGT"/>
+        <Publish FromDate="2011-02-17" ToDate="2011-07-31"/>
+        <Sold Date="2011-06-30"/>
+        <Type>leilighet</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>Pen og oppusset rekkehusleilighet over to plan med kjeller!</Title>
+        <Address Street="Dalstuvegen 4 C" PostCode="2340" City="LØTEN" CountryCode="NO"/>
+        <Matrikkel Kommune="0415" GNR="23" BNR="94"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">1290000</Price>
+            <Price Name="Husleie" Curr="NOK" Per="Måned">5122</Price>
+            <Price Name="Solgtpris" Curr="NOK" Display="Skjult">1275000</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">496274</Price>
+            <Price Name="Formue" Curr="NOK">14840</Price>
+            <Price Name="Andel fellesutgifter" Curr="NOK" Per="Måned">5122</Price>
+            <Price Name="Fellesutgifter_inkluderer">Felleskostnadene dekker nedbetaling av andel fellesgjeld, kabel-tv, internett, forretningsførerhonorar, vedlikehold, kommunale avgifter, snøbrøyting og sandstrøing, forsikring og andre driftskostnader.</Price>
+            <Price Name="Omkostninger_for_kjoper">Innmelding HOBBL, inkl. årskontingent for inneværende år, kr 750,-. Dersom leiligheten skal eies av to eller flere, må alle være medlem i HOBBL.
+                Avklaring forkjøpsrett, kr 4.300,-.
+                Hjemmelsoverføring, kr 430,-.
+                Tinglysning pantedokument, kr 430,- pr. tinglysning.
+                Panteattest, kr 202,-.</Price>
+            <Price Name="Laanevilkaar_fellesgjeld">Borettslaget har ett lån i Dnb Nor Bank ASA som ble tatt opp i 2008. Lånet er ett  annuitetslån som har fast rente frem til 30.03.13 på 5.89%. Restsaldo per 02.02.11 var kr. 9 237 086,-. Lånet beregnes innfridd 30.06.38.</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruksareal">147</Area>
+            <Area Name="Tomteareal">9600</Area>
+            <Area Name="primaererom_areal">135</Area>
+            <Area Name="primaererom_ledetekst">Arealbeskrivelse</Area>
+            <Area Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>andel</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>1979</BuiltYear>
+        <BedRooms>3</BedRooms>
+        <Rooms>4</Rooms>
+        <Floor>2</Floor>
+        <EnergyClass>G</EnergyClass>
+        <HeatingColorCode>5</HeatingColorCode>
+        <Viewings>
+            <ViewingText>Etter avtale med Garanti.
+
+                Det kan også avtales visning direkte med selger Knut Dahl, 97 68 76 95!</ViewingText>
+        </Viewings>
+        <TextFields>
+            <Text Name="Borettslag">Elvebakken borettslag</Text>
+            <Text Name="Inneholder">4 roms rekkehusleilighet over to plan med kjeller.
+
+                1. etg. består av vindfang, entré, stue og kjøkken med utgang til terrasse.
+                2. etg. består av gang, 3 soverom, bad og wc.
+                Kjeller består av gang, lagringsrom, vaskerom og kjellerstue.
+
+                I forbindelse med inngangangspartiet er det en stor uisolert bod, og terrasseplatting.</Text>
+            <Text Name="Beliggenhet">Elvebakken borettslag består av 20 rekkehusleiligheter. Borettslaget ligger like ved Løten sentrum med tilgang til alle fasiliteter. Kort vei til barnehage og skole.</Text>
+            <Text Name="Adkomst">Ta av til høyre inn på Østvangvegen fra Riksvei 3 og så videre til første avkjøring til høyre inn Dalstuvegen. Kommer du fra Løten sentrum så følg Meierivegen og ta til venstre inn på Østvangvegen og så første inn til venstre på Dalstuvegen.</Text>
+            <Text Name="Standard">Velholdt og pen leilighet som har blitt vesentlig oppgradert og oppusset siden 2007. Leiligheten fremstår som lys og innbydende, og bærer preg av gode materialvalg. Alle veggoverflater i første- og andreetasje er malt, og det er lagt nye gulv i nesten alle oppholdsrom. Leiligheten har terrasse på begge sider, med gode solforhold.
+
+                Romslig vindfang som er adskilt med dør inn til entré. Lys og åpen entré med speil-skyvedørsgarderobe. Kjøkkenet ble pusset opp i 2007 av kjøkkenfornyer,og det fikk nye fronter og noen nye skap og skuffer. Laminert benkeplate og ventilator i rustfri stål-utførelse. Oppvaskmaskin følger leiligheten ved salget. Veggoverflater på kjøkken er malt, og det er lagt nytt laminatgulv.
+                Romslig stue med vedovn, hvor det også er god plass til spisestue. Det er lagt belgg på stue og entré i skipsgulv-utførelse. Alle soverommene i andre etasje  har garderobeskap. Toalett med servant og wc. Badet ble pusset opp i 2007 med nytt vinylbelegg på gulv og baderomsplater på vegg. Det ble satt inn ny baderomsinnredning med god skapplass og nytt dusjkabinett.
+                I kjeller er det eget vaskerom med skyllekar, vv-bereder og opplegg for vaskemaskin. Romslig kjellerstue med lakkert tregulv, og panel på vegger.
+
+                Eksempler på overflater:
+
+                Vegg: Malt glassfiberstrie og våtromsplater.
+                Gulv: Vinylbelegg, laminatgulv og våtromsbelegg.
+                Himling: Behandlet panel og malte takplater.</Text>
+            <Text Name="Diverse">Selger har tegnet eierskifteforsikring. Interessenter oppfordres til å gjøre seg kjent med vedlagte egenerklæringsskjema.</Text>
+            <Text Name="Parkering">Boretslaget har 13 garasjer som leies ut. Disse er det venteliste på . Det er også to motorvarmerplasser som leies ut. Ellers parkering på borettslagets biloppstillingsplass.</Text>
+            <Text Name="Tomten">Eiet tomt på 9 600 kvm.</Text>
+            <Text Name="Oppvarming">Oppvarming ved varmepumpe, vedovn, og elektrsiske panelovner.
+
+                Det ble montert varmepumpe i 2009.</Text>
+            <Text Name="Dyrehold">Eventuelt husdyrhold skal godkjennes av styret i borettslaget etter søknad.</Text>
+            <Text Name="Regulering">Tomten er regulert til bolig.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="kabel-tv"/>
+        </Options>
+        <Links>
+            <Link Title="Virtuell visning" Type="C360">227443</Link>
+        </Links>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Hovedbilde" LastModified="2011-05-06 15:01">file:HOBL011122-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Hovedbilde" LastModified="2011-05-06 15:01">file:HOBL011122-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade" LastModified="2011-05-06 15:01">file:HOBL011122-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-05-06 15:01">file:HOBL011122-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-05-06 15:01">file:HOBL011122-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-05-06 15:01">file:HOBL011122-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-05-06 15:01">file:HOBL011122-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad" LastModified="2011-05-06 15:01">file:HOBL011122-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad" LastModified="2011-05-06 15:01">file:HOBL011122-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2011-05-06 15:01">file:HOBL011122-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2011-05-06 15:01">file:HOBL011122-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjeller" LastModified="2011-05-06 15:01">file:HOBL011122-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Gang" LastModified="2011-05-06 15:01">file:HOBL011122-13.JPG</Picture>
+            <PDF Type="application:pdf" Title="Takst">file:HOBL011122_takst.pdf</PDF>
+            <PDF Type="application:pdf" Title="Salgsoppgave">file:HOBL011122_salgsoppgave.pdf</PDF>
+        </Media>
+    </Property>
+</TAS.Import>

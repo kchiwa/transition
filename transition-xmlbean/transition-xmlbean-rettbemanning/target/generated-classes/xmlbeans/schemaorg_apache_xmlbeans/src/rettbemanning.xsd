@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:intelliplan="http://www.intelliplan.se">
+
+    <xs:import schemaLocation="intelliplan.xsd"
+               namespace="http://www.intelliplan.se"/>
+
+    <!-- definition of simple elements -->
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="link" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="language" type="xs:string"/>
+    <xs:element name="lastbuilddate" type="xs:string"/>
+    <xs:element name="generator" type="xs:string"/>
+    <xs:element name="guid" type="xs:string"/>
+    <xs:element name="pubdate" type="xs:string"/>
+    <xs:element name="category" type="xs:string"/>
+
+
+    <xs:element name="item">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"/>
+                <xs:element ref="link"/>
+                <xs:element ref="guid"/>
+                <xs:element ref="pubdate"/>
+                <xs:element ref="description"/>
+                <xs:element ref="category"/>
+                <xs:element ref="intelliplan:descriptions"/>
+                <xs:element ref="intelliplan:id" minOccurs="1"/>
+                <xs:element ref="intelliplan:numberofpositionstofill"/>
+                <xs:element ref="intelliplan:type"/>
+                <xs:element ref="intelliplan:jobpositiontitle"/>
+                <xs:element ref="intelliplan:jobpositiontitleid"/>
+                <xs:element ref="intelliplan:jobpositioncategoryid"/>
+                <xs:element ref="intelliplan:joblocation"/>
+                <xs:element ref="intelliplan:joblocationid"/>
+                <xs:element ref="intelliplan:joboccupation"/>
+                <xs:element ref="intelliplan:joboccupationid"/>
+                <xs:element ref="intelliplan:jobcategory"/>
+                <xs:element ref="intelliplan:jobcategoryid"/>
+                <xs:element ref="intelliplan:service"/>
+                <xs:element ref="intelliplan:servicecategory"/>
+                <xs:element ref="intelliplan:country"/>
+                <xs:element ref="intelliplan:countryid"/>
+                <xs:element ref="intelliplan:state"/>
+                <xs:element ref="intelliplan:stateid"/>
+                <xs:element ref="intelliplan:municipality"/>
+                <xs:element ref="intelliplan:municipalityid"/>
+                <xs:element ref="intelliplan:company" minOccurs="1"/>
+                <xs:element ref="intelliplan:companylogourl" minOccurs="0"/>
+                <xs:element ref="intelliplan:employmentextent"/>
+                <xs:element ref="intelliplan:employmentextentid"/>
+                <xs:element ref="intelliplan:employmenttype"/>
+                <xs:element ref="intelliplan:employmenttypeid"/>
+                <xs:element ref="intelliplan:joblevel"/>
+                <xs:element ref="intelliplan:joblevelid"/>
+                <xs:element ref="intelliplan:contact1name" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact1email" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact1phone" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact2name" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact2email" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact2phone" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact3name" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact3email" minOccurs="0"/>
+                <xs:element ref="intelliplan:contact3phone" minOccurs="0"/>
+                <xs:element ref="intelliplan:pubdateto"/>
+                <xs:element ref="intelliplan:lastupdated"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="channel">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="title"/>
+                <xs:element ref="link"/>
+                <xs:element ref="description"/>
+                <xs:element ref="language"/>
+                <xs:element ref="lastbuilddate"/>
+                <xs:element ref="generator"/>
+                <xs:element ref="item" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:attribute name="version" type="xs:string"/>
+
+    <xs:element name="rss">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="channel" minOccurs="1"/>
+            </xs:all>
+            <xs:attribute ref="version"/>
+        </xs:complexType>
+    </xs:element>
+
+
+</xs:schema>

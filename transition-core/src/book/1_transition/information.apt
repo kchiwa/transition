@@ -1,0 +1,64 @@
+                        -----
+                        Transition Administrative Information
+                        -----
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can we add the new customer with the existing format.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ 1. go to YALA(and LDAP system) for create the FTP Account, remember the username and the password that we created.
+
+ 2. go to Zett Admin for create the company in the Zett System , remember the Zett Client Id for this company. (such
+ as Company = jobzone , Zett Client Id = 680803)
+
+ 3. go to the Transition Admin page
+
+ 4. click the << Login >> tab and then click << Create new Login >> link
+
+[images/newcustomer_01.png]
+
+ 5. the Login page will be display like the picture below
+
+[images/newcustomer_02.png]
+
+ input the information about this new customer as shown in Table 1.
+
+*------+------+------+
+|| Field Name || Description || Example ||
+*------+------+------+
+| Login |ftp username that we create at YALA |jobzone|
+*------+------+------+
+| Password |password for ftp account that we create at YALA|password|
+*------+------+------+
+| Format |choose the format for this customer|iadifjob|
+*------+------+------+
+| Protocol |choose the protocol for upload the ad of this customer - HTTP is download the ad from http url \ , FTP
+is upload to ftp folder or BOTH |BOTH|
+*------+------+------+
+Table 1 Login Description
+
+ 6. click the << Partner >> tab and then click << Create new Partner >>. it will redirect to the partner page
+
+[images/newcustomer_03.png]
+
+
+ 7. the Partner page will be display like the image below.
+
+[images/newcustomer_04.png]
+
+ input the information about this partner as shown in Table 2.
+
+*------+------+------+
+|| Field Name || Description || Example ||
+*------+------+------+
+| Login |select login name same as the client name that we input in the step 5 |jobzone|
+*------+------+------+
+| Identifier |input the external client reference for this log in |jobzone|
+*------+------+------+
+| Password |input the password for this external client reference|password|
+*------+------+------+
+| ZClientId |the Zett Client ID of this external client reference that we create at Zett Admin|680803|
+*------+------+------+
+| Description |input the description about this external client reference|JOB Zone|
+*------+------+------+
+Table 2 Partner Description

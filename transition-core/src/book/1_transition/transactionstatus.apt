@@ -1,0 +1,39 @@
+                    ------
+                    Transaction Status
+                    ------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How we deal with closed/deleted advertisement
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ In Transition we deal with closed and deleted advertisement as the same thing. We do not actually delete any advertisement
+ from our system. But, instead we change the transaction status in the advertisement to "CLOSED".
+
+ In technical you can see the transaction status of each advertisement in Transition's Advertisement Lookup page. and you can
+ also see the status directly in the database. In "transitionstate.adstate" you will see a column "status" with number 0-4.
+
+ 0 = IN QUEUE\
+ 1 = OK\
+ 2 = ERROR\
+ 3 = CLOSED\
+ 4 = MISSING MEDIA
+
+ Therefore, when the advertisement is closed or deleted. The status of the ad will be set to 3 (CLOSED). And no advertisement
+ will be deleted from the system.
+
+ Below is an example from adstate table. Advertisements with state=3 is the advertisements that closed or deleted.
+
+
+*----+--------------+-------------+-----------+------------------------------------------+---------------+---------------+--------+---------------+-------------+
+|| id || filestate_id || zadobjectid || zclientid || shahash                                  || modifiedtime  || createdtime   || status || adexternalref || errorlog_id ||
+*----+--------------+-------------+-----------+------------------------------------------+---------------+---------------+--------+---------------+-------------+
+|  1 |            5 |     1989965 |   1747664 | 7dc3eaead20a7677a9010b9047de2f8520deacc4 | 1301635461169 | 1301635440904 |      1 | HQ00008891    |        NULL |
+*----+--------------+-------------+-----------+------------------------------------------+---------------+---------------+--------+---------------+-------------+
+|  2 |            5 |     1989964 |   1747664 | 4364fd4b22042fcddd970d74dd6e18a152517a4e | 1301635461169 | 1301635440906 |      1 | HQ00008890    |        NULL |
+*----+--------------+-------------+-----------+------------------------------------------+---------------+---------------+--------+---------------+-------------+
+|  3 |            5 |     1989963 |   1747664 | 1f4c0b5c24a05b572fdd0f07c06d033ef431f83f | 1301635461161 | 1301635440907 |      3 | HQ00008892    |        NULL |
+*----+--------------+-------------+-----------+------------------------------------------+---------------+---------------+--------+---------------+-------------+
+|  4 |           13 |     1989962 |     22115 | c1dbae70bed36d8f60639f2db9cd1fbf8e233190 | 1301635626188 | 1301635601253 |      3 | EIE061052     |        NULL |
+*----+--------------+-------------+-----------+------------------------------------------+---------------+---------------+--------+---------------+-------------+
+
+

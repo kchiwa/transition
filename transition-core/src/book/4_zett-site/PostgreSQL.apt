@@ -1,0 +1,93 @@
+                -----
+                PostgreSQL Configuration
+                -----
+
+Import database into Postgresql
+
+ *Download or copy the files from
+ {{{http://apdm.dev.abctech-thailand.com/zettDump/}http://apdm.dev.abctech-thailand.com/zettDump/}}
+
++--
+cd $HOME/Download
+# Scp is probably an easier way of copying the file:
+scp -r apdm:/var/www/zettDump/ .
+
+# Unzip the zip file:
+cd zettDump
+gzip -d *.gz
+
+# Change to the postgres user, and import the file:
+sudo su - postgres
+psql -U postgres -f ~YOUR_USER/Downloads/zettDump/postgresql.zett.no.dump.xxxxxx
++--
+
+PostgreSQL Configuration
+
+ Login Postgresql
+
++--
+~/etc/postgresql/8.4/main$ sudo su - postgres
++--
+
+ Config Postgresql for local
+
++--
+ vi /etc/postgresql/8.4/main/pg_hba.conf
++--
+
+ Change at column "ident" and row "local" to <<trust>>
+
++--
+---------------------------------------------------------
+# "local" is for Unix domain socket connections only
+local   all     	all                         trust
+---------------------------------------------------------
++--
+
+ Database configuration
+
++--
+# Login psql with zett
+~/etc/postgresql/8.4/main$ psql -U zett;
+
+# Config the database
+ALTER TABLE ad_object_categories_values ADD column numbering INT;
++--
+
+ /zett/zett-maintenance/src/main/resources/<<maintenance.properties>>
+
++--
+---------------------------------------------------------
+# The locations where the export files will be saved.
+database.driver=org.postgresql.Driver
+database.zett.url=jdbc:postgresql://localhost:5432/zett
+database.login=zett
+database.password=zett
+---------------------------------------------------------
++--
+
+ /zett/zett-data/src/main/resources/<<datasource.properties>>
+
++--
+---------------------------------------------------------
+dataSource.zett.driverClassName=org.postgresql.Driver
+dataSource.zett.url=jdbc\:postgresql\://localhost\:5432/zett
+dataSource.zett.username=zett
+dataSource.zett.password=zett
+dataSource.zett.initialSize=5
+dataSource.zett.maxActive=15
+dataSource.zett.maxIdle=2
+dataSource.zett.minIdle=2
+dataSource.zett.maxWait=1000
+
+dataSource.import.driverClassName=org.postgresql.Driver
+dataSource.import.url=jdbc:postgresql://localhost:5432/import_state
+dataSource.import.username=zett
+dataSource.import.password=zett
+dataSource.import.initialSize=5
+dataSource.import.maxActive=15
+dataSource.import.maxIdle=2
+dataSource.import.minIdle=2
+dataSource.import.maxWait=1000
+---------------------------------------------------------
++--

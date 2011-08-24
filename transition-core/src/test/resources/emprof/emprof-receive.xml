@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Receipt>
+    <Ad>
+        <ClientId>21790</ClientId>
+        <MidasAdRef>115141</MidasAdRef>
+        <ZettID>123456</ZettID>
+        <URL>http://zetturl/?123</URL>
+        <Status Code="SUCCESS">Successfully imported</Status>
+    </Ad>
+    <Attachment>
+        <MidasAdRef>115141</MidasAdRef>
+        <ImageURL>http://localhost:8080/transition/test/emprof/happyday/1151411.JPG</ImageURL>
+        <ImageRef>8894932</ImageRef>
+        <Status Code="SUCCESS">OK</Status>
+    </Attachment>
+    <Attachment>
+        <MidasAdRef>115141</MidasAdRef>
+        <ImageURL>http://localhost:8080/transition/test/emprof/happyday/1151412.JPG</ImageURL>
+        <ImageRef>8894933</ImageRef>
+        <Status Code="SUCCESS">OK</Status>
+    </Attachment>
+    <Attachment>
+        <MidasAdRef>115141</MidasAdRef>
+        <ImageURL>http://localhost:8080/transition/test/emprof/happyday/1151413.JPG</ImageURL>
+        <ImageRef>8894934</ImageRef>
+        <Status Code="SUCCESS">OK</Status>
+    </Attachment>
+</Receipt>

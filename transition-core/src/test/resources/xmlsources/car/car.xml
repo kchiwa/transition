@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Rec>
+
+    <Bil unikid="A880080016" kontroll="8" kommando="update">
+        <Kjoretoygruppe>1</Kjoretoygruppe>
+        <Merke>Audi</Merke>
+        <Modell>A6</Modell>
+        <Karosserifasong>4</Karosserifasong>
+        <Pris>160000</Pris>
+        <Arsmodell>2000</Arsmodell>
+        <Kmstand>167200</Kmstand>
+        <Motorstorrelse>2.5</Motorstorrelse>
+        <Variant>A6 AVANT QUA 2.5TDI V6</Variant>
+        <ChassisNr>WAUZZZ4BZYN057785</ChassisNr>
+        <Solgt>0</Solgt>
+        <Farge>gr&#248;nn</Farge>
+        <Effekt>150</Effekt>
+        <Bilder>
+            <Bilde bilde="1_8964L.JPG" prioritet="0" md5="ED541E861A9BC070841AD9E51C5FB392" desc="Hovedbilde"/>
+            <Bilde bilde="1_8964L_10.JPG" prioritet="1" md5="342B74741AC0D89E7559205EEFB3954B" desc="Bilde 10"/>
+            <Bilde bilde="1_8964L_11.JPG" prioritet="2" md5="791A131E39FECB42BC5ECE695E30E25C" desc="Bilde 11"/>
+            <Bilde bilde="1_8964L_12.JPG" prioritet="3" md5="711D4B6D58905ACAAC7980E65F552AC4" desc="Bilde 12"/>
+            <Bilde bilde="1_8964L_5.JPG" prioritet="4" md5="29F29C2A6A0FDC2273587AF919D39245" desc="Bilde 5"/>
+        </Bilder>
+        <InklOmreg>1</InklOmreg>
+        <InklArsavg>0</InklArsavg>
+        <Ekstrautstyr>
+            ;Tiptronic,automat;Firehjulstrekk,Quattro;Servostyring,Servostyring;Hengerfeste,Hengerfeste;Motorvarmer,Motorvarmer;vinterhjul
+            m/pigg,vinterhjul m/pigg;alufelger,alufelger;abs,abs;kollisjonsputer,kollisjonsputer;justerbart
+            ratt,justerbart ratt;el. vinduer,el.
+            vinduer;setevarmer,setevarmer;metallic,metallic;Radio/CD,Radio/CD;el.speil,el.speil;skinn,skinn;sideairbag,sideairbag;f&#248;rerinfosystem,f&#248;rerinfosystem;fj.sentrall&#229;s,fj.sentrall&#229;s;CD-veksler,CD-veksler;kurve/t&#229;kelys,kurve/t&#229;kelys;Midtarmlene,Midtarmlene;Cruisekontroll,klima-anlegg;el.seter
+            u/minne,el.seter u/minne;Metallic lakk,Metallic lakk
+        </Ekstrautstyr>
+        <Reservert>0</Reservert>
+        <KommerInn/>
+        <SomForevist>0</SomForevist>
+        <Drivstoff>D</Drivstoff>
+        <Lastevolum/>
+        <AntEiere/>
+        <AntSeter>5</AntSeter>
+        <Kommentar>Stor og flott a6 selges! Meget godt utstyrt med stor dieselmotor og 4x4! Denne har absolutt alt og
+            mer til! Den har dessuten skiftet regreim, vannpumpe og hatt den mest omfattende servicen disse bilene kan
+            ha, for kun 5000 km siden! Da ble ogs&#229; bremsev&#230;skeskift foretatt og kammene ble skiftet! Denne
+            kraftpluggen er med andre ord sv&#230;rt klar for en ny eier som ikke skal trenge &#229; bekymre seg for
+            ekstra kostnader. Velkommen til oss for en titt og pr&#248;ving!
+
+            Ta kontakt for en hyggelig bilprat.
+
+            Martin
+            95705399
+            martin.harila@moller.no
+        </Kommentar>
+        <Vekt>1725</Vekt>
+        <Garanti>Bruktbilgaranti</Garanti>
+        <RegNr>FS99801</RegNr>
+        <Demobil>0</Demobil>
+        <Kommisjonsbil>0</Kommisjonsbil>
+        <Basisfarge>4</Basisfarge>
+        <Drivhjul>Quattro</Drivhjul>
+        <Girtype>Automat</Girtype>
+        <Slepevekt>1900</Slepevekt>
+        <FargeInnvendig/>
+        <OmregAvgift/>
+        <Kontaktpersoner>
+            <Kontaktperson>1_2</Kontaktperson>
+        </Kontaktpersoner>
+    </Bil>
+
+    <Kontaktpunktliste>
+        <Kontaktpunkt id="1_3">
+            <Navn>Hans Kristiansen</Navn>
+            <Telefon/>
+            <Mobil/>
+            <Email/>
+            <Beskrivelse>Hans Kristiansen</Beskrivelse>
+            <Javascript></Javascript>
+        </Kontaktpunkt>
+        <Kontaktpunkt id="1_2">
+            <Navn>Martin Harila</Navn>
+            <Telefon>78955902</Telefon>
+            <Mobil>95705399</Mobil>
+            <Email>martin.harila@moller.no</Email>
+            <Beskrivelse>Martin Harila</Beskrivelse>
+            <Javascript></Javascript>
+        </Kontaktpunkt>
+    </Kontaktpunktliste>
+
+</Rec>
+
+
+
+

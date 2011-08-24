@@ -1,0 +1,7 @@
+<project>
+    <!-- Please do not modify this file. Modify the super-pom -->
+    <body>
+    <menu ref="modules" />
+  </body>
+</project>
+

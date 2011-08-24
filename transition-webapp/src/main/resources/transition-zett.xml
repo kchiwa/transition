@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd">
+
+	<bean id="springApplicationContext" class="no.api.pantheon.spring.SpringApplicationContextProvider" />
+
+	<bean id="daoCacheProperty" class="no.zett.dao.cache.DaoCacheProperty" >
+		<property name="cacheServerHosts">
+			<jee:jndi-lookup jndi-name="java:comp/env/zettMemcachedHost" />
+		</property>
+		<property name="cacheServerWeights">
+			<jee:jndi-lookup jndi-name="java:comp/env/zettMemcachedWeight" /> 
+		</property>
+	</bean>
+	
+	<bean id="baseZettDbTransactionProxy"
+		class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+		abstract="true">
+		<property name="transactionManager">
+			<ref local="zettDbTransactionManager" />
+		</property>
+		<property name="transactionAttributes">
+			<props>
+				<prop key="save*">PROPAGATION_REQUIRED</prop>
+				<prop key="get*">PROPAGATION_REQUIRED</prop>
+				<prop key="runSingleTransactionOperation">PROPAGATION_REQUIRED</prop>
+				<prop key="*">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+	<!-- Using jndi	
+	<bean id="zettDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="org.postgresql.Driver" />
+		<property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/zett" />
+		<property name="user" value="zett" />
+		<property name="password" value="zett" />
+		<property name="idleConnectionTestPeriod" value="600" />
+	</bean>
+ 	-->
+	<bean id="zettDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName" value="java:comp/env/jdbc/DSZett">
+		</property>
+	</bean>
+	
+	<bean id="zettDbTransactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+
+	<bean id="adObjectDao" class="no.zett.data.dao.impl.AdObjectDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="adManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.AdManagerImpl">
+				<property name="adObjectDao">
+					<ref local="adObjectDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+	<!-- PRINTAD ACCESS -->
+	<bean id="printAdObjectDao" class="no.zett.data.dao.impl.PrintAdObjectDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="printAdObjectManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.PrintAdObjectManagerImpl">
+				<property name="printAdObjectDao">
+					<ref local="printAdObjectDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- COMPANY DATA ACCESS -->
+	<bean id="companyObjectDao" class="no.zett.data.dao.impl.CompanyObjectDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="companyManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.CompanyManagerImpl">
+				<property name="companyObjectDao">
+					<ref local="companyObjectDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- PACKAGE DEAL MANAGEMENT -->
+	<bean id="packageDealDao" class="no.zett.data.dao.impl.PackageDealDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+
+	<bean id="packageDealManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.PackageDealManagerImpl">
+				<property name="packageDealDao">
+					<ref local="packageDealDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- PRODUCT CODE MANAGEMENT -->
+	<bean id="productCodeDao" class="no.zett.data.dao.impl.ProductCodeDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="productCodeManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.ProductCodeManagerImpl">
+				<property name="productCodeDao">
+					<ref local="productCodeDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- AD OBJECT MANAGEMENT -->
+	<bean id="adObjectCategoryDao" class="no.zett.data.dao.impl.AdObjectCategoryDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="adObjectCategoryManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.AdObjectCategoryManagerImpl">
+				<property name="adObjectCategoryDao">
+					<ref local="adObjectCategoryDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+	<!-- NEWSPAPER DEALER MANAGEMENT -->
+	<bean id="newspaperDealerDao" class="no.zett.data.dao.impl.NewspaperDealerDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+
+	<bean id="newspaperDealerManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.NewspaperDealerManagerImpl">
+				<property name="newspaperDealerDao">
+					<ref local="newspaperDealerDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- SEARCH ITEM DATA ACCESS -->
+	<bean id="searchItemDao" class="no.zett.data.dao.impl.SearchItemDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="searchItemManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.SearchItemManagerImpl">
+				<property name="searchItemDao">
+					<ref local="searchItemDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- USER ACCESS -->
+	<bean id="userDao" class="no.zett.data.dao.impl.UserDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="userManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.UserManagerImpl">
+				<property name="userDao">
+					<ref local="userDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- MAIL QUEUE -->
+	<bean id="mailQueueDao" class="no.zett.data.dao.impl.MailQueueDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="mailQueueManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.MailQueueManagerImpl">
+				<property name="mailQueueDao">
+					<ref local="mailQueueDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- SEARCH ENGINE QUEUE -->
+	<bean id="searchEngineQueueDao" class="no.zett.data.dao.impl.SearchEngineQueueDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="searchEngineQueueManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.SearchEngineQueueManagerImpl">
+				<property name="searchEngineQueueDao">
+					<ref local="searchEngineQueueDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- SOLR ENGINE QUEUE -->
+	<bean id="solrEngineQueueDao" class="no.zett.data.dao.impl.SolrEngineQueueDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="solrEngineQueueManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.SolrEngineQueueManagerImpl">
+				<property name="solrEngineQueueDao">
+					<ref local="solrEngineQueueDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- MAP FETCHER QUEUE -->
+	<bean id="mapFetcherQueueDao" class="no.zett.data.dao.impl.MapFetcherQueueDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="mapFetcherQueueManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.MapFetcherQueueManagerImpl">
+				<property name="mapFetcherQueueDao">
+					<ref local="mapFetcherQueueDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<!-- SAVED SEARCH MANAGEMENT -->
+	<bean id="savedSearchDao" class="no.zett.data.dao.impl.SavedSearchDaoImpl">
+		<property name="dataSource" ref="zettDataSource" />
+	</bean>
+	<bean id="savedSearchManager" parent="baseZettDbTransactionProxy">
+		<property name="target">
+			<bean class="no.zett.data.managers.impl.SavedSearchManagerImpl">
+				<property name="savedSearchDao">
+					<ref local="savedSearchDao" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,59 @@
+                ------
+                Hermes JMS
+                ------
+
+ HermesJMS is an all purpose JMS browser. It can be downloaded from here: \
+ {{http://sourceforge.net/projects/hermesjms/}} \
+ Download the Hermes jar installer version. As an alternative to
+ SourceForge, it has also been downloaded to:
+ {{http://apdm.dev.abctech-thailand.com/download/}}
+
+~~~~~~~~~~
+Configuration
+~~~~~~~~~~
+
+ Configuration is not straight forward with Hermes, and these steps are intended to make the
+ job easier:
+
+ * Download the installer, and install HermesJMS to a suitable place
+
+ * Start the program
+
+ * Choose the menu item "Options => Configuration"
+
+ * Click "Provider" tab at the bottom, even if it looks gray and un-selectable.
+
+ * Right click and choose <<<Add group>>>. Give it a sensible name.
+
+ * Click the group, and the right click and choose <<<Add jar>>>.
+
+ * Add the following jar files from you maven-repository (possibly in a later version, if applicable):
+
+----
+$HOME/.m2/repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.0_spec/1.0/geronimo-j2ee-management_1.0_spec-1.0.jar
+$HOME/.m2/repository/org/apache/activemq/activemq-core/5.4.1/activemq-core-5.4.1.jar
+----
+
+ * Click OK in order to close the windows.
+
+ * Choose the menu item "Action => New session"
+
+ * In the session preferences window, fill in the following
+
+*----+-----+
+|Session | name the session something |
+*----+-----+
+| Loader | The class path you defined above |
+*----+-----+
+| Class | org.apache.activemq.ActiveMQConnectionFactory |
+*----+-----+
+| ClientID | Your favorite client id |
+*----+-----+
+| Destinations | Add queue names as found in ... TODO
+|              | Examples:  |
+|              | <<<mpress.datatype.fail>>> |
+|              | <<<export.pdf.verify.entry>>> |
+*----+-----+
+
+ If you like to add sessions from the menu, click on the session name,
+ and choose from the menu "Actions => new => Add queue"

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>21918</Client>
+<Contacts>
+<Contact>
+<Name>Kontaktperson Jenni Lill Johansen</Name>
+<Email>jenni.lill.johansen@mosjoen.bbl.no</Email>
+<Phone>75 11 12 50</Phone>
+<Address Street="Strandgata 24" PostCode="8651" City="MOSJØEN" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>MBO011142</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2011-06-30" ToDate="2011-12-27"/>
+<Type>leilighet</Type>
+<AdType>bolig_salg</AdType>
+<Title>KOMMER! Rehabilitert og lys 4-roms leilighet m/integrerte hvitevarer og garasje.</Title>
+<Address Street="Jerpevegen 29" PostCode="8665" City="MOSJØEN" CountryCode="NO"/>
+<Matrikkel Kommune="1824" GNR="117" BNR="498"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">1380000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">5133</Price>
+<Price Name="Verditakst" Curr="NOK">1380000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">332236</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">209868</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+<Price Name="Andel fellesutgifter" Curr="NOK" Per="År">5133</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruttoareal">130</Area>
+<Area Name="Bruksareal">116</Area>
+<Area Name="Tomteareal">311</Area>
+<Area Name="primaererom_areal">114</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+</AreaFields>
+<OwnershipType>andel</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1989</BuiltYear>
+<BedRooms>3</BedRooms>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="ingen gjenboere"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+<Option Name="kabel-tv"/>
+<Option Name="garasje"/>
+<Option Name="off. vann"/>
+<Option Name="utsikt"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Jerpevegen 29." LastModified="2011-06-30 16:54">file:MBO011142-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-06-30 16:54">file:MBO011142-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-06-30 16:54">file:MBO011142-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-06-30 16:54">file:MBO011142-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-30 16:54">file:MBO011142-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-30 16:54">file:MBO011142-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-30 16:54">file:MBO011142-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-30 16:54">file:MBO011142-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-30 16:54">file:MBO011142-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-30 16:54">file:MBO011142-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad/WC" LastModified="2011-06-30 16:54">file:MBO011142-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad/WC" LastModified="2011-06-30 16:54">file:MBO011142-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad/WC" LastModified="2011-06-30 16:54">file:MBO011142-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad/WC" LastModified="2011-06-30 16:54">file:MBO011142-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Entrè" LastModified="2011-06-30 16:54">file:MBO011142-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="Vaskerom/WC" LastModified="2011-06-30 16:54">file:MBO011142-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="Vaskerom/WC" LastModified="2011-06-30 16:54">file:MBO011142-17.JPG</Picture>
+<Picture Type="image:jpeg" Title="Vaskerom/WC" LastModified="2011-06-30 16:54">file:MBO011142-18.JPG</Picture>
+<Picture Type="image:jpeg" Title="Hovedsoverom" LastModified="2011-06-30 16:54">file:MBO011142-19.JPG</Picture>
+<Picture Type="image:jpeg" Title="Hovedsoverom" LastModified="2011-06-30 16:54">file:MBO011142-20.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 2" LastModified="2011-06-30 16:54">file:MBO011142-21.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 2" LastModified="2011-06-30 16:54">file:MBO011142-22.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 3" LastModified="2011-06-30 16:54">file:MBO011142-23.JPG</Picture>
+<Picture Type="image:jpeg" Title="." LastModified="2011-06-30 16:54">file:MBO011142-24.JPG</Picture>
+<Picture Type="image:jpeg" Title="." LastModified="2011-06-30 16:54">file:MBO011142-25.JPG</Picture>
+<Picture Type="image:jpeg" Title="." LastModified="2011-06-30 16:54">file:MBO011142-26.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrasse i 1.etasje" LastModified="2011-06-30 16:54">file:MBO011142-27.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrasse i 1.etasje" LastModified="2011-06-30 16:54">file:MBO011142-28.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrasse i 1.etasjen" LastModified="2011-06-30 16:54">file:MBO011142-29.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt fra terrasse i 1.etasje" LastModified="2011-06-30 16:54">file:MBO011142-30.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrasse i underetasjen" LastModified="2011-06-30 16:54">file:MBO011142-31.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrasse i underetasjen" LastModified="2011-06-30 16:54">file:MBO011142-32.JPG</Picture>
+<Picture Type="image:jpeg" Title="Jordbær-åker" LastModified="2011-06-30 16:54">file:MBO011142-33.JPG</Picture>
+<Picture Type="image:jpeg" Title="Jerpevegen 29" LastModified="2011-06-30 16:54">file:MBO011142-34.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

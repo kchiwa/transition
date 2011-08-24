@@ -1,0 +1,5 @@
+INSERT INTO schedulerstatus ( schedulername, customerformat,clientname,crontrigger, active) VALUES ('Rettbemanning RSS', 'rettbemanning', 'rettbemanning', '0 0 16 * * ?', 1);
+INSERT INTO schedulerstatus ( schedulername, customerformat,clientname,crontrigger, active) VALUES ('WebmeglerRSS RSS', 'webmegler', 'Stavlund AS', '0 0 16 * * ?', 1);
+INSERT INTO schedulerstatus ( schedulername, customerformat,clientname,crontrigger, active) VALUES ('Personalhuset RSS', 'webtemp', 'personalhuset','0 0 16 * * ?', 1);
+INSERT INTO schedulerstatus ( schedulername, customerformat,clientname,crontrigger, active) VALUES ('People4you RSS', 'webtemp', 'people4you', '0 0 16 * * ?', 1);
+INSERT INTO schedulerstatus ( schedulername, customerformat,clientname,crontrigger, active) VALUES ('Sologstrand RSS', 'sologstrand', 'sologstrand', '0 0 16 * * ?', 1);

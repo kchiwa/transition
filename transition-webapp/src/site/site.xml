@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd"
+  name="transition">
+    <bannerLeft>
+        <name>transition-webapp</name>
+    </bannerLeft>
+    <bannerRight>
+        <src>images/abc_api.png</src>
+        <alt>ABC Tech and A-Pressen Logo</alt>
+    </bannerRight>
+  <publishDate position="navigation-bottom" format="dd/MM yyyy"/>
+  <body>
+    <links>
+        <item name="ABC Tech Ltd.(Thailand)" href="http://www.abctech-thailand.com"/>
+        <item name="A-Pressen Digitale Medier (Norway)" href="http://www.apdm.no"/>
+    </links>
+
+    <menu ref="parent" />
+    <menu ref="reports" />
+    <menu ref="modules" />
+  </body>
+</project>

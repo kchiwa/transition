@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zett.no>
+  <Ad Status="CLOSED" TransactionType="" TransactionStatus="CLOSED" AdCategoryId="" ContactPrivacyStatus="" Company="">
+    <Title></Title>
+    <Address>
+      <StreetAddress1></StreetAddress1>
+      <PostCode></PostCode>
+      <PostLocation></PostLocation>
+      <Geography></Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="" System="" SystemVersion=""></Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="" Type=""></ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Name="" Type=""></Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Reference="" Type="">
+        <ElementTitle></ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+</zett.no>

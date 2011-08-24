@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="houses">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="house" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="count" type="xs:integer"/>
+            <xs:attribute name="time" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="house">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="cleaning" />
+                <xs:element ref="deposite" />
+                <xs:element ref="pets" />
+                <xs:element ref="cancellation" />
+                <xs:element ref="consumption" />
+                <xs:element ref="text" />
+                <xs:element ref="pictures" />
+                <xs:element ref="geocode" />
+                <xs:element ref="infotexts" />
+                <xs:element ref="shortstay_rate" />
+                <xs:element ref="aqualands" />
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name="bcode" type="xs:integer"/>
+            <xs:attribute name="countryid" type="xs:string"/>
+            <xs:attribute name="address" type="xs:string"/>
+            <xs:attribute name="destination" type="xs:string"/>
+            <xs:attribute name="zip" type="xs:integer"/>
+            <xs:attribute name="areaid" type="xs:integer"/>
+            <xs:attribute name="adults" type="xs:integer"/>
+            <xs:attribute name="children" type="xs:integer"/>
+            <xs:attribute name="rooms" type="xs:integer"/>
+            <xs:attribute name="doublerooms" type="xs:integer"/>
+            <xs:attribute name="housesize" type="xs:integer"/>
+            <xs:attribute name="sitesize" type="xs:integer"/>
+            <xs:attribute name="build" type="xs:integer"/>
+            <xs:attribute name="renovated" type="xs:integer"/>
+            <xs:attribute name="category" type="xs:integer"/>
+            <xs:attribute name="pets" type="xs:string"/>
+            <xs:attribute name="petnumber" type="xs:integer"/>
+            <xs:attribute name="waterdistance" type="xs:integer"/>
+            <xs:attribute name="shopping" type="xs:integer"/>
+            <xs:attribute name="seaview" type="xs:string"/>
+            <xs:attribute name="cd" type="xs:string"/>
+            <xs:attribute name="radio" type="xs:string"/>
+            <xs:attribute name="tv" type="xs:string"/>
+            <xs:attribute name="video" type="xs:string"/>
+            <xs:attribute name="satellite" type="xs:string"/>
+            <xs:attribute name="phone" type="xs:string"/>
+            <xs:attribute name="internet" type="xs:string"/>
+            <xs:attribute name="stove" type="xs:string"/>
+            <xs:attribute name="sunbed" type="xs:string"/>
+            <xs:attribute name="sauna" type="xs:string"/>
+            <xs:attribute name="jacuzzi" type="xs:string"/>
+            <xs:attribute name="jacuzzi_type" type="xs:string"/>
+            <xs:attribute name="pool" type="xs:string"/>
+            <xs:attribute name="pool_type" type="xs:string"/>
+            <xs:attribute name="washingmachine" type="xs:string"/>
+            <xs:attribute name="dishwasher" type="xs:string"/>
+            <xs:attribute name="tumbler" type="xs:string"/>
+            <xs:attribute name="freezer" type="xs:string"/>
+            <xs:attribute name="freezer_l" type="xs:integer"/>
+            <xs:attribute name="oven" type="xs:string"/>
+            <xs:attribute name="microwave" type="xs:string"/>
+            <xs:attribute name="toilet" type="xs:integer"/>
+            <xs:attribute name="highchair" type="xs:integer"/>
+            <xs:attribute name="theme_wheelchair" type="xs:string"/>
+            <xs:attribute name="theme_angler" type="xs:string"/>
+            <xs:attribute name="deposit" type="xs:string"/>
+            <xs:attribute name="castle" type="xs:string"/>
+            <xs:attribute name="spar1" type="xs:string"/>
+            <xs:attribute name="spar2" type="xs:string"/>
+            <xs:attribute name="spar3" type="xs:string"/>
+            <xs:attribute name="spar4" type="xs:string"/>
+            <xs:attribute name="short_stay" type="xs:string"/>
+            <xs:attribute name="short_stay_type" type="xs:integer"/>
+            <xs:attribute name="shortterm_rental" type="xs:string"/>
+            <xs:attribute name="optional_arrival" type="xs:string"/>
+            <xs:attribute name="default_arrival_day" type="xs:string"/>
+            <xs:attribute name="steamchamber" type="xs:string"/>
+            <xs:attribute name="heatpump" type="xs:string"/>
+            <xs:attribute name="gameconsole" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="nok">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="year" type="xs:integer"/>
+                    <xs:attribute name="short_stay" type="xs:string"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cleaning">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nok" />
+            </xs:sequence>
+            <xs:attribute name="type" type="xs:string"/>
+            <xs:attribute name="type_short_stay" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="deposite">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nok" />
+                <xs:element ref="winteraddition" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="winteraddition">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nok" />
+            </xs:sequence>
+            <xs:attribute name="startdate" type="xs:string"/>
+            <xs:attribute name="enddate" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pets">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nok" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="cancellation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nok" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="consumption">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="dkk" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="text">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="no" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="dkk">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="electricity"/>
+                <xs:element ref="oil"/>
+                <xs:element ref="phone"/>
+                <xs:element ref="gas" minOccurs="0"/>
+                <xs:element ref="water"/>
+            </xs:choice>
+            <xs:attribute name="year" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attribute name="text_dk" type="xs:string"/>
+    <xs:attribute name="text_de" type="xs:string"/>
+    <xs:attribute name="text_se" type="xs:string"/>
+    <xs:attribute name="text_no" type="xs:string"/>
+    <xs:attribute name="text_uk" type="xs:string"/>
+    <xs:attribute name="text_nl" type="xs:string"/>
+
+    <xs:element name="electricity">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="text_dk" />
+                    <xs:attribute ref="text_de" />
+                    <xs:attribute ref="text_se" />
+                    <xs:attribute ref="text_no" />
+                    <xs:attribute ref="text_uk" />
+                    <xs:attribute ref="text_nl" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="gas">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="text_dk" />
+                    <xs:attribute ref="text_de" />
+                    <xs:attribute ref="text_se" />
+                    <xs:attribute ref="text_no" />
+                    <xs:attribute ref="text_uk" />
+                    <xs:attribute ref="text_nl" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="water">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="text_dk" />
+                    <xs:attribute ref="text_de" />
+                    <xs:attribute ref="text_se" />
+                    <xs:attribute ref="text_no" />
+                    <xs:attribute ref="text_uk" />
+                    <xs:attribute ref="text_nl" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="phone">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="text_dk" />
+                    <xs:attribute ref="text_de" />
+                    <xs:attribute ref="text_se" />
+                    <xs:attribute ref="text_no" />
+                    <xs:attribute ref="text_uk" />
+                    <xs:attribute ref="text_nl" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="oil">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="text_dk" />
+                    <xs:attribute ref="text_de" />
+                    <xs:attribute ref="text_se" />
+                    <xs:attribute ref="text_no" />
+                    <xs:attribute ref="text_uk" />
+                    <xs:attribute ref="text_nl" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="pictures">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="photo" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="plan" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="photo">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="large" type="xs:string"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="plan">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="large" type="xs:string"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="geocode">
+        <xs:complexType>
+            <xs:attribute name="lat" type="xs:string"/>
+            <xs:attribute name="lng" type="xs:string"/>
+            <xs:attribute name="zoom" type="xs:integer"/>
+            <xs:attribute name="verifieddate" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="infotexts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="infotext" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="infotext">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dk" type="xs:string" />
+                <xs:element name="de" type="xs:string" />
+                <xs:element name="uk" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="startdate" type="xs:string"/>
+            <xs:attribute name="enddate" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="shortstay_rate">
+        <xs:complexType>
+            <xs:attribute name="rate1" type="xs:integer"/>
+            <xs:attribute name="rate2" type="xs:integer"/>
+            <xs:attribute name="rate3" type="xs:integer"/>
+            <xs:attribute name="rate4" type="xs:integer"/>
+            <xs:attribute name="rate5" type="xs:integer"/>
+            <xs:attribute name="rate6" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="aqualands">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="aqualand" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="aqualand">
+        <xs:complexType>
+            <xs:attribute name="name" type="xs:string" use="optional"/>
+            <xs:attribute name="address" type="xs:string" use="optional"/>
+            <xs:attribute name="address2" type="xs:string" use="optional"/>
+            <xs:attribute name="postalcode" type="xs:integer" use="optional"/>
+            <xs:attribute name="city" type="xs:string" use="optional"/>
+            <xs:attribute name="phone" type="xs:string" use="optional"/>
+            <xs:attribute name="webaddress" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+    <Property>
+        <Client>1301756</Client>
+        <Contacts>
+            <Contact>
+                <Name>Anne Nordgård</Name>
+                <Email>anne@ringeiendom.no</Email>
+                <Phone>77 61 80 00</Phone>
+                <Mobile>922 44 413</Mobile>
+                <Fax>77 61 80 08</Fax>
+                <Address Street="      " PostCode="        " City="                              " CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>RI9110132</ClientsRef>
+        <Status Code="AKTIV"/>
+        <Publish FromDate="2011-06-20" ToDate="2011-12-20"/>
+        <Type>tomannsbolig</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>GI BUD - Vertikaldelt bolig, sentralt i Tromsdalen, 3 soverom, 2 bad + vaskerom.</Title>
+        <Address Street="Tønsnesvegen 30" PostCode="9020" City="TROMSDALEN                    " CountryCode="NO"/>
+        <Matrikkel Kommune="1902" GNR="17" BNR="1" SNR="2" FNR="82"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">2600000</Price>
+            <Price Name="Lånetakst" Curr="NOK">2600000</Price>
+            <Price Name="Verditakst" Curr="NOK">2600000</Price>
+            <Price Name="Kommunale avgifter" Curr="NOK">12421</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+            <Price Name="Formue" Curr="NOK">0</Price>
+            <Price Name="Omkostninger_for_kjoper">Selveiet eiendom:
+                Dokumentavgift til Staten: 2,5% av kjøpesummen
+                Gebyr for tinglysing av skjøte - f.t. kr 1 548,-
+                Tinglysing og attestgebyr for pantobligasjoner i forbindelse med etablering av eventuelle lån - f.t. kr 2 142,- pr. obligasjon.</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruttoareal">144</Area>
+            <Area Name="Bruksareal">126</Area>
+            <Area Name="Tomteareal">937</Area>
+            <Area Name="primaererom_areal">118</Area>
+            <Area Name="primaererom_ledetekst">Arealbeskrivelse</Area>
+            <Area Name="primaererom_inneholder">1 etg.: 60 m2
+                2 etg.: 66m2: 118 m&amp;sup2;&lt;BR&gt;</Area>
+        </AreaFields>
+        <OwnershipType>selveier</OwnershipType>
+        <LotOwnershipType>festet</LotOwnershipType>
+        <BuiltYear>1985</BuiltYear>
+        <BedRooms>3</BedRooms>
+        <Rooms>4</Rooms>
+        <EnergyClass>G</EnergyClass>
+        <HeatingColorCode>5</HeatingColorCode>
+        <Viewings>
+            <Viewing Date="2011-07-05" From="17:30" To="18:30"/>
+        </Viewings>
+        <TextFields>
+            <Text Name="Boliginformasjon">Vertikaldelt bolig over to plan. Inneholder bl.a. 3 soverom 2 bad + vaskerom.</Text>
+            <Text Name="Innhold">1 etg.: Vf, gang, 2 soverom, bod, bad og vaskerom.
+                2 etg.: Stue, kjøkken, gang, bad og soverom.
+
+                Kaldloft til lagring.</Text>
+            <Text Name="Standard">Kjøkken: Innredning fra byggeår med noe bruksslitasje, laminat benkeplate, integrert kjøleskap og oppvaskmaskin. Ventilator som er tilkoblet mekanisk avtrekk.
+
+                Bad 1 etg.: Servant i innredning, wc og hengslede dusjvegger.
+
+                Bad 2 etg.: Wc, servant i innredning og badekar.
+
+                Vaskerom: Opplegg for vaskemaskin, utslagsvask og 200 l. vvb.
+
+                Gulv: Tre, belegg og laminat.
+                Vegger: Tapet, badromsplater, våtromstapet og malte plater.
+                Himling: Malte plater.
+
+                Sikringsskap med automatsikringer.
+                Vedovn i stue.</Text>
+            <Text Name="Tomtebeskrivelse">Flat tomt som er opparbeidet med plen og beplantning. Gruset trafikkarea/adkomst.</Text>
+            <Text Name="Beliggenhet">Ligger sentralt i Tromsdalen med skoler, barnehage og butikk i nærområdet.
+                Vestvendt med gode solforhold.
+                Se nabolagsprofil som følger som vedlegg til salgsoppgaven.</Text>
+            <Text Name="Adkomst">Enkel adkomst fra offentlig vei.</Text>
+            <Text Name="Boligkjøperforsikring">Enebolig/rekkehus/tomannsbolig, fritidsbolig: Det er mulig for kjøper å tegne boligkjøperforsikring. Denne forsikring må tegnes senest på kontraktsmøtedato. Forsikringen koster kr 7.900,- for denne boligen. Kontakt megler for mer informasjon.</Text>
+            <Text Name="Parkering">Biloppstillingsplasser på tomten.</Text>
+            <Text Name="Eierskifteforsikring">Selger har tegnet eierskifteforsikring og har i den forbindelse utarbeidet egenerklæringsskjema. Kjøper plikter å sette seg inn i dette før budgivning/kjøp. Erklæringen er vedlagt salgsoppgaven.
+
+                Selger har ikke bebodd eiendommen.</Text>
+            <Text Name="Oppvarming">Elektrisk og fast brensel.</Text>
+            <Text Name="Løsøre/hvitevarer">Følgende hvitevarer medfølger i handelen: kjøleskap og oppvaskmaskin.</Text>
+            <Text Name="Diverse">Del av vertikaldelt bolig.
+                Tilbaketrukket beliggenhet.
+                Pent opparbeidet tomt.
+                Festetomt / bortfester er Tromsø kommune.
+
+                Ifg. Tromsø Kommune vil det koste ca. kr. 370 000,-
+                og innløse festetomten (hele tomten) pr. 01.01.2011.
+
+                Festeavgift pr. år for snr. 1 kr. 740,-</Text>
+            <Text Name="Overtagelse">Etter avtale med selger.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="balkong"/>
+            <Option Name="peis"/>
+            <Option Name="ingen gjenboere"/>
+            <Option Name="barnevennlig"/>
+            <Option Name="off. vann"/>
+        </Options>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Fasade" LastModified="2011-06-20 13:35">file:RI9110132-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-20 13:35">file:RI9110132-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-20 13:35">file:RI9110132-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Spisestue" LastModified="2011-06-20 13:35">file:RI9110132-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-06-20 13:35">file:RI9110132-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-06-20 13:35">file:RI9110132-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Trappegang" LastModified="2011-06-20 13:35">file:RI9110132-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Trappegang" LastModified="2011-06-20 13:35">file:RI9110132-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad 2 etg." LastModified="2011-06-20 13:35">file:RI9110132-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad 1etg" LastModified="2011-06-20 13:35">file:RI9110132-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2011-06-20 13:35">file:RI9110132-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2011-06-20 13:35">file:RI9110132-12.JPG</Picture>
+        </Media>
+    </Property>
+</TAS.Import>

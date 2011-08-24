@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>1966966</Client>
+<Contacts>
+<Contact>
+<Name>Jan Olaf Rindahl</Name>
+<Email>jan.olaf@notar.no</Email>
+<Phone>71 30 47 50</Phone>
+<Mobile>928 06 481</Mobile>
+<Fax>71 30 47 51</Fax>
+<Address CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>NO041054</ClientsRef>
+<Status Code="TRUKKET"/>
+<Publish FromDate="2010-09-23" ToDate="2010-10-13"/>
+<Deleted Date="2010-10-14" Time="07:33"/>
+<Type>smaabruk</Type>
+<AdType>bolig_salg</AdType>
+<Title>Flott småbruk med stor driftsbyggning</Title>
+<Address Street="Rånes" PostCode="6530" City="AVERØY" CountryCode="NO"/>
+<Matrikkel Kommune="1554" GNR="142" BNR="23"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">1650000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">252556</Price>
+<Price Name="Kommunale avgifter" Curr="NOK">6136</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">193</Area>
+<Area Name="Tomteareal">4765</Area>
+<Area Name="primaererom_areal">159</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1967</BuiltYear>
+<BedRooms>4</BedRooms>
+<TextFields>
+<Text Name="Adkomst">Fra Bruhagen: Ta av mot Kvernes og følg veien forbi Kvernes til du kommer til Rånes. Småbruket ligger på høyre side av veien og vil bli skiltet ved fellesvisninger.</Text>
+<Text Name="Beliggenhet">Beliggende i naturskjønne omgivelser på Rånes på Averøy med nærhet til butikk og skole.</Text>
+<Text Name="Beskrivelse">Flott småbruk beliggende i naturskjønne omgivelser på Rånes i Averøy. Tomten er pent opparbeidet med noe plenareal, trær, busker, gruset adkomst og stor låve.
+Boligen inneholde bl.a. vf, gang, trappegang, bad, kjøkken, stue, 5 soverom, kjellerstue, vaskerom og flere boder. Huset er oppgradert de senere år og fremstår som godt vedlikeholdt.
+Stor driftsbyggning</Text>
+<Text Name="Innhold">Innhold:
+
+vf, gang, trappegang, bad, kjøkken, stue, 5 soverom, kjellerstue og 3 boder
+
+
+Standard: 
+
+Tak: Plater malt
+
+Vegg: flis, plater malt, tapet og våtromsplater
+
+Gulv: laminat, tregulv, flis,</Text>
+<Text Name="Oppvarming">Vedfyring, varmepumpe og elektrisk. Panelovner følger med i de rom de er montert.</Text>
+<Text Name="Parkering">Parkering på tomt</Text>
+</TextFields>
+<Options>
+<Option Name="ingen gjenboere"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Fasade med katt" LastModified="2010-09-23 08:08">file:NO041054-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Fasade " LastModified="2010-09-23 08:08">file:NO041054-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade  " LastModified="2010-09-23 08:08">file:NO041054-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Hage" LastModified="2010-09-23 08:08">file:NO041054-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt" LastModified="2010-09-23 08:08">file:NO041054-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Veranda " LastModified="2010-09-23 08:08">file:NO041054-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Veranda" LastModified="2010-09-23 08:08">file:NO041054-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue   " LastModified="2010-09-23 08:08">file:NO041054-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue  " LastModified="2010-09-23 08:08">file:NO041054-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue " LastModified="2010-09-23 08:08">file:NO041054-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2010-09-23 08:08">file:NO041054-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad " LastModified="2010-09-23 08:08">file:NO041054-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad" LastModified="2010-09-23 08:08">file:NO041054-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Gang " LastModified="2010-09-23 08:08">file:NO041054-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Gang" LastModified="2010-09-23 08:08">file:NO041054-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjokken  " LastModified="2010-09-23 08:08">file:NO041054-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjokken " LastModified="2010-09-23 08:08">file:NO041054-17.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjokken" LastModified="2010-09-23 08:08">file:NO041054-18.JPG</Picture>
+<Picture Type="image:jpeg" Title="Rom " LastModified="2010-09-23 08:08">file:NO041054-19.JPG</Picture>
+<Picture Type="image:jpeg" Title="Rom" LastModified="2010-09-23 08:08">file:NO041054-20.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom   " LastModified="2010-09-23 08:08">file:NO041054-21.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom  " LastModified="2010-09-23 08:08">file:NO041054-22.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom " LastModified="2010-09-23 08:08">file:NO041054-23.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom" LastModified="2010-09-23 08:08">file:NO041054-24.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

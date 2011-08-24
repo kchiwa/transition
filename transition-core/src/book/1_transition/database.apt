@@ -1,0 +1,277 @@
+                        ---
+                        TransitionState database
+                        ---
+
+ The <<transition state database>> shall take care of the state of the XML
+ that pops around in the system.
+
+ See {{{./flow.html}file flow description}} for more detailed information
+ about how a file flows through the system.
+
+
+Database table overview
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[images/dbdiagram.png] NIAM diagram of the import database.
+
+
+ <<Remark>> We only track one single error, then report this error. but the errorlog entry in the table remains that
+ means if the error in the adstate and filestate for example is fix, the reference in the adstate and filestate is
+ reset to null. but the errorlog entry belonging to this adstate and filestate is still in the errorlog, if the
+ adstate and filestate gets a new error, a new entry is created.
+
+
+ <<Notice>> that the table structure and corresponding database structure
+ will be cleaned regularly (strategy and interval to be determined). This
+ implies that the files are not expected to be stored forever; Just the
+ amount of time needed.
+
+* Tables and fields
+~~~~~~~~~~~~~~~~~~~
+
+** filestate
+~~~~~~~~~~~~
+
+ The file state table is the representation of an actual file. The metadata
+ is a representation of what is known about the file at the time of the
+ import.
+
+ A file has not any relation to incoming ads in itself. It is just an
+ entity which gets stored.
+
+*------+------+------+
+|| filestate || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+| clientname | varchar(50) | Ftp user / import user, can also be the same as customerformat. |
+| | | Example: zaberg = Bergensavisen, carweb, emprof |
+*------+------+------+
+| customerformat | varchar(50) | Internal format name. Example values: tietoenator, emprof, carweb |
+*------+------+------+
+| createdtime | numeric(15,0) | The new Date().getTime() time the file was transferred |
+*------+------+------+
+| filename    | varchar(1024) | The full path and name of the file as found on the file system. |
+*------+------+------+
+| filesize    | bigint(20) | The size of file. |
+*------+------+------+
+| status | int | The current status of the filestate (OK, ERROR) |
+*------+------+------+
+| errorlog_id    | bigint(20) | The foreign key to errolog table that this filestate belongings to if it's has the "Error"  |
+*------+------+------+
+| parent_id    | bigint(20) | |
+*------+------+------+
+| filetype    | int(11) | |
+*------+------+------+
+| filepath    | varchar(120) | |
+*------+------+------+
+
+
+
+** adstate
+~~~~~~~~~~
+
+ Adstate is an entity which gets inserted / updated after an ad has been split into
+ separate entities, i.e. it is a single ad. A single ad may refer to one or more files,
+ and there will be one entry in the adstate table for each single file reference.
+
+*------+------+------+
+|| adstate || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+|filestate_id | bigint | The foreign key to filestate table that this adstate belongings to and it could not be null. |
+*------+------+------+
+|zadobjectid | int | After the final step is finished, this value gets updated. The final |
+| | | step is the insertion of converted zett data into the database by import service. In other words: |
+| | | <import service> updates this value.|
+*------+------+------+
+|zclientid   | int | How to obtain data for this fields varies. It dependes on which customerformat that is used. |
+| | | The tietoenator format is the most complicated one. In this case, a newspaper code must be |
+| | | read and transformed. Example: Webproduktkode/Aviskode = WBA/BA, gets translated into zclientId = 10031 |
+| | | We will create functionality for making this mapping. |
+| | | In the other formats, this field is contained within the XML |
+*------+------+------+
+| shahash   | varchar(100) | A SHA-hash of a single ad after splitting. |
+| | | This is used to figure out if the a given ad  is unique or not. |
+| | | This is a value for internal use, whereas the md5hash in mediastate is used externally. (when the ad is closed or not found it set to "reset")  |
+*------+------+------+
+|modifiedtime | numeric(15) | modifiedtime changes after checking the SHA value. If an ad is re-sent, |
+| | | the SHA-value will change. In this case: Update modifiedtime and set isfinished to 1 |
+*------+------+------+
+| createdtime | numeric(15) | The new Date().getTime() time it was decided to use the file, i.e. the
+| | | time it was found that an ad used the file. |
+*------+------+------+
+| status | int | Integer representing one of (QUEUE,OK, ERROR, CLOSED, MISSINGMEDIA, NOTFOUND) |
+*------+------+------+
+| adexternalref | varchar(512) | External reference for the file. All ads has a reference to this, and|
+| | | it is this value the clients will use when they want to refer to an ad. |
+*------+------+------+
+| errorlog_id    | bigint | The foreign key to errolog table that this adstate belongings to if it's has the "Error"  |
+*------+------+------+
+
+ Note that <zclientid,adexternalref> is a candidate key.
+ INDEX ON  (zclientid);
+ INDEX ON  (adexternalref, zclientid);
+
+** mediastate
+~~~~~~~~~~~~~
+
+ Mediastate retains the actual state for the use of a file in an ad. The
+ relationship is really one-to-one with the adstate table.
+
+*------+------+------+
+|| mediastate || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+| adstate_id | bigint | The foreign key to adstate table that this media belongings to and it could not be null |
+*------+------+------+
+|contenttype | int | Integer representing one of {IMAGE,LOGO,PDF} |
+*------+------+------+
+|sequencenum | int | The position of this media element in the ad in question. Carweb and emprof |
+| | | has this information as an XML attribute |
+*------+------+------+
+|title | varchar(255) | Title of the media element, to be used as a mouse-over text, and possibly
+| | | as image caption text |
+*------+------+------+
+|md5hash | varchar(60) | External clients use MD5 and will want this value in order to evaluate |
+| | | whether this value shall be fetched again. Carweb checks the MD5 reference to the file before re-sending it. |
+| | | Emprof gives the MD5 value as meta information in order to let us decide whether to fetch the image again |
+*------+------+------+
+|status | int | Integer representing one of (MISSING, UPLOADED, PRODUCTION) |
+*------+------+------+
+| prodref | varchar(255)  | the media filename is converted to this productionreference |
+*------+------+------+
+| extref | varchar(255)  | External reference for the file's name. All media has a reference to this,it will use when they want to refer to an media file. |
+*------+------+------+
+| lastmodified | numeric(15) | The new Date().getTime() lasted time the media was updated |
+*------+------+------+
+|infomessage | varchar(255) |  |
+*------+------+------+
+
+** errorlog
+~~~~~~~~~~~~~
+
+ Errorlog retains the error message of the adstate and filestate. The
+ relationship is really one-to-one with the adstate and filestate table.
+
+
+*------+------+------+
+|| errorlog || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+|objectid | bigint | The foreign key to adstate and filestate table|
+*------+------+------+
+| objecttype | int | Integer representing one of (ADSTATE, FILESTATE) |
+*------+------+------+
+|errormessage | LONGTEXT | Error message details.  |
+*------+------+------+
+|jmsmessageid | VARCHAR(255) | The reference key to the message in ActiveMQ. |
+*------+------+------+
+|createdtime | numeric(15) |The new Date().getTime() time the error was occure |
+*------+------+------+
+
+** valuemap
+~~~~~~~~~~~~~
+
+ Valuemap retains the lookup value and ZettValue that use for transformation and Zett Format.
+
+*------+------+------+
+|| valuemap || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+|format  | varchar(100) | Internal format name. Example values: tietoenator, emprof, carweb |
+*------+------+------+
+| field | varchar(100) | field value |
+*------+------+------+
+|lookup | varchar(100) | lookup value  |
+*------+------+------+
+|zettvalue | varchar(100) | Zett Value |
+*------+------+------+
+|categoryid | int | categoryid |
+*------+------+------+
+
+
+** partnerlogin
+~~~~~~~~~~~~~
+
+ Partnerlogin retains the usename and password for each customer's format that uses the transition system.
+
+*------+------+------+
+|| partnerlogin || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+|customerformat  | VARCHAR(100) | Internal format name. Example values: tietoenator, emprof, carweb |
+*------+------+------+
+| login | VARCHAR(100) | user name |
+*------+------+------+
+|protocol | int | Integer representing one of (HTTP, FTP, BOTH) |
+*------+------+------+
+|loginpassword | VARCHAR(100) | password  |
+*------+------+------+
+
+
+** partnermap
+~~~~~~~~~~~~~
+
+ Partnermap retains the usename and password for each Agency(1 customer format have one or many agency) that uses
+ the transition system.
+ The relationship is really many-to-one with the partnermap table.
+
+
+*------+------+------+
+|| partnermap || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+|partnerlogin_id | bigint | The foreign key to partnerlogin |
+*------+------+------+
+|identifier | VARCHAR(255) | identifier the agency from each other |
+*------+------+------+
+|zclientid  | int |  |
+*------+------+------+
+|description  | varchar(255) | description |
+*------+------+------+
+|partnermappassword | varchar(255) | password  |
+*------+------+------+
+
+** ftprouterstatus
+~~~~~~~~~~~~~
+
+ FtpRouterStatus retains the router's name of FTP for each format and it's status.
+
+*------+------+------+
+|| FtpRouterStatus || type || explanation ||
+*------+------+------+
+|id | bigint | Primary key |
+*------+------+------+
+|customerformat  | varchar(50) | Internal format name. Example values: tietoenator, emprof, carweb |
+*------+------+------+
+| active | int | Do start the router?  1 = ON = start, 0 = OFF = do not start |
+*------+------+------+
+
+** schedulerstatus
+~~~~~~~~~~~~~
+
+ schedulerstatus detail.
+
+*------+------+------+
+|| SchedulerStatus || type || explanation ||
+*------+------+------+
+|id | bigint(20) | Primary key |
+*------+------+------+
+|schedulername | varchar(50) | The name of scheduler. |
+*------+------+------+
+|customerformat | varchar(50) | Customer format name related of scheduler.  |
+*------+------+------+
+|clientname | varchar(50) | Client name related of scheduler. |
+*------+------+------+
+|crontrigger |varchar(200)  | The cron expression ues to trig scheduler. |
+*------+------+------+
+|active  |int(11) | Active status of this scheduler 1 is active 0 is inactive.  |
+*------+------+------+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE FINN.IF.JOB SYSTEM "file:///iad/finn/prod/batch/jobs/import/dtd/FINNIF-job32.dtd">
+<FINN.IF.JOB>
+  <HEAD>
+    <PARTNER>rcconsas</PARTNER>
+  </HEAD>
+  <OBJECT>
+    <OBJECT_HEAD>
+      <ORDERNO>HQ00008890</ORDERNO>
+      <USERREFERENCE>VGA/GT/HQ00008890</USERREFERENCE>
+      <VERSIONNO />
+      <OVERWRITE_MMO MODUS="yes" />
+      <FROMDATE>25.03.2020</FROMDATE>
+      <TODATE>30.04.2020</TODATE>
+      <OBJECT_LOCATION>
+        <STREETADDRESS>Oslo</STREETADDRESS>
+        <ZIPCODE>0031</ZIPCODE>
+        <COUNTRYCODE></COUNTRYCODE>
+      </OBJECT_LOCATION>
+      <HEADING>Project Secretary</HEADING>
+    </OBJECT_HEAD>
+    <JOB>
+      <JOB_TITLE>Project Secretary</JOB_TITLE>
+      <SITUATION>Oslo</SITUATION>
+      <SECTOR>private</SECTOR>
+      <JOB_CATEGORY>
+        <CATEGORY>offshoreexploit</CATEGORY>
+        <SUBCATEGORY>other</SUBCATEGORY>
+      </JOB_CATEGORY>
+      <DURATION>fixedcontract</DURATION>
+      <ROLE>profexp</ROLE>
+      <SALARY>kr 0.00 - Per Hour</SALARY>
+      <EXTENT>fulltime</EXTENT>
+      <EDUCATION></EDUCATION>
+      <APPLICATION_ADDRESS>
+        <ADDRESS>RC Consultants AS
+Bragernes Torg 4
+3017 Drammen
+</ADDRESS>
+      </APPLICATION_ADDRESS>
+      <COMPANY>
+        <COMPANY_NAME>RC Consultants</COMPANY_NAME>
+        <LOGO>rcc.gif</LOGO>
+        <URL>www.rcc.no</URL>
+        <INGRESS><![CDATA[<body>
+<p><i><font face="Arial" size="2">RC Consultants, med hovedkontor i Sandnes, ble stiftet i 1987. Selskapet har nærmere 500 ansatte og er ledende leverandør av tekniske- og prosjektadministrative konsulenttjenester til Norsk olje- og gassindustri.
+
+RC Consultants er et datterselskap av V.People som har hovedkontor i Aberdeen. V.People, eid av V.Holdings, er et internasjonalt selskap med 68 kontorer fordelt på 32 land. V.People leverer globale HR administrative løsninger til shipping og petroleumsindustrien. Selskapet sysselsetter 26.000 personer.</font></i></p>
+</body>
+]]></INGRESS>
+      </COMPANY>
+      <GENERAL_TEXT_JOB>
+        <GENERAL_HEADING></GENERAL_HEADING>
+        <GENERAL_TEXT><![CDATA[<Html><Head></Head><Title></Title><Body><font face="Times New Roman">
+<Body BGCOLOR="#FFFFFF">
+<font face="Courier New"><font SIZE="2"><font color="#000000"><font face="Arial"><font SIZE="2"><B><font color="#000000">            RESPONSIBILITIES AND AUTHORITY</font></B></font></font><BR>
+<font face="Symbol"><font SIZE="2"><B><font color="#000000">·           </font></B></font></font><font face="Arial">Correct distribution of documentation, including e-mail.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·           </font></font></font><font face="Arial">Administration of Project meeting schedule.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·           </font></font></font><font face="Arial">Responsibility for project correspondence files.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·           </font></font></font><font face="Arial">Responsible for updating and maintaining Project Internet Page<BR>
+</font><BR>
+<font face="Arial"><font SIZE="2"><B><font color="#000000">          MAIN JOB TASKS</font></B></font></font><BR>
+<font face="Symbol"><font SIZE="2"><B><font color="#000000">·         </font></B></font></font><font face="Arial">Establish and maintain project files in Proarc (until terminated) and EPiC for letters, telefaxes, e-mails, etc.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Maintain organisation charts and job-descriptions in co-operation with project management</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Establish and maintain project administration routines and services as described in procedures and work instructions</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Establish and maintain network access control.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Secretarial tasks for the project management team and project manager</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Responsible for update and maintain Project WEB page (Sharepoint) as applicable</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Assist in use of  administrative tools (EPiC)</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Propose user access</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·         </font></font></font><font face="Arial">Propose Page Layout<BR>
+</font><BR>
+<font face="Arial"><font SIZE="2"><B><font color="#000000">           QUALIFICATIONS</font></B></font></font><BR>
+<font face="Symbol"><font SIZE="2"><B><font color="#000000">·          </font></B></font></font><font face="Arial">Administrative education.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·          </font></font></font><font face="Arial">Experience as tender secretary, project secretary or management secretary.</font><BR>
+<font face="Symbol"><font SIZE="2"><font color="#000000">·          </font></font></font><font face="Arial">Knowledge of basic IT tools<BR>
+</font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">                  Oppstart: snarest</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">                  Varighet: 6 mnd.<BR>
+<BR>
+<BR>
+<BR>
+</font></font></font></font></font></font></Body></font></Body></Html>
+]]></GENERAL_TEXT>
+      </GENERAL_TEXT_JOB>
+      <APPLICATION_DEADLINE>30.04.2008</APPLICATION_DEADLINE>
+      <APPLICATION_EMAIL>post@rcc.no</APPLICATION_EMAIL>
+      <START_DATE>01.04.2008</START_DATE>
+      <JOB_CONTACT>
+        <NAME>Kristi Hansen</NAME>
+        <ADDRESS></ADDRESS>
+        <TITLE>Project Coordinator</TITLE>
+        <PHONE>32 23 42 22</PHONE>
+        <MOBILE>928 08 648</MOBILE>
+        <EMAIL>kha@rcc.no</EMAIL>
+        <FAX>32234221</FAX>
+      </JOB_CONTACT>
+      <APPLICATION_LABEL>Project Secretary 8890</APPLICATION_LABEL>
+      <ELECTRONIC_APPLICATION MODUS="yes" AUTOMATIC_RESPONSE="yes" />
+      <MOREINFO>
+        <URL />
+        <URLTEXT />
+      </MOREINFO>
+      <NO_OF_POSITIONS>1</NO_OF_POSITIONS>
+    </JOB>
+  </OBJECT>
+</FINN.IF.JOB>
+

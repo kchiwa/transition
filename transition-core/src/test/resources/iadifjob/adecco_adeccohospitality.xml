@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IAD.IF.JOB SYSTEM "http://www.finn.no/dtd/IADIF-job51.dtd"[]>
+<IAD.IF.JOB>
+<HEAD>
+<PARTNER>adeccohospitality</PARTNER>
+</HEAD>
+<OBJECT>
+<OBJECT_HEAD>
+<ORDERNO>1502265</ORDERNO>
+<USER_REFERENCE></USER_REFERENCE>
+<OVERWRITE_MMO MODUS="images"></OVERWRITE_MMO>
+<VERSIONNO>CREATE</VERSIONNO>
+<FROMDATE>21.07.2011</FROMDATE>
+<TODATE>31.12.2011</TODATE>
+<OBJECT_LOCATION>
+<STREETADDRESS></STREETADDRESS>
+<ZIPCODE>0166</ZIPCODE>
+<COUNTRYCODE>NO</COUNTRYCODE>
+</OBJECT_LOCATION>
+<HEADING>Kantinebestyrer på 4 timer</HEADING>
+</OBJECT_HEAD>
+<JOB>
+<JOB_TITLE>Kokk uten fagbrev</JOB_TITLE>
+<SITUATION></SITUATION>
+<SECTOR>private</SECTOR>
+<JOB_CATEGORY>
+<CATEGORY>hotelrestauranttrav</CATEGORY>
+<SUBCATEGORY>chef_maid</SUBCATEGORY>
+</JOB_CATEGORY>
+<DURATION></DURATION>
+<SALARY></SALARY>
+<EXTENT>fulltime</EXTENT>
+<COMPANY>
+<COMPANY_NAME>Adecco</COMPANY_NAME>
+<URL>http://www.adecco.no</URL>
+<INGRESS>Adecco er Norges største bemanningsselskap. Vi har over 70 kontorer og avdelinger, og hver dag går over 8.000 personer til en jobb formidlet av Adecco. Vi tilbyr midlertidige og faste stillinger i norsk næringsliv og offentlig sektor. Adecco Hospitality rekrutterer personale til hotell- og restaurantbransjen, catering, events, dagligvare og turisme. Adecco Hospitality er en ledende aktør innen sitt felt i Norge.</INGRESS>
+</COMPANY>
+<GENERAL_TEXT_JOB>
+<GENERAL_HEADING></GENERAL_HEADING>
+<GENERAL_TEXT><![CDATA[<div class="jobodycopy"><strong>Liten og fin kantine<br /><br /></strong>Adecco Hospitality Oslo ser&nbsp;etter en&nbsp;flink medarbeider som har erfaring fra kjøkken, og ønsker å jobbe i en liten men hektisk kantine i Oslo. Arbeidstiden&nbsp;er fra kl.&nbsp;9 til kl.&nbsp;13 &nbsp;Arbeidsoppgavene er å lage&nbsp;enkel varmat noen dager i uken,&nbsp;enkel salatbar og kakebaking 1 gang i uken&nbsp;til 25 personer. Man må også yte bra&nbsp;kundeservice og ha kunnskap om&nbsp;IK-Mat.<br /><br />&nbsp;</div><div class="jobodycopy"><b>Vi kan tilby:</b><br />En variert hverdag<br />Mulighet til å styre sin egen kantine<br />Profesjonel karriereveiledning<br />Adecco Fordel; Rabattavtaler, mulighet for treningsstipend, firmahytte m.m<br />Lønn&nbsp;etter tarif<br /><br />&nbsp;</div><div class="jobodycopy"><b>Kvalifikasjoner:<br /></b>Erfaring fra kantine<br />Må beherske godt&nbsp;norsk, både&nbsp;skriflig og muntlig<br />Gode referanser og attester<br />Kjennskap til IK-mat&nbsp;<br />&nbsp;</div><div class="jobodycopy">Ta kontakt med oss på <a href="mailto:hospitality.oslo@adecco.no">hospitality.oslo@adecco.no</a> eller på 22 47 57 67 om du har noen spørsmål. Hvis ikke er det bare å søke i dag ved å registrere deg på <a href="http://www.adecco.no/">www.adecco.no</a>. Vi opplever stor pågang, og står derfor klar med oppdragene til deg om du er den rette for oss.</div><br /><br/ ><br/ ><br/ ><br/ ><br/ ><br/ ><br/ ><br/ >]]></GENERAL_TEXT>
+</GENERAL_TEXT_JOB>
+<APPLICATION_DEADLINE>31.07.2011</APPLICATION_DEADLINE>
+<START_DATE>21.07.2011</START_DATE>
+<JOB_CONTACT>
+<NAME>Breivik, Linn </NAME>
+<TITLE></TITLE>
+<PHONE>22475767</PHONE>
+<EMAIL></EMAIL>
+<FAX></FAX>
+</JOB_CONTACT>
+<APPLICATION_LABEL>1502265</APPLICATION_LABEL>
+<MOREINFO>
+<URL><![CDATA[http://www.adecco.no/Tools/Pages/VacancyApplication.aspx?IdVacancy=10200318&nameVacancy=Kantinebestyrer på 4 timer&navCtx=/ledige-stillinger/pages/ledige-stillinger.aspx&backUrl=/ledige-stillinger/FinnOgSokJobb/Pages/default.aspx&layout=Normal]]></URL>
+<URLTEXT>Søk her</URLTEXT>
+</MOREINFO>
+<NO_OF_POSITIONS>1</NO_OF_POSITIONS>
+</JOB>
+</OBJECT>
+</IAD.IF.JOB>

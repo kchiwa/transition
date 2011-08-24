@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bildata>
+    <Forhandler brukerid="1707402" passord="idy6epi2" navn="Slettum Bil AS Tynset" adresse1="Engvn. 2" adresse2=""
+                adresse3="" postnr="2500" poststed="Tynset" url="www.slettumbil.no" tlf="98294990" fax="62471998"
+                epost="svein@slettumbil.no" fullupdate="1">
+        <Bil unikid="8_2342" kontroll="7" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Opel</Merke>
+            <Modell>Astra</Modell>
+            <Karosserifasong>4</Karosserifasong>
+            <Pris>98372</Pris>
+            <Arsmodell>2002</Arsmodell>
+            <Kmstand>115500</Kmstand>
+            <Motorstorrelse>1.7</Motorstorrelse>
+            <Variant>DTI Comfort</Variant>
+            <ChassisNr>W0L0TGF3522058564</ChassisNr>
+            <Solgt>0</Solgt>
+            <Farge>Svart</Farge>
+            <Effekt>74</Effekt>
+            <Bilder>
+                <Bilde bilde="8_2342L.JPG" prioritet="0" md5="FDE9867C451D2A21E7B1D5DFAA656BAB" desc="Hovedbilde"/>
+                <Bilde bilde="8_2342L_1.JPG" prioritet="1" md5="6AB9F26D889DA2C96462428C2CC866DA" desc="Bilde 2"/>
+                <Bilde bilde="8_2342L_2.JPG" prioritet="2" md5="C2508CB182073FB9B1F0C8E5202C0FD0" desc="Bilde 3"/>
+                <Bilde bilde="8_2342L_3.JPG" prioritet="3" md5="9C1FFAF5488C61571D58AD730940E32A" desc="Bilde 4"/>
+                <Bilde bilde="8_2342L_4.JPG" prioritet="4" md5="B6D19F37A40CB6B12B5AB04B7DFB70FB" desc="Bilde 5"/>
+                <Bilde bilde="8_2342L_5.JPG" prioritet="5" md5="225099E665C6334475F13EAC27DC917B" desc="Bilde 6"/>
+                <Bilde bilde="8_2342L_6.JPG" prioritet="6" md5="3ADC2621C7436EDCBD577D8933583240" desc="Bilde 7"/>
+                <Bilde bilde="8_2342L_7.JPG" prioritet="7" md5="24830E7FF76D7A78A292DB5FBBDE84E3" desc="Bilde 8"/>
+                <Bilde bilde="8_2342L_8.JPG" prioritet="8" md5="11CFCD9E61AB0A820A10A10EE08CDE05" desc="Bilde 9"/>
+                <Bilde bilde="8_2342L_9.JPG" prioritet="9" md5="618241610D0D52AFDAD4D5E8530D4283" desc="Bilde 10"/>
+                <Bilde bilde="8_2342L_10.JPG" prioritet="10" md5="AF2AEC4B93D5992F08D6A1F38F162499" desc="Bilde 11"/>
+                <Bilde bilde="8_2342L_12.JPG" prioritet="11" md5="46A310ED179599BDBA4ED5A2874D46E2" desc="Bilde 12"/>
+                <Bilde bilde="8_2342L_13.JPG" prioritet="12" md5="3712268C60478DB8E87A2AF6F19146A6" desc="Bilde 13"/>
+                <Bilde bilde="8_2342L_14.JPG" prioritet="13" md5="611DBB42C70D3C22C9E3213D7FBD88D7" desc="Bilde 14"/>
+                <Bilde bilde="8_2342L_15.JPG" prioritet="14" md5="6A4D7CA6BD05AA876761BECABECCD34C" desc="Bilde 15"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>1</InklArsavg>
+            <Ekstrautstyr>;ABS-bremser,ABS-bremser;Alufelger sommer,Alufelger sommer;El .just.speil,El
+                .just.speil;El.vinduer,El.vinduer;Hengerfeste,Hengerfeste;Kj&#248;recomputer,Kj&#248;recomputer;Kollisjonsputer,Kollisjonsputer;Metallic
+                lakk,Metallic
+                lakk;Motorvarmer,Motorvarmer;Multifunksjonsratt,Multifunksjonsratt;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Setevarme,Setevarme;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul
+            </Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Utrolig fin bil med diesel tilleggsvarmer , defa-opplegg m/ ur . Reg.rem og vannpumpe er skiftet
+                n&#229; sammen med 120 000km service . Nye sommerdekk .
+                Ta kontakt med Svein p&#229; tlf 97520192.....Bor du utenfor fjellregionen? Vi kan levere bil over hele
+                landet, men hva med &#229; gj&#248;re det lille ekstra ut av bilkj&#248;pet? Gjennom v&#229;r
+                samarbeidspartner Erzscheiderg&#229;rden, www. erzscheidergaarden.no, tilbyr vi bilkj&#248;pere et
+                opphold p&#229; en gjesteg&#229;rd midt i verdensarven R&#248;ros. Ta kontakt med oss s&#229; ordner vi
+                b&#229;de bilhandel og R&#248;rosopphold for deg.
+            </Kommentar>
+            <Vekt>1245</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>HF20915</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>13</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1100</Slepevekt>
+            <FargeInnvendig>gr&#229;tt</FargeInnvendig>
+            <OmregAvgift>6628</OmregAvgift>
+            <Kontaktpersoner>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="8_2482" kontroll="1" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Yaris</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>159033</Pris>
+            <Arsmodell>2006</Arsmodell>
+            <Kmstand>59000</Kmstand>
+            <Motorstorrelse>1.4</Motorstorrelse>
+            <Variant>D4D diesel Sol</Variant>
+            <ChassisNr>VNKKC96390A028824</ChassisNr>
+            <Solgt>0</Solgt>
+            <Farge>S&#248;lv</Farge>
+            <Effekt>90</Effekt>
+            <Bilder>
+                <Bilde bilde="8_2482L.JPG" prioritet="0" md5="D08192C6086B5F009656FB3A590524D8" desc="Hovedbilde"/>
+                <Bilde bilde="8_2482L_1.JPG" prioritet="1" md5="ADF095F3BA6E714C76C312D5F9E63A3F" desc="Bilde 2"/>
+                <Bilde bilde="8_2482L_2.JPG" prioritet="2" md5="D8D63D88AEE66850397AE82F79E760E2" desc="Bilde 3"/>
+                <Bilde bilde="8_2482L_3.JPG" prioritet="3" md5="83B8151BCFCD4AB80C936534EE630040" desc="Bilde 4"/>
+                <Bilde bilde="8_2482L_4.JPG" prioritet="4" md5="BAA6F6D41F0FABF482A202BF23FF5465" desc="Bilde 5"/>
+                <Bilde bilde="8_2482L_5.JPG" prioritet="5" md5="E4E99D5B931F579C7F5871CA81025B5D" desc="Bilde 6"/>
+                <Bilde bilde="8_2482L_6.JPG" prioritet="6" md5="A94E52FB234D6EEFBAC85FFF6B76F6A8" desc="Bilde 7"/>
+                <Bilde bilde="8_2482L_7.JPG" prioritet="7" md5="8B287772C69BD1ED37675C8FC1933D24" desc="Bilde 8"/>
+                <Bilde bilde="8_2482L_8.JPG" prioritet="8" md5="2BA8B0D3C4733A77F6223F6E8E98BD77" desc="Bilde 9"/>
+                <Bilde bilde="8_2482L_9.JPG" prioritet="9" md5="23226CD353253ABF56614A2C3B34EE11" desc="Bilde 10"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>1</InklArsavg>
+            <Ekstrautstyr>
+                ;ABS-bremser,ABS-bremser;AC,AC;Dieselvarmer,Dieselvarmer;El-speil,El-speil;El.vinduer,El.vinduer;Kollisjonsputer,Kollisjonsputer;Metallic
+                lakk,Metallic lakk;Ryggesensorer,Ryggesensorer;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Setevarme,Setevarme;Sideairbager,Sideairbager;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;fjernstyrt
+                sentr.l&#229;s,fjernstyrt sentr.l&#229;s
+            </Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Bor du utenfor fjellregionen? Vi kan levere bil over hele landet, men hva med &#229; gj&#248;re
+                det lille ekstra ut av bilkj&#248;pet? Gjennom v&#229;r samarbeidspartner Erzscheiderg&#229;rden, www.
+                erzscheidergaarden.no, tilbyr vi bilkj&#248;pere et opphold p&#229; en gjesteg&#229;rd midt i
+                verdensarven R&#248;ros. Ta kontakt med oss s&#229; ordner vi b&#229;de bilhandel og R&#248;rosopphold
+                for deg.
+            </Kommentar>
+            <Vekt>1055</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AA52296</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>14</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1050</Slepevekt>
+            <FargeInnvendig>M&#248;rk</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+            </Kontaktpersoner>
+        </Bil>
+        <Kontaktpunktliste>
+            <Kontaktpunkt id="8_46">
+                <Navn>Svein Gjevikhaug</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Svein Gjevikhaug</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+            <Kontaktpunkt id="8_51">
+                <Navn>Tynset Takst</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Takstering Tynset</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+        </Kontaktpunktliste>
+    </Forhandler>
+</Bildata>

@@ -1,0 +1,72 @@
+              ----
+              transition-xmlbean
+              ----
+              Pongvech Vechprasit (pun@abctech-thailand.com)
+              ----
+              2011-01-11
+
+Project Objective
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Our requirements is to map values in client's ad into Zett's format. Yes, we need to search through XML node, writing
+ a very complicate XSLT for mapping. Moreover, some values we get from we need to map it with another value in database.
+ Therefore, XSLT might not be the answer for us. Because it's very troublesome and not a JAVA friendly way.
+ Therefore we introduce XMLBeans which provides us a full power to accessing XML in a JAVA friendly way by binding it
+ to JAVA type. We use this in Ad Transformation and Validation.
+
+
+Project Overview
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ This project implements XMLBeans {{http://xmlbeans.apache.org/}} for binding XML ad types in transition project
+ with Java bean.
+
+ The process is very straight forward. We only need a XSD file and xsdconfig file to generate
+ the bean. When everything are set, we just need to run "mvn clean install". And then XMLBeans will generates bean to
+ specified package destination in xsdconfig file.
+
+ We need separate modules for each ad type because in the xml ads from client don't have a namespace (only tietoenator has)
+ So we could not identify or differentiate ads. And we ended up with duplicate "email" element. Therefore, the solution is,
+ create different module for each ad type and specify the destination package.
+
+POM file configurations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ We need to add two things
+
+ * Add dependency to XMLBeans
+
++--
+    <dependency>
+         <groupId>org.apache.xmlbeans</groupId>
+         <artifactId>xmlbeans</artifactId>
+         <version>2.4.0</version>
+    </dependency>
++--
+
+ * Add a build plugin for xmlbeans-maven-plugin
+
++--
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>xmlbeans-maven-plugin</artifactId>
+                <version>2.3.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>xmlbeans</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <inherited>true</inherited>
+                <configuration>
+                    <xmlConfigs>
+                        <xmlConfig implementation="java.io.File">src/main/resources/xsdconfig</xmlConfig>
+                    </xmlConfigs>
+                    <schemaDirectory>src/main/resources/xsd</schemaDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
++--

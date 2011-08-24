@@ -1,0 +1,38 @@
+                        ---
+                        SystemInitial Service
+                        ---
+
+
+SystemInitial Service Diagram
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+[images/SystemInitialService.png]
+
+
+Description
+~~~~~~~~~~~~~~~~~~~~~~~
+
+
+  Transition need to be initial some resources automatically when the application run. As this time we have 2 components
+
+
+  1.Database Creator Component that will check for the database (create, update, alter database schema and generate master data;
+
+
+  2.FTP Router Manager Component that build the FTP's router for each customer's format at runtime.
+
+
+  3.Quartz Scheduler Component that create schedule run in background process for run task on time schedule.
+
+
+           Why we need this service class ?
+
+           Because of that if we use Spring IOC to manage and start components itself it may be make system clash on
+           startup. cause it will invoke the components to work at the same time.
+  but the FTP Router Manager Component need some data in database if the Database isn't initial the data it will be
+  make the system clash.
+
+          So that this service is use to manage the ordering of the initialize thing's components runtime therefore in
+          the future if we have new components that we want to manage the ordering runtime
+          we would use the Service Class.

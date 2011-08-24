@@ -1,0 +1,577 @@
+ID|Format|Field|Lookup|Zett Value|CategoryID
+1|carweb|karosserifasong|1|Kombi|0
+2|carweb|karosserifasong|2|Kombi|0
+3|carweb|karosserifasong|3|Sedan|0
+4|carweb|karosserifasong|4|Stasjonsvogn|0
+5|carweb|karosserifasong|5|Flerbruksbil|0
+6|carweb|karosserifasong|6|Coupe|0
+7|carweb|karosserifasong|7|Cabriolet|0
+8|carweb|karosserifasong|8|Pick-up|0
+9|carweb|karosserifasong|9|Off-road|0
+10|carweb|karosserifasong|10|Kasse|0
+11|carweb|kjoretoygruppe|1|Personbil|0
+12|carweb|kjoretoygruppe|2|Varebil|0
+13|carweb|kjoretoygruppe|3|Kombinertbil|0
+14|carweb|kjoretoygruppe|4|Minibuss|0
+15|carweb|kjoretoygruppe|5|Lett lastebil|0
+16|carweb|drivstoff|B|Bensin|0
+17|carweb|drivstoff|D|Diesel|0
+18|carweb|drivstoff|G|Gass|0
+19|carweb|drivstoff|Hybrid|Hybrid|0
+20|carweb|drivstoff|5|Hybrid|0
+21|carweb|drivstoff|S|Elektrisk|0
+22|carweb|drivstoff|El|Elektrisk|0
+23|carweb|drivstoff|6|Elektrisk|0
+24|carweb|drivstoff|Metanol|Metanol|0
+25|carweb|drivstoff|4|Metanol|0
+26|tietoenator|privacy|Ingen kontaktinfo skal vises|SHOW_NONE|0
+27|tietoenator|privacy|Email vises|SHOW_EMAIL|0
+28|tietoenator|privacy|Telefonnummer vises|SHOW_PHONE|0
+29|tietoenator|privacy|Navn og telefonnummer|SHOW_NAME_PHONE|0
+30|tietoenator|privacy|Navn og Telefonnummer|SHOW_NAME_PHONE|0
+31|tietoenator|privacy|Navn og telefonnummer vises|SHOW_NAME_PHONE|0
+32|tietoenator|privacy|Epost og telefonnummer vises|SHOW_EMAIL_PHONE|0
+33|tietoenator|privacy|Email, navn og telefonnummer vises|SHOW_EMAIL_NAME_PHONE|0
+34|tietoenator|privacy|All kontaktinfo kan vises på annonsen.|SHOW_ALL|0
+35|tietoenator|defaultprivacy|10031|SHOW_EMAIL|0
+36|tietoenator|defaultprivacy|10009|SHOW_EMAIL|0
+37|tietoenator|defaultprivacy|10025|SHOW_EMAIL|0
+38|tietoenator|transaction|Selges|FOR_SALE|0
+39|tietoenator|transaction|Til leie|FOR_RENT|0
+40|tietoenator|transaction|Til Leie|FOR_RENT|0
+41|tietoenator|transaction|Ønskes kjøpt|WANTED_BUY|0
+42|tietoenator|transaction|Ønskes leid|WANTED_RENT|0
+43|tietoenator|transaction|Byttes|TRADE|0
+44|tietoenator|transaction|Gis bort|GIVE_AWAY|0
+45|tietoenator|transaction|Arbeidskraft søkes|SERVICES_WANTED|0
+46|tietoenator|transaction|Tapt/Funnet|LOST_AND_FOUND|0
+47|tietoenator|transaction|Annet|OTHER|0
+48|tietoenator|country|Norway|Norge|0
+49|tietoenator|country|Sweden|Sverige|0
+50|tietoenator|country|Denmark|Danmark|0
+51|tietoenator|country|Spain|Spania|0
+52|tietoenator|country|Thailand|Thailand|0
+53|tietoenator|source|Forhandler|Forhandler|0
+54|tietoenator|source|Privat selger|Privat|0
+55|tietoenator|category|Helse, Sosial og Omsorg|Helse, Sykepleie, Sosial og Omsorg|490
+56|tietoenator|category|Organisasjon, menighet og humanitær|Organisasjon, Menighet og Humanitær|1890
+57|tietoenator|category|Juridiske tjenester|Juridiske Tjenester|400
+58|tietoenator|category|Bud- og transport-tjenester|Bud- og Transport-tjenester|1590
+59|tietoenator|category|IT-tjenester|Data og IT|2690
+60|tietoenator|category|Salgstjenester|Salg|1300
+61|tietoenator|category|Helse og skjønnhet|Helse og Skjønnhet|600
+62|tietoenator|category|Undervisningstjenester|Undervisning og Pedagogikk|2790
+63|tietoenator|category|Undervisning og pedagogikk|Undervisning og Pedagogikk|2790
+64|tietoenator|category|Håndverkstjenester|Håndverksfag|2200
+65|tietoenator|category|Håndtverkstjenester|Håndverksfag|2200
+66|tietoenator|category|Dagmamma/Barnepass|Dagmamma/Praktikant|803
+67|tietoenator|category|Snøscootere|Snøscooter|10500
+68|tietoenator|category|Garasje/Opplag|Garasje/opplag|1600
+69|tietoenator|category|Skjærgårdsjeep/Landstedsbåt|Skjærgårdsjeep/Landstedbåt|13500
+70|tietoenator|category|Mat og Drikke|Mat og drikke|7163
+71|tietoenator|category|Sport og Fritid|Sport- og fritidsutstyr|7655
+72|tietoenator|category|Trebåt/snekke|Trebåt/Snekke|13550
+73|tietoenator|category|Brunevarer og elektriske artik|Brunevarer og elektriske artikler|5833
+74|tietoenator|category|Landbruks- maskiner/utstyr|Landbruk - maskiner/utstyr|10793
+75|tietoenator|category|Vedlikehold/Oppussing/Rydding|Vedlikehold/Oppussing/Rydding|900
+76|tietoenator|transaction|Arbeid utføres|JOB_PERFORMED|0
+77|tietoenator|privacy|Anonym|SHOW_EMAIL|0
+78|itmakeriet|transaction|til salgs|FOR_SALE|0
+79|itmakeriet|transaction|nybygg|FOR_SALE|0
+80|itmakeriet|transaction|bolig_salg|FOR_SALE|0
+81|itmakeriet|transaction|fritid_salg|FOR_SALE|0
+82|itmakeriet|transaction|næring_salg|FOR_SALE|0
+83|itmakeriet|transaction|bolig_tomt|FOR_SALE|0
+84|itmakeriet|transaction|næring_tomt|FOR_SALE|0
+85|itmakeriet|transaction|til leie|FOR_RENT|0
+86|itmakeriet|transaction|bolig_leie|FOR_RENT|0
+87|itmakeriet|transaction|fritid_utleie|FOR_RENT|0
+88|itmakeriet|transaction|næring_utleie|FOR_RENT|0
+89|itmakeriet|transaction|ønskes leid|WANTED_RENT|0
+90|itmakeriet|transaction|bolig_ønskes_leid|WANTED_RENT|0
+91|itmakeriet|country|NO|Norge|0
+92|itmakeriet|country|DK|Danmark|0
+93|itmakeriet|country|SE|Sverige|0
+94|itmakeriet|ownership|selveier|Selveier|0
+95|itmakeriet|ownership|borettslag|Borettslag|0
+96|itmakeriet|ownership|andel|Borettslag|0
+97|itmakeriet|ownership|obligasjonsleilighet|Obligasjonsleilighet|0
+98|itmakeriet|ownership|obligasjon|Obligasjonsleilighet|0
+99|itmakeriet|ownership|aksjeleilighet|Aksjeleilighet|0
+100|itmakeriet|ownership|aksje|Aksjeleilighet|0
+101|itmakeriet|ownership|timeshare andel|Timeshare andel|0
+102|itmakeriet|ownership|annet|Annet|0
+103|itmakeriet|type|hybel|Hybel|16200
+104|itmakeriet|type|leilighet|Leilighet|16200
+105|itmakeriet|type|enebolig|Enebolig|16200
+106|itmakeriet|type|rekkehus|Rekkehus|16200
+107|itmakeriet|type|tomannsbolig|Tomannsbolig|16200
+108|itmakeriet|type|småbruk|Småbruk|16200
+109|itmakeriet|type|smaabruk|Småbruk|16200
+110|itmakeriet|type|bofellesskap|Bofellesskap|16200
+111|itmakeriet|type|boligtomt|Boligtomt|16550
+112|itmakeriet|type|bolig_tomt|Boligtomt|16550
+113|itmakeriet|type|tomt|Boligtomt|16550
+114|itmakeriet|type|garasje/parkering|Garasje/Parkering|16200
+115|itmakeriet|type|annet|Annet|16100
+116|itmakeriet|type|hyttetomt|Hyttetomt|16650
+117|itmakeriet|type|hytte_tomt|Hyttetomt|16650
+118|itmakeriet|type|fritidsbolig|Fritidsbolig|16300
+119|itmakeriet|type|annet-fritid|Fritidsbolig|16300
+120|itmakeriet|type|ferieleilighet|Ferieleilighet|16300
+121|itmakeriet|type|hytte|Hytte|16300
+122|itmakeriet|type|kontor|Kontor|16400
+123|itmakeriet|type|forretningslokale/butikk|Forretningslokale/Butikk|16400
+124|itmakeriet|type|forretning|Forretningslokale/Butikk|16400
+125|itmakeriet|type|produksjon/industri|Produksjon/Industri|16400
+126|itmakeriet|type|lager|Lager|16400
+127|itmakeriet|type|kombinasjonslokaler|Kombinasjonslokaler|16400
+128|itmakeriet|type|kombinasjonslokale|Kombinasjonslokaler|16400
+129|itmakeriet|type|gårdsbruk|Gårdsbruk|16400
+130|itmakeriet|type|gaardsbruk|Gårdsbruk|16400
+131|itmakeriet|type|flermannsbolig/bygårder|Flermannsbolig/Bygårder|16200
+132|itmakeriet|type|flermannsbolig|Flermannsbolig/Bygårder|16200
+133|itmakeriet|type|kjøpesenter|Kjøpesenter|16400
+134|itmakeriet|type|verksted|Verksted|16400
+135|itmakeriet|type|hotell/overnatting|Hotell/Overnatting|16400
+136|itmakeriet|type|hotell|Hotell/Overnatting|16400
+137|itmakeriet|type|serveringslokale/kantine|Serveringslokale/Kantine|16400
+138|itmakeriet|type|undervisning/arrangement|Undervisning/Arrangement|16400
+139|itmakeriet|type|prosjekt|Prosjekt|16200
+140|itmakeriet|type|kuriositeter|Kuriositeter|16400
+141|itmakeriet|type|næringstomt|Næringstomt|16600
+142|emprof|type|pr01|Hybel|16200
+143|emprof|type|pr02|Leilighet|16200
+144|emprof|type|pr03|Enebolig|16200
+145|emprof|type|pr04|Rekkehus|16200
+146|emprof|type|pr05|Tomannsbolig|16200
+147|emprof|type|pr06|Småbruk|16200
+148|emprof|type|pr07|Bofellesskap|16200
+149|emprof|type|pr08|Boligtomt|16550
+150|emprof|type|pr09|Garasje/Parkering|16200
+151|emprof|type|pr99|Annet|16100
+152|emprof|type|ph01|Hyttetomt|16650
+153|emprof|type|ph02|Fritidsbolig|16300
+154|emprof|type|ph03|Ferieleilighet|16300
+155|emprof|type|pc01|Kontor|16400
+156|emprof|type|pc02|Forretningslokale/Butikk|16400
+157|emprof|type|pc03|Produksjon/Industri|16400
+158|emprof|type|pc04|Lager|16400
+159|emprof|type|pc05|Kombinasjonslokaler|16400
+160|emprof|type|pc06|Gårdsbruk|16400
+161|emprof|type|pc11|Hotell/Overnatting|16400
+162|emprof|type|pc99|Annet|16100
+163|emprof|ownership|Selveier|Selveier|0
+164|emprof|ownership|Eierpart leilighet|Selveier|0
+165|emprof|ownership|Andel|Borettslag|0
+166|emprof|ownership|Andelsleilighet|Borettslag|0
+167|emprof|ownership|Obligasjon|Obligasjonsleilighet|0
+168|emprof|ownership|Obligasjonsleilighet|Obligasjonsleilighet|0
+169|emprof|ownership|Aksje|Aksjeleilighet|0
+170|emprof|ownership|Aksjeleilighet|Aksjeleilighet|0
+171|emprof|ownership|Timeshare andel|Timeshare andel|0
+172|finnjob|categories|admoffice/officesecr|Kontormedarbeider/Sekretær|102
+173|finnjob|categories|admoffice/switchbreception|Sentralbord/Resepsjon|103
+174|finnjob|categories|admoffice/studyadm|Kontormedarbeider/Sekretær|102
+175|finnjob|categories|admoffice/custsupporderhandl|Kundeservice/Ordremottak|104
+176|finnjob|categories|admoffice/managment|Administrativ ledelse|105
+177|finnjob|categories|admoffice/archivedocument|Dokumentbehandling|106
+178|finnjob|categories|admoffice/emprelrecruiting|Personalhåndtering/Rekruttering|107
+179|finnjob|categories|admoffice/training|Voksenopplæring/Kurs|2804
+180|finnjob|categories|admoffice/executiveofficer|Saksbehandler|108
+181|finnjob|categories|admoffice/other|Administrasjon, økonomi og juss|100
+182|finnjob|categories|bankfinanceinsurance/bankfinserv|Bank/Finansielle tjenester|201
+183|finnjob|categories|bankfinanceinsurance/insurpenfund|Forsikring/Fond|202
+184|finnjob|categories|bankfinanceinsurance/medanalysis|Megling/Analyse|203
+185|finnjob|categories|bankfinanceinsurance/bankadminexec|Bank/Finansielle tjenester|201
+186|finnjob|categories|bankfinanceinsurance/realestatenego|Eiendomsmegling|204
+187|finnjob|categories|bankfinanceinsurance/bankadvicer|Rådgiver|205
+188|finnjob|categories|bankfinanceinsurance/bankexecoff|Bank/Finansielle tjenester|201
+189|finnjob|categories|bankfinanceinsurance/other|Bank/Finansielle tjenester|201
+190|finnjob|categories|researchdevelop/rdscieng|Naturvitenskap og teknikk|2901
+191|finnjob|categories|researchdevelop/rdsocscihum|Samf. vitenskap og humanistiske fag|2902
+192|finnjob|categories|researchdevelop/other|Forskning og utvikling|2900
+193|finnjob|categories|healthwelfare/docdentvet|Lege|501
+194|finnjob|categories|healthwelfare/nursing|Sykepleier|510
+195|finnjob|categories|healthwelfare/psychpsycserv|Omsorg|800
+196|finnjob|categories|healthwelfare/physergoserv|Fysioterapi/Ergoterapi|512
+197|finnjob|categories|healthwelfare/socialserv|Omsorg|800
+198|finnjob|categories|healthwelfare/pharmacy|Apotekertjenester/Farmasi|701
+199|finnjob|categories|healthwelfare/chiropractor|Kiropraktor|513
+200|finnjob|categories|healthwelfare/veterenarian|Veterinær|515
+201|finnjob|categories|healthwelfare/radiography|Omsorg|800
+202|finnjob|categories|healthwelfare/other|Helse, medisin og omsorg|490
+203|finnjob|categories|hotelrestauranttrav/hotel|Hotellvirksomhet/ overnatting|2501
+204|finnjob|categories|hotelrestauranttrav/otherovernight|Hotellvirksomhet/ overnatting|2501
+205|finnjob|categories|hotelrestauranttrav/restbar|Restaurant og kjøkken|2600
+206|finnjob|categories|hotelrestauranttrav/booking|Booking|2502
+207|finnjob|categories|hotelrestauranttrav/cantcathousekeep|Restaurant og kjøkken|2600
+208|finnjob|categories|hotelrestauranttrav/travel|Hotell og Reiseliv|2500
+209|finnjob|categories|hotelrestauranttrav/other|Hotell og Reiseliv|2500
+210|finnjob|categories|buildconstr/skilledtrad|Håndverksfag/bygg og anlegg|2200
+211|finnjob|categories|buildconstr/techconstruction|Tekniske byggfag|2202
+212|finnjob|categories|buildconstr/mechoccup|Mekaniske yrker|2203
+213|finnjob|categories|buildconstr/buildconstruction|Bygg og anlegg|2204
+214|finnjob|categories|buildconstr/carmechanic|Bilmekaniker|2205
+215|finnjob|categories|buildconstr/unskilledtrad|Ufaglært håndverk|2206
+216|finnjob|categories|buildconstr/servmechanic|Servicemekaniker|2207
+217|finnjob|categories|buildconstr/other|Industri, bygg, offshore|2190
+218|finnjob|categories|industrymanuf/electroptical|Elektriske produkter|2301
+219|finnjob|categories|industrymanuf/energywatsupply|Energi og vannforsyning|2302
+220|finnjob|categories|industrymanuf/pharmind|Apotekertjenester/Farmasi|701
+221|finnjob|categories|industrymanuf/graphicalind|Grafisk industri|2303
+222|finnjob|categories|industrymanuf/rubplasticsmin|Gummi- plast- og mineralvarer|2304
+223|finnjob|categories|industrymanuf/chempetind|Kjemisk industri/ Petroleumsindustri|2305
+224|finnjob|categories|industrymanuf/metals|Metallurgisk industri/Metallvarer|2306
+225|finnjob|categories|industrymanuf/foodbevtob|Nærings- og nytelsesmidler|2307
+226|finnjob|categories|industrymanuf/textclothinf|Tekstindustri og bekledning|2308
+227|finnjob|categories|industrymanuf/transpmachequip|Transportmidler/Maskiner og utstyr|2309
+228|finnjob|categories|industrymanuf/woodfurnind|Treindustri|2310
+229|finnjob|categories|industrymanuf/worksind|Verksindustri|2311
+230|finnjob|categories|industrymanuf/other|Industri og produksjon|2300
+231|finnjob|categories|engineering/buidconstruction|Bygg og anlegg|2204
+232|finnjob|categories|engineering/computereng|Data og IKT|2690
+233|finnjob|categories|engineering/chembio|Naturvitenskap og teknikk|2901
+234|finnjob|categories|engineering/physmat|Naturvitenskap og teknikk|2901
+235|finnjob|categories|engineering/energy|Energi og vannforsyning|2302
+236|finnjob|categories|engineering/geopettech|Geologi/Geofysikk/Reservoar|2402
+237|finnjob|categories|engineering/marintech|Industri, bygg, offshore|2190
+238|finnjob|categories|engineering/materialtech|Industri, bygg, offshore|2190
+239|finnjob|categories|engineering/cybernetics|Industri, bygg, offshore|2190
+240|finnjob|categories|engineering/engmech|Transportmidler/Maskiner og utstyr|2309
+241|finnjob|categories|engineering/engelectronics|Elektriske produkter|2301
+242|finnjob|categories|engineering/engvvs|Håndverksfag/bygg og anlegg|2200
+243|finnjob|categories|engineering/engprojmanag|Industri, bygg, offshore|2190
+244|finnjob|categories|engineering/engcontract|Industri, bygg, offshore|2190
+245|finnjob|categories|engineering/other|Industri, bygg, offshore|2190
+246|finnjob|categories|profindbodies/employerorg|Næringslivs- og arbeidsgiverorg.|2101
+247|finnjob|categories|profindbodies/employeeorg|Arbeidstagerorganisasjoner|2102
+248|finnjob|categories|profindbodies/charityorg|Ideelle organisasjoner|2103
+249|finnjob|categories|profindbodies/internatorg|Internasjonale organisasjoner|2104
+250|finnjob|categories|profindbodies/other|Kultur, idrett og organisasjoner|1890
+251|finnjob|categories|ittelecominternet/applicdev|Applikasjonsutvikling/ programmering|2701
+252|finnjob|categories|ittelecominternet/businessdev|Forretningsutvikling|2702
+253|finnjob|categories|ittelecominternet/support|Support|2703
+254|finnjob|categories|ittelecominternet/plantmachdev|Utvikling av infrastruktur og maskinvare|2704
+255|finnjob|categories|ittelecominternet/plantappoper|Drift av applikasjoner og infrastruktur|2705
+256|finnjob|categories|ittelecominternet/salesmarketing|Salg og markedsføring|1300
+257|finnjob|categories|ittelecominternet/other|Data og IKT|2690
+258|finnjob|categories|farmforestryhuntfish/farmgardcentre|Dyrking|3201
+259|finnjob|categories|farmforestryhuntfish/domfarming|Husdyrhold|3303
+260|finnjob|categories|farmforestryhuntfish/forestry|Skogbruk|3203
+261|finnjob|categories|farmforestryhuntfish/huntestmng|Jakt/Viltstell|3300
+262|finnjob|categories|farmforestryhuntfish/fishhunt|Fiske og fangst|3301
+263|finnjob|categories|farmforestryhuntfish/fishfarm|Oppdrettsnæring|3302
+264|finnjob|categories|farmforestryhuntfish/other|Primærnæringer|3090
+265|finnjob|categories|consulting/architect|Håndverksfag/bygg og anlegg|2200
+266|finnjob|categories|consulting/techconsult|Industri, bygg, offshore|2190
+267|finnjob|categories|consulting/legalserv|Jus|400
+268|finnjob|categories|consulting/propmanagment|Eiendomsmegling|204
+269|finnjob|categories|consulting/busdevstrat|Forretningsutvikling|2702
+270|finnjob|categories|consulting/orgdevelopment|Personalhåndtering/Rekruttering|107
+271|finnjob|categories|consulting/recruitment|Personalhåndtering/Rekruttering|107
+272|finnjob|categories|consulting/revtaxadv|Revisjon/Skatterådgivning|307
+273|finnjob|categories|consulting/other|Annet|11
+274|finnjob|categories|artsculture/theaoperaballett|Teater/Opera/Ballett|1901
+275|finnjob|categories|artsculture/musicdance|Musikk/Dans|1902
+276|finnjob|categories|artsculture/artactiv|Kunst og kultur|1900
+277|finnjob|categories|artsculture/librmuseums|Bibliotek/Museer/Galleri|1903
+278|finnjob|categories|artsculture/sport|Idrett|2000
+279|finnjob|categories|artsculture/other|Kunst og kultur|1900
+280|finnjob|categories|aviationaerospace/flightcontroff|Flygeleder|1606
+281|finnjob|categories|aviationaerospace/pilot|Flyger|1607
+282|finnjob|categories|aviationaerospace/planemechanic|Flymekaniker/Teknisk|1608
+283|finnjob|categories|aviationaerospace/cabincrew|Kabinpersonell|1609
+284|finnjob|categories|aviationaerospace/groundcrew|Bakkepersonell|1610
+285|finnjob|categories|aviationaerospace/other|Luftfart|1605
+286|finnjob|categories|mediainfopr/advertinfo|Reklame|1201
+287|finnjob|categories|mediainfopr/commadvice|Media, informasjon og PR|1200
+288|finnjob|categories|mediainfopr/internett|Internett|1205
+289|finnjob|categories|mediainfopr/journalism|Journalistikk|1202
+290|finnjob|categories|mediainfopr/radiotvfilmvideo|Radio/TV/Film/Video|1203
+291|finnjob|categories|mediainfopr/printing|Trykte Media|1204
+292|finnjob|categories|mediainfopr/publishing|Forlagvirksomhet|1206
+293|finnjob|categories|mediainfopr/other|Media, informasjon og PR|1200
+294|finnjob|categories|publicserv/policefirecust|Sikkerhet|1000
+295|finnjob|categories|publicserv/healthsocserv|Helse, medisin og omsorg|490
+296|finnjob|categories|publicserv/churcheduresearch|Utdanning og Forskning|2790
+297|finnjob|categories|publicserv/offconsultant|Administrasjon, økonomi og juss|100
+298|finnjob|categories|publicserv/defforpol|Forsvar|1004
+299|finnjob|categories|publicserv/taxnatinsur|Administrasjon, økonomi og juss|100
+300|finnjob|categories|publicserv/legprisserv|Sikkerhet|1000
+301|finnjob|categories|publicserv/offcaseworker|Saksbehandler|108
+302|finnjob|categories|publicserv/publicmng|Administrasjon, økonomi og juss|100
+303|finnjob|categories|publicserv/techserv|Administrasjon, økonomi og juss|100
+304|finnjob|categories|publicserv/foreignaff|Administrasjon, økonomi og juss|100
+305|finnjob|categories|publicserv/other|Annet|11
+306|finnjob|categories|offshoreexploit/oilgas|Olje- og gassutvinning|2401
+307|finnjob|categories|offshoreexploit/geology|Geologi/Geofysikk/Reservoar|2402
+308|finnjob|categories|offshoreexploit/oilgassupport|Tjenester tilknyttet olje- og gassutvinning|2403
+309|finnjob|categories|offshoreexploit/drilling|Drilling/Logging/Brønn/Boring|2404
+310|finnjob|categories|offshoreexploit/extractionmining|Utvinning av råstoffer/Bergverksdrift|2405
+311|finnjob|categories|offshoreexploit/offengineering|Industri, bygg, offshore|2190
+312|finnjob|categories|offshoreexploit/offoperator|Operatør/Vedlikehold|2406
+313|finnjob|categories|offshoreexploit/offhms|Helse/Miljø/Sikkerhet|2407
+314|finnjob|categories|offshoreexploit/offprojmanagment|Prosjektledelse|2408
+315|finnjob|categories|offshoreexploit/offresearch|Forskning og Teknologi Utvikling|2409
+316|finnjob|categories|offshoreexploit/offmanagment|Ledelse og Fellestjenester|2410
+317|finnjob|categories|offshoreexploit/technautical|Nautisk|2411
+318|finnjob|categories|offshoreexploit/techmar|Teknisk - maritim|2412
+319|finnjob|categories|offshoreexploit/other|On-/ offshore, olje og gass|2400
+320|finnjob|categories|personalserv/persfysioergo|Fysioterapi/Ergoterapi|512
+321|finnjob|categories|personalserv/hairbeauty|Hår- og skjønnhetspleie|601
+322|finnjob|categories|personalserv/perschiropractor|Kiropraktor|513
+323|finnjob|categories|personalserv/domhelpgard|Annet|11
+324|finnjob|categories|personalserv/fitnesscentre|Annet|11
+325|finnjob|categories|personalserv/caretakserv|Vaktmestertjenester|905
+326|finnjob|categories|personalserv/securityserv|Vekter|1101
+327|finnjob|categories|personalserv/laundrydryclean|Rengjøringsmedarbeider|901
+328|finnjob|categories|personalserv/other|Annet|11
+329|finnjob|categories|cleanwaste/cleaningpersonell|Rengjøringsmedarbeider|901
+330|finnjob|categories|cleanwaste/watersewserv|Renhold, vedlikehold og renovasjon|900
+331|finnjob|categories|cleanwaste/wastemng|Renovasjon|903
+332|finnjob|categories|cleanwaste/vermincontroll|Skadesanering|904
+333|finnjob|categories|cleanwaste/other|Renhold, vedlikehold og renovasjon|900
+334|finnjob|categories|salesmarketing/servicessales|Tjenestesalg|1303
+335|finnjob|categories|salesmarketing/telemarketing|Telemarketing|1304
+336|finnjob|categories|salesmarketing/productsales|Produktsalg|1305
+337|finnjob|categories|salesmarketing/marketing|Salg og markedsføring|1300
+338|finnjob|categories|salesmarketing/other|Salg og markedsføring|1300
+339|finnjob|categories|transpologisticswareh/haulage|Landtransport|1600
+340|finnjob|categories|transpologisticswareh/shipping|Sjøfart|1602
+341|finnjob|categories|transpologisticswareh/tranbuyer|Innkjøpsansvarlig|1704
+342|finnjob|categories|transpologisticswareh/airtransport|Luftfart|1605
+343|finnjob|categories|transpologisticswareh/trasnportserv|Transportknyttede tjenester|1611
+344|finnjob|categories|transpologisticswareh/postdelivery|Post- og budtjenester|1801
+345|finnjob|categories|transpologisticswareh/logisticwarehouse|Lager|1700
+346|finnjob|categories|transpologisticswareh/other|Transport, lager og logistikk|1590
+347|finnjob|categories|eduteach/kindergarden|Barnehage|805
+348|finnjob|categories|eduteach/school|Grunnskole|2801
+349|finnjob|categories|eduteach/professorship|Professorat/Stipendiat|2805
+350|finnjob|categories|eduteach/highschool|Videregående skole|2802
+351|finnjob|categories|eduteach/univcollege|Universitet/Høgskole|2803
+352|finnjob|categories|eduteach/adultedu|Voksenopplæring/Kurs|2804
+353|finnjob|categories|eduteach/other|Utdanning og Forskning|2790
+354|finnjob|categories|retail/agencywholesale|Agentur- engroshandel|1501
+355|finnjob|categories|retail/decorator|Dekoratør|1502
+356|finnjob|categories|retail/retailtrade|Detaljhandel/Butikksalg|1503
+357|finnjob|categories|retail/franchise|Franchisetager|1504
+358|finnjob|categories|retail/maintrep|Reparasjon og vedlikehold|1505
+359|finnjob|categories|retail/other|Varehandel|1500
+360|finnjob|categories|economycontrolling/accountcontrol|Økonomi og regnskap|300
+361|finnjob|categories|economycontrolling/economyfinance|Økonomi/Finans|302
+362|finnjob|categories|economycontrolling/puchlogistics|Innkjøp/Logistikk|303
+363|finnjob|categories|economycontrolling/payoffice|Lønn|304
+364|finnjob|categories|economycontrolling/other|Økonomi og regnskap|300
+365|finnjob|categories|economycontrolling/revision|Revisjon|305
+366|finnjob|categories|economycontrolling/other|Økonomi og regnskap|300
+367|finnjob|sectors|private|Privat|0
+368|finnjob|sectors|public|Offentlig|0
+369|finnjob|sectors|organisations|Organisasjoner|0
+370|finnjob|duration|permanent|Fast|0
+371|finnjob|duration|fixedcontract|Engasjement|0
+372|finnjob|duration|temporary|Vikariat|0
+373|finnjob|duration|seasonal|Sommer/Sesong|0
+374|finnjob|role|senmanager|Toppleder|0
+375|finnjob|role|midmanager|Mellomleder|0
+376|finnjob|role|projmanager|Prosjektleder|0
+377|finnjob|role|advisor|Rådgiver|0
+378|finnjob|role|profexp|Fagperson|0
+379|finnjob|role|salespers|Selger|0
+380|finnjob|role|custreloff|Kundebehandler|0
+381|finnjob|role|operator|Operatør|0
+382|finnjob|role|other|Andre|0
+383|finnjob|extent|fulltime|Heltid|0
+384|finnjob|extent|parttime|Deltid|0
+385|finnjob|modus|yes|Ja|0
+386|finnjob|modus|no|Nei|0
+387|finnjob|heading|OFFER|Tilbud|0
+388|finnjob|heading|TASKS|Oppgaver|0
+389|finnjob|heading|QUALIFICATIONS|Kvalifikasjoner|0
+390|finnjob|heading|PERSONAL_QUALITIES|Personlige egenskaper|0
+391|rettbemanning|categories|AdministrativLedelse|Annet|11
+392|rettbemanning|categories|Administrativledelse/HR|Data og IKT|2690
+393|rettbemanning|categories|Aministrasjon/Kontor/Personal|Administrativ ledelse|105
+394|rettbemanning|categories|Anleggsgartner|Administrasjon, personal og kontor|101
+395|rettbemanning|categories|Anleggsleder|Dokumentbehandling|106
+396|rettbemanning|categories|Annet|Innkjøp/Logistikk|303
+397|rettbemanning|categories|Annetfaglærthåndverk|Kontormedarbeider/Sekretær|102
+398|rettbemanning|categories|Annonse/Reklame|Kundeservice/Ordremottak|104
+399|rettbemanning|categories|Arbeidstakerorganisasjoner|Utdanning og forskning / Utdanning|306
+400|rettbemanning|categories|Arkitetvirksomhet|Personalhåndtering/Rekruttering|107
+401|rettbemanning|categories|Arkiv/Dokumentbehandler|Administrasjon, økonomi og juss|306
+402|rettbemanning|categories|Automasjon/Instrumentering|Administrasjon, økonomi og juss|306
+403|rettbemanning|categories|Bank/Finansielletjenester|Sentralbord/Resepsjon|103
+404|rettbemanning|categories|Bank/Finans/Forsikring|Bank/Finansielle tjenester|201
+405|rettbemanning|categories|Bar/Restaurant|Eiendomsmegling|204
+406|rettbemanning|categories|Barnehage|Rådgiver|205
+407|rettbemanning|categories|Bibliotek/Museer/Galleri|Forsikring/Fond|202
+408|rettbemanning|categories|Blikkenslager|Apotekertjenester/Farmasi|701
+409|rettbemanning|categories|Booking|Fysioterapi/Ergoterapi|512
+410|rettbemanning|categories|Booking/Respsjonist|Helsesøster|508
+411|rettbemanning|categories|Brønn/Boring/Drilling/Logging|Hjelpepleie|509
+412|rettbemanning|categories|Butikk/Detaljehandel|Hjelpepleie|509
+413|rettbemanning|categories|Byggoganleggsmedarbeider|Lege|501
+414|rettbemanning|categories|Bygg-oganleggsingeniør|Apotekertjenester/Farmasi|701
+415|rettbemanning|categories|Byggeleder|Legesekretær/Legeassistent|503
+416|rettbemanning|categories|Catering/Kantine/Storhusholdning|Omsorg|800
+417|rettbemanning|categories|Controller|Sykepleier|510
+418|rettbemanning|categories|Dataingeniør|Tannhelse|504
+419|rettbemanning|categories|Dekoratør|Tannhelse|504
+420|rettbemanning|categories|Eiendomsmegler|Resturant og reiseliv|2490
+421|rettbemanning|categories|Elektriker|Booking|2502
+422|rettbemanning|categories|Elektriskeogoptiskeprodukter|Booking|2502
+423|rettbemanning|categories|Elektroingeniør|Kantine/Storhusholdning|2300
+424|rettbemanning|categories|Energi-ogvannforsyning|Hotellvirksomhet/ overnatting|2501
+425|rettbemanning|categories|Energi/Kraftingeniør|Hotellvirksomhet/ overnatting|2501
+426|rettbemanning|categories|Engineering|Restaurant|2604
+427|rettbemanning|categories|Farmasøyt|Hotellvirksomhet/ overnatting|2501
+428|rettbemanning|categories|Farmasøytiskindustri|restaurant og reiseliv / restaurant_og_kjøkken / kantine_og_storhusholdning|2601
+429|rettbemanning|categories|Fengselsbetjent|Kokk|2602
+430|rettbemanning|categories|Finansrådgiver|Kokk|2602
+431|rettbemanning|categories|Forlagsvirksomhet|Kokk|2602
+432|rettbemanning|categories|Forsikring/Fond/Pensjonsfond|restaurant_og_reiseliv__hotell_og_reiseliv.|2500
+433|rettbemanning|categories|Forskalingssnekker|Hotell og Reiseliv|2500
+434|rettbemanning|categories|Forskning|Hotell og Reiseliv|2500
+435|rettbemanning|categories|Førskole/SFO|Hotell og Reiseliv|2500
+436|rettbemanning|categories|Franchisetaker|Hotell og Reiseliv|2500
+437|rettbemanning|categories|Fysioterapeut|Servitør|2605
+438|rettbemanning|categories|Fystikkogmatematikk|Hotell og Reiseliv|2500
+439|rettbemanning|categories|Geofag/Petroleumsteknologi|Faglært håndverk|2201
+440|rettbemanning|categories|Geologi/Geofysikk/Reservoar|Faglært håndverk|2201
+441|rettbemanning|categories|Grafiskindustri|Faglært håndverk|2201
+442|rettbemanning|categories|Grunnskole|Faglært håndverk|2201
+443|rettbemanning|categories|Gummi,plastogmineralvare|Bygg og anlegg|2204
+444|rettbemanning|categories|Håndverk/Byggoganlegg|Faglært håndverk|2201
+445|rettbemanning|categories|Hår-/Skjønnhetspleie|Elektriker|2208
+446|rettbemanning|categories|Helse/Miljø/Sikkerhet|Faglært håndverk|2201
+447|rettbemanning|categories|Helse/Sosial|Faglært håndverk|2201
+448|rettbemanning|categories|Helsestasjon|Faglært håndverk|2201
+449|rettbemanning|categories|Hjelpepleier|Bygg og anlegg|2200
+450|rettbemanning|categories|Hjemmetjeneste|Faglært håndverk|2201
+451|rettbemanning|categories|HMS|Bygg og anlegg|2200
+452|rettbemanning|categories|Hotell/Restaurant/Storhusholdning|Bilmekaniker|2205
+453|rettbemanning|categories|Hotellmedarbeider/Værelse|Faglært håndverk|2201
+454|rettbemanning|categories|Hotellsjef|Faglært håndverk|2201
+455|rettbemanning|categories|Hovmester|Faglært håndverk|2201
+456|rettbemanning|categories|Husøkonom|Ufaglært håndverk|2206
+457|rettbemanning|categories|IK-Mat|Faglært håndverk|2201
+458|rettbemanning|categories|Indrettshøyskole|Faglært håndverk|2201
+459|rettbemanning|categories|Industri/produksjon|Ufaglært håndverk|2206
+460|rettbemanning|categories|Ingeniør|Elektriske produkter|2301
+461|rettbemanning|categories|Innkjøp(ingeniør)|Energi og vannforsyning|2302
+462|rettbemanning|categories|Innkjøp(Transport)|bygg_og_offshore__industri_og_produksjon|2300
+463|rettbemanning|categories|Innkjøp/Kontrakt|bygg_og_offshore__industri_og_produksjon|2300
+464|rettbemanning|categories|Interesseorganisasjon|Gummi- plast- og mineralvarer|2304
+465|rettbemanning|categories|Internasjonaleorganisasjoner|Kjemisk industri/ Petroleumsindustri|2305
+466|rettbemanning|categories|Internett|bygg_og_offshore__industri_og_produksjon__verksindustri|2311
+467|rettbemanning|categories|Isolatør|Metallurgisk industri/Metallvarer|2306
+468|rettbemanning|categories|IT/Telekommuniasjon/Internett|Nærings- og nytelsesmidler|2307
+469|rettbemanning|categories|IT/Telekommunikasjon/Internett|bygg_og_offshore__industri_og_produksjon__verksindustri|2311
+470|rettbemanning|categories|Jernbindere|Transportmidler/Maskiner og utstyr|2309
+471|rettbemanning|categories|Jounalistikk|Treindustri|2310
+472|rettbemanning|categories|Juridisketjenester|industri%2C_bygg_og_offshore|2190
+473|rettbemanning|categories|Kjemi/Biologi|Håndverksfag/bygg og anlegg|2200
+474|rettbemanning|categories|Kjemiskindustri/petroleumsindustri|Data og IKT|2690
+475|rettbemanning|categories|Kjøle/kuldetekniker|Energi og vannforsyning|2302
+476|rettbemanning|categories|Kokkm/fagbrev|utdanning_og_forskning|2790
+477|rettbemanning|categories|Kokku/fagbrev|Geologi/Geofysikk/Reservoar|2402
+478|rettbemanning|categories|Kommunikasjonsrådgivning|Helse/Miljø/Sikkerhet|2407
+479|rettbemanning|categories|Konsulenter/Frieyrker|lager_og_logistikk__logistikk_og_spedisjon.html?query=text%3Dlogistikk|1800
+480|rettbemanning|categories|Kontormedarbeider/Sekretær|utdanning_og_forskning|2690
+481|rettbemanning|categories|Kranfører|industri%2C_bygg_og_offshore__industri_og_produksjon|2300
+482|rettbemanning|categories|Kunderservice/Ordremottak|industri%2C_bygg_og_offshore__industri_og_produksjon|2300
+483|rettbemanning|categories|Kurs/Konferanse|Teknisk - maritim|2412
+484|rettbemanning|categories|Kybernetikk|Transportmidler/Maskiner og utstyr|2309
+485|rettbemanning|categories|Lager|utdanning_og_forskning|2790
+486|rettbemanning|categories|Landtransport|Prosjektledelse|2408
+487|rettbemanning|categories|Ledelseogfellestjenester|Arbeidstagerorganisasjoner|2102
+488|rettbemanning|categories|Lege|Internasjonale organisasjoner|2104
+489|rettbemanning|categories|Legemiddelkonsulent|Næringslivs- og arbeidsgiverorg.|2101
+490|rettbemanning|categories|Legesekretær|Annet|11
+491|rettbemanning|categories|Logistikk|Administrasjon, økonomi og juss|100
+492|rettbemanning|categories|Lønn||400
+493|rettbemanning|categories|Lufttransport|Annet|11
+494|rettbemanning|categories|Maler|Bibliotek/Museer/Galleri|1903
+495|rettbemanning|categories|Marineteknikk|Musikk/Dans|1902
+496|rettbemanning|categories|Markedsføring|Administrasjon, personal og kontor|101
+497|rettbemanning|categories|Maskinfører|Bank/Finansielle tjenester|201
+498|rettbemanning|categories|Maskiningeniør|Helse, medisin og omsorg|490
+499|rettbemanning|categories|Materialteknologi|Resturant og reiseliv|2490
+500|rettbemanning|categories|Media/Informasjon/PR|Industri, bygg, offshore|2190
+501|rettbemanning|categories|Mekaniker|Industri, bygg, offshore|2190
+502|rettbemanning|categories|Mekanikk|Industri, bygg, offshore|2190
+503|rettbemanning|categories|Metallurgiskindustri/Metallvare|Interesseorganisasjoner|2100
+504|rettbemanning|categories|Murer|Data og IKT|2690
+505|rettbemanning|categories|Musikk/Dans/Drama|data_og_ikt / it_og_telecom|2700
+506|rettbemanning|categories|Nærings-nytelsesmidler|Salg, Media og Markeføring|1190
+507|rettbemanning|categories|Næringslivs-ogarbeidsgiverorg|On-/ offshore, olje og gass|2400
+508|rettbemanning|categories|Offentligtjenesterogforvaltning|Resturant og reiseliv|2490
+509|rettbemanning|categories|Økonomi/Finans|Renhold, Service, Sikkerhet|890
+510|rettbemanning|categories|Økonomi/Regnskap/Lønn|Salg, Media og Markeføring|1190
+511|rettbemanning|categories|Olje-oggassutvinning|Renhold, Service, Sikkerhet|890
+512|rettbemanning|categories|Olje/gass/Off-Onshore/Maritim|Transport, lager og logistikk|1590
+513|rettbemanning|categories|Omsorgsmedarbeider|Utdanning og Forskning|2790
+514|rettbemanning|categories|Operatør/Vedlikehold|Økonomi og regnskap|300
+515|rettbemanning|categories|Opplæring|Reklame|1201
+516|rettbemanning|categories|Organiasjonsutvikling|Forlagvirksomhet|1206
+517|rettbemanning|categories|Personalarbeid/rekruttering|Internett|1205
+518|rettbemanning|categories|Personligetjeneste-ogservice|Journalistikk|1202
+519|rettbemanning|categories|Politi/Brann/Toll|Kommunikasjonsrådgivning|1401
+520|rettbemanning|categories|Post-ogbudtjenester|Radio/TV/Film/Video|1203
+521|rettbemanning|categories|Produksjon|Trykte Media|1204
+522|rettbemanning|categories|Produktsalg|administrasjon%2C_økonomi_og_juss__administrasjon%2C_personal_og_kontor__administrativ_ledelse|400
+523|rettbemanning|categories|Prosjekleder(ingeniør)|Drilling/Logging/Brønn/Boring|2404
+524|rettbemanning|categories|Prosjektledelse|industri%2C_bygg_og_offshore__on-%2C_offshore%2C_olje_og_gass|2400
+525|rettbemanning|categories|Prosjektledelse(olje/gass)|Geologi/Geofysikk/Reservoar|2402
+526|rettbemanning|categories|Radio/TV/Film/Video|Helse/Miljø/Sikkerhet|2407
+527|rettbemanning|categories|Regnskap|Ledelse og Fellestjenester|2410
+528|rettbemanning|categories|Reiseleder/Guide|Olje- og gassutvinning|2401
+529|rettbemanning|categories|Reiselivbransjen|Operatør/Vedlikehold|2406
+530|rettbemanning|categories|Reiselivsmedarbeider|Prosjektledelse|2408
+531|rettbemanning|categories|Rengjøringsmedarbeider|Teknisk - maritim|2412
+532|rettbemanning|categories|Renhold/Renovasjon|Rengjøringsmedarbeider|901
+533|rettbemanning|categories|Renovasjon|Renovasjon|903
+534|rettbemanning|categories|Resepsjonist|Skadesanering|904
+535|rettbemanning|categories|Revisjon/Skatterådgivning|Vann- kloakk- og renseanlegg|902
+536|rettbemanning|categories|Rørlegger|Markedsføring|1307
+537|rettbemanning|categories|Saksbehandler|Produktsalg|1305
+538|rettbemanning|categories|Salg/Markedsføring|Markedsføring|1307
+539|rettbemanning|categories|Sentralbord/Resepsjon|Telemarketing|1304
+540|rettbemanning|categories|Service/sikkerhet|Tjenestesalg|1303
+541|rettbemanning|categories|Servicemedarbeider|Dagligvare|1506
+542|rettbemanning|categories|Servitør|Detaljhandel/Butikksalg|1503
+543|rettbemanning|categories|Sjåfør|renhold%2C_service_og_sikkerhet__vakt-_og_sikkerhetstjenester|1100
+544|rettbemanning|categories|Sjøtransport|Franchisetager|1504
+545|rettbemanning|categories|Skadedyrkontroll/Skadesanering|Hår- og skjønnhetspleie|601
+546|rettbemanning|categories|Skatt/Trygd|renhold%2C_service_og_sikkerhet__vakt-_og_sikkerhetstjenester|1100
+547|rettbemanning|categories|Snekker/tømrerm/fagbrev|renhold%2C_service_og_sikkerhet__vakt-_og_sikkerhetstjenester|1100
+548|rettbemanning|categories|Spedisjon/Befrakter/Fortoller|renhold%2C_service_og_sikkerhet__vakt-_og_sikkerhetstjenester|1100
+549|rettbemanning|categories|Stillasarbeider|Vaktmestertjenester|905
+550|rettbemanning|categories|Sveisere|Varehandel|1500
+551|rettbemanning|categories|Sykepleier|Vekter|1101
+552|rettbemanning|categories|Taktekker|Veterinær|515
+553|rettbemanning|categories|Tannlege|Stilling/Transport, lager og logistikk|1590
+554|rettbemanning|categories|Tannlegeassistent|Lager|1700
+555|rettbemanning|categories|Teknisk/Maritim|Landtransport|1600
+556|rettbemanning|categories|Tekniskkonsulentvirksomhet|Logistikk/Spedisjon|1800
+557|rettbemanning|categories|Teknisksalg|Stilling/Transport, lager og logistikk|1590
+558|rettbemanning|categories|Telemarketing|Post- og budtjenester|1801
+559|rettbemanning|categories|Tjenestesalg|Sjåfører|1601
+560|rettbemanning|categories|Transport/Logistikk/Lager|Sjøfart|1602
+561|rettbemanning|categories|Transportmidler/Maskinerogutstyr|Logistikk/Spedisjon|1800
+562|rettbemanning|categories|Transporttilknyttendetjenester|Transportknyttede tjenester|1611
+563|rettbemanning|categories|Tre-ogverksindustri|Barnehage|805
+564|rettbemanning|categories|Treningssenter|Professorat/Stipendiat|2805
+565|rettbemanning|categories|Tryktemedia|Førskole|2806
+566|rettbemanning|categories|Turoperatør/Chater|Grunnskole|2801
+567|rettbemanning|categories|Ufaglærthåndverk|Stilling/Utdanning og forskning/Utdanning/|2800
+568|rettbemanning|categories|Universitet/Høgskole|Universitet/Høgskole|2803
+569|rettbemanning|categories|Utdanning/Undervisning/Forskning|Videregående skole|2802
+570|rettbemanning|categories|Vaktmestertjenster|Voksenopplæring/Kurs|2804
+571|rettbemanning|categories|Vann-,kloakkogrenseanlegg|Regnskap/Controlling|301
+572|rettbemanning|categories|Varehandel|Lønn|304
+573|rettbemanning|categories|Vektertjenester|Økonomi og regnskap|300
+574|rettbemanning|categories|Veterinær|Revisjon/Skatterådgivning|307
+575|rettbemanning|categories|Videregåendeskole|Stilling/Administrasjon, økonomi og juss/Økonomi og regnskap|300
+576|rettbemanning|categories|Voksenopplæring|Økonomi/Finans|302

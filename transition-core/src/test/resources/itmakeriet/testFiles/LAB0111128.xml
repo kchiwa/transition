@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+    <Property>
+        <Client>21924</Client>
+        <Contacts>
+            <Contact>
+                <Name>Aleksander Berg</Name>
+                <Email>aleksander.berg@garanti.no</Email>
+                <Mobile>975 92 250</Mobile>
+                <Fax>33 13 85 10</Fax>
+                <Address CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>LAB0111128</ClientsRef>
+        <Status Code="AKTIV"/>
+        <Publish FromDate="2011-06-29" ToDate="2011-12-23"/>
+        <Type>leilighet</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>Pen 3 roms andelsleilighet i 2.etasje på Sollijordet. Garasje.</Title>
+        <Address Street="Sollijordet 12 A" PostCode="3292" City="STAVERN" CountryCode="NO"/>
+        <Matrikkel Kommune="0709" GNR="4046" BNR="283"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">400000</Price>
+            <Price Name="Husleie" Curr="NOK" Per="Måned">5617</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">1016253</Price>
+            <Price Name="Formue" Curr="NOK">21620</Price>
+            <Price Name="Fellesutgifter_inkluderer">Forretningsførsel, kabel-tv, kommunale avgifter, renter på fellesgjeld, forsikring på bygningen og annen drift og vedlikehold.</Price>
+            <Price Name="Omkostninger_for_kjoper">Evt. medlemskap til boligbyggelaget: kr. 500,-.
+                Evt. gebyr for bruk av forkjøpsrett: kr. 4.300,-. Hjemmelsoverføring kr. 430,-.
+                Tinglysing pantedokument for hvert lån kr. 430,-. Panteattest kr. 202,-.</Price>
+            <Price Name="Laanevilkaar_fellesgjeld">Avdragsfritt annuitetslån i Husbanken (kr. 435 697,- for denne andel) med fastrente 4,9% (fastrenteavtale utløper 30.06.12). Avdragene starter i 2014 med innfrielse i 2036. Estimerte avdrag fra 2014 er kr. 910,- pr. mnd.
+
+                Avdragsfritt annuitetslån i Husbanken (kr. 198 254,- for denne andel) med fastrente 4,9% (fastrenteavtale utløper 30.06.12). Avdragene starter i 2013 med innfrielse i 2030. Estimerte avdrag fra 2013 er kr. 610,- pr. mnd.
+
+                Avdragsfritt annuitetslån i Larvikbanken (kr. 337 110,- for denne andel) med rentesats 3,5% (pr. 27.06.11). Avdragene starter i 2014 med innfrielse i 2035. Estimerte avdrag fra 2014 er kr. 80,- pr. mnd.
+
+                Avdragsfritt annuitetslån i Larvikbanken (kr. 45.192,- for denne andel) med rentesats 3,5% (pr. 27.06.11). Avdragene starter i 2014 med innfrielse i 2035. Estimerte avdrag fra 2014 er kr. 120,- pr. mnd.</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruksareal">60</Area>
+            <Area Name="primaererom_areal">60</Area>
+            <Area Name="primaererom_ledetekst">Arealbeskrivelse</Area>
+            <Area Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>andel</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>2004</BuiltYear>
+        <BedRooms>2</BedRooms>
+        <Rooms>3</Rooms>
+        <Floor>2</Floor>
+        <EnergyClass>G</EnergyClass>
+        <HeatingColorCode>5</HeatingColorCode>
+        <Viewings>
+            <Viewing Date="2011-07-02" From="11:30" To="12:30"/>
+        </Viewings>
+        <TextFields>
+            <Text Name="Borettslag">Sollie </Text>
+            <Text Name="Inneholder">Leiligheten ligger i 2.etasje og inneholder: Gang, bad/wc, 2 soverom, bod/vaskerom, kjøkken og stue m/ utgang til solrik veranda. Loft med lagringsplass.
+
+                Garasjeplass i garasjerekke.</Text>
+            <Text Name="Beliggenhet">Sollijordet / Brunla - nyere, attraktivt boligområde mellom Larvik og Stavern. Kort vei til skoler, barnehage, kolonialbutikk, sjøen og badestrender, fine turområder m.m.</Text>
+            <Text Name="Adkomst">Direkte fra Sollijordet.</Text>
+            <Text Name="Standard">Nyere leilighet med normal god standard. Leilighetenfremstår tiltalende med lyse og tidsriktige farger. Det er benyttet laminat og belegg på gulv, mens det på veggene er panel.</Text>
+            <Text Name="Bebyggelse">6 mannsbolig i 2 etasjer, oppført i vanlige trekonstruksjoner på støpt plate.</Text>
+            <Text Name="Parkering">Garasje i garasjerekke.</Text>
+            <Text Name="Tomten">Pent opparbeidet fellesarealer. Opparbeidet med plen og prydbusker. Asfaltert adkomst til alle leilighetene samt parkering.</Text>
+            <Text Name="Oppvarming">Oppvarming skjer ved hjelp av elektrisitet. Det er pipeløp i leiligheten og med det mulighet for å etablere ildsted.</Text>
+            <Text Name="Dyrehold">Evt. dyrehold skal godkjennes av styret i borettslaget.</Text>
+            <Text Name="Regulering">Regulert til bolig.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="balkong"/>
+            <Option Name="barnevennlig"/>
+            <Option Name="rolig"/>
+            <Option Name="kabel-tv"/>
+            <Option Name="garasje"/>
+            <Option Name="off. vann"/>
+        </Options>
+        <Links>
+            <Link Title="Virtuell visning" Type="C360">237716</Link>
+        </Links>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Fasade" LastModified="2011-06-29 14:19">file:LAB0111128-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Veranda" LastModified="2011-06-29 14:19">file:LAB0111128-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-29 14:19">file:LAB0111128-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-06-29 14:19">file:LAB0111128-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken med spiseplass" LastModified="2011-06-29 14:19">file:LAB0111128-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-06-29 14:19">file:LAB0111128-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad" LastModified="2011-06-29 14:19">file:LAB0111128-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Bad" LastModified="2011-06-29 14:19">file:LAB0111128-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2011-06-29 14:19">file:LAB0111128-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2011-06-29 14:19">file:LAB0111128-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Gang" LastModified="2011-06-29 14:19">file:LAB0111128-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade" LastModified="2011-06-29 14:19">file:LAB0111128-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Garasje" LastModified="2011-06-29 14:19">file:LAB0111128-13.JPG</Picture>
+        </Media>
+    </Property>
+</TAS.Import>

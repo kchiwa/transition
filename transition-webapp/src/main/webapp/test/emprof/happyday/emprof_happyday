@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+    <!--
+         Document generated: 25.10.2010 11:28:02
+         PropertyID:	60996-->
+    <!--
+   CommisionTypeID: 5-->
+    <MEGLERDATA>
+        <MEGLER_KONTOR_ID>21790</MEGLER_KONTOR_ID>
+        <MEGLER_KONTOR_NAVN>Gran</MEGLER_KONTOR_NAVN>
+        <MEGLER_KONTOR_BESOKSADRESSE>Pb. 159</MEGLER_KONTOR_BESOKSADRESSE>
+        <MEGLER_KONTOR_POSTNR>2711</MEGLER_KONTOR_POSTNR>
+        <MEGLER_KONTOR_POSTSTED>GRAN</MEGLER_KONTOR_POSTSTED>
+        <MEGLER_KONTOR_EMAIL>em1@em1hadeland.no</MEGLER_KONTOR_EMAIL>
+    </MEGLERDATA>
+    <OPPDRAG>
+        <!--
+          STATUS
+          0 - ukjent
+          1 - Online
+          2 - Solgt
+          3 - Trukket
+        -->
+        <STATUS>1</STATUS>
+        <OPPDRAGSNR>115141</OPPDRAGSNR>
+        <EIENDOMSNAVN>Tomtefelt Søndre Skøien veg</EIENDOMSNAVN>
+        <OVERSKRIFT1>Byggeklare boligtomter på Kalvsjø. 9 solgt Vann, avløp og strøm til tomtegrense.</OVERSKRIFT1>
+        <BOLIGTYPE>pr08</BOLIGTYPE>
+        <!--
+          OPPDRAGS_TYPE:
+          0 Salg
+          1 Utleie
+        -->
+        <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+        <KOMMUNENR>533</KOMMUNENR>
+        <TOMTESTORRELSE>839</TOMTESTORRELSE>
+        <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+        <PRISANTYDNING_VERDI>400000</PRISANTYDNING_VERDI>
+        <GNR>104</GNR>
+        <BNR>132</BNR>
+        <SNR>0</SNR>
+        <FNR>0</FNR>
+        <BRUTTOAREAL>0</BRUTTOAREAL>
+        <BOAREAL>0</BOAREAL>
+        <HUSLEIEINKLUDERER>Fellesutgifter kr 6.160,- pr mnd.&lt;br&gt;Gass kr 500,- pr. mnd. &lt;br&gt;&lt;br&gt;Fellesutgiftene pr mnd. inkluderer: Nedbet. av fellesgjeld, kabel-tv, utv. forsikringer, gass, renovasjon og vedlikehold. Vann må avleses og regning på det kommer utenom fellesutg.  Opplyst fra eier.</HUSLEIEINKLUDERER>
+        <OMKOSTNINGER>kr   430,- tinglysing av skjøte&lt;br&gt;kr   430,- tinglysing av pantobligasjon&lt;br&gt;kr   298,- pantattest til kjøpers långiver&lt;br&gt;kr 3.440,- eierskiftegebyr &lt;br&gt;kr    675,- innmelding i boligbyggelaget romerike&lt;br&gt;--------------------------------------------------------&lt;br&gt;kr 5.273,- sum omkostninger</OMKOSTNINGER>
+        <LAANEVILKAARFELLESGJELD>Se vedlegg i salgsoppgaven.</LAANEVILKAARFELLESGJELD>
+        <P-ROM>0</P-ROM>
+        <PRIMAERROM_BESKRIVELSE></PRIMAERROM_BESKRIVELSE>
+        <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+        <AREALBESKRIVELSE></AREALBESKRIVELSE>
+        <EIERFORM>Selveier</EIERFORM>
+        <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+        <TOMTEBESKRIVELSE>Feltet består av tilsammen 15 tomter, hvorav fire er regulert til tomannsboliger og resterende
+            til eneboliger. &lt;br&gt;Tre av tomtene regulert for tomannsbolig er solgt, mens en er ledig.&lt;br&gt;5
+            eneboligtomter er solgt.&lt;br&gt;Tomtene er grovplanert, det er opparbeidet veg på feltet og vann- og
+            avløpsnett ligger inntil tomtegrensene. Påkoblingsavgifter til Lunner kommune og Oppen Vannverk etter
+            gjeldende satser. Se forøvrig vedlagte priser.
+        </TOMTEBESKRIVELSE>
+        <INNHOLD></INNHOLD>
+        <STANDARD></STANDARD>
+        <BELIGGENHET>Tomtene ligger pent til ved Kalvsjøvannet, med kort avstand til turterreng sommer som vinter. Det
+            er godt med sol på de fleste tomtene. Gangavstand til Lunners nye barneskole , samt kort vei til Fagertun
+            Barnehage. Det er hhv. ca. 55 km og 40 km til Oslo og Gardermoen.
+        </BELIGGENHET>
+        <ADKOMST>Ta av mot Jevnaker i rundkjøring på Roa, følg denne veien til toppen. Ta av til høyre under bro, ta så
+            av til høyre igjen mot Kalvsjø. Kjør ca. 500 m hold høyre i kryss, følg veien langs vannet. Når du kommer
+            til enden av vannet, ta til høyre i skarp sving. Følg veien innover, du vil nå se et skilt med beskrivelse
+            av tomter.
+        </ADKOMST>
+        <ANTALL_SOVEROM>0</ANTALL_SOVEROM>
+        <BYGGEAAR>0</BYGGEAAR>
+        <MODERNISERINGSAAR>0</MODERNISERINGSAAR>
+        <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+        <MODERNISERINGSAAR_UTVENDIG>0</MODERNISERINGSAAR_UTVENDIG>
+        <POSTNR>2730</POSTNR>
+        <POSTSTED>LUNNER</POSTSTED>
+        <ETASJE>0</ETASJE>
+        <VEI_VANN_KLOAKK>Offentlig avløp og renovasjon. Privat veg fra fylkesveg 4 og privat vannverk.&lt;br&gt;Kjøper
+            forplikter seg til å betale påkoblingsgebyr til Oppen vannverk når kjøpekontrakter er undertegnet.
+        </VEI_VANN_KLOAKK>
+        <FELLESUTGIFTER>0</FELLESUTGIFTER>
+        <FELLESGJELD>0</FELLESGJELD>
+        <FESTEAVGIFT>0</FESTEAVGIFT>
+        <MARKEDSVERDI>0</MARKEDSVERDI>
+        <LAANEVERDI>0</LAANEVERDI>
+        <SAKSBEHANDLER_NAVN>Helle Taaje</SAKSBEHANDLER_NAVN>
+        <SAKSBEHANDLER_EMAIL>helle@em1hadeland.no</SAKSBEHANDLER_EMAIL>
+        <SAKSBEHANDLERS_TELEFON>61 32 70 23</SAKSBEHANDLERS_TELEFON>
+        <SAKSBEHANDLERS_MOBIL>91 54 72 77</SAKSBEHANDLERS_MOBIL>
+        <VISNINGSAVTALE>Etter avtale med saksbehandler</VISNINGSAVTALE>
+        <VEDLEGG>
+            <VEDLEGGID>8894932</VEDLEGGID>
+            <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_10</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://asoke.dev.abctech-thailand.com/transition/test/emprof/happyday/1151411.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>9998864613eb6ea1a4427099c96f98e</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894933</VEDLEGGID>
+            <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_11</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://asoke.dev.abctech-thailand.com/transition/test/emprof/happyday/1151412.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>47-00-B9-69-7C-77-E7-61-97-BB-0D-2B-C6-16-88-FF</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894934</VEDLEGGID>
+            <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_18</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://asoke.dev.abctech-thailand.com/transition/test/emprof/happyday/1151413.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>98-C0-35-BF-E7-35-9D-0D-F4-24-90-17-67-0D-D5-7A</VEDLEGGHASH>
+        </VEDLEGG>
+    </OPPDRAG>
+</DATA>

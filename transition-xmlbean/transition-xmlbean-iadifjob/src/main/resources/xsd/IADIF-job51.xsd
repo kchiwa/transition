@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="IAD.IF.JOB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="HEAD" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="OBJECT" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HEAD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PARTNER" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="PROVIDER" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="UPLOAD_REFERENCE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EMAIL_FEEDBACK" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PARTNER" type="xs:string" />
+  <xs:element name="PROVIDER" type="xs:string" />
+  <xs:element name="UPLOAD_REFERENCE" type="xs:string" />
+  <xs:element name="EMAIL_FEEDBACK">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute default="error" name="FEEDBACK_LEVEL">
+            <xs:simpleType>
+              <xs:restriction base="xs:NMTOKEN">
+                <xs:enumeration value="info" />
+                <xs:enumeration value="warning" />
+                <xs:enumeration value="error" />
+                <xs:enumeration value="fatal" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OBJECT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="OBJECT_HEAD" />
+        <xs:choice>
+          <xs:element ref="JOB" />
+          <xs:element ref="JOB_EXECUTIVE" />
+          <xs:element ref="JOB_PARTTIME" />
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OBJECT_HEAD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ORDERNO" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="USER_REFERENCE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="PROVIDER_REFERENCE" />
+        <xs:element ref="OVERWRITE_MMO" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="VERSIONNO" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="FROMDATE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="TODATE" />
+        <xs:element ref="OBJECT_LOCATION" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="HEADING" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="SEGMENT" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OVERWRITE_MMO">
+    <xs:complexType>
+      <xs:attribute name="MODUS" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="all" />
+            <xs:enumeration value="images" />
+            <xs:enumeration value="urls" />
+            <xs:enumeration value="no" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ORDERNO">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute default="no" name="PREVIEW">
+            <xs:simpleType>
+              <xs:restriction base="xs:NMTOKEN">
+                <xs:enumeration value="yes" />
+                <xs:enumeration value="no" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="USER_REFERENCE" type="xs:string" />
+  <xs:element name="PROVIDER_REFERENCE" type="xs:string" />
+  <xs:element name="VERSIONNO" type="xs:string" />
+  <xs:element name="FROMDATE" type="xs:string" />
+  <xs:element name="TODATE" type="xs:string" />
+  <xs:element name="OBJECT_LOCATION">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="STREETADDRESS" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ZIPCODE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="COUNTRYCODE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ADDRESS2" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ADDRESS3" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ADDRESS4" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="STREETADDRESS" type="xs:string" />
+  <xs:element name="ZIPCODE" type="xs:string" />
+  <xs:element name="COUNTRYCODE" type="xs:string" />
+  <xs:element name="ADDRESS2" type="xs:string" />
+  <xs:element name="ADDRESS3" type="xs:string" />
+  <xs:element name="ADDRESS4" type="xs:string" />
+  <xs:element name="HEADING" type="xs:string" />
+  <xs:element name="SEGMENT">
+    <xs:complexType>
+      <xs:attribute name="INDICATOR" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="private" />
+            <xs:enumeration value="trade" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JOB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="JOB_TITLE" />
+        <xs:element ref="SITUATION" />
+        <xs:element ref="SECTOR" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="JOB_CATEGORY" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="DURATION" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ROLE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="SALARY" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EXTENT" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EDUCATION" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="APPLICATION_ADDRESS" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="COMPANY" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="GENERAL_TEXT_JOB" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="APPLICATION_DEADLINE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="APPLICATION_EMAIL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="START_DATE" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="JOB_CONTACT" />
+        <xs:element ref="APPLICATION_LABEL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ELECTRONIC_APPLICATION" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="MOREINFO" />
+        <xs:element ref="NO_OF_POSITIONS" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ENTERPRICE_NUMBER" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JOB_EXECUTIVE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="JOB_TITLE" />
+        <xs:element ref="SITUATION" />
+        <xs:element ref="SECTOR" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="JOB_CATEGORY" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="DURATION" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="SALARY" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EXTENT" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EDUCATION" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="APPLICATION_ADDRESS" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="COMPANY" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="GENERAL_TEXT_JOB" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="APPLICATION_DEADLINE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="APPLICATION_EMAIL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="START_DATE" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="JOB_CONTACT" />
+        <xs:element ref="APPLICATION_LABEL" minOccurs="0"/>
+        <xs:element minOccurs="0" maxOccurs="1" ref="ELECTRONIC_APPLICATION" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="MOREINFO" />
+        <xs:element ref="NO_OF_POSITIONS" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ENTERPRICE_NUMBER" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JOB_PARTTIME">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="JOB_TITLE" />
+        <xs:element ref="SITUATION" />
+        <xs:element ref="SECTOR" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="JOB_CATEGORY" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="DURATION" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ROLE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="SALARY" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EXTENT" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EDUCATION" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="APPLICATION_ADDRESS" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="COMPANY" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="GENERAL_TEXT_JOB" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="APPLICATION_DEADLINE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="APPLICATION_EMAIL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="START_DATE" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="JOB_CONTACT" />
+        <xs:element ref="APPLICATION_LABEL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ELECTRONIC_APPLICATION" />
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="MOREINFO" />
+        <xs:element ref="NO_OF_POSITIONS" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ENTERPRICE_NUMBER" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JOB_TITLE" type="xs:string" />
+  <xs:element name="SITUATION" type="xs:string" />
+  <xs:element name="SECTOR" type="xs:string" />
+  <xs:element name="JOB_CATEGORY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CATEGORY" />
+        <xs:element ref="SUBCATEGORY" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CATEGORY" type="xs:string" />
+  <xs:element name="SUBCATEGORY" type="xs:string" />
+  <xs:element name="DURATION" type="xs:string" />
+  <xs:element name="ROLE" type="xs:string" />
+  <xs:element name="SALARY" type="xs:string" />
+  <xs:element name="EXTENT" type="xs:string" />
+  <xs:element name="EDUCATION" type="xs:string" />
+  <xs:element name="APPLICATION_ADDRESS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="COMPANY_NAME" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="NAME" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ADDRESS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="JOB_CONTACT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="NAME" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="ADDRESS" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="TITLE" />
+        <xs:element ref="PHONE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="MOBILE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EMAIL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="FAX" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TITLE" type="xs:string" />
+  <xs:element name="PHONE" type="xs:string" />
+  <xs:element name="MOBILE" type="xs:string" />
+  <xs:element name="EMAIL" type="xs:string" />
+  <xs:element name="FAX" type="xs:string" />
+  <xs:element name="COMPANY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="COMPANY_NAME" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="LOGO" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="URL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="INGRESS" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LOGO" type="xs:string" />
+  <xs:element name="URL" type="xs:string" />
+  <xs:element name="INGRESS" type="xs:string" />
+  <xs:element name="NAME" type="xs:string" />
+  <xs:element name="COMPANY_NAME" type="xs:string" />
+  <xs:element name="ADDRESS" type="xs:string" />
+  <xs:element name="GENERAL_TEXT_JOB">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="GENERAL_HEADING" />
+        <xs:element ref="GENERAL_TEXT" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GENERAL_HEADING" type="xs:string" />
+  <xs:element name="GENERAL_TEXT" type="xs:string" />
+  <xs:element name="APPLICATION_EMAIL" type="xs:string" />
+  <xs:element name="APPLICATION_DEADLINE" type="xs:string" />
+  <xs:element name="START_DATE" type="xs:string" />
+  <xs:element name="APPLICATION_LABEL" type="xs:string" />
+  <xs:element name="ELECTRONIC_APPLICATION">
+    <xs:complexType>
+      <xs:attribute default="no" name="MODUS">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="yes" />
+            <xs:enumeration value="no" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute default="no" name="AUTOMATIC_RESPONSE">
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="yes" />
+            <xs:enumeration value="no" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MOREINFO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="URL" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="URLTEXT" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="URLTEXT" type="xs:string" />
+  <xs:element name="NO_OF_POSITIONS" type="xs:string" />
+  <xs:element name="ENTERPRICE_NUMBER" type="xs:string" />
+</xs:schema>

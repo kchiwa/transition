@@ -1,0 +1,30 @@
+                        ---
+                        Exception Handling
+                        ---
+
+ For the camel route in our system. we have an exception for catch the error total 7 exceptions follow this.
+
+ *ZipException for catch the error when system try to unzip the invalid zip file.
+
+ *UnknownFileTypeException for catch the error when user upload the file which the system does not support eg. .tar
+
+ *InvalidXMLException for catch the error when system try to read the file that has xml extension but the content inside is not in xml scheme.
+
+ *IntegrityException for catch the error when the system try to validate the xml, but the total error from validation of the xml is null (should be 0 or greater).
+
+ *XMLAdSplitException for catch the error when the system try to split the xml that contains multiple ad inside to the single ad xml.
+
+ *AdValidateException for catch the error when the system try to convert the single ad xml to the Zett format.
+
+ *CriticalErrorException for catch the error if that error can not be caught with any exception above.
+
+ []
+
+ For illustrate about the exception handling, it can display in the diagram follow this.
+
+[images/error_handling_diagram.jpg]
+
+[images/error_handling_diagram_02.jpg]
+
+[images/error_handling_diagram_03.jpg]
+

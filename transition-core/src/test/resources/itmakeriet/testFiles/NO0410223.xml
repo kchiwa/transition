@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>1966966</Client>
+<Contacts>
+<Contact>
+<Name>Jan Olaf Rindahl</Name>
+<Email>jan.olaf@notar.no</Email>
+<Phone>71 30 47 50</Phone>
+<Mobile>928 06 481</Mobile>
+<Fax>71 30 47 51</Fax>
+<Address CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>NO0410223</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2010-11-09" ToDate="2011-04-28"/>
+<Type>enebolig</Type>
+<AdType>bolig_salg</AdType>
+<Title>Enebolig med stor tomt</Title>
+<Address Street="Ørnhaugen 18" PostCode="6520" City="FREI" CountryCode="NO"/>
+<Matrikkel Kommune="1505" GNR="121" BNR="47"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">1480000</Price>
+<Price Name="Lånetakst" Curr="NOK">1300000</Price>
+<Price Name="Verditakst" Curr="NOK">1450000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">339897</Price>
+<Price Name="Kommunale avgifter" Curr="NOK">9741</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">80</Area>
+<Area Name="Tomteareal">1035</Area>
+<Area Name="primaererom_areal">79</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder">&lt;B&gt;Bruksareal: &lt;/B&gt;&lt;BR&gt;1. etasje: 80m&amp;sup2;&lt;BR&gt;&lt;B&gt;Primærrom:&lt;/B&gt;&lt;BR&gt;&amp;middot; 1. etasje: &lt;BR&gt;Vindfang, entré, stue, kjøkken, bad/wc/vaskerom og 3 soverom.: 79 m&amp;sup2;</Text>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1968</BuiltYear>
+<BedRooms>3</BedRooms>
+<Rooms>4</Rooms>
+<Floor>1</Floor>
+<Viewings>
+<Viewing Date="2010-11-17" From="17:00" To="18:00"/>
+</Viewings>
+<TextFields>
+<Text Name="Adkomst">Fra Rensvikkrysset/Shell følger man Fylkesvei 265 mot Kvalvåg. Følg veien i ca. 3,6 km til Ånes og Ørnhaugen er siste vei inn til venstre før Bjerkelund skole. Ta så første til venstre igjen og huset ligger på høyre side, hvit hus.</Text>
+<Text Name="Beliggenhet">Boligen ligger ved et etablert barnevennlig boligområde ved Ånesmyra. Boligen ligger sydvendt med fine sol/lysforhold, med kort vei Bjerkelund skole og barnehage. Gangavstand til rekreasjonsområdet rundt Kvalvik fort og til badestranden i Ørnvika.</Text>
+<Text Name="Beskrivelse">Beliggende i ett etablert og barnevennlig boligområde ved Ånesmyra. Boligen ligger sydvendt med fine sol/lysforhold, med kort vei Bjerkelund skole og barnehage. Gangavstand til rekreasjonsområdet rundt Kvalvik fort og til badestranden i Ørnvika.
+Boligen er på ett plan og inneholder vindfang, entré, stue, kjøkken, bad/wc/Vaskerom, 3 soverom og bod. Krypkjeller.
+Tomten er opparbeidet med plenareal og beplantet med prydbusker og trær, gruset adkomstareal.</Text>
+<Text Name="Innhold">INNHOLD:
+Vindfang, entré, stue, kjøkken, bad/wc/vaskerom, 3 soverom og bod.
+
+STANDARD:
+Gulv: Laminat, belegg, teppe og flis.
+Vegger: Tapet, malt panel, malt strie og flis.
+Himling: Panel og malte himlingsplater og strie.
+Sikringsskap er skiftet og oppgradert med automatsikringer i år 2008.</Text>
+<Text Name="Oppvarming">Varmekabler i baderomsgulv og vedovn i stuen.</Text>
+<Text Name="Parkering">Parkering på tomten.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+<Option Name="off. vann"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Fasade " LastModified="2010-11-09 16:17">file:NO0410223-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="IMG_7289" LastModified="2010-11-09 16:17">file:NO0410223-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue " LastModified="2010-11-09 16:17">file:NO0410223-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2010-11-09 16:17">file:NO0410223-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="IMG_7290" LastModified="2010-11-09 16:17">file:NO0410223-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2010-11-09 16:17">file:NO0410223-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken med plass til spisebord" LastModified="2010-11-09 16:17">file:NO0410223-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad med opplegg for vaskemaskin" LastModified="2010-11-09 16:17">file:NO0410223-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Opplegg for vaskemaskin på bad" LastModified="2010-11-09 16:17">file:NO0410223-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 1" LastModified="2010-11-09 16:17">file:NO0410223-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 2 " LastModified="2010-11-09 16:17">file:NO0410223-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 2" LastModified="2010-11-09 16:17">file:NO0410223-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 3 " LastModified="2010-11-09 16:17">file:NO0410223-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 3" LastModified="2010-11-09 16:17">file:NO0410223-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Veranda" LastModified="2010-11-09 16:17">file:NO0410223-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikten fra verandaen" LastModified="2010-11-09 16:17">file:NO0410223-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade" LastModified="2010-11-09 16:17">file:NO0410223-17.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

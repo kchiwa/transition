@@ -1,0 +1,49 @@
+                    ------
+                    FTP Router Manager
+                    ------
+
+
+Earliest  FTPRouter Diagram
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[images/FtpRouterOld.png]  Earliest FTP ROUTER
+
+  As you see in the first diagram when the Transition start it's create the only one FTPRouter for all customer's format
+  that we can not stop or start the router for specific customer's format that why we need the FtpRouterManager.
+
+
+FtpRouterManager Diagram
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[images/FtpManager.png]
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Descriptions of FtpRouterManager
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    As you see in the diagram Transition have FtpRouterManager component that  that can describe as below.
+
+
+    1. Create Ftp Router at runtime.
+
+      1.1. When the Transition start the FtpRouteManager component will list all the customer format from the
+      CustomerFormat Enumeration.
+
+      1.2. Then the component will retrieve customer format's FtpRouter status for each customer format from
+      transitionState database. If it is not existed in database the component will add the new customer format's FtpRouter status into database and set it's status to ON.
+
+      1.3. After that The FtpRouteManager component will create the customer format's FtpRouter and set autoStartup
+      Property to true or false (depend on 1.2 ON = true, OFF = false) then  put into the Camel Context.
+
+      ** autoStartup = true that mean if the Camel Context start then that router will be automatically startup and
+      ready to consume by Camel.
+
+
+     2. Start the Camel Context.
+
+     3. The user can be start/stop for each customer format's FtpRouter via the Transition Admin page.
+
+
+
+     However the FtpRouteManager component have the other functionality to start and stop the specific router's id.

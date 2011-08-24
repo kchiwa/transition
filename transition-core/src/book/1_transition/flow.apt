@@ -1,0 +1,195 @@
+                        -----
+                        File flow
+                        -----
+
+ The import system flow registers / updates file status 4 different places. The
+ following is an overview. More precise information to be presented below.
+
+ * At the <file devourer>, the XML files are registered as first time arrivals. Image and pdf
+ files are represented with a metadata object, and the real contents are left on disk.
+
+ * After validation, etc, XML files are split, and sent for <identical ad check>.
+ For each XML ad, insert an entry in the adstate
+ table with a reference to the original file, as represented with a filestate entry. So if you
+ have an XML file which contains 4 ads, you will have 1 entry in the file state table, and 4
+ entries in the adstate table. If the file is a media file, this step is skipped.
+
+ * In the media handler, file references in the XML contents is tried put together. The
+media is scaled, etc, and put together with the XML contents. See the <treatment of media>
+section for details.
+
+ * In the import service, the isfinished flag is set for the relevant adstate entry.
+ This is outside the domain of <transition> as project, and we do not dwell on
+ details concerning this.
+
+[]
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+XML file flow
+~~~~~~~~~~~~~
+
+ An XML file will arrive as a single file in the import directory, or as several XML files
+ inside a zip file. In case of a zip file, the XML files are extracted by IncomingZipHandler, IncomingZipHandler
+ will extract XML files and put each XML file to the XML queue, If the zip file contain media file IncomingZipHandler
+ will copy media file to media path.
+
+~~~~~~~~~~~~~
+* File devourer
+~~~~~~~~~~~~~
+
+ Register the arrival in <<<filestate>>> table. In case the original file was a zip file, the file name
+ is <<</some/path/something.zip!/internal/path/filename.xml>>>, that is, the same way a file is
+ referenced with regards to internal files in a java jar file.
+
+ The owner is the ftp user, and the customer format is one of the legal import formats.
+
+~~~~~~~~~~~~~
+* Identical ad check
+~~~~~~~~~~~~~
+
+ The ads are split into separate, independent, ads if the XML file contains more than one ad file.
+ Each of these files gets represented in the adstate table.
+
+** Ad does not exist beforehand
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Example: The original XML file contains 4 ads. After the identical ad check, you have 1 entry
+ in the filestate table, and 4 entries in the adstate table, given that none of the ads exist
+ already.
+
+ There will be some evaluation of the XML contents in order to obtain the <<<zclientid>>>. Framework
+ functionality must be made in order to cater for this.
+
+ The SHA hash value for each XML ad is found and stored.
+
+ The adexternalref is an unique identifier all ads have. This is a field in the XML file.
+ Example from Carweb:
+
++----
+<Bil unikid="1_375" kontroll="9" kommando="update">
++----
+
+ Here <<<unikid="1_375">>> is <adexternalref>.
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+** Ad has already arrived
+~~~~~~~~~~~~~~~~~~~~~~
+
+ Looking up ad information with basis in adexternalref, we find that the ad has already arrived.
+ Calculate the SHA value. This decide whether the arrived ad is an update or a duplicate.
+
+ If the ad is a duplicate, put it in the identical ads queue.
+
+ If the ad is an update or insert, update the SHA entry and send the ad to the MediaHandler
+ queue.
+
+
+ TODO Tuan: Problem: We do not know how far the existing ad has got in the system when
+ it is an update. Treatment of the ad in progress need to be aborted.
+
+ <<Item for discussion>> <We probably have to create a
+ new adstate entry, and mark the previous version of the ad, as being outdated or superseded.
+ This cannot be done easily, as the adexternalref is unique with regards to the
+ zclientid - at least
+ in the current setup.>
+
+ The functionality from the time of the identical ads check and onwards have to be idempotent.
+ This may be difficult, as the media handler step is asynchronous.
+
+~~~~~~~~~~~~~
+* Media handler
+~~~~~~~~~~~~~
+
+ The purpose of the media handler is to add media information (typically images) to the
+ ad described by the entry in adstate. So if a single ad has 3 images attached, then
+ you will have 3 entries in the media state for the given ad.
+
+ The mediahandler contains functionality for awaiting upload of the given media. Notice
+ that you sometimes will download the media yourself. The media handler functionality
+ proper is planned for <<sprint 7>>, and the functionality is not of any concern at the
+ time of writing.
+
+ TODO Tuan: There is nothing in the media state table that explains where the file resides.
+
+~~~~~~~~~~~~~
+* Receipt handler
+~~~~~~~~~~~~~
+
+ New component. It shall generate receipts for every transferred ad.
+
+ TODO Tuan: Please describe.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Image / PDF file / Binary file flow
+~~~~~~~~~~~~~
+
+ Even though the file most often will be a graphical representation of something, I
+ call it a binary file for short. Each of the import system has their own way of
+ treating binary files.
+
+ We will not create camel messages for the binary files at the moment. This may
+ be added later. When a binary file is read, the file gets moved out
+ of the import directory and into a waiting area. This first operation is
+ performed by camel.
+
+
+~~~~~~~~~~~~~
+* File devourer
+~~~~~~~~~~~~~
+
+ Binary files does not go via the FileDevourer system.
+
+~~~~~~~~~~~~~
+* Identical ad check
+~~~~~~~~~~~~~
+
+ Duplication is not an issue, as newer files with the same name will overwrite old files.
+
+~~~~~~~~~~~~~
+* Media handler
+~~~~~~~~~~~~~
+
+ The media handler will try to fetch the images from the storage area. Each image becomes
+ a new camel message which shall take care of the details of the single image. If
+ an image is missing, the missing media queue gets invoked. The messing media
+ functionality will have a timer which sends the message back to the queue. After a
+ certain time (10 minutes?), the ad will continue to be processed even if images are
+ missing.
+
+ Potential {{{http://camel.apache.org/enterprise-integration-patterns.html}Patterns}} for
+ this component is the
+ {{{http://camel.apache.org/aggregator2.html}Aggragator}}
+ or the
+ {{{http://camel.apache.org/composed-message-processor.html}Composed Message Processor}}
+ pattern.
+
+~~~~~~~~~~~~~
+* Receipt handler
+~~~~~~~~~~~~~
+
+ TODO Tuan: No idea whether we give receipts to / on binary files.
+
+~~~~~~~~~~~~~~~~~~
+Treatment of media
+~~~~~~~~~~~~~~~~~~
+
+ Each customer system has their own way of transferring images. You have
+ 4 different cases at the moment:
+
+ * Tietoenator image import \
+ The XML and media are transferred separately via FTP. Images may appear after some seconds.
+ If the file is large, it may take some time before the file has finished uploading.
+
+ * IT-Makeriet \
+ The XML and media files are packaged in a zip file.
+
+ * Emprof \
+ The XML file gets uploaded by HTTP. The references to the file is contained in the file, and
+ needs to be fetched by our import service.
+
+ * Carweb \
+ The ad is transferred by HTTP. Then carweb queries our import server (by HTTP) in order
+ to figure out which image that is missing. Carweb will then submit a zip file containing
+ the missing images.
+

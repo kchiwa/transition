@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zett.no>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Opel Meriva 1.7 DT -A (2004)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000085</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bj&#248;rn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Opel</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Meriva</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">112253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2004</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">107000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.7 DT</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">-A</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">S&#248;lv</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">75</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Ryddig, pen en eiers bil. Meget rimelig i drift med denne turbodieselmotor. Utstyrt med meget gode dekk. Siste service tatt n&#229;. Selges verkstedkontrollert, med tilstandsrapport og garanti. Vi kan tilby meget god og rimelig forsikring og fiansiering. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik.  ( forbehold om finansiering )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Servostyring">Servostyring</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Sentrall&#229;s">Sentrall&#229;s</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Aircondition">Aircondition</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000085_1.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000085_2.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000085_3.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000085_4.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000085_5.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000085_6.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000085_7.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000085_8.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000085_9.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Suzuki Grand Vitara 1.9 DDIS  SE 4x4 (2008)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000206</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bj&#248;rn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Suzuki</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Grand Vitara</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Offroad</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">306214</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2008</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">60000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.9 DDIS </Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">SE</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Svart</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">129</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Fin, velholdt bil. Dette er SE modellen med mye utstyr. Grand Vitara har  meget solid og bra 4-hjulstrekk med lavgirserie som en av de f&#229; i denne klassen. Denne bilen har alle service fulgt. Kj&#248;pt ny av oss. En voksen eier. 60000km service tatt n&#229;. Nye sommerdekk og bra vinterdekk. Vi kan tilby meget rimelig og god forsikring og finansiering. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. (kjent for god service)    Vi tar forbehold om evt. skrivefeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">4x4</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">12786</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="N&#248;kkelfri stystem for l&#229;s og start">N&#248;kkelfri stystem for l&#229;s og start</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="lavgir serie">lavgir serie</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Klimaanlegg">Klimaanlegg</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Alcantara skinninteri&#248;r">Alcantara skinninteri&#248;r</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="4x4">4x4</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000206_1.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000206_2.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000206_3.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000206_4.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000206_5.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000206_6.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000206_7.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Mondeo 2,0 TDCi Titanium (2007)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000210</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Mondeo</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">192253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2007</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">67000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">2,0 TDCi</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Titanium</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">S&#248;lv</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">116</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Sv&#230;rt pen og velholdt bil. Lav km stand. Alle service fulgt p&#229; merkeverksted. Fint utstyrt bil. En eier. Sterk og meget driftsikker motor. G&#229;r meget rimelig p&#229; drivstoffet. Kontakt oss for mer informasjon. Vi kan tilby meget rimelig forsikring og finansiering om &#248;nskelig. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. ( kjent for god service - sist vist ved at vi mottok pris for mest forn&#248;yde kunder i landet ) Vi tar forbehold om evt. skrivefeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Klimaanlegg">Klimaanlegg</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="h&#248;ydejusterbart f&#248;rersete">h&#248;ydejusterbart f&#248;rersete</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Cruise-kontroll">Cruise-kontroll</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="Antispinn">Antispinn</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="Antiskrens">Antiskrens</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000210_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000210_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000210_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000210_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000210_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000210_6.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000210_7.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000210_8.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000210_9.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="10" Reference="000210_10.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Peugeot 206 1,4 (2006)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000226</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Erland Berg" Email="berg@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136313</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99512020</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Peugeot</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">206</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">104147</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2006</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">94000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1,4</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant"></Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">S&#248;lv</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">75</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Bensin</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Ryddig og fin bil. Velholdt og fint fulgt opp. 
+Godt utstyrsniv&#229;.
+Vi leverer den med 6 mnd garanti.
+Verkstedkontrollert og med tilstandsrapport.
+Vi kan tilby meget rimelig og god forsikring og finansiering om &#248;nskelig. 
+Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik.
+forbehold om evt skrivefeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">4853</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Servostyring">Servostyring</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="8 gode dekk">8 gode dekk</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000226_1.jpg" Type="IMAGE">
+        <ElementTitle>Peugeot 206</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000226_2.jpg" Type="IMAGE">
+        <ElementTitle>Peugeot 206</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000226_3.jpg" Type="IMAGE">
+        <ElementTitle>Peugeot 206</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000226_4.jpg" Type="IMAGE">
+        <ElementTitle>Peugeot 206</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000226_5.jpg" Type="IMAGE">
+        <ElementTitle>Peugeot 206</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000226_6.jpg" Type="IMAGE">
+        <ElementTitle>Peugeot 206</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Focus 1.6 TDCI Trend (2006)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000232</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Focus</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Stasjonsvogn</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">154253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2006</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">73000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.6 TDCI</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Trend</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">R&#248;d</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">90</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Fin, en eiers bil som er meget velholdt og godt oppfulgt med alle service. Fint utstyrt med 2 sonet automatisk klimaanlegg, cruisecontroll, 8 alufelger, oppvarmet frontrute, hengerfeste m.m. Gode sommer og vinterdekk.  Meget rimelig p&#229; drivstoffet. G&#229;r godt. God &#229; kj&#248;re. Billig &#229; eie / vedlikeholde. Vi leverer denne fine bil med 2 &#229;r/ 40000km meget god garanti. Dersom du &#248;nsker kan vi tilby og anbefale meget rimelig forsikring og finansiering. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. ( kjent for god service) Vi tar forbehold om evt skrivefeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Oppvarmet frontrute">Oppvarmet frontrute</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Klimaanlegg med 2 soner">Klimaanlegg med 2 soner</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="justerbart ratt">justerbart ratt</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="h&#248;ydejusterbart f&#248;rersete">h&#248;ydejusterbart f&#248;rersete</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Cruise-kontroll">Cruise-kontroll</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="Antispinn">Antispinn</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="Antiskrens">Antiskrens</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="8 gode dekk">8 gode dekk</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000232_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000232_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000232_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000232_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000232_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000232_6.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Galaxy 2.0 TDCI  Ghia (2010)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000247</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Galaxy</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Flerbruksbil</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">549000</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2010</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">2000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">2.0 TDCI </Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Ghia</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Gr&#248;nn</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">140</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">7</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Familiedr&#248;mmen! Nydelig bil p&#229; alle m&#229;ter. God plass for 7 personer, eller 5 personer og et hav av baggasjeplass. Meget godt utstyrt. Nybilpris ca. Kr. 630 000. Programmerbar dieselvarmer gir topp komfort og god varme i disse kalde vintermnd. Elegant fargekombinasjon inn og utvendig. Herlig &#229; kj&#248;re med sterk og moderne dieselmotor sammen med v&#229;r fine Powershift automat ( 2-kl&#248;tsj system )  Ta kontakt for tilbud / pr&#248;vekj&#248;ring. Kurrant innbytte kan vurderes.  Vi kan ogs&#229; tilby sv&#230;rt rimelig og god forsikring og finasiering om &#248;nskelig. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. Kjent for god service!            (vi m&#229; ta forbehold om evt. spesifikasjonsfeil i annonsen )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Automat</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">0</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Skinninteri&#248;r">Skinninteri&#248;r</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Programmerbar dieselvarmer">Programmerbar dieselvarmer</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Parkeringssensorer foran og bak">Parkeringssensorer foran og bak</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Oppvarmet frontrute">Oppvarmet frontrute</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Cruise control med avstandsradar">Cruise control med avstandsradar</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Bluetooth for sikker mobilbruk i bil">Bluetooth for sikker mobilbruk i bil</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Bi-xenon hovedlys">Bi-xenon hovedlys</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="8 veis el justering av f&#248;rersete">8 veis el justering av f&#248;rersete</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="3 -sonet aut klimaanlegg">3 -sonet aut klimaanlegg</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000247_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000247_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000247_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000247_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000247_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Suzuki Swift 1.3i 16v, 91hk GLX 4x4 (2007)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000257</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Suzuki</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Swift</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">154147</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2007</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">36000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.3i 16v, 91hk</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">GLX</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Oransje</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">91</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Bensin</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Meget pen og velholdt bil med lav km stand. Alle service fulgt. Driftsikker 4x4 som av VG har v&#230;rt k&#229;ret til Norges beste bilkj&#248;p. Taper seg lite i verdi, er rimelig &#229; vedlikeholde og er god &#229; kj&#248;re. Stor plass for inntil 4 voksne. Eller smart bil for enslige eller 2 med meget stor baggasjeplass. Vi kan tilby rimelig og god forsikring og finansiering dersom det er &#248;nskelig. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. ( kjent for god service )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">4x4</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">4853</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="R&#248;ykfri">R&#248;ykfri</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="N&#248;kkelfri stystem for l&#229;s og start">N&#248;kkelfri stystem for l&#229;s og start</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="Klimaanlegg">Klimaanlegg</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="h&#248;ydejusterbart f&#248;rersete">h&#248;ydejusterbart f&#248;rersete</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="8 gode dekk">8 gode dekk</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000257_1.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000257_2.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000257_3.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000257_4.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000257_5.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000257_6.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000257_7.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000257_8.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000257_9.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Swift</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Ka 1.3 TDCI Turbodiesel (2009)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000261</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Ka</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (3-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">129543</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2009</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">18000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.3 TDCI</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Turbodiesel</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Bl&#229;</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">75</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">4</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Skal du ha lavere dieselforbruk enn dette m&#229; du nesten skyve ! Sv&#230;rt drivstoff-gjerrig. Fin fargekombinasjon inn og utvendig med matchende bl&#229;farge. Bilen har aircondition, radio cd, t&#248;ffe hvite alufelger p&#229; sommerdekk, gode piggdekk m.m. Vi kan tilby meget rimelig forsikring og finansiering om &#248;nskelig. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik.   ( forbehold om evt. skrivefeil i annonsen )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">9457</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Aircondition">Aircondition</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000261_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000261_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000261_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000261_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000261_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000261_6.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000261_7.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000261_8.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000261_9.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="10" Reference="000261_10.jpg" Type="IMAGE">
+        <ElementTitle>Ford Ka</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Galaxy 2.0 TDCI TDCI Familiy (2010)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000265</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bj&#248;rn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Varebil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Galaxy</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Flerbruksbil</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">350029</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2010</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">22000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">2.0 TDCI</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">TDCI Familiy</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">S&#248;lv</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">116</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">7</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Her har du en unik mulighet til &#229; sikre deg v&#229;r store gode 7 seter til fin pris. Bilen er utstyrt med bl.a. programmerbar dieselvarmer som sikrer komforten selv p&#229; kalde vinterdager. Setepakke med minne for f&#248;rersiden, DAB radio, 8 alufelger, Cruise control m.m.  Bilen er hel, pen og velholdt. B&#248;r sees og pr&#248;ves! Vi kan tilby meget rimelig forsikring og finansiering om du &#248;nsker et av marketets beste tilbud. V&#229;rt firma f&#229;r mange gode tilbakemeldinger for god service, og i 2009 fikk vi prisen Chairmans Award for landets mest forn&#248;yde kunder. Kontakt meg, selger Bj&#248;rn Wiggo Engeskog Olsen p&#229; tlf: 97075724.
+Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik.   ( vi tar forbehold om evt. skrivefeil i salgsoppgaven )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">8971</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="R&#248;ykfri">R&#248;ykfri</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Programmerb dieselvarmer for b&#229;de motor og kupe">Programmerb dieselvarmer for b&#229;de motor og kupe</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Oppvarmet frontrute">Oppvarmet frontrute</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="Klimaanlegg med 2 soner">Klimaanlegg med 2 soner</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="Cruise control med avstandsradar">Cruise control med avstandsradar</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="Antispinn">Antispinn</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="Antiskrens">Antiskrens</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+      <Attribute Order="19" Name="feature" Type="STRING" Label="8 veis el just f&#248;rersete med minne">8 veis el just f&#248;rersete med minne</Attribute>
+      <Attribute Order="20" Name="feature" Type="STRING" Label="8 gode dekk">8 gode dekk</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000265_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000265_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000265_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000265_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000265_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000265_6.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000265_7.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000265_8.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="10" Reference="000265_9.jpg" Type="IMAGE">
+        <ElementTitle>Ford Galaxy</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Transit 2,2TDCI 140hk 140 SPORT (2008)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000271</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Varebil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Transit</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kasse</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">212322</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2008</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">25000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">2,2TDCI 140hk</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">140 SPORT</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Bl&#229;</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">140</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Ja</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">3</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">T&#248;ff varebil. Nydelig racing bl&#229; farge med 2 hvite striper. G&#229;r meget bra med den kvikke 140hk sterke TDCI motoren. Fint utstyrt med cruise control, bl&#229;tann for trygg mobilbruk, AC, Webasto varmer med tidsur, hengerfeste, t&#248;ffe alufelger ( sommerhjul, gode vinterdekk m.m. Kun brukt i lett kj&#248;ring av oss p&#229; forretningen. Kj&#248;p denne fine 3 seter varebilen. Ypperlig for profilering da denne vil bli lagt merke til. God &#229; kj&#248;re, ogs&#229; p&#229; langtur. Ypperlig komfort og god fremkommelighet p&#229; vinterf&#248;re med antispinn. Kontakt oss idag for en pr&#248;vetur / tilbud. Vi kan tilby rimelig forsikring og finansiering. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. BILDER KOMMER!                        ( forbehold om evt skrivefeil i annonsen )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6678</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Servostyring">Servostyring</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Sentrall&#229;s">Sentrall&#229;s</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Programmerbar dieselvarmer">Programmerbar dieselvarmer</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Oppvarmet frontrute">Oppvarmet frontrute</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="M&#248;rk tonet glass">M&#248;rk tonet glass</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Lettmetallfelger">Lettmetallfelger</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="Cruise-kontroll">Cruise-kontroll</Attribute>
+      <Attribute Order="19" Name="feature" Type="STRING" Label="Bl&#229;tann og stemmestyring">Bl&#229;tann og stemmestyring</Attribute>
+      <Attribute Order="20" Name="feature" Type="STRING" Label="Aircondition">Aircondition</Attribute>
+      <Attribute Order="21" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+      <Attribute Order="22" Name="feature" Type="STRING" Label="6 gir">6 gir</Attribute>
+    </Attributes>
+    <Media></Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Suzuki Alto 1.0 i 12v (2010)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000273</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bj&#248;rn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Suzuki</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Alto</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">126838</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2010</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">5000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.0 i 12v</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant"></Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Rosa</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">68</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Bensin</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">4</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">V&#229;r lille s&#248;te rosa Alto er til salgs. Alto er god &#229; kj&#248;re og har en meget sportslig motorlyd p&#229; grunn av den 3 sylindrede motoren. Bilen er kvikk og absolutt ingen sinke. Bruk litt turtall og du har sikre forbikj&#248;ringer. Fint utstyrt med alufelger, aircondition, antispinn, radio cd m.m. Vi kan tilby meget rimelig og god finansiering og finansiering om &#248;nskelig. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. (kjent for god service)                     Forbehold om evt skrivefeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">12162</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+    </Attributes>
+    <Media></Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Focus 1.6i Trend (2005)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000275</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bj&#248;rn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Focus</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-d&#248;rs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">134147</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2005</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">104000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.6i</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Trend</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Gr&#229;</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">101</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Bensin</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Pen, velholdt en eiers bil med godt utstyrsniv&#229;. Alle service fulgt p&#229; merkeverksted. Siste gang n&#229; for noen uker siden. Vi tilbyr denne fine bil med 2 &#229;r / 40000km garanti uten egenandel (krever kun &#229;rlig service ). Ford Focus er en driftsikker bil som er god &#229; kj&#248;re. 5 stjerner i Euro/Ncap sikkerhetstest. Vi kan tilby meget rimelig forsikring og finansiering. dersom dette er &#248;nskelig. Ta kontakt for mer informasjon. Du treffer meg p&#229; tlf 61136312 eller p&#229; mail: voldheim@gustavsenbil.no
+Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. ( kjent for god service - sist vist ved at vi fikk pris for landets mest forn&#248;yde kunder )             Forbehold om skrivefeil i alle v&#229;re annonser.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">4853</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Servostyring">Servostyring</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Oppvarmet frontrute">Oppvarmet frontrute</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="Klimaanlegg med 2 soner">Klimaanlegg med 2 soner</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="justerbart ratt">justerbart ratt</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="h&#248;ydejusterbart f&#248;rersete">h&#248;ydejusterbart f&#248;rersete</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="19" Name="feature" Type="STRING" Label="Cruise-kontroll">Cruise-kontroll</Attribute>
+      <Attribute Order="20" Name="feature" Type="STRING" Label="Antispinn">Antispinn</Attribute>
+      <Attribute Order="21" Name="feature" Type="STRING" Label="Antiskrens">Antiskrens</Attribute>
+      <Attribute Order="22" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000275_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000275_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000275_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000275_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000275_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000275_6.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000275_7.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000275_8.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000275_9.jpg" Type="IMAGE">
+        <ElementTitle>Ford Focus</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Volkswagen Passat 1.9 TDI Comfortline (2007)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000280</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Volkswagen</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Passat</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Stasjonsvogn</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">192253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2007</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">102000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.9 TDI</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Comfortline</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Svart</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">105</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Ryddig og fin en eiers bil. Fint utstyrt og alle service fulgt.  Ny i  Norge. Vi kan tilby meget rimelig og god forsikring og finansiering dersom dette er &#248;nskelig. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. ( kjent for god serivice )                         ( forbehold om evt. skrivefeil i annonsen)</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Takstativ">Takstativ</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Takrails">Takrails</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Stort baggasjerom">Stort baggasjerom</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="R&#248;ykfri">R&#248;ykfri</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Klimaanlegg med 2 soner">Klimaanlegg med 2 soner</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="justerbart ratt">justerbart ratt</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="h&#248;ydejusterbart f&#248;rersete">h&#248;ydejusterbart f&#248;rersete</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="19" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="20" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="21" Name="feature" Type="STRING" Label="Antispinn">Antispinn</Attribute>
+      <Attribute Order="22" Name="feature" Type="STRING" Label="Antiskrens">Antiskrens</Attribute>
+      <Attribute Order="23" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000280_1.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000280_2.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000280_3.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000280_4.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000280_5.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000280_6.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000280_7.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000280_8.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000280_9.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="10" Reference="000280_10.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="11" Reference="000280_11.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="12" Reference="000280_12.jpg" Type="IMAGE">
+        <ElementTitle>Volkswagen Passat</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Ford Mondeo 2.0 TDCI  Ambiente (2004)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000282</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Inge Sperre Kristiansen" Email="kristiansen@gustavsenbil.no">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">61136311</ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">99 53 09 01</ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Ford</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Mondeo</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Sedan</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">129000</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2004</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">126000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">2.0 TDCI </Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Ambiente</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Svart</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">90</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Meget pen og velholdt Mondeo 4d. God bil med dieselvarmer, som g&#229;r meget rimelig p&#229; drivstoffet. ( 0,41 l/mil p&#229; langkj&#248;ring er bekreftet av tidl eier ) Bilen har helt nye vinterdekk med pigg, gode sommerdekk og ellers utstyrt med hengerfeste. Elegant sedan i den fine Panther Black metallic fargen. Enkel &#229; vedlikeholde med bl.a. registerkjede. Denne 2 liters dieselmotoren er kjent for spesielt god driftsikkerhet. Vi kan tilby meget rimelig og god forsikring og finansiering om &#248;nskelig. Kj&#248;p denne bilen trygt av oss. Den leveres verkstedkontrollert, med tilstandsrapport og garanti. Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. (kjent for god kundebehandling / service )                 forbehold om evt. skrivefeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="R&#248;ykfri">R&#248;ykfri</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Klimaanlegg">Klimaanlegg</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="justerbart ratt">justerbart ratt</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="h&#248;ydejusterbart f&#248;rersete">h&#248;ydejusterbart f&#248;rersete</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="Automatisk dieselvarmer">Automatisk dieselvarmer</Attribute>
+      <Attribute Order="16" Name="feature" Type="STRING" Label="Antispinn">Antispinn</Attribute>
+      <Attribute Order="17" Name="feature" Type="STRING" Label="Antiskrens">Antiskrens</Attribute>
+      <Attribute Order="18" Name="feature" Type="STRING" Label="8 gode dekk">8 gode dekk</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000282_1.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000282_2.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000282_3.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000282_4.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000282_5.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000282_6.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000282_7.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000282_8.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000282_9.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="10" Reference="000282_10.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="11" Reference="000282_11.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="12" Reference="000282_12.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="13" Reference="000282_13.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="14" Reference="000282_14.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="15" Reference="000282_15.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="16" Reference="000282_16.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="17" Reference="000282_17.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="18" Reference="000282_18.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="19" Reference="000282_19.jpg" Type="IMAGE">
+        <ElementTitle>Ford Mondeo</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+  <Ad Status="ACTIVE" PublishFromTime="2011-1-29 18:4:3" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Suzuki Grand Vitara 2.0i 140hk Sport 4x4 (2006)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000284</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bj&#248;rn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kj&#248;ret&#248;y">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Suzuki</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Grand Vitara</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Offroad</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">262253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="&#197;rsmodell">2006</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">49000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">2.0i 140hk</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">Sport</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Gr&#229;</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">140</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="&#197;rsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Bensin</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Meget velholdt bil. En voksen eier. Lav km. Alle service fulgt. Sv&#230;rt driftsikker. Fin &#229; kj&#248;re med sterk motor, AUTOMATGIR og ekte 4x4. H&#248;y inn og utstigning. Fint utstyrt med 8 alufelger, klimaanlegg, lavgirserie, hengerfeste og mye mer. Denne selger vi n&#229; til en meget gunstig pris. Kj&#248;p trygt av oss uten risiko for heftelser, med garantert riktig km stand, og vi ordner alt av papirer, forsikringsbestilling osv. Vi kan tilby rimelig finansiering og forsikring om &#248;nskelig. Prisene p&#229; dette t&#229;ler sammenligning! Velkommen til oss p&#229; Gustavsen Bil AS i Hunndalen, ved Gj&#248;vik. ( kjent for god service )   Vi m&#229; ta forbehold om evt. skrivefeil / spesifikasjonsfeil i annonsen.</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">4x4</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Automat</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Varmeseter">Varmeseter</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Startsperre">Startsperre</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="R&#248;ykfri">R&#248;ykfri</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Lettmetallfelger vinterhjul">Lettmetallfelger vinterhjul</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Lettmetallfelger sommerhjul">Lettmetallfelger sommerhjul</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Kollisjonsgardiner">Kollisjonsgardiner</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="Klimaanlegg">Klimaanlegg</Attribute>
+      <Attribute Order="13" Name="feature" Type="STRING" Label="Kj&#248;recomputer">Kj&#248;recomputer</Attribute>
+      <Attribute Order="14" Name="feature" Type="STRING" Label="Fjernstyrt sentrall&#229;s">Fjernstyrt sentrall&#229;s</Attribute>
+      <Attribute Order="15" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="000284_1.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="000284_2.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="000284_3.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="4" Reference="000284_4.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="5" Reference="000284_5.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="6" Reference="000284_6.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="7" Reference="000284_7.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="8" Reference="000284_8.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="9" Reference="000284_9.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="10" Reference="000284_10.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="11" Reference="000284_11.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="12" Reference="000284_12.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="13" Reference="000284_13.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="14" Reference="000284_14.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="15" Reference="000284_15.jpg" Type="IMAGE">
+        <ElementTitle>Suzuki Grand Vitara</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+</zett.no>

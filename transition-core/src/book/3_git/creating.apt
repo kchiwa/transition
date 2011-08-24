@@ -1,0 +1,164 @@
+                -----
+                Creating a new git repository as administrator
+                -----
+
+ How to create a new git repository on the APDM server. This is
+ <<not>> documentation of how to use an already established
+ repository. {{{./gitusage.html}The git usage}} document describe that.
+
+Primary setup
+~~~~~~~~~~~~~
+
+ First time setup contains the following steps.
+ Notice that you do <<not>> need to do this when
+ you have an existing repository. It is included only for
+ completeness.
+
+ As root, establish the git group and relevant users to the group:
+
++---
+mkdir -p /opt/git
+cd /opt/git
+chmod g=swrx,+t /opt/git
+chgrp git /opt/git
+chmod g+w /opt/git
++---
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating a new repository
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ You have several options: Creating a new <bare> repository, a new
+ repository from existing sources, or push local repository to git
+ master.
+
+* Creating new git repo without source
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ First, create the directory in which the git
+ project shall reside. Notice that we use 1 level of
+ sublevels in order to announce area the code is intended for.
+
+ * "code" is for code
+
+ * "static" is for static code, such as presentations
+
+ * ...
+
+ []
+
+ In the example, I create the presentation directory: 
+
++---
+# First create the directory itself:
+mkdir -p /opt/git/static/presentations.git
+# The base directory is sticky, so the group is ok - but is without rights
+# Correct the group rights
+chmod g+w /opt/git/static/presentations.git
+cd /opt/git/static/presentations.git
+# Initialize directory
+git init --bare --shared
++---
+
+ Since this is a bare repository, you need to perform an initial push.
+ From your local computer, clone, perform and change and push it back:
+
++---
+git clone apdm.int.abctech-thailand.com:/opt/git/static/presentations.git
+# Create files / elements.
+# Then perform initial push:
+git push origin master
++---
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Creating a repo with basis in local repo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Create a new local repository:
+
++----
+cd git/static
+mkdir tools
+cd tools
+git init --shared
+# Do some work...
++----
+
+ On the server, create the repository:
+
++----
+cd /opt/git/static
+mkdir tools.git
+cd tools.git
+git init --bare --shared
++----
+
+ From your local machine, set the master and push the changes:
+
++----
+git remote add apdm.int.abctech-thailand.com:/opt/git/static/tools
+git push origin master
++----
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Creating a repo with initialized sources
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ <<Notice:>> This is not the recommended way of creating
+ a repository with initialized sources. It is included for
+ completeness.
+
+ Given you have a puppet directory into which you have
+ committed material already, you do as follows. The example
+ is <<</etc/puppet>>> (which was already populated).
+ 
++---
+# Git init of directory - existing (local) project
+mkdir -p /opt/git/config/
+chmod g+w /opt/git/config/
+# The directory puppet is a local git repo
+cd /etc/
+git clone --bare --shared --no-hardlinks puppet /opt/git/config/puppet.git
+cd /opt/git/config/puppet.git
+git repack -ad
+rm objects/info/alternates
+# If git remote -v displays anything:
+git remote rm origin
+# Make sure that the correct group rights gets set:
+chmod g+w -R /opt/git/config/puppet.git
+# Make sure that core.sharedrepository=true
+git repo-config -l
+# Set it if it is not:
+git repo-config core.sharedRepository true
+
+# Checking it out
+git clone apdm.int.abctech-thailand.com:/opt/git/config/puppet.git
+
+# Test that you are able to pull from the repository:
+cd puppet
+# The following should complete successfully:
+git pull --rebase
++---
+
+Create git repository from a sub-directory of a git repo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ From: {{http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository}}
+
++---
+# Clone existing structure
+git clone --no-hardlinks /XYZ /ABC
+# Filter down to the ABC directory
+git filter-branch --subdirectory-filter ABC HEAD
+git reset --hard
+git gc --aggressive
+git prune
++---
+
+ Remove the old directory:
+ 
++--
+rm -rf ABC
+git rm -r ABC
+git commit -m 'extracted ABC into its own repo'"
++--

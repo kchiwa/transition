@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+  <!--
+        Document generated: 18.10.2010 11:48:02
+        PropertyID:	465292-->
+  <!--
+        CommisionTypeID: 1-->
+  <MEGLERDATA>
+    <MEGLER_KONTOR_ID>1346301</MEGLER_KONTOR_ID>
+    <MEGLER_KONTOR_NAVN>Sotra</MEGLER_KONTOR_NAVN>
+    <MEGLER_KONTOR_BESOKSADRESSE>Sartor Senter </MEGLER_KONTOR_BESOKSADRESSE>
+    <MEGLER_KONTOR_POSTNR>5342</MEGLER_KONTOR_POSTNR>
+    <MEGLER_KONTOR_POSTSTED>STRAUME</MEGLER_KONTOR_POSTSTED>
+    <MEGLER_KONTOR_EMAIL>emv@emvest.no</MEGLER_KONTOR_EMAIL>
+  </MEGLERDATA>
+  <OPPDRAG>
+    <!--
+        STATUS 
+        0 - ukjent
+        1 - Online
+        2 - Solgt
+        3 - Trukket
+      -->
+    <STATUS>1</STATUS>
+    <OPPDRAGSNR>5100156</OPPDRAGSNR>
+    <EIENDOMSNAVN>Arebakken 9</EIENDOMSNAVN>
+    <OVERSKRIFT1>Flott rekkehus med god standard. Sentralt på Brattholmen.</OVERSKRIFT1>
+    <BOLIGTYPE>pr04</BOLIGTYPE>
+    <!--
+        OPPDRAGS_TYPE:
+        0 Salg
+        1 Utleie
+      -->
+    <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+    <KOMMUNENR>1246</KOMMUNENR>
+    <TOMTESTORRELSE>1936</TOMTESTORRELSE>
+    <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+    <PRISANTYDNING_VERDI>2790000</PRISANTYDNING_VERDI>
+    <GNR>43</GNR>
+    <BNR>627</BNR>
+    <SNR>2</SNR>
+    <FNR>0</FNR>
+    <BRUTTOAREAL>125</BRUTTOAREAL>
+    <BOAREAL>0</BOAREAL>
+    <HUSLEIEINKLUDERER></HUSLEIEINKLUDERER>
+    <OMKOSTNINGER>1. Dok.avgift til staten: 2,5% av kjøpesum&lt;br&gt;2. Tinglysingsgebyr skjøte kr. 1.548,-&lt;br&gt;3. Evt. tinglysingsgebyr for pantedok. kr. 1.935,-&lt;br&gt;4. Grunnboksutskrift kr. 202,-&lt;br&gt;&lt;br&gt;For prisant. kr. 2.790.000,- utgjør dette samlet kr. 73.435,-.&lt;br&gt;&lt;br&gt;</OMKOSTNINGER>
+    <LAANEVILKAARFELLESGJELD />
+    <P-ROM>110</P-ROM>
+    <PRIMAERROM_BESKRIVELSE>Primærrom 1.etg: vindfang, gang, bad, vaskerom, stue, kjøkken. 2.etg: mellomgang, bad og 3 soverom.&lt;br&gt;&lt;br&gt;Ikke med i p-rom: utebod.</PRIMAERROM_BESKRIVELSE>
+    <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+    <AREALBESKRIVELSE></AREALBESKRIVELSE>
+    <EIERFORM>Selveier</EIERFORM>
+    <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+    <TOMTEBESKRIVELSE>Tomten er flott opparbeidet med en usjenert terrasse på ca 35 kvm på fremstiden av boligen samt en mindre terrasse, mur, bed m.m. ved boligens inngangsparti. &lt;br&gt;Stor gruset plass for parkering på fellesareal.</TOMTEBESKRIVELSE>
+    <INNHOLD>Innholdsrikt rekkehus over to plan som fremstår med følgende planløsning: &lt;br&gt;Hovedplan: Entre, gang, trapperom med kontorkrok, bad, vaskerom, stue og kjøkken. &lt;br&gt;2.etg: Mellomgang, bad samt 3 soverom hvorav et stort med tilhørende garderoberom&lt;br&gt;1. utvendig sportsbod.</INNHOLD>
+    <STANDARD>Boligen fremstår som lys, trivelig og med gjennomgående gode kvaliteter. &lt;br&gt;&lt;br&gt;Romslig stue med vedovn, store vindusflater/ gode lysforhold samt  utgang til usjenert terrasse. &lt;br&gt;Kjøkken med spiseplass og innredning med god skap- og benkeplass. Flotte fliser på vegg over benkeplaten. &lt;br&gt;Flott flislagt bad på hovedplan fra 2009. Badet er innrednet med wc, designinnredning samt stor dusjnisje bak glassbyggerstein. &lt;br&gt;Også flott flislagt bad i 2.etg. Dette badet er fra 2005 og er innredet med wc, stor baderomsinnredning, hjørnebadekar samt massasjedusj(2008)&lt;br&gt;Ellers på gulv: Laminat, fliser og belegg på vaskerom. På vegg: Strie malt i lyse farger. &lt;br&gt;Videre:&lt;br&gt;Skyvedørsgarderobe i entre, sikringsskap med automatsikringer, nymalt utvendig(i år) &lt;br&gt;&lt;br&gt;&lt;br&gt;Boligen har helt ny varmtvannstank og avtrekksvifte på kjøkken. Boligen har videre nye innvendige tak i stue og på kjøkken. &lt;br&gt;&lt;br&gt;Se også eiendommens takst som er vedlagt salgsoppgaven.</STANDARD>
+    <BELIGGENHET>Eiendommen ligger i et rolig og populært boligområdet, kun et par min kjøring fra Sartor Storsenter / Fjell kommunesenter med alle daglige servicetilbud. Eiendommen har gode solforhold og noe utsikt  mot sør med byfjellene i det fjerne. Fra eiendommen er det det ca 15 min  kjøring til Bergen sentrum. Se også nabolagsprofil som er vedlagt salgsoppgaven for andre avstander.</BELIGGENHET>
+    <ADKOMST>Fra Sartor Storsenter, følg veien nedover mot Brattholmen, forbi Sotra Bruk og videre nedover mot Arefjord. I bunnen av bakken, ta stikkvei til venstre og boligen kan sees på høyre side av veien mot toppen av bakken. &lt;br&gt;Under fellesvisninger blir det skiltet med visningskilt i fra hovedvei og frem til eiendommen .</ADKOMST>
+    <ANTALL_SOVEROM>3</ANTALL_SOVEROM>
+    <BYGGEAAR>1991</BYGGEAAR>
+    <MODERNISERINGSAAR>0</MODERNISERINGSAAR>
+    <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+    <MODERNISERINGSAAR_UTVENDIG>0</MODERNISERINGSAAR_UTVENDIG>
+    <POSTNR>5353</POSTNR>
+    <POSTSTED>STRAUME</POSTSTED>
+    <ETASJE>0</ETASJE>
+    <VEI_VANN_KLOAKK>Privat vei. Eienodmmen er tilkoblet kommunalt vann og avløp.</VEI_VANN_KLOAKK>
+    <FELLESUTGIFTER>0</FELLESUTGIFTER>
+    <FELLESGJELD>0</FELLESGJELD>
+    <FESTEAVGIFT>0</FESTEAVGIFT>
+    <MARKEDSVERDI>3000000</MARKEDSVERDI>
+    <LAANEVERDI>2700000</LAANEVERDI>
+    <SAKSBEHANDLER_NAVN>Bjarne Kahrs</SAKSBEHANDLER_NAVN>
+    <SAKSBEHANDLER_EMAIL>bjarne.kahrs@emvest.no</SAKSBEHANDLER_EMAIL>
+    <SAKSBEHANDLERS_TELEFON>56 32 34 82</SAKSBEHANDLERS_TELEFON>
+    <SAKSBEHANDLERS_MOBIL>91 66 44 14</SAKSBEHANDLERS_MOBIL>
+    <VISNINGSAVTALE></VISNINGSAVTALE>
+    <VISNINGSTIDER>
+      <VISNING FRA="21.10.2010 18:30" TIL="19:15" />
+    </VISNINGSTIDER>
+    <VEDLEGG>
+      <VEDLEGGID>12976746</VEDLEGGID>
+      <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>1655_2</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001561.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>D3-19-64-A3-11-8B-7C-EB-B9-A7-88-63-B1-0A-E8-82</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976747</VEDLEGGID>
+      <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken083</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001562.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>D2-1F-A8-88-2B-59-EB-B8-30-BE-D7-B5-FB-04-01-5F</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976748</VEDLEGGID>
+      <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>1655_2</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001563.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>EB-6B-96-CD-29-49-D5-15-C5-A3-01-13-E9-21-6B-2B</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976749</VEDLEGGID>
+      <VEDLEGGSEKVENS>4</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken077</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001564.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>12-94-29-86-E3-34-AF-55-12-11-FA-5D-E9-BE-DE-0D</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976750</VEDLEGGID>
+      <VEDLEGGSEKVENS>5</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken075</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001565.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>CF-64-36-A4-FA-71-49-0F-40-96-0A-6A-47-8B-2E-F2</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976751</VEDLEGGID>
+      <VEDLEGGSEKVENS>6</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken071</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001566.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>4C-CD-E2-62-DE-2F-78-CA-01-4D-BB-FE-3A-8A-32-0C</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976752</VEDLEGGID>
+      <VEDLEGGSEKVENS>7</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken057</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001567.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>8D-CE-AD-EB-4E-EC-AE-23-5A-09-01-0A-76-0B-97-88</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976753</VEDLEGGID>
+      <VEDLEGGSEKVENS>8</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken062</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001568.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>37-64-29-E4-36-AA-93-DD-E8-39-C0-6B-31-A2-05-38</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976754</VEDLEGGID>
+      <VEDLEGGSEKVENS>9</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken069</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/51001569.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>6C-6B-03-E5-41-12-83-5C-02-28-B2-30-61-37-15-B0</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976755</VEDLEGGID>
+      <VEDLEGGSEKVENS>10</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken022</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015610.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>66-4C-FC-A0-33-B5-78-B8-5E-66-FC-2F-D5-77-38-96</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976756</VEDLEGGID>
+      <VEDLEGGSEKVENS>11</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken024</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015611.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>59-F0-11-B0-DF-1E-0D-67-47-13-93-1F-F6-A3-3D-E9</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976757</VEDLEGGID>
+      <VEDLEGGSEKVENS>12</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken055</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015612.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>80-B8-29-F0-93-CD-44-5C-A2-BB-AE-FD-9A-B2-C6-90</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976758</VEDLEGGID>
+      <VEDLEGGSEKVENS>13</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken038</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015613.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>A1-9E-CA-19-0C-82-A4-FB-73-E5-8F-14-49-91-7C-39</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976759</VEDLEGGID>
+      <VEDLEGGSEKVENS>14</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken035</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015614.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>59-EF-53-05-12-D3-3A-53-8F-E8-7C-EA-37-51-BF-9B</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976760</VEDLEGGID>
+      <VEDLEGGSEKVENS>15</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken052</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015615.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>9C-46-53-D7-D5-CC-C4-80-3C-4B-48-06-D5-B2-CF-72</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976761</VEDLEGGID>
+      <VEDLEGGSEKVENS>16</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken045</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015616.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>A8-7E-96-3B-07-A9-78-33-AA-34-99-DB-2E-5E-49-1C</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976762</VEDLEGGID>
+      <VEDLEGGSEKVENS>17</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken029</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015617.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>61-D8-07-BA-18-E1-78-F6-8E-7E-CA-B6-40-F2-85-D8</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976763</VEDLEGGID>
+      <VEDLEGGSEKVENS>18</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken006</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015618.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>D2-65-65-E5-DF-1E-9E-48-FD-1D-66-E2-91-B4-5F-97</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976764</VEDLEGGID>
+      <VEDLEGGSEKVENS>19</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken004</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015619.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>86-D1-A7-28-E6-BC-3B-67-C7-E4-73-72-44-39-9A-23</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>12976765</VEDLEGGID>
+      <VEDLEGGSEKVENS>20</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>Arebakken012</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015620.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>D4-A9-79-52-3F-ED-98-AE-8B-97-45-23-D9-9A-36-A1</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13062517</VEDLEGGID>
+      <VEDLEGGSEKVENS>21</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>1655_1</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015621.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>76-18-42-BD-70-96-CD-89-2F-F5-01-26-82-15-B4-51</VEDLEGGHASH>
+    </VEDLEGG>
+    <VEDLEGG>
+      <VEDLEGGID>13100139</VEDLEGGID>
+      <VEDLEGGSEKVENS>22</VEDLEGGSEKVENS>
+      <VEDLEGGTITTEL>1655_2</VEDLEGGTITTEL>
+      <VEDLEGGURL>http://att.emprof.no/images2/EiendomsmeglerVest/Sotra/Pictures/1024/510015622.JPG</VEDLEGGURL>
+      <VEDLEGGHASH>7A-14-AB-C0-8B-CE-DA-A5-65-BF-81-F0-B6-43-A5-C9</VEDLEGGHASH>
+    </VEDLEGG>
+    <LINKER>
+      <LINKTYPE>URL-C360TOURNR</LINKTYPE>
+      <EXTERNALURL>http://efilm.fotoringen.no/6492</EXTERNALURL>
+    </LINKER>
+  </OPPDRAG>
+</DATA>

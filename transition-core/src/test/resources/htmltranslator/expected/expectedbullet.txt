@@ -1,0 +1,7 @@
+<ul>
+	<li>Selvstendig</li>
+	<li>Punktlig, strukturert.</li>
+	<li>Lojal.</li>
+	<li>Villig til å stå på i perioder.</li>
+	<li>Erfaring fra lager</li>
+</ul>

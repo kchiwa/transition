@@ -1,0 +1,195 @@
+admoffice/officesecr=102=Kontormedarbeider/Sekretær
+admoffice/switchbreception=103=Sentralbord/Resepsjon
+admoffice/studyadm=102=Kontormedarbeider/Sekretær
+admoffice/custsupporderhandl=104=Kundeservice/Ordremottak
+admoffice/managment=105=Administrativ ledelse
+admoffice/archivedocument=106=Dokumentbehandling
+admoffice/emprelrecruiting=107=Personalhåndtering/Rekruttering
+admoffice/training=2804=Voksenopplæring/Kurs
+admoffice/executiveofficer=108=Saksbehandler
+admoffice/other=100=Administrasjon, økonomi og juss
+bankfinanceinsurance/bankfinserv=201=Bank/Finansielle tjenester
+bankfinanceinsurance/insurpenfund=202=Forsikring/Fond
+bankfinanceinsurance/medanalysis=203=Megling/Analyse
+bankfinanceinsurance/bankadminexec=201=Bank/Finansielle tjenester
+bankfinanceinsurance/realestatenego=204=Eiendomsmegling
+bankfinanceinsurance/bankadvicer=205=Rådgiver
+bankfinanceinsurance/bankexecoff=201=Bank/Finansielle tjenester
+bankfinanceinsurance/other=201=Bank/Finansielle tjenester
+researchdevelop/rdscieng=2901=Naturvitenskap og teknikk
+researchdevelop/rdsocscihum=2902=Samf. vitenskap og humanistiske fag
+researchdevelop/other=2900=Forskning og utvikling
+healthwelfare/docdentvet=501=Lege
+healthwelfare/nursing=510=Sykepleier
+healthwelfare/psychpsycserv=800=Omsorg
+healthwelfare/physergoserv=512=Fysioterapi/Ergoterapi
+healthwelfare/socialserv=800=Omsorg
+healthwelfare/pharmacy=701=Apotekertjenester/Farmasi
+healthwelfare/chiropractor=513=Kiropraktor
+healthwelfare/veterenarian=515=Veterinær
+healthwelfare/radiography=800=Omsorg
+healthwelfare/other=490=Helse, medisin og omsorg
+hotelrestauranttrav/hotel=2501=Hotellvirksomhet/ overnatting
+hotelrestauranttrav/otherovernight=2501=Hotellvirksomhet/ overnatting
+hotelrestauranttrav/restbar=2600=Restaurant og kjøkken
+hotelrestauranttrav/booking=2502=Booking
+hotelrestauranttrav/cantcathousekeep=2600=Restaurant og kjøkken
+hotelrestauranttrav/travel=2500=Hotell og Reiseliv
+hotelrestauranttrav/other=2500=Hotell og Reiseliv
+buildconstr/skilledtrad=2200=Håndverksfag/bygg og anlegg
+buildconstr/techconstruction=2202=Tekniske byggfag
+buildconstr/mechoccup=2203=Mekaniske yrker
+buildconstr/buildconstruction=2204=Bygg og anlegg
+buildconstr/carmechanic=2205=Bilmekaniker
+buildconstr/unskilledtrad=2206=Ufaglært håndverk
+buildconstr/servmechanic=2207=Servicemekaniker
+buildconstr/other=2190=Industri, bygg, offshore
+industrymanuf/electroptical=2301=Elektriske produkter
+industrymanuf/energywatsupply=2302=Energi og vannforsyning
+industrymanuf/pharmind=701=Apotekertjenester/Farmasi
+industrymanuf/graphicalind=2303=Grafisk industri
+industrymanuf/rubplasticsmin=2304=Gummi- plast- og mineralvarer
+industrymanuf/chempetind=2305=Kjemisk industri/ Petroleumsindustri
+industrymanuf/metals=2306=Metallurgisk industri/Metallvarer
+industrymanuf/foodbevtob=2307=Nærings- og nytelsesmidler
+industrymanuf/textclothinf=2308=Tekstindustri og bekledning
+industrymanuf/transpmachequip=2309=Transportmidler/Maskiner og utstyr
+industrymanuf/woodfurnind=2310=Treindustri
+industrymanuf/worksind=2311=Verksindustri
+industrymanuf/other=2300=Industri og produksjon
+engineering/buidconstruction=2204=Bygg og anlegg
+engineering/computereng=2690=Data og IKT
+engineering/chembio=2901=Naturvitenskap og teknikk
+engineering/physmat=2901=Naturvitenskap og teknikk
+engineering/energy=2302=Energi og vannforsyning
+engineering/geopettech=2402=Geologi/Geofysikk/Reservoar
+engineering/marintech=2190=Industri, bygg, offshore
+engineering/materialtech=2190=Industri, bygg, offshore
+engineering/cybernetics=2190=Industri, bygg, offshore
+engineering/engmech=2309=Transportmidler/Maskiner og utstyr
+engineering/engelectronics=2301=Elektriske produkter
+engineering/engvvs=2200=Håndverksfag/bygg og anlegg
+engineering/engprojmanag=2190=Industri, bygg, offshore
+engineering/engcontract=2190=Industri, bygg, offshore
+engineering/other=2190=Industri, bygg, offshore
+profindbodies/employerorg=2101=Næringslivs- og arbeidsgiverorg.
+profindbodies/employeeorg=2102=Arbeidstagerorganisasjoner
+profindbodies/charityorg=2103=Ideelle organisasjoner
+profindbodies/internatorg=2104=Internasjonale organisasjoner
+profindbodies/other=1890=Kultur, idrett og organisasjoner
+ittelecominternet/applicdev=2701=Applikasjonsutvikling/ programmering
+ittelecominternet/businessdev=2702=Forretningsutvikling
+ittelecominternet/support=2703=Support
+ittelecominternet/plantmachdev=2704=Utvikling av infrastruktur og maskinvare
+ittelecominternet/plantappoper=2705=Drift av applikasjoner og infrastruktur
+ittelecominternet/salesmarketing=1300=Salg og markedsføring
+ittelecominternet/other=2690=Data og IKT
+farmforestryhuntfish/farmgardcentre=3201=Dyrking
+farmforestryhuntfish/domfarming=3303=Husdyrhold
+farmforestryhuntfish/forestry=3203=Skogbruk
+farmforestryhuntfish/huntestmng=3300=Jakt/Viltstell
+farmforestryhuntfish/fishhunt=3301=Fiske og fangst
+farmforestryhuntfish/fishfarm=3302=Oppdrettsnæring
+farmforestryhuntfish/other=3090=Primærnæringer
+consulting/architect=2200=Håndverksfag/bygg og anlegg
+consulting/techconsult=2190=Industri, bygg, offshore
+consulting/legalserv=400=Jus
+consulting/propmanagment=204=Eiendomsmegling
+consulting/busdevstrat=2702=Forretningsutvikling
+consulting/orgdevelopment=107=Personalhåndtering/Rekruttering
+consulting/recruitment=107=Personalhåndtering/Rekruttering
+consulting/revtaxadv=307=Revisjon/Skatterådgivning
+consulting/other=11=Annet
+artsculture/theaoperaballett=1901=Teater/Opera/Ballett
+artsculture/musicdance=1902=Musikk/Dans
+artsculture/artactiv=1900=Kunst og kultur
+artsculture/librmuseums=1903=Bibliotek/Museer/Galleri
+artsculture/sport=2000=Idrett
+artsculture/other=1900=Kunst og kultur
+aviationaerospace/flightcontroff=1606=Flygeleder
+aviationaerospace/pilot=1607=Flyger
+aviationaerospace/planemechanic=1608=Flymekaniker/Teknisk
+aviationaerospace/cabincrew=1609=Kabinpersonell
+aviationaerospace/groundcrew=1610=Bakkepersonell
+aviationaerospace/other=1605=Luftfart
+mediainfopr/advertinfo=1201=Reklame
+mediainfopr/commadvice=1200=Media, informasjon og PR
+mediainfopr/internett=1205=Internett
+mediainfopr/journalism=1202=Journalistikk
+mediainfopr/radiotvfilmvideo=1203=Radio/TV/Film/Video
+mediainfopr/printing=1204=Trykte Media
+mediainfopr/publishing=1206=Forlagvirksomhet
+mediainfopr/other=1200=Media, informasjon og PR
+publicserv/policefirecust=1000=Sikkerhet
+publicserv/healthsocserv=490=Helse, medisin og omsorg
+publicserv/churcheduresearch=2790=Utdanning og Forskning
+publicserv/offconsultant=100=Administrasjon, økonomi og juss
+publicserv/defforpol=1004=Forsvar
+publicserv/taxnatinsur=100=Administrasjon, økonomi og juss
+publicserv/legprisserv=1000=Sikkerhet
+publicserv/offcaseworker=108=Saksbehandler
+publicserv/publicmng=100=Administrasjon, økonomi og juss
+publicserv/techserv=100=Administrasjon, økonomi og juss
+publicserv/foreignaff=100=Administrasjon, økonomi og juss
+publicserv/other=11=Annet
+offshoreexploit/oilgas=2401=Olje- og gassutvinning
+offshoreexploit/geology=2402=Geologi/Geofysikk/Reservoar
+offshoreexploit/oilgassupport=2403=Tjenester tilknyttet olje- og gassutvinning
+offshoreexploit/drilling=2404=Drilling/Logging/Brønn/Boring
+offshoreexploit/extractionmining=2405=Utvinning av råstoffer/Bergverksdrift
+offshoreexploit/offengineering=2190=Industri, bygg, offshore
+offshoreexploit/offoperator=2406=Operatør/Vedlikehold
+offshoreexploit/offhms=2407=Helse/Miljø/Sikkerhet
+offshoreexploit/offprojmanagment=2408=Prosjektledelse
+offshoreexploit/offresearch=2409=Forskning og Teknologi Utvikling
+offshoreexploit/offmanagment=2410=Ledelse og Fellestjenester
+offshoreexploit/technautical=2411=Nautisk
+offshoreexploit/techmar=2412=Teknisk - maritim
+offshoreexploit/other=2400=On-/ offshore, olje og gass
+personalserv/persfysioergo=512=Fysioterapi/Ergoterapi
+personalserv/hairbeauty=601=Hår- og skjønnhetspleie
+personalserv/perschiropractor=513=Kiropraktor
+personalserv/domhelpgard=11=Annet
+personalserv/fitnesscentre=11=Annet
+personalserv/caretakserv=905=Vaktmestertjenester
+personalserv/securityserv=1101=Vekter
+personalserv/laundrydryclean=901=Rengjøringsmedarbeider
+personalserv/other=11=Annet
+cleanwaste/cleaningpersonell=901=Rengjøringsmedarbeider
+cleanwaste/watersewserv=900=Renhold, vedlikehold og renovasjon
+cleanwaste/wastemng=903=Renovasjon
+cleanwaste/vermincontroll=904=Skadesanering
+cleanwaste/other=900=Renhold, vedlikehold og renovasjon
+salesmarketing/servicessales=1303=Tjenestesalg
+salesmarketing/telemarketing=1304=Telemarketing
+salesmarketing/productsales=1305=Produktsalg
+salesmarketing/marketing=1300=Salg og markedsføring
+salesmarketing/other=1300=Salg og markedsføring
+transpologisticswareh/haulage=1600=Landtransport
+transpologisticswareh/shipping=1602=Sjøfart
+transpologisticswareh/tranbuyer=1704=Innkjøpsansvarlig
+transpologisticswareh/airtransport=1605=Luftfart
+transpologisticswareh/trasnportserv=1611=Transportknyttede tjenester
+transpologisticswareh/postdelivery=1801=Post- og budtjenester
+transpologisticswareh/logisticwarehouse=1700=Lager
+transpologisticswareh/other=1590=Transport, lager og logistikk
+eduteach/kindergarden=805=Barnehage
+eduteach/school=2801=Grunnskole
+eduteach/professorship=2805=Professorat/Stipendiat
+eduteach/highschool=2802=Videregående skole
+eduteach/univcollege=2803=Universitet/Høgskole
+eduteach/adultedu=2804=Voksenopplæring/Kurs
+eduteach/other=2790=Utdanning og Forskning
+retail/agencywholesale=1501=Agentur- engroshandel
+retail/decorator=1502=Dekoratør
+retail/retailtrade=1503=Detaljhandel/Butikksalg
+retail/franchise=1504=Franchisetager
+retail/maintrep=1505=Reparasjon og vedlikehold
+retail/other=1500=Varehandel
+economycontrolling/accountcontrol=300=Økonomi og regnskap
+economycontrolling/economyfinance=302=Økonomi/Finans
+economycontrolling/puchlogistics=303=Innkjøp/Logistikk
+economycontrolling/payoffice=304=Lønn
+economycontrolling/other=300=Økonomi og regnskap
+economycontrolling/revision=305=Revisjon
+economycontrolling/other=300=Økonomi og regnskap

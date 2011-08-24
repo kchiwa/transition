@@ -1,0 +1,28 @@
+<beans
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:amq="http://activemq.apache.org/schema/core"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:camel="http://camel.apache.org/schema/spring"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation=
+        "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+   <bean id="carXmlPath" class="com.abctech.transition.core.bean.TransformPath">
+        <property name="xmlPath" value="xmlsources/car/"/>
+        <property name="xslPath" value="xmlsources/car/"/>
+    </bean>
+
+    <bean id="bookXmlPath" class="com.abctech.transition.core.bean.TransformPath">
+        <property name="xmlPath" value="xmlsources/book/"/>
+        <property name="xslPath" value="xmlsources/book/"/>
+    </bean>
+
+     <bean id="valueMapXmlPath" class="com.abctech.transition.core.bean.TransformPath">
+        <property name="xmlPath" value="xmlsources/car/valuemaps.xml"/>
+        <property name="xslPath" value=""/>
+    </bean>
+
+</beans>

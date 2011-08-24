@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" 
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd 
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+    <context:component-scan base-package="com.abctech.transition.webapp.controller.**"/>
+    <context:component-scan base-package="com.abctech.transition.core.dao.**"/>
+    <context:component-scan base-package="com.abctech.transition.core.jms.**"/>
+    <context:component-scan base-package="com.abctech.transition.core.memcached.**"/>
+    <context:component-scan base-package="com.abctech.transition.webapp.camel.**"/>
+    <context:component-scan base-package="com.abctech.transition.webapp.camel.receipt.**"/>
+    <context:component-scan base-package="com.abctech.transition.webapp.manager.**"/>
+    <context:component-scan base-package="com.abctech.transition.core.utility.**"/>
+
+	<mvc:annotation-driven />
+	<!-- 	
+    <bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
+
+    <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/>
+    -->
+    <mvc:interceptors>
+    	<mvc:interceptor>
+    		<mvc:mapping path = "/*.html" />
+	    	<bean class="com.abctech.transition.webapp.interceptor.DefaultInterceptor">
+	    		<property name="excludeList">
+	    			<list>
+	    				<value>/authtenticated.html</value>
+	    				<value>/accessdenied.html</value>
+	    			</list>
+	    		</property>
+	    	</bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
+  	
+    <bean class="org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver"/>
+
+
+
+    <!-- <context:component-scan base-package="com.abctech.transition.webapp.Hydra.**" />  -->
+
+
+    <!-- using jndi <bean id="importStateDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+         destroy-method="close"> <property name="driverClass" value="com.mysql.jdbc.Driver"
+         /> <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/importstate?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true"
+         /> <property name="user" value="importstate" /> <property name="password"
+         value="pingu123" /> <property name="idleConnectionTestPeriod" value="600"
+         /> </bean> -->
+
+    <bean id="importStateJdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!-- <constructor-arg ref="importStateDataSource"/> -->
+        <property name="dataSource">
+            <ref bean="importStateDataSource"/>
+        </property>
+    </bean>
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass"
+                  value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- Configure the multipart resolver -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="64000000"/>
+        <!-- in bytes, no more than 64mb! -->
+    </bean>
+
+    <bean id="adStateManager" class="com.abctech.transition.core.dao.adstate.AdStateManager"/>
+    <bean id="fileStateManager" class="com.abctech.transition.core.dao.filestate.FileStateManager"/>
+    <bean id="mediaStateManager" class="com.abctech.transition.core.dao.mediastate.MediaStateManager"/>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="importStateDataSource"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="importStateDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName" value="java:comp/env/jdbc/DSTransitionState"/>
+    </bean>
+
+    <bean id="transitionProperties" class="com.abctech.transition.core.TransitionProperties">
+        <property name="apiPropertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+
+
+    <bean id="databaseCreator" class="com.abctech.transition.core.dao.DatabaseCreator" scope="singleton">
+        <property name="production" value="true"/>
+    </bean>
+    <!--
+    <bean id="ftpRouterManager" class="com.abctech.transition.webapp.manager.camel.RouteManagernit-method="addFTPRoute"></bean>
+
+	-->
+
+    <bean id="systemCheck" class="com.abctech.transition.webapp.adminPing.SystemCheck"/>
+
+
+    <bean id="apiPropertyLookupService" class="no.api.properties.api.lookup.ApiPropertyLookupViaConfiguredValueService">
+        <property name="apiPropertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+
+
+    <!-- Snippet is used in hydra doc - do not change -->
+    <!--START SNIPPET: hydraspring-->
+    <!-- Information which is sent to Hydra for login registration purposes -->
+    <bean id="hydraRegistrationComponent" class="no.api.hydra.client.HydraClientRegistration" init-method="register"
+          destroy-method="unregister" scope="singleton">
+        <property name="directorManager" ref="directorManager"/>
+        <property name="propertiesManager" ref="apiPropertiesManager"/>
+        <property name="apiAdminPingURL"
+                  value="#{apiPropertiesFacade.globalProperties['hydra.shall.ping.transition.on.this.url'].value}"/>
+        <property name="hydraShallCallbackHere"
+                  value="#{apiPropertiesFacade.globalProperties['hydra.to.transition.callback.url'].value}"/>
+        <property name="serviceName" value="transition"/>
+        <property name="clientTitle" value="Transition"/>
+        <property name="clientDescription" value="Transition application"/>
+        <property name="acceptedAcls">
+            <list>
+                <value>ROLE_ADMIN</value>
+                <value>ROLE_SUPPORT</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Contains common and often used functionality, such as ping-back -->
+    <bean id="hydraClient" class="no.api.hydra.client.HydraClient">
+        <property name="directorManager" ref="directorManager"/>
+        <property name="propertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+
+    <!-- Used for extracting Hydra related properties during startup -->
+    <bean id="apiPropertiesFacade" class="no.api.properties.api.spring.ApiPropertiesFacade">
+        <property name="apiPropertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+
+    <!-- You do not need an iris provider if you shall only implement hydra support -->
+    <bean id="providerManager" class="no.api.director.provider.ProviderManagerImpl">
+        <property name="providers">
+            <list>
+                <ref bean="hydraProvider"/>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Director manager is used in the registration component -->
+    <bean id="directorManager" class="no.api.director.DirectorManagerImpl" autowire="byName">
+        <property name="providerManager" ref="providerManager"/>
+    </bean>
+
+    <!-- Hydra support for login services, used when calling hydra -->
+    <bean id="hydraProvider" class="no.api.hydra.director.HydraProvider">
+        <property name="apiPropertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+    <!--END SNIPPET: hydraspring -->
+
+    <bean id="principalSecurityComponent" class="com.abctech.transition.webapp.Hydra.PrincipalSecurityComponent">
+        <!-- true = use Hydra, false = do not use Hydra<property name="useHydraAuthentication" value="true"/>-->
+        <property name="useHydraAuthentication"
+                  value="#{systemProperties['use.hydra']==null?true:systemProperties['use.hydra']}"/>
+    </bean>
+
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>/WEB-INF/messages</value>
+            </list>
+        </property>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+   
+</beans>

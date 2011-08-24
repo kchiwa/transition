@@ -1,0 +1,141 @@
+<book xmlns="http://maven.apache.org/BOOK/1.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/BOOK/1.0.0 http://maven.apache.org/xsd/book-1.0.0.xsd">
+    <id>transition-book</id>
+    <title>The ABC Tech book</title>
+    <author>ABC Tech Ltd.(Thailand)</author>
+    <chapters>
+
+        <chapter>
+            <id>1_transition</id>
+            <title>Transition Project</title>
+            <sections>
+                <section>
+                    <id>overview</id>
+                    <title>Project Overview</title>
+                </section>
+                <section>
+                    <id>installation</id>
+                    <title>Installation</title>
+                </section>
+                <section>
+                    <id>database</id>
+                    <title>Database</title>
+                </section>
+                <section>
+                    <id>hydra</id>
+                    <title>Run Transition with Hydra</title>
+                </section>
+                <section>
+                    <id>production</id>
+                    <title>Production notes</title>
+                </section>
+                <section>
+                    <id>drivermanager</id>
+                    <title>Transition Driver Manager</title>
+                </section>
+                <section>
+                	<id>systeminitial</id>
+                	<title>System Initial Service</title>
+                </section>
+                 <section>
+                	<id>ftprouter</id>
+                	<title>FTP Router Manager</title>
+                </section>
+                <section>
+                	<id>path</id>
+                	<title>Path</title>
+                </section>
+                <section>
+                    <id>flow</id>
+                    <title>System Flow</title>
+                </section>
+                <section>
+                    <id>memcache</id>
+                    <title>Memcached</title>
+                </section>
+                <section>
+                    <id>exceptionhandle</id>
+                    <title>Exception Handling</title>
+                </section>
+                <section>
+                    <id>splitter</id>
+                    <title>XML Ad Splitter</title>
+                </section>
+                <section>
+                    <id>mediahandle</id>
+                    <title>Media Handling</title>
+                </section>
+                <section>
+                    <id>transformation</id>
+                    <title>Transformation</title>
+                </section>
+                <section>
+                    <id>zett</id>
+                    <title>XML for Import</title>
+                </section>
+                <section>
+                    <id>zettrestservice</id>
+                    <title>Rest Service</title>
+                </section>
+                <section>
+                    <id>transactionstatus</id>
+                    <title>How we deal with closed/deleted advertisement</title>
+                </section>
+                <section>
+                    <id>information</id>
+                    <title>Transition Administrative Information</title>
+                </section>
+                <section>
+                    <id>deployment</id>
+                    <title>Deploy Transition</title>
+                </section>
+                <section>
+                    <id>newformat</id>
+                    <title>How to add new format</title>
+                </section>
+                <section>
+                    <id>importexport</id>
+                    <title>Import/Export Componet</title>
+                </section>
+            </sections>
+        </chapter>
+
+        <chapter>
+            <id>2_camel</id>
+            <title>Camel</title>
+            <sections>
+                <section>
+                    <id>hermesjms</id>
+                </section>
+            </sections>
+        </chapter>
+
+        <chapter>
+            <id>3_git</id>
+            <title>git</title>
+            <sections>
+                <section>
+                    <id>gitusage</id>
+                </section>
+                <section>
+                    <id>creating</id>
+                </section>
+            </sections>
+        </chapter>
+
+        <chapter>
+            <id>4_zett-site</id>
+            <title>Installing Zett-site</title>
+            <sections>
+                <section>
+                    <id>Installation</id>
+                </section>
+                <section>
+                    <id>PostgreSQL</id>
+                </section>
+            </sections>
+        </chapter>
+
+    </chapters>
+</book>

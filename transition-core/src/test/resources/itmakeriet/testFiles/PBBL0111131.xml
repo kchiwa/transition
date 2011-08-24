@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>22075</Client>
+<Contacts>
+<Contact>
+<Name>Yvonne Vinkenes</Name>
+<Phone>35 57 31 26</Phone>
+<Address Street="Jernbanegata 25" PostCode="3901" City="PORSGRUNN" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>PBBL0111131</ClientsRef>
+<Status Code="SOLGT"/>
+<Publish FromDate="2011-06-09" ToDate="2011-12-09"/>
+<Sold Date="2011-06-30"/>
+<Type>leilighet</Type>
+<AdType>bolig_salg</AdType>
+<Title>Innbydende 3-roms m/mye inkl. i felleskostnadene</Title>
+<Address Street="Grønlivegen 12 B" PostCode="3922" City="PORSGRUNN" CountryCode="NO"/>
+<Matrikkel Kommune="0805" GNR="200" BNR="884"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">930000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">4550</Price>
+<Price Name="Solgtpris" Curr="NOK" Display="Skjult">950000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">307765</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">278294</Price>
+<Price Name="Formue" Curr="NOK">42879</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">64</Area>
+<Area Name="Tomteareal">3256</Area>
+<Area Name="primaererom_areal">64</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+</AreaFields>
+<OwnershipType>andel</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1959</BuiltYear>
+<BedRooms>2</BedRooms>
+<Rooms>3</Rooms>
+<Floor>3</Floor>
+<Viewings>
+<ViewingText>Kontakt megler for visning</ViewingText>
+</Viewings>
+<TextFields>
+<Text Name="Borettslag">Jønholtdalen III Borettslag</Text>
+<Text Name="Beliggenhet">Boligen tilhører Jønholtdalen III Borettslag som ligger på Jønholt. &lt;br/&gt;Gangavstand til Porsgrunn sentrum. Nær forretningssenter m/bl.a. post og apotek. Gangavstand til skoler.</Text>
+<Text Name="Bebyggelse">Jønholtdalen III Borettslag ble bygget i 1959 og består av 24 boliger. &lt;br/&gt;Fellesvaskeri. Byggemåte: Betong og murblokker. Nye balkonger 2005/2006. Snørydding, plenklipping og trappevask er satt bort. Sentralfyring. Oppvarming avstengt 15. mai til 15. september. Borettslaget har innført fellesmåling av strøm. Bredbånd via kabel-tv (Canal Digital). Mulighet for internett via tv-kabelen. Stort fellesareal m/lekeplass. Borettslaget har rehabilitere bad og røropplegg (også rør til kjøkken) i 2009.&lt;br/&gt;Husdyrhold er ikke tillatt uten samtykke fra borettslagets styre.</Text>
+<Text Name="Standard">Gulv: Flis med varmekabler på bad, belegg i resten av leiligheten.&lt;br/&gt;Vegger: Hvite fliser på badet, panelplater i resten av rommene.&lt;br/&gt;Tak: Malt tak i alle rom.&lt;br/&gt;&lt;br/&gt;Kjøkken: Nyere hvit innredning med opplegg til oppvaskmaskin,det er utgang til balkong fra kjøkken. Hvitevarer følger ikke&lt;br/&gt;Bad: Pen flislagt bad pusset opp av BRL, med opplegg for vaskemaskin.&lt;br/&gt;&lt;br/&gt;Annet: Lys og moderne toppleilighet med kort vei til sentrum. Boligen har bl.a lys kjøkkeninnredning med opplegg til oppvaskmaskin og utgang til balkong.I kjøkken benk er det lys med dimmer til. Pent flislagt bad pusset opp av Brl. med opplegg for vaskemaskin. To gode soverom og koselig stue. Felleskostnad dekker det meste av bokostnader som tv/internett og oppvarming. &lt;br/&gt;Taklampe i stue og soverom 2 følger ikke.&lt;br/&gt;&lt;br/&gt;Forpliktelser: Gang-/trappevask.</Text>
+<Text Name="Oppvarming">Sentralfyring</Text>
+<Text Name="Parkering">Felles asfalter biloppstilling</Text>
+<Text Name="Tomten">Felles grøntarealer med plen og lekeplass.</Text>
+<Text Name="Diverse">Overtakelse: Etter avtale. &lt;br/&gt;&lt;br/&gt;Skatteopplysninger:	&lt;br/&gt;Boligens ligningsverdi (pr. 31.12): Kr 307 765,-&lt;br/&gt; i henhold til skatteetatens beregningskalkulator.&lt;br/&gt;Andel felles formue (pr. 31.12): Kr 42 879,-&lt;br/&gt;Andel felles gjeld (pr. 31.12): Kr 278 294,-&lt;br/&gt;&lt;br/&gt;Hvorav kr 40 394,- annuitetslån , rente pr. 01.06.11: 3,9 %, siste termin 31.12.18.&lt;br/&gt;Hvorav kr 235 593 ,- annuitetslån , rente pr. 01.06.11: 3,9 %, siste termin 30.06.39</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Stue mot kjøkken med en åpen og luftig løsning" LastModified="2011-06-09 10:22">file:PBBL0111131-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Fasade " LastModified="2011-06-09 10:22">file:PBBL0111131-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Balkong " LastModified="2011-06-09 10:22">file:PBBL0111131-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue 1" LastModified="2011-06-09 10:22">file:PBBL0111131-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Pent oppusset stue" LastModified="2011-06-09 10:22">file:PBBL0111131-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Plass til spisebord om ønskelig" LastModified="2011-06-09 10:22">file:PBBL0111131-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken 1" LastModified="2011-06-09 10:22">file:PBBL0111131-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken 2" LastModified="2011-06-09 10:22">file:PBBL0111131-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken 4" LastModified="2011-06-09 10:22">file:PBBL0111131-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken med lys nyere innredning." LastModified="2011-06-09 10:22">file:PBBL0111131-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken mot stue 1" LastModified="2011-06-09 10:22">file:PBBL0111131-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Pent flislagt bad pusset opp av BRL." LastModified="2011-06-09 10:22">file:PBBL0111131-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Pent oppusset soverom" LastModified="2011-06-09 10:22">file:PBBL0111131-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 2" LastModified="2011-06-09 10:22">file:PBBL0111131-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Plantegning" LastModified="2011-06-09 10:22">file:PBBL0111131-15.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

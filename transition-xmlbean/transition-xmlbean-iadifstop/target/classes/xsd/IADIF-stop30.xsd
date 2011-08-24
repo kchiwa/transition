@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="IAD.IF.STOP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="HEAD" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="OBJECT" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="PRODUCT" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HEAD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PARTNER" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="PROVIDER" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="UPLOAD_REFERENCE" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="EMAIL_FEEDBACK" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PARTNER" type="xs:string" />
+  <xs:element name="PROVIDER" type="xs:string" />
+  <xs:element name="UPLOAD_REFERENCE" type="xs:string" />
+  <xs:element name="EMAIL_FEEDBACK">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute default="error" name="FEEDBACK_LEVEL">
+            <xs:simpleType>
+              <xs:restriction base="xs:NMTOKEN">
+                <xs:enumeration value="info" />
+                <xs:enumeration value="warning" />
+                <xs:enumeration value="error" />
+                <xs:enumeration value="fatal" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OBJECT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="OBJECT_HEAD" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OBJECT_HEAD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="1" ref="ORDERNO" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="PROVIDER_REFERENCE" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ORDERNO" type="xs:string" />
+  <xs:element name="PROVIDER_REFERENCE" type="xs:string" />
+  <xs:element name="PRODUCT" type="xs:string" />
+</xs:schema>

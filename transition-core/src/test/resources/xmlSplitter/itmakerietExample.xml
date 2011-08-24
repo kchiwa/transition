@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+    <TAS.Import Version="1.0" xml:lang="no">
+    <Property>
+        <Client>22115</Client>
+        <Contacts>
+            <Contact>
+                <Name>Marie-Christine Christensen</Name>
+                <Email>mcc@eie.no</Email>
+                <Phone>22 83 37 00</Phone>
+                <Mobile>9820 2996</Mobile>
+                <Address Street="Bryggetorget 13-15" PostCode="0250 " City="OSLO" CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>EIE0609142</ClientsRef>
+        <Status Code="TRUKKET"/>
+        <Publish FromDate="2010-07-22" ToDate="2010-12-29"/>
+        <Deleted Date="2010-10-21" Time="12:04"/>
+        <Type>leilighet</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>Lekker leilighet ved Son Residence</Title>
+        <Address Street="Hollandveien 24" PostCode="1555" City="SON" CountryCode="NO"/>
+        <Matrikkel Kommune="0211" GNR="133" BNR="38" SNR="12"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">4790000</Price>
+            <Price Name="Lånetakst" Curr="NOK">4250000</Price>
+            <Price Name="Husleie" Curr="NOK" Per="Måned">2825</Price>
+            <Price Name="Verditakst" Curr="NOK">5000000</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+            <Price Name="Formue" Curr="NOK">0</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruttoareal">93</Area>
+            <Area Name="Bruksareal">84</Area>
+            <Area Name="Tomteareal">4285</Area>
+            <Area Name="primaererom_areal">84</Area>
+            <Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+            <Text Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>selveier</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>2009</BuiltYear>
+        <BedRooms>2</BedRooms>
+        <Rooms>3</Rooms>
+        <Floor>1</Floor>
+        <Viewings>
+            <ViewingText>Etter avtale med megler</ViewingText>
+        </Viewings>
+        <TextFields>
+            <Text Name="Innhold">Visning etter avtale med megler!
+
+                Seksjonen ligger i byggets 1. etg. Heis med direkte adkomst fra garasjeanlegg. Seksjonen eier 2 garasjeplasser, samt 1 sportsbod ved den ene garasjeplassen.
+
+                Seksjonen består av: Stue/spisestue/kjøkken i åpen løsning, 2 soverom, vaskerom, bad, wc og entré. Utgang fra stue til stor terrasse. Terrassen ligger inntil en stor fellesterrasse/hage, som disponeres av få seksjoner.</Text>
+            <Text Name="Boder">En sportsbod og et disponibelt rom følger leiligheten.</Text>
+            <Text Name="Standard">Leiligheten er oppgradert fra leveransen.
+
+                Vegger: Malte gipsplater, keramiske fliser på bad og over kjøkkenbenk.
+
+                Gulv:
+                Skipsgulv/parkett, keramiske fliser på bad, wc og vaskerom.
+
+                Tak:
+                Malte flater.
+
+                Kjøkken:
+                HTH laminert innredning, heltre benkeplate, nedfelt dobbel stålvask med uttrekkbart bl.batteri, integrert kjøl/frys, komfyr, oppvaskmaskin,
+                induksjon-steketopp. Alle hvitevarer fra Miele.
+                Frittstående "kjøkkenøy" mot spisestue med skap/skuffeseksjoner. Alle dører har dempere.
+
+                Bad:
+                Laminert benkeplate med 2 servanter, bl.batterier, underskap og dusj. Det er et stort skap med god plass i tillegg.
+
+                Wc:
+                Servant med bl.batteri og servantskap, veggmontert toalett med termostatbatteri og dusjvegger. Det følger i tillegg et stort skap med god skapplass.
+
+                Vaskerom:
+                Stål-vaskekum med bl.batteri og opplegg til vaskemaskin.
+
+                Terrasse:
+                Utgang fra stue til solrik terrasse på ca. 17 kvm med betongheller på gulv dobbel stikkontakt, utelys styrt med fotocelle og el-markise.
+
+                Vinduer med energiglass fra 2009.
+                Lakkert entrédør med brannklasse B-30 og lydklasse db-40.
+
+                Parkett: Merbau King
+                Garderober/bad/kjøkken ”øy” (HTH)
+                Lamper soverom/bad m/dempere
+                Downlight hall/gang/stue m/dempere
+                Ekstra stikkontakter
+                Softclose toalettseter
+                Utvendige elektriske blinds / Innvendige persienner
+                Alle skapdører i leiligheten har dempere.</Text>
+            <Text Name="Diverse">Varmtvann, fyring, avløpsavgift og gass kommer i tillegg. Det foretas en avregning hvor kunden vil bli etterfakturert for eget forbruk.
+
+                Det er 24 seksjoner i sameiet.
+
+                Styreleder: Kjell Sandvik, tlf: 9515 4718
+
+                Son Marina Residence er noe av det ypperste som finnes av prosjekterte leilighetskomplekser i Norge.
+                Med beliggenhet ved sjøkanten i Son, med rett til å leie båtplass og fordelskort til et av Skandinavias største og mest innholdsrike spaanlegg på ca. 2200 kvm. I tillegg kan du benytte hotellets fasiliteter.</Text>
+            <Text Name="Bebyggelse">Området består av leiligheter, hytter, villaer, hotel og flotte naturområder.</Text>
+            <Text Name="Tomt">Eiendommen ligger flott til ved Spahotellet i Son (gamle Son Marina), rett ved vannkanten. Bademuligheter ved
+                privat og offentlig strand. Fra leiligheten er det utsikt over innseilingen til Son, Sauholmen, deler av Jeløy og mot Tofte. Gangavstand til Son sentrum med kafeer, gallerier, restauranter, forretninger m.m. Meget kort avstand til busstopp med forbindelse til bl.a. Moss og Sonsveien stasjon for tog til Oslo. Son Golfbane, tennisbane mm. ca 20 min. med bil til Rygge flyplass.</Text>
+            <Text Name="Adkomst">Det tar ca. 40 min med bil fra Oslo sentrum.
+                Fra E6 følg skilting mot Son. Følg gjennom 2 rundkjøringer mot Son, ta til venstre i tredje rundkjøring og til høyre i fjerde rundkjøring. Kjør 300 meter på Brevikveien og ta til venstre inn Hollandveien. Det står skiltet til Son Spa. Komplekset ligger til venstre for hotellet. Det vil bli skiltet ved felles visning.</Text>
+            <Text Name="Parkering">2 garasjeplasser følger leiligheten.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="balkong"/>
+            <Option Name="peis"/>
+            <Option Name="parkett"/>
+            <Option Name="heis"/>
+            <Option Name="ingen gjenboere"/>
+            <Option Name="barnevennlig"/>
+            <Option Name="rolig"/>
+            <Option Name="kabel-tv"/>
+            <Option Name="garasje"/>
+            <Option Name="off. vann"/>
+            <Option Name="utsikt"/>
+        </Options>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Stue" LastModified="2010-07-21 15:37">file:EIE0609142-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Gasspeis i stuen" LastModified="2010-07-21 15:37">file:EIE0609142-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkkenkrok" LastModified="2010-07-21 15:37">file:EIE0609142-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Toalett" LastModified="2010-07-21 15:37">file:EIE0609142-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Badet" LastModified="2010-07-21 15:37">file:EIE0609142-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Badet" LastModified="2010-07-21 15:37">file:EIE0609142-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="son_leil_008" LastModified="2010-07-21 15:37">file:EIE0609142-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2010-07-21 15:37">file:EIE0609142-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2010-07-21 15:37">file:EIE0609142-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Entrè" LastModified="2010-07-21 15:37">file:EIE0609142-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Entrè" LastModified="2010-07-21 15:37">file:EIE0609142-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrasse" LastModified="2010-07-21 15:37">file:EIE0609142-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrassen" LastModified="2010-07-21 15:37">file:EIE0609142-13.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Utsikten fra terressen" LastModified="2010-07-21 15:37">file:EIE0609142-14.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Komplekset fra beboerbryggen" LastModified="2010-07-21 15:37">file:EIE0609142-15.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Beboerbryggen" LastModified="2010-07-21 15:37">file:EIE0609142-16.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Båthavnen" LastModified="2010-07-21 15:37">file:EIE0609142-17.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Plantegning" LastModified="2010-07-21 15:37">file:EIE0609142-18.JPG</Picture>
+        </Media>
+    </Property>
+
+
+    <Property>
+        <Client>22111111</Client>
+        <Contacts>
+            <Contact>
+                <Name>Marie-Christine Christensen</Name>
+                <Email>mcc@eie.no</Email>
+                <Phone>22 83 37 00</Phone>
+                <Mobile>9820 2996</Mobile>
+                <Address Street="Bryggetorget 13-15" PostCode="0250 " City="OSLO" CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>EIE0609142</ClientsRef>
+        <Status Code="TRUKKET"/>
+        <Publish FromDate="2010-07-22" ToDate="2010-12-29"/>
+        <Deleted Date="2010-10-21" Time="12:04"/>
+        <Type>leilighet</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>Lekker leilighet ved Son Residence</Title>
+        <Address Street="Hollandveien 24" PostCode="1555" City="SON" CountryCode="NO"/>
+        <Matrikkel Kommune="0211" GNR="133" BNR="38" SNR="12"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">4790000</Price>
+            <Price Name="Lånetakst" Curr="NOK">4250000</Price>
+            <Price Name="Husleie" Curr="NOK" Per="Måned">2825</Price>
+            <Price Name="Verditakst" Curr="NOK">5000000</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+            <Price Name="Formue" Curr="NOK">0</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruttoareal">93</Area>
+            <Area Name="Bruksareal">84</Area>
+            <Area Name="Tomteareal">4285</Area>
+            <Area Name="primaererom_areal">84</Area>
+            <Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+            <Text Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>selveier</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>2009</BuiltYear>
+        <BedRooms>2</BedRooms>
+        <Rooms>3</Rooms>
+        <Floor>1</Floor>
+        <Viewings>
+            <ViewingText>Etter avtale med megler</ViewingText>
+        </Viewings>
+        <TextFields>
+            <Text Name="Innhold">Visning etter avtale med megler!
+
+                Seksjonen ligger i byggets 1. etg. Heis med direkte adkomst fra garasjeanlegg. Seksjonen eier 2 garasjeplasser, samt 1 sportsbod ved den ene garasjeplassen.
+
+                Seksjonen består av: Stue/spisestue/kjøkken i åpen løsning, 2 soverom, vaskerom, bad, wc og entré. Utgang fra stue til stor terrasse. Terrassen ligger inntil en stor fellesterrasse/hage, som disponeres av få seksjoner.</Text>
+            <Text Name="Boder">En sportsbod og et disponibelt rom følger leiligheten.</Text>
+            <Text Name="Standard">Leiligheten er oppgradert fra leveransen.
+
+                Vegger: Malte gipsplater, keramiske fliser på bad og over kjøkkenbenk.
+
+                Gulv:
+                Skipsgulv/parkett, keramiske fliser på bad, wc og vaskerom.
+
+                Tak:
+                Malte flater.
+
+                Kjøkken:
+                HTH laminert innredning, heltre benkeplate, nedfelt dobbel stålvask med uttrekkbart bl.batteri, integrert kjøl/frys, komfyr, oppvaskmaskin,
+                induksjon-steketopp. Alle hvitevarer fra Miele.
+                Frittstående "kjøkkenøy" mot spisestue med skap/skuffeseksjoner. Alle dører har dempere.
+
+                Bad:
+                Laminert benkeplate med 2 servanter, bl.batterier, underskap og dusj. Det er et stort skap med god plass i tillegg.
+
+                Wc:
+                Servant med bl.batteri og servantskap, veggmontert toalett med termostatbatteri og dusjvegger. Det følger i tillegg et stort skap med god skapplass.
+
+                Vaskerom:
+                Stål-vaskekum med bl.batteri og opplegg til vaskemaskin.
+
+                Terrasse:
+                Utgang fra stue til solrik terrasse på ca. 17 kvm med betongheller på gulv dobbel stikkontakt, utelys styrt med fotocelle og el-markise.
+
+                Vinduer med energiglass fra 2009.
+                Lakkert entrédør med brannklasse B-30 og lydklasse db-40.
+
+                Parkett: Merbau King
+                Garderober/bad/kjøkken ”øy” (HTH)
+                Lamper soverom/bad m/dempere
+                Downlight hall/gang/stue m/dempere
+                Ekstra stikkontakter
+                Softclose toalettseter
+                Utvendige elektriske blinds / Innvendige persienner
+                Alle skapdører i leiligheten har dempere.</Text>
+            <Text Name="Diverse">Varmtvann, fyring, avløpsavgift og gass kommer i tillegg. Det foretas en avregning hvor kunden vil bli etterfakturert for eget forbruk.
+
+                Det er 24 seksjoner i sameiet.
+
+                Styreleder: Kjell Sandvik, tlf: 9515 4718
+
+                Son Marina Residence er noe av det ypperste som finnes av prosjekterte leilighetskomplekser i Norge.
+                Med beliggenhet ved sjøkanten i Son, med rett til å leie båtplass og fordelskort til et av Skandinavias største og mest innholdsrike spaanlegg på ca. 2200 kvm. I tillegg kan du benytte hotellets fasiliteter.</Text>
+            <Text Name="Bebyggelse">Området består av leiligheter, hytter, villaer, hotel og flotte naturområder.</Text>
+            <Text Name="Tomt">Eiendommen ligger flott til ved Spahotellet i Son (gamle Son Marina), rett ved vannkanten. Bademuligheter ved
+                privat og offentlig strand. Fra leiligheten er det utsikt over innseilingen til Son, Sauholmen, deler av Jeløy og mot Tofte. Gangavstand til Son sentrum med kafeer, gallerier, restauranter, forretninger m.m. Meget kort avstand til busstopp med forbindelse til bl.a. Moss og Sonsveien stasjon for tog til Oslo. Son Golfbane, tennisbane mm. ca 20 min. med bil til Rygge flyplass.</Text>
+            <Text Name="Adkomst">Det tar ca. 40 min med bil fra Oslo sentrum.
+                Fra E6 følg skilting mot Son. Følg gjennom 2 rundkjøringer mot Son, ta til venstre i tredje rundkjøring og til høyre i fjerde rundkjøring. Kjør 300 meter på Brevikveien og ta til venstre inn Hollandveien. Det står skiltet til Son Spa. Komplekset ligger til venstre for hotellet. Det vil bli skiltet ved felles visning.</Text>
+            <Text Name="Parkering">2 garasjeplasser følger leiligheten.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="balkong"/>
+            <Option Name="peis"/>
+            <Option Name="parkett"/>
+            <Option Name="heis"/>
+            <Option Name="ingen gjenboere"/>
+            <Option Name="barnevennlig"/>
+            <Option Name="rolig"/>
+            <Option Name="kabel-tv"/>
+            <Option Name="garasje"/>
+            <Option Name="off. vann"/>
+            <Option Name="utsikt"/>
+        </Options>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Stue" LastModified="2010-07-21 15:37">file:EIE0609142-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Gasspeis i stuen" LastModified="2010-07-21 15:37">file:EIE0609142-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkkenkrok" LastModified="2010-07-21 15:37">file:EIE0609142-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Toalett" LastModified="2010-07-21 15:37">file:EIE0609142-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Badet" LastModified="2010-07-21 15:37">file:EIE0609142-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Badet" LastModified="2010-07-21 15:37">file:EIE0609142-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="son_leil_008" LastModified="2010-07-21 15:37">file:EIE0609142-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2010-07-21 15:37">file:EIE0609142-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2010-07-21 15:37">file:EIE0609142-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Entrè" LastModified="2010-07-21 15:37">file:EIE0609142-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Entrè" LastModified="2010-07-21 15:37">file:EIE0609142-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrasse" LastModified="2010-07-21 15:37">file:EIE0609142-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrassen" LastModified="2010-07-21 15:37">file:EIE0609142-13.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Utsikten fra terressen" LastModified="2010-07-21 15:37">file:EIE0609142-14.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Komplekset fra beboerbryggen" LastModified="2010-07-21 15:37">file:EIE0609142-15.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Beboerbryggen" LastModified="2010-07-21 15:37">file:EIE0609142-16.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Båthavnen" LastModified="2010-07-21 15:37">file:EIE0609142-17.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Plantegning" LastModified="2010-07-21 15:37">file:EIE0609142-18.JPG</Picture>
+        </Media>
+    </Property>
+
+
+    <Property>
+        <Client>22111112</Client>
+        <Contacts>
+            <Contact>
+                <Name>Marie-Christine Christensen</Name>
+                <Email>mcc@eie.no</Email>
+                <Phone>22 83 37 00</Phone>
+                <Mobile>9820 2996</Mobile>
+                <Address Street="Bryggetorget 13-15" PostCode="0250 " City="OSLO" CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>EIE0609142</ClientsRef>
+        <Status Code="TRUKKET"/>
+        <Publish FromDate="2010-07-22" ToDate="2010-12-29"/>
+        <Deleted Date="2010-10-21" Time="12:04"/>
+        <Type>leilighet</Type>
+        <AdType>bolig_salg</AdType>
+        <Title>Lekker leilighet ved Son Residence</Title>
+        <Address Street="Hollandveien 24" PostCode="1555" City="SON" CountryCode="NO"/>
+        <Matrikkel Kommune="0211" GNR="133" BNR="38" SNR="12"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">4790000</Price>
+            <Price Name="Lånetakst" Curr="NOK">4250000</Price>
+            <Price Name="Husleie" Curr="NOK" Per="Måned">2825</Price>
+            <Price Name="Verditakst" Curr="NOK">5000000</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+            <Price Name="Formue" Curr="NOK">0</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruttoareal">93</Area>
+            <Area Name="Bruksareal">84</Area>
+            <Area Name="Tomteareal">4285</Area>
+            <Area Name="primaererom_areal">84</Area>
+            <Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+            <Text Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>selveier</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>2009</BuiltYear>
+        <BedRooms>2</BedRooms>
+        <Rooms>3</Rooms>
+        <Floor>1</Floor>
+        <Viewings>
+            <ViewingText>Etter avtale med megler</ViewingText>
+        </Viewings>
+        <TextFields>
+            <Text Name="Innhold">Visning etter avtale med megler!
+
+                Seksjonen ligger i byggets 1. etg. Heis med direkte adkomst fra garasjeanlegg. Seksjonen eier 2 garasjeplasser, samt 1 sportsbod ved den ene garasjeplassen.
+
+                Seksjonen består av: Stue/spisestue/kjøkken i åpen løsning, 2 soverom, vaskerom, bad, wc og entré. Utgang fra stue til stor terrasse. Terrassen ligger inntil en stor fellesterrasse/hage, som disponeres av få seksjoner.</Text>
+            <Text Name="Boder">En sportsbod og et disponibelt rom følger leiligheten.</Text>
+            <Text Name="Standard">Leiligheten er oppgradert fra leveransen.
+
+                Vegger: Malte gipsplater, keramiske fliser på bad og over kjøkkenbenk.
+
+                Gulv:
+                Skipsgulv/parkett, keramiske fliser på bad, wc og vaskerom.
+
+                Tak:
+                Malte flater.
+
+                Kjøkken:
+                HTH laminert innredning, heltre benkeplate, nedfelt dobbel stålvask med uttrekkbart bl.batteri, integrert kjøl/frys, komfyr, oppvaskmaskin,
+                induksjon-steketopp. Alle hvitevarer fra Miele.
+                Frittstående "kjøkkenøy" mot spisestue med skap/skuffeseksjoner. Alle dører har dempere.
+
+                Bad:
+                Laminert benkeplate med 2 servanter, bl.batterier, underskap og dusj. Det er et stort skap med god plass i tillegg.
+
+                Wc:
+                Servant med bl.batteri og servantskap, veggmontert toalett med termostatbatteri og dusjvegger. Det følger i tillegg et stort skap med god skapplass.
+
+                Vaskerom:
+                Stål-vaskekum med bl.batteri og opplegg til vaskemaskin.
+
+                Terrasse:
+                Utgang fra stue til solrik terrasse på ca. 17 kvm med betongheller på gulv dobbel stikkontakt, utelys styrt med fotocelle og el-markise.
+
+                Vinduer med energiglass fra 2009.
+                Lakkert entrédør med brannklasse B-30 og lydklasse db-40.
+
+                Parkett: Merbau King
+                Garderober/bad/kjøkken ”øy” (HTH)
+                Lamper soverom/bad m/dempere
+                Downlight hall/gang/stue m/dempere
+                Ekstra stikkontakter
+                Softclose toalettseter
+                Utvendige elektriske blinds / Innvendige persienner
+                Alle skapdører i leiligheten har dempere.</Text>
+            <Text Name="Diverse">Varmtvann, fyring, avløpsavgift og gass kommer i tillegg. Det foretas en avregning hvor kunden vil bli etterfakturert for eget forbruk.
+
+                Det er 24 seksjoner i sameiet.
+
+                Styreleder: Kjell Sandvik, tlf: 9515 4718
+
+                Son Marina Residence er noe av det ypperste som finnes av prosjekterte leilighetskomplekser i Norge.
+                Med beliggenhet ved sjøkanten i Son, med rett til å leie båtplass og fordelskort til et av Skandinavias største og mest innholdsrike spaanlegg på ca. 2200 kvm. I tillegg kan du benytte hotellets fasiliteter.</Text>
+            <Text Name="Bebyggelse">Området består av leiligheter, hytter, villaer, hotel og flotte naturområder.</Text>
+            <Text Name="Tomt">Eiendommen ligger flott til ved Spahotellet i Son (gamle Son Marina), rett ved vannkanten. Bademuligheter ved
+                privat og offentlig strand. Fra leiligheten er det utsikt over innseilingen til Son, Sauholmen, deler av Jeløy og mot Tofte. Gangavstand til Son sentrum med kafeer, gallerier, restauranter, forretninger m.m. Meget kort avstand til busstopp med forbindelse til bl.a. Moss og Sonsveien stasjon for tog til Oslo. Son Golfbane, tennisbane mm. ca 20 min. med bil til Rygge flyplass.</Text>
+            <Text Name="Adkomst">Det tar ca. 40 min med bil fra Oslo sentrum.
+                Fra E6 følg skilting mot Son. Følg gjennom 2 rundkjøringer mot Son, ta til venstre i tredje rundkjøring og til høyre i fjerde rundkjøring. Kjør 300 meter på Brevikveien og ta til venstre inn Hollandveien. Det står skiltet til Son Spa. Komplekset ligger til venstre for hotellet. Det vil bli skiltet ved felles visning.</Text>
+            <Text Name="Parkering">2 garasjeplasser følger leiligheten.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="balkong"/>
+            <Option Name="peis"/>
+            <Option Name="parkett"/>
+            <Option Name="heis"/>
+            <Option Name="ingen gjenboere"/>
+            <Option Name="barnevennlig"/>
+            <Option Name="rolig"/>
+            <Option Name="kabel-tv"/>
+            <Option Name="garasje"/>
+            <Option Name="off. vann"/>
+            <Option Name="utsikt"/>
+        </Options>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Stue" LastModified="2010-07-21 15:37">file:EIE0609142-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Gasspeis i stuen" LastModified="2010-07-21 15:37">file:EIE0609142-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkkenkrok" LastModified="2010-07-21 15:37">file:EIE0609142-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Toalett" LastModified="2010-07-21 15:37">file:EIE0609142-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Badet" LastModified="2010-07-21 15:37">file:EIE0609142-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Badet" LastModified="2010-07-21 15:37">file:EIE0609142-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="son_leil_008" LastModified="2010-07-21 15:37">file:EIE0609142-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2010-07-21 15:37">file:EIE0609142-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Soverom" LastModified="2010-07-21 15:37">file:EIE0609142-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Entrè" LastModified="2010-07-21 15:37">file:EIE0609142-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Entrè" LastModified="2010-07-21 15:37">file:EIE0609142-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrasse" LastModified="2010-07-21 15:37">file:EIE0609142-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrassen" LastModified="2010-07-21 15:37">file:EIE0609142-13.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Utsikten fra terressen" LastModified="2010-07-21 15:37">file:EIE0609142-14.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Komplekset fra beboerbryggen" LastModified="2010-07-21 15:37">file:EIE0609142-15.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Beboerbryggen" LastModified="2010-07-21 15:37">file:EIE0609142-16.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Båthavnen" LastModified="2010-07-21 15:37">file:EIE0609142-17.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Plantegning" LastModified="2010-07-21 15:37">file:EIE0609142-18.JPG</Picture>
+        </Media>
+    </Property>
+</TAS.Import>

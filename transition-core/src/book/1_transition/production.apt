@@ -1,0 +1,54 @@
+                ----
+                Notes for production
+                ----
+
+ For the time being, these instructions are valid for <<test>>
+ only, as this is the place it has been tested.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Howto update the test environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ The test instance runs under the tag <test>. In order to
+ find more information about it, do the following on
+ <<<ssh.api.no>>>
+
++----------
+/usr/local/sbin/show-tag test
++----------
+
+ Notice that the etcapi role is <etcapi_test>
+
+ The application resides in \
+ <<<ikea/v3_test/transition>>>
+
+ The installation instructions are analogous to: \
+ {{http://ci.dev.api.no/snapshot/seamstress/seamstress-webapp/seamstress-book/init.html}}
+
+* WP variables used by transition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*-----+----+
+| transition.ftp.path | Top root of structure of incoming files |
+*-----+----+
+|transition.media.path | Top root of incoming media files (typically images or pdfs)
+*-----+----+
+|transition.production.path | The same path where zett has its production images.
+*-----+----+
+|transition.memcached.server | Either the keyword <<<disabled>>> or the ip address and port to a memcached server.
+*-----+----+
+|transition.zett.url | Where the zett site solution is found
+*-----+----+
+
+
+* Updating etcapi_test
+~~~~~~~~~~~~~~~~~~~~~~
+
+ You need to perform updates to <<<ikea/etcapi>>> and check it in. Then you
+ do the following on <ssh.api.no>:
+
++---------------
+sudo tag-and-set-tag etcapi_test
+ssh ordning
+sudo /usr/local/sbin/puppet-sync
++---------------

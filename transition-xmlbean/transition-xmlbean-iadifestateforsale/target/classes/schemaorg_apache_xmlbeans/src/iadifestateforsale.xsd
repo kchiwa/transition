@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="ACQUISITION" type="xs:string"/>
+
+    <xs:element name="ADDRESS2" type="xs:string"/>
+
+    <xs:element name="ADDRESS3" type="xs:string"/>
+
+    <xs:element name="ADDRESS4" type="xs:string"/>
+
+    <xs:element name="AREA" type="xs:string"/>
+
+    <xs:element name="AREA_FROM" type="xs:string"/>
+
+    <xs:element name="AREA_RANGE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="AREA_FROM"/>
+                <xs:element ref="AREA_TO"/>
+                <xs:element ref="USEABLE_AREA_FROM" minOccurs="0"/>
+                <xs:element ref="USEABLE_AREA_TO" minOccurs="0"/>
+                <xs:element ref="PRIMARY_ROOM_AREA_FROM" minOccurs="0"/>
+                <xs:element ref="PRIMARY_ROOM_AREA_TO" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="AREA_TO" type="xs:string"/>
+
+    <xs:element name="BEDROOMS_FROM" type="xs:string"/>
+
+    <xs:element name="BEDROOMS_TO" type="xs:string"/>
+
+    <xs:element name="BOLIGNUMMER" type="xs:string"/>
+
+    <xs:element name="BROKER">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="NAME" minOccurs="0"/>
+                <xs:element ref="TITLE" minOccurs="0"/>
+                <xs:element ref="PHONE" minOccurs="0"/>
+                <xs:element ref="MOBILE" minOccurs="0"/>
+                <xs:element ref="EMAIL" minOccurs="0"/>
+                <xs:element ref="FAX" minOccurs="0"/>
+                <xs:element ref="URL" minOccurs="0"/>
+                <xs:element ref="IMAGE_REF" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="BRUKSNR" type="xs:string"/>
+
+    <xs:element name="BUSINESS_ENCUMBRANCE" type="xs:string"/>
+
+    <xs:element name="CHANGE_OF_OWNERSHIP_INSURANCE" type="xs:string"/>
+
+    <xs:element name="COLLECTIVE_ASSETS" type="xs:string"/>
+
+    <xs:element name="COLLECTIVE_DEBT" type="xs:string"/>
+
+    <xs:element name="COLLECTIVE_DEBT_TO" type="xs:string"/>
+
+    <xs:element name="COMMUNITY_TAX" type="xs:string"/>
+
+    <xs:element name="COMPANY_NAME" type="xs:string"/>
+
+    <xs:element name="CONDITION" type="xs:string"/>
+
+    <xs:element name="CONSTRUCTION_YEAR" type="xs:string"/>
+
+    <xs:element name="COUNTRYCODE" type="xs:string"/>
+
+    <xs:element name="CURRENCY" type="xs:string"/>
+
+    <xs:element name="DATE" type="xs:string"/>
+
+    <xs:element name="DEBT_FROM" type="xs:string"/>
+
+    <xs:element name="DEBT_TO" type="xs:string"/>
+
+    <xs:element name="DEVELOPER">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="COMPANY_NAME" minOccurs="0"/>
+                <xs:element ref="NAME" minOccurs="0"/>
+                <xs:element ref="PHONE" minOccurs="0"/>
+                <xs:element ref="MOBILE" minOccurs="0"/>
+                <xs:element ref="EMAIL" minOccurs="0"/>
+                <xs:element ref="FAX" minOccurs="0"/>
+                <xs:element ref="URL" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EASTING" type="xs:string"/>
+
+    <xs:element name="EMAIL" type="xs:string"/>
+
+    <xs:element name="EMAIL_FEEDBACK">
+        <xs:complexType mixed="true">
+            <xs:attribute name="FEEDBACK_LEVEL" use="optional" default="error">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="info"/>
+                        <xs:enumeration value="warning"/>
+                        <xs:enumeration value="error"/>
+                        <xs:enumeration value="fatal"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ENERGY_LABEL" type="xs:string"/>
+
+    <xs:element name="ENERGY_LABEL_COLOR_CODE" type="xs:string"/>
+
+    <xs:element name="ESTATE_BUSINESS_SALE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ESTATE_PREFERENCE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="FACILITIES" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MAPMATRIX" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="BOLIGNUMMER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VIEWING" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="PROPERTY_TYPE" maxOccurs="unbounded"/>
+                <xs:element ref="NO_OF_ROOMS" minOccurs="0"/>
+                <xs:element ref="NO_OF_PARKING_SPOTS" minOccurs="0"/>
+                <xs:element ref="ESTATE_SIZE"/>
+                <xs:element ref="AREA_RANGE"/>
+                <xs:element ref="FLOOR" minOccurs="0"/>
+                <xs:element ref="NO_OF_FLOORS" minOccurs="0"/>
+                <xs:element ref="PLOT" minOccurs="0"/>
+                <xs:element ref="OWNERSHIP_TYPE"/>
+                <xs:element ref="ESTATE_PRICE" minOccurs="0"/>
+                <xs:element ref="RENT" minOccurs="0"/>
+                <xs:element ref="CONSTRUCTION_YEAR" minOccurs="0"/>
+                <xs:element ref="RENOVATED_YEAR" minOccurs="0"/>
+                <xs:element ref="NUMBER_OF_UNITS" minOccurs="0"/>
+                <xs:element ref="GENERAL_TEXT_REALESTATE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MOREINFO" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ESTATE_EXTERNAL_URL" minOccurs="0"/>
+                <xs:element ref="ACQUISITION" minOccurs="0"/>
+                <xs:element ref="FINANCE" minOccurs="0"/>
+                <xs:element ref="REGULATIONS" minOccurs="0"/>
+                <xs:element ref="CHANGE_OF_OWNERSHIP_INSURANCE" minOccurs="0"/>
+                <xs:element ref="PREEMPTION" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL_COLOR_CODE" minOccurs="0"/>
+                <xs:element ref="BROKER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEPARTMENT" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="BUSINESS_ENCUMBRANCE" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ID" type="xs:string"/>
+
+    <xs:element name="DEPARTMENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ID"/>
+        <xs:element ref="NAME"/>
+        <xs:element ref="PHONE"/>
+        <xs:element ref="EMAIL"/>
+        <xs:element ref="FAX"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+    <xs:element name="ESTATE_COLLECTIVE_DEBT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DEBT_FROM" minOccurs="0"/>
+                <xs:element ref="DEBT_TO" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ESTATE_DEVELOPMENT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ESTATE_PREFERENCE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MAPMATRIX" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="BOLIGNUMMER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VIEWING" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="AREA_RANGE" minOccurs="0"/>
+                <xs:element ref="PRICE_RANGE" minOccurs="0"/>
+                <xs:element ref="ESTATE_COLLECTIVE_DEBT" minOccurs="0"/>
+                <xs:element ref="RENT_RANGE" minOccurs="0"/>
+                <xs:element ref="NUMBER_OF_UNITS" minOccurs="0"/>
+                <xs:element ref="PROGRESS" minOccurs="0"/>
+                <xs:element ref="GENERAL_TEXT_REALESTATE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="PROPERTY_TYPE" maxOccurs="unbounded"/>
+                <xs:element ref="PLOT" minOccurs="0"/>
+                <xs:element ref="OWNERSHIP_TYPE"/>
+                <xs:element ref="PART_OWNERSHIP" minOccurs="0"/>
+                <xs:element ref="MOREINFO" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ESTATE_EXTERNAL_URL" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL_COLOR_CODE" minOccurs="0"/>
+                <xs:element ref="ESTATE_EXTERNAL_ORDER_URL" minOccurs="0"/>
+                <xs:element ref="NO_OF_ROOMS_RANGE" minOccurs="0"/>
+                <xs:element ref="BROKER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEPARTMENT" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="FINANCIAL_AGENT" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEVELOPER" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ESTATE_EXTERNAL_ORDER_URL" type="xs:string"/>
+
+    <xs:element name="ESTATE_EXTERNAL_URL" type="xs:string"/>
+
+    <xs:element name="ESTATE_PREFERENCE" type="xs:string"/>
+
+    <xs:element name="ESTATE_PRICE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PRICE_SUGGESTION"/>
+                <xs:element ref="ESTIMATED_VALUE" minOccurs="0"/>
+                <xs:element ref="COLLECTIVE_DEBT" minOccurs="0"/>
+                <xs:element ref="COLLECTIVE_DEBT_TO" minOccurs="0"/>
+                <xs:element ref="COLLECTIVE_ASSETS" minOccurs="0"/>
+                <xs:element ref="LOAN_FARE" minOccurs="0"/>
+                <xs:element ref="LOAN_VALUE" minOccurs="0"/>
+                <xs:element ref="COMMUNITY_TAX" minOccurs="0"/>
+                <xs:element ref="SHARED_COST" minOccurs="0"/>
+                <xs:element ref="CURRENCY" minOccurs="0"/>
+                <xs:element ref="SALES_COST" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ESTATE_SALE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ESTATE_PREFERENCE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="FACILITIES" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MAPMATRIX" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="BOLIGNUMMER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VIEWING" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="PROPERTY_TYPE"/>
+                <xs:element ref="NO_OF_BEDROOMS"/>
+                <xs:element ref="NO_OF_ROOMS" minOccurs="0"/>
+                <xs:element ref="ESTATE_SIZE"/>
+                <xs:element ref="FLOOR" minOccurs="0"/>
+                <xs:element ref="NO_OF_FLOORS" minOccurs="0"/>
+                <xs:element ref="PLOT" minOccurs="0"/>
+                <xs:element ref="OWNERSHIP_TYPE"/>
+                <xs:element ref="PART_OWNERSHIP" minOccurs="0"/>
+                <xs:element ref="ESTATE_PRICE" minOccurs="0"/>
+                <xs:element ref="RENT" minOccurs="0"/>
+                <xs:element ref="CONSTRUCTION_YEAR" minOccurs="0"/>
+                <xs:element ref="RENOVATED_YEAR" minOccurs="0"/>
+                <xs:element ref="GENERAL_TEXT_REALESTATE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MOREINFO" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ESTATE_EXTERNAL_URL" minOccurs="0"/>
+                <xs:element ref="ACQUISITION" minOccurs="0"/>
+                <xs:element ref="FINANCE" minOccurs="0"/>
+                <xs:element ref="REGULATIONS" minOccurs="0"/>
+                <xs:element ref="CHANGE_OF_OWNERSHIP_INSURANCE" minOccurs="0"/>
+                <xs:element ref="PREEMPTION" minOccurs="0"/>
+                <xs:element ref="LETTING_UNIT" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL_COLOR_CODE" minOccurs="0"/>
+                <xs:element ref="BROKER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEPARTMENT" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ESTATE_SIZE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PRIMARY_ROOM_AREA" minOccurs="0"/>
+                <xs:element ref="PRIMARY_ROOM_DESCRIPTION" minOccurs="0"/>
+                <xs:element ref="LIVING_AREA" minOccurs="0"/>
+                <xs:element ref="GROSS_AREA" minOccurs="0"/>
+                <xs:element ref="FLOOR_AREA" minOccurs="0"/>
+                <xs:element ref="USEABLE_AREA" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ESTIMATED_VALUE" type="xs:string"/>
+
+    <xs:element name="FACILITIES" type="xs:string"/>
+
+    <xs:element name="FAX" type="xs:string"/>
+
+    <xs:element name="FESTENR" type="xs:string"/>
+
+    <xs:element name="FINANCE" type="xs:string"/>
+
+    <xs:element name="FINANCIAL_AGENT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="COMPANY_NAME" minOccurs="0"/>
+                <xs:element ref="NAME" minOccurs="0"/>
+                <xs:element ref="PHONE" minOccurs="0"/>
+                <xs:element ref="MOBILE" minOccurs="0"/>
+                <xs:element ref="EMAIL" minOccurs="0"/>
+                <xs:element ref="FAX" minOccurs="0"/>
+                <xs:element ref="URL" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="FLOOR" type="xs:string"/>
+
+    <xs:element name="FLOOR_AREA" type="xs:string"/>
+
+    <xs:element name="FROMDATE" type="xs:string"/>
+
+    <xs:element name="FROMTIME" type="xs:string"/>
+
+    <xs:element name="GAARDSNR" type="xs:string"/>
+
+    <xs:element name="GENERAL_HEADING" type="xs:string"/>
+
+    <xs:element name="GENERAL_TEXT" type="xs:string"/>
+
+    <xs:element name="GENERAL_TEXT_REALESTATE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="GENERAL_HEADING"/>
+                <xs:element ref="GENERAL_TEXT"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GEO_ACCURACY" type="xs:string"/>
+
+    <xs:element name="GROSS_AREA" type="xs:string"/>
+
+    <xs:element name="GROUND_TAX" type="xs:string"/>
+
+    <xs:element name="GROUND_YEAR" type="xs:string"/>
+
+    <xs:element name="HEAD">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PARTNER"/>
+                <xs:element ref="PROVIDER" minOccurs="0"/>
+                <xs:element ref="UPLOAD_REFERENCE" minOccurs="0"/>
+                <xs:element ref="EMAIL_FEEDBACK" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="HEADING" type="xs:string"/>
+
+    <xs:element name="IAD.IF.ESTATE.FORSALE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="HEAD"/>
+                <xs:element ref="OBJECT" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="IMAGE_REF" type="xs:string"/>
+
+    <xs:element name="INCLUDES" type="xs:string"/>
+
+    <xs:element name="KOMMUNENR" type="xs:string"/>
+
+    <xs:element name="LEILIGHETSNR" type="xs:string"/>
+
+    <xs:element name="LEISURE_SALE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ESTATE_PREFERENCE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="FACILITIES" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="LEISURE_SITUATION"/>
+                <xs:element ref="MAPMATRIX" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="BOLIGNUMMER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VIEWING" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="PROPERTY_TYPE"/>
+                <xs:element ref="NO_OF_BEDROOMS"/>
+                <xs:element ref="ESTATE_SIZE"/>
+                <xs:element ref="FLOOR" minOccurs="0"/>
+                <xs:element ref="PLOT" minOccurs="0"/>
+                <xs:element ref="OWNERSHIP_TYPE"/>
+                <xs:element ref="NO_OF_ROOMS"/>
+                <xs:element ref="ESTATE_PRICE" minOccurs="0"/>
+                <xs:element ref="RENT" minOccurs="0"/>
+                <xs:element ref="CONSTRUCTION_YEAR" minOccurs="0"/>
+                <xs:element ref="RENOVATED_YEAR" minOccurs="0"/>
+                <xs:element ref="GENERAL_TEXT_REALESTATE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MOREINFO" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ESTATE_EXTERNAL_URL" minOccurs="0"/>
+                <xs:element ref="ACQUISITION" minOccurs="0"/>
+                <xs:element ref="FINANCE" minOccurs="0"/>
+                <xs:element ref="REGULATIONS" minOccurs="0"/>
+                <xs:element ref="NO_OF_BEDS"/>
+                <xs:element ref="ENERGY_LABEL" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL_COLOR_CODE" minOccurs="0"/>
+                <xs:element ref="BROKER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEPARTMENT" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="LEISURE_SITUATION" type="xs:string"/>
+
+    <xs:element name="LETTING_UNIT" type="xs:string"/>
+
+    <xs:element name="LIVING_AREA" type="xs:string"/>
+
+    <xs:element name="LOAN_FARE" type="xs:string"/>
+
+    <xs:element name="LOAN_VALUE" type="xs:string"/>
+
+    <xs:element name="MAP_COORDINATE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="EASTING"/>
+                <xs:element ref="NORTHING"/>
+                <xs:element ref="GEO_ACCURACY" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="SYSTEM" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="UTM33"/>
+                        <xs:enumeration value="LATLON"/>
+                        <xs:enumeration value="UTM32"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="MAPMATRIX">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="KOMMUNENR" minOccurs="0"/>
+                <xs:element ref="GAARDSNR" minOccurs="0"/>
+                <xs:element ref="BRUKSNR" minOccurs="0"/>
+                <xs:element ref="FESTENR" minOccurs="0"/>
+                <xs:element ref="SEKSJONSNR" minOccurs="0"/>
+                <xs:element ref="LEILIGHETSNR" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="MOBILE" type="xs:string"/>
+
+    <xs:element name="MOREINFO">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="URL"/>
+                <xs:element ref="URLTEXT" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="NAME" type="xs:string"/>
+
+    <xs:element name="NO_OF_BEDROOMS" type="xs:string"/>
+
+    <xs:element name="NO_OF_BEDS" type="xs:string"/>
+
+    <xs:element name="NO_OF_FLOORS" type="xs:string"/>
+
+    <xs:element name="NO_OF_PARKING_SPOTS" type="xs:string"/>
+
+    <xs:element name="NO_OF_ROOMS" type="xs:string"/>
+
+    <xs:element name="NO_OF_ROOMS_RANGE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="BEDROOMS_FROM" minOccurs="0"/>
+                <xs:element ref="BEDROOMS_TO"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="NORTHING" type="xs:string"/>
+
+    <xs:element name="NOTE" type="xs:string"/>
+
+    <xs:element name="NUMBER_OF_UNITS" type="xs:string"/>
+
+    <xs:element name="OBJECT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="OBJECT_HEAD"/>
+                <xs:choice>
+                    <xs:element ref="ESTATE_SALE"/>
+                    <xs:element ref="ESTATE_BUSINESS_SALE"/>
+                    <xs:element ref="LEISURE_SALE"/>
+                    <xs:element ref="ESTATE_DEVELOPMENT"/>
+                    <xs:element ref="PLOT_SALE"/>
+                    <xs:element ref="PLOT_BUSINESS_SALE"/>
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OBJECT_HEAD">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ORDERNO"/>
+                <xs:element ref="USER_REFERENCE" minOccurs="0"/>
+                <xs:element ref="PROVIDER_REFERENCE" minOccurs="0"/>
+                <xs:element ref="OVERWRITE_MMO"/>
+                <xs:element ref="VERSIONNO" minOccurs="0"/>
+                <xs:element ref="FROMDATE" minOccurs="0"/>
+                <xs:element ref="TODATE" minOccurs="0"/>
+                <xs:element ref="OBJECT_LOCATION"/>
+                <xs:element ref="HEADING" minOccurs="0" />
+                <xs:element ref="SEGMENT" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OBJECT_LOCATION">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="STREETADDRESS" minOccurs="0"/>
+                <xs:element ref="ZIPCODE" minOccurs="0"/>
+                <xs:element ref="COUNTRYCODE" minOccurs="0"/>
+                <xs:element ref="ADDRESS2" minOccurs="0"/>
+                <xs:element ref="ADDRESS3" minOccurs="0"/>
+                <xs:element ref="ADDRESS4" minOccurs="0"/>
+                <xs:element ref="MAP_COORDINATE" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ORDERNO">
+        <xs:complexType mixed="true">
+            <xs:attribute name="PREVIEW" use="optional" default="no">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="yes"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OVERWRITE_MMO">
+        <xs:complexType>
+            <xs:attribute name="MODUS" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="all"/>
+                        <xs:enumeration value="images"/>
+                        <xs:enumeration value="urls"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OWNERSHIP_TYPE" type="xs:string"/>
+
+    <xs:element name="PART_NAME" type="xs:string"/>
+
+    <xs:element name="PART_NUMBER" type="xs:string"/>
+
+    <xs:element name="PART_ORG_NUMBER" type="xs:string"/>
+
+    <xs:element name="PART_OWNER" type="xs:string"/>
+
+    <xs:element name="PART_OWNERSHIP">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PART_NAME" minOccurs="0"/>
+                <xs:element ref="PART_OWNER" minOccurs="0"/>
+                <xs:element ref="PART_ORG_NUMBER" minOccurs="0"/>
+                <xs:element ref="PART_NUMBER" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PARTNER" type="xs:string"/>
+
+    <xs:element name="PER_MONTH" type="xs:string"/>
+
+    <xs:element name="PER_MONTH_FROM" type="xs:string"/>
+
+    <xs:element name="PER_MONTH_TO" type="xs:string"/>
+
+    <xs:element name="PHONE" type="xs:string"/>
+
+    <xs:element name="PLOT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="AREA" minOccurs="0"/>
+                <xs:element ref="CONDITION" minOccurs="0"/>
+                <xs:element ref="GROUND_TAX" minOccurs="0"/>
+                <xs:element ref="GROUND_YEAR" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="OWNED" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="yes"/>
+                        <xs:enumeration value="no"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PLOT_BUSINESS_SALE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ESTATE_PREFERENCE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MAPMATRIX" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VIEWING" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="PROPERTY_TYPE"/>
+                <xs:element ref="ESTATE_PRICE" minOccurs="0"/>
+                <xs:element ref="PLOT" minOccurs="0"/>
+                <xs:element ref="GENERAL_TEXT_REALESTATE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MOREINFO" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ESTATE_EXTERNAL_URL" minOccurs="0"/>
+                <xs:element ref="REGULATIONS" minOccurs="0"/>
+                <xs:element ref="BROKER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEPARTMENT" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PLOT_SALE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ESTATE_PREFERENCE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MAPMATRIX" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VIEWING" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="PROPERTY_TYPE"/>
+                <xs:element ref="ESTATE_PRICE" minOccurs="0"/>
+                <xs:element ref="PLOT" minOccurs="0"/>
+                <xs:element ref="GENERAL_TEXT_REALESTATE" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="MOREINFO" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ESTATE_EXTERNAL_URL" minOccurs="0"/>
+                <xs:element ref="REGULATIONS" minOccurs="0"/>
+                <xs:element ref="BROKER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="DEPARTMENT" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="POTENTIAL_INCOME" type="xs:string"/>
+
+    <xs:element name="PREEMPTION" type="xs:string"/>
+
+    <xs:element name="PRICE_FROM" type="xs:string"/>
+
+    <xs:element name="PRICE_RANGE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PRICE_FROM"/>
+                <xs:element ref="PRICE_TO"/>
+                <xs:element ref="CURRENCY" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PRICE_SUGGESTION" type="xs:string"/>
+
+    <xs:element name="PRICE_TO" type="xs:string"/>
+
+    <xs:element name="PRIMARY_ROOM_AREA" type="xs:string"/>
+
+    <xs:element name="PRIMARY_ROOM_AREA_FROM" type="xs:string"/>
+
+    <xs:element name="PRIMARY_ROOM_AREA_TO" type="xs:string"/>
+
+    <xs:element name="PRIMARY_ROOM_DESCRIPTION" type="xs:string"/>
+
+    <xs:element name="PROGRESS" type="xs:string"/>
+
+    <xs:element name="PROPERTY_TYPE" type="xs:string"/>
+
+    <xs:element name="PROVIDER" type="xs:string"/>
+
+    <xs:element name="PROVIDER_REFERENCE" type="xs:string"/>
+
+    <xs:element name="REGULATIONS" type="xs:string"/>
+
+    <xs:element name="RENOVATED_YEAR" type="xs:string"/>
+
+    <xs:element name="RENT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PER_MONTH"/>
+                <xs:element ref="INCLUDES" minOccurs="0"/>
+                <xs:element ref="CURRENCY" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="RENT_RANGE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PER_MONTH_FROM"/>
+                <xs:element ref="PER_MONTH_TO" minOccurs="0"/>
+                <xs:element ref="INCLUDES" minOccurs="0"/>
+                <xs:element ref="CURRENCY" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="REPLACEMENT_NOTE" type="xs:string"/>
+
+    <xs:element name="SALES_COST" type="xs:string"/>
+
+    <xs:element name="SEGMENT">
+        <xs:complexType>
+            <xs:attribute name="INDICATOR" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="private"/>
+                        <xs:enumeration value="trade"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="SEKSJONSNR" type="xs:string"/>
+
+    <xs:element name="SHARED_COST" type="xs:string"/>
+
+    <xs:element name="STREETADDRESS" type="xs:string"/>
+
+    <xs:element name="TITLE" type="xs:string"/>
+
+    <xs:element name="TODATE" type="xs:string"/>
+
+    <xs:element name="TOTIME" type="xs:string"/>
+
+    <xs:element name="UPLOAD_REFERENCE" type="xs:string"/>
+
+    <xs:element name="URL" type="xs:string"/>
+
+    <xs:element name="URLTEXT" type="xs:string"/>
+
+    <xs:element name="USEABLE_AREA" type="xs:string"/>
+
+    <xs:element name="USEABLE_AREA_FROM" type="xs:string"/>
+
+    <xs:element name="USEABLE_AREA_TO" type="xs:string"/>
+
+    <xs:element name="USER_REFERENCE" type="xs:string"/>
+
+    <xs:element name="VERSIONNO" type="xs:string"/>
+
+    <xs:element name="VIEWING">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DATE" minOccurs="0"/>
+                <xs:element ref="FROMTIME" minOccurs="0"/>
+                <xs:element ref="TOTIME" minOccurs="0"/>
+                <xs:element ref="NOTE" minOccurs="0"/>
+                <xs:element ref="REPLACEMENT_NOTE" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ZIPCODE" type="xs:string"/>
+
+</xs:schema>

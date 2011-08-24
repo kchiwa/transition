@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="webmeglerValidator.xsd"/>
+
+    <!-- definition of attributes -->
+    <xs:attribute name="navn" type="xs:string" />
+    <xs:attribute name="format" type="xs:string"/>
+    <xs:attribute name="id" type="xs:string"/>
+    <xs:attribute name="mappenavn" type="xs:NCName"/>
+    <xs:attribute name="maxlen" type="xs:string" />
+    <xs:attribute name="nr" type="xs:integer"/>
+    <xs:attribute name="visinettportaler" type="xs:integer"/>
+    <xs:attribute name="autoprospekt" type="xs:integer"/>
+
+    <!-- definition of complex element -->
+    <xs:element name="felt">
+        <xs:complexType mixed="true">
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="navn"/>
+                    <xs:attribute ref="format"/>
+                    <xs:attribute ref="maxlen"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="styringskode">
+        <xs:complexType>
+            <xs:attribute ref="id"/>
+            <xs:attribute ref="navn"/>
+            <xs:attribute ref="mappenavn"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="styringskoder">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="styringskode" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="fritekst">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="felt" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute ref="nr"/>
+            <xs:attribute ref="visinettportaler"/>
+
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="fritekster">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="fritekst" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="visning">
+        <xs:complexType>
+          <xs:sequence>
+              <xs:element ref="felt" maxOccurs="unbounded" />
+          </xs:sequence>
+          <xs:attribute ref="id"/>
+          <xs:attribute ref="nr"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="visninger">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="visning" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="bilde">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element ref="felt" maxOccurs="unbounded"/>
+            </xs:choice>
+            <xs:attribute ref="nr"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="bilder">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element ref="bilde" maxOccurs="unbounded" />
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="dokument">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element ref="felt" maxOccurs="unbounded"/>
+            </xs:choice>
+            <xs:attribute ref="nr"/>
+            <xs:attribute ref="autoprospekt"/>
+        </xs:complexType>
+
+    </xs:element>
+
+    <xs:element name="dokumenter">
+        <xs:complexType>
+            <xs:choice>
+                <xs:element ref="dokument"  minOccurs="0" maxOccurs="unbounded"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="matchekriterie">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="felt" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute ref="nr"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="matchekriterier">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="matchekriterie" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="lenke">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="felt" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute ref="nr"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="lenker">
+         <xs:complexType>
+              <xs:sequence>
+                  <xs:element ref="lenke" minOccurs="0"/>
+              </xs:sequence>
+         </xs:complexType>
+    </xs:element>
+
+    <xs:element name="eneiendom">
+        <xs:complexType>
+        <xs:sequence>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element ref="felt" />
+                 <xs:element ref="matchekriterier" />
+                <xs:element ref="styringskoder"  />
+            </xs:choice>
+
+                <xs:element ref="fritekster"  />
+                <xs:element ref="visninger"  />
+                <xs:element ref="bilder" />
+                <xs:element ref="dokumenter" />
+                <xs:element ref= "lenker" />
+        </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="eiendommer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="eneiendom" minOccurs="1" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+

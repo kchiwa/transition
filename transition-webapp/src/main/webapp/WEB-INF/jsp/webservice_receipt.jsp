@@ -1,0 +1,1 @@
+<%@ page contentType="text/xml; charset=iso-8859-1" session="false" %>${receipt}

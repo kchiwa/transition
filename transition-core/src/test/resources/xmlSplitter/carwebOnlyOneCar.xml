@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bildata>
+    <Forhandler brukerid="1707402" passord="idy6epi2" navn="Slettum Bil AS Tynset" adresse1="Engvn. 2" adresse2=""
+                adresse3="" postnr="2500" poststed="Tynset" url="www.slettumbil.no" tlf="98294990" fax="62471998"
+                epost="svein@slettumbil.no" fullupdate="1">
+        <Bil unikid="8_2482" kontroll="1" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Yaris</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>159033</Pris>
+            <Arsmodell>2006</Arsmodell>
+            <Kmstand>59000</Kmstand>
+            <Motorstorrelse>1.4</Motorstorrelse>
+            <Variant>D4D diesel Sol</Variant>
+            <ChassisNr>VNKKC96390A028824</ChassisNr>
+            <Solgt>0</Solgt>
+            <Farge>S&#248;lv</Farge>
+            <Effekt>90</Effekt>
+            <Bilder>
+                <Bilde bilde="8_2482L.JPG" prioritet="0" md5="D08192C6086B5F009656FB3A590524D8" desc="Hovedbilde"/>
+                <Bilde bilde="8_2482L_1.JPG" prioritet="1" md5="ADF095F3BA6E714C76C312D5F9E63A3F" desc="Bilde 2"/>
+                <Bilde bilde="8_2482L_2.JPG" prioritet="2" md5="D8D63D88AEE66850397AE82F79E760E2" desc="Bilde 3"/>
+                <Bilde bilde="8_2482L_3.JPG" prioritet="3" md5="83B8151BCFCD4AB80C936534EE630040" desc="Bilde 4"/>
+                <Bilde bilde="8_2482L_4.JPG" prioritet="4" md5="BAA6F6D41F0FABF482A202BF23FF5465" desc="Bilde 5"/>
+                <Bilde bilde="8_2482L_5.JPG" prioritet="5" md5="E4E99D5B931F579C7F5871CA81025B5D" desc="Bilde 6"/>
+                <Bilde bilde="8_2482L_6.JPG" prioritet="6" md5="A94E52FB234D6EEFBAC85FFF6B76F6A8" desc="Bilde 7"/>
+                <Bilde bilde="8_2482L_7.JPG" prioritet="7" md5="8B287772C69BD1ED37675C8FC1933D24" desc="Bilde 8"/>
+                <Bilde bilde="8_2482L_8.JPG" prioritet="8" md5="2BA8B0D3C4733A77F6223F6E8E98BD77" desc="Bilde 9"/>
+                <Bilde bilde="8_2482L_9.JPG" prioritet="9" md5="23226CD353253ABF56614A2C3B34EE11" desc="Bilde 10"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>1</InklArsavg>
+            <Ekstrautstyr>
+                ;ABS-bremser,ABS-bremser;AC,AC;Dieselvarmer,Dieselvarmer;El-speil,El-speil;El.vinduer,El.vinduer;Kollisjonsputer,Kollisjonsputer;Metallic
+                lakk,Metallic lakk;Ryggesensorer,Ryggesensorer;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Setevarme,Setevarme;Sideairbager,Sideairbager;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;fjernstyrt
+                sentr.l&#229;s,fjernstyrt sentr.l&#229;s
+            </Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Bor du utenfor fjellregionen? Vi kan levere bil over hele landet, men hva med &#229; gj&#248;re
+                det lille ekstra ut av bilkj&#248;pet? Gjennom v&#229;r samarbeidspartner Erzscheiderg&#229;rden, www.
+                erzscheidergaarden.no, tilbyr vi bilkj&#248;pere et opphold p&#229; en gjesteg&#229;rd midt i
+                verdensarven R&#248;ros. Ta kontakt med oss s&#229; ordner vi b&#229;de bilhandel og R&#248;rosopphold
+                for deg.
+            </Kommentar>
+            <Vekt>1055</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AA52296</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>14</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1050</Slepevekt>
+            <FargeInnvendig>M&#248;rk</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+            </Kontaktpersoner>
+        </Bil>
+        <Kontaktpunktliste>
+            <Kontaktpunkt id="8_46">
+                <Navn>Svein Gjevikhaug</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Svein Gjevikhaug</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+            <Kontaktpunkt id="8_51">
+                <Navn>Tynset Takst</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Takstering Tynset</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+        </Kontaktpunktliste>
+    </Forhandler>
+</Bildata>

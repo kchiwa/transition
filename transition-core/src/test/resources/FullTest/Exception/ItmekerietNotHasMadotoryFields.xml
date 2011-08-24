@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client></Client>
+<Contacts>
+<Contact>
+<Name></Name>
+<Email></Email>
+<Phone></Phone>
+<Mobile></Mobile>
+<Address Street="Bryggetorget 13-15" PostCode="0250 " City="OSLO" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef></ClientsRef>
+<Status Code=""/>
+<Publish FromDate="" ToDate=""/>
+<Deleted Date="" Time=""/>
+<Type></Type>
+<AdType></AdType>
+<Title></Title>
+<Address Street="" PostCode="" City="" CountryCode=""/>
+<Matrikkel Kommune="" GNR="" BNR="" SNR=""/>
+<PriceFields>
+<Price Name="" Curr=""></Price>
+<Price Name="" Curr="" Per=""></Price>
+<Price Name="" Curr=""></Price>
+<Price Name="" Curr=""></Price>
+<Price Name="" Curr="NOK"></Price>
+</PriceFields>
+<AreaFields>
+<Area Name=""></Area>
+</AreaFields>
+<OwnershipType></OwnershipType>
+<LotOwnershipType></LotOwnershipType>
+<BuiltYear></BuiltYear>
+<BedRooms></BedRooms>
+<Rooms></Rooms>
+<Floor></Floor>
+<TextFields>
+<Text Name=""></Text>
+<Text Name=""></Text>
+<Text Name=""></Text>
+<Text Name=""></Text>
+<Text Name=""></Text>
+<Text Name=""></Text>
+<Text Name=""></Text>
+</TextFields>
+<Options>
+<Option Name=""/>
+</Options>
+<Media>
+<MainPicture Type="" Title="" LastModified=""></MainPicture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+<Picture Type="" Title="" LastModified=""></Picture>
+</Media>
+</Property>
+</TAS.Import>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.abctech-thailand.transition</groupId>
+        <artifactId>transition</artifactId>
+        <version>0.22-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.abctech-thailand.transition</groupId>
+    <artifactId>transition-xmlbean</artifactId>
+    <packaging>pom</packaging>
+    <version>0.22-SNAPSHOT</version>
+
+    <name>transition-xmlbean</name>
+    <description>For generating XMLBeans jar files for transition project ads.</description>
+    <inceptionYear>2011</inceptionYear>
+
+    <modules>
+        <module>transition-xmlbean-carweb</module>
+        <module>transition-xmlbean-emprof</module>
+        <module>transition-xmlbean-itmakeriet</module>
+        <module>transition-xmlbean-tietoenator</module>
+	    <module>transition-xmlbean-zettxml</module>
+	    <module>transition-xmlbean-finnjob</module>
+	    <module>transition-xmlbean-iadifjob</module>
+	    <module>transition-xmlbean-iadifstop</module>
+	    <module>transition-xmlbean-rettbemanning</module>
+        <module>transition-xmlbean-webmegler</module>
+        <module>transition-xmlbean-webcruiter</module>
+        <module>transition-xmlbean-webtemp</module>
+        <module>transition-xmlbean-oldonlinebooking</module>
+        <module>transition-xmlbean-sologstrand</module>
+        <module>transition-xmlbean-novasol</module>
+        <module>transition-xmlbean-iadifestateforsale</module>
+        <module>transition-xmlbean-iadifmmo</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>xmlbeans-maven-plugin</artifactId>
+                <version>2.3.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>xmlbeans</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <inherited>true</inherited>
+                <configuration>
+                    <xmlConfigs>
+                        <xmlConfig implementation="java.io.File">src/main/resources/xsdconfig</xmlConfig>
+                    </xmlConfigs>
+                    <schemaDirectory>src/main/resources/xsd</schemaDirectory>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>

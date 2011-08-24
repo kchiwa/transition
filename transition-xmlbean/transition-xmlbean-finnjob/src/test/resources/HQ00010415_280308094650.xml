@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE FINN.IF.JOB SYSTEM "file:///iad/finn/prod/batch/jobs/import/dtd/FINNIF-job32.dtd">
+<FINN.IF.JOB>
+  <HEAD>
+    <PARTNER>rcconsas</PARTNER>
+  </HEAD>
+  <OBJECT>
+    <OBJECT_HEAD>
+      <ORDERNO>HQ00010415</ORDERNO>
+      <USERREFERENCE>AAS/KH/HQ00010415</USERREFERENCE>
+      <VERSIONNO />
+      <OVERWRITE_MMO MODUS="yes" />
+      <FROMDATE>28.03.2008</FROMDATE>
+      <TODATE>30.04.2008</TODATE>
+      <OBJECT_LOCATION>
+        <STREETADDRESS>Oslo</STREETADDRESS>
+        <ZIPCODE>0031</ZIPCODE>
+        <COUNTRYCODE></COUNTRYCODE>
+      </OBJECT_LOCATION>
+      <HEADING>Completion Manager</HEADING>
+    </OBJECT_HEAD>
+    <JOB>
+      <JOB_TITLE>Completion Manager</JOB_TITLE>
+      <SITUATION>Oslo</SITUATION>
+      <SECTOR>private</SECTOR>
+      <JOB_CATEGORY>
+        <CATEGORY>offshoreexploit</CATEGORY>
+        <SUBCATEGORY>other</SUBCATEGORY>
+      </JOB_CATEGORY>
+      <DURATION>fixedcontract</DURATION>
+      <ROLE>profexp</ROLE>
+      <SALARY>kr 0.00 - Per Hour</SALARY>
+      <EXTENT>fulltime</EXTENT>
+      <EDUCATION></EDUCATION>
+      <APPLICATION_ADDRESS>
+        <ADDRESS>RC Consultants AS
+Bragernes Torg 4
+3017 Drammen
+</ADDRESS>
+      </APPLICATION_ADDRESS>
+      <COMPANY>
+        <COMPANY_NAME>RC Consultants</COMPANY_NAME>
+        <LOGO></LOGO>
+        <URL>www.rcc.no</URL>
+        <INGRESS><![CDATA[<body>
+<p><i><font face="Arial" size="2">RC Consultants, med hovedkontor i Sandnes, ble stiftet i 1987. Selskapet har nærmere 500 ansatte og er ledende leverandør av tekniske- og prosjektadministrative konsulenttjenester til Norsk olje- og gassindustri.
+
+RC Consultants er et datterselskap av V.People som har hovedkontor i Aberdeen. V.People, eid av V.Holdings, er et internasjonalt selskap med 68 kontorer fordelt på 32 land. V.People leverer globale HR administrative løsninger til shipping og petroleumsindustrien. Selskapet sysselsetter 26.000 personer.</font></i></p>
+</body>
+]]></INGRESS>
+      </COMPANY>
+      <GENERAL_TEXT_JOB>
+        <GENERAL_HEADING></GENERAL_HEADING>
+        <GENERAL_TEXT><![CDATA[<Html><Head></Head><Title></Title><Body><font face="Times New Roman">
+<Body BGCOLOR="#FFFFFF">
+<font face="Courier New"><font SIZE="2"><font color="#000000"><font face="Arial"><font SIZE="2"><B><font color="#000000">Arbeidsområder</font></B></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Overordnet ansvar for Completion på et stort EPC prosjekt.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Ansvarlig for å etablere Completion systemer og metoder.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Ansvarlig for å få implementert MC pakker i ferdigstillelses systemet.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Ansvarlig for å gjennomføre MC inspeksjoner på eget arbeid og på leverandørpakker.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Sammenstille og overlevere komplett ferdigstillelsesdokumentasjon til kunde.<BR>
+</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><B><font color="#000000">Ønsket kompetanse</font></B></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Multi disiplin erfaring fra Olje &amp; Gass fabrikasjons verksted.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Completion erfaring fra Olje &amp; Gass fabrikasjons verksted.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Erfaring med å jobbe med et ferdisstillelses system</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Selvgående og proaktiv.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Erfaring med å lede et team.</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Strukturert og gode kommunikasjons egenskaper<BR>
+</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Oppstart: snarest</font></font></font><BR>
+<font face="Arial"><font SIZE="2"><font color="#000000">Varighet: ca. 2 år<BR>
+</font></font></font></font></font></font></Body></font></Body></Html>
+]]></GENERAL_TEXT>
+      </GENERAL_TEXT_JOB>
+      <APPLICATION_DEADLINE>30.04.2008</APPLICATION_DEADLINE>
+      <APPLICATION_EMAIL>post@rcc.no</APPLICATION_EMAIL>
+      <START_DATE>01.04.2008</START_DATE>
+      <JOB_CONTACT>
+        <NAME>Gunn Tollefsen</NAME>
+        <ADDRESS></ADDRESS>
+        <TITLE>Project Coordinator</TITLE>
+        <PHONE>32 23 42 23</PHONE>
+        <MOBILE>414 42 288</MOBILE>
+        <EMAIL>GT@rcc.no</EMAIL>
+        <FAX>32 23 42 21</FAX>
+      </JOB_CONTACT>
+      <APPLICATION_LABEL>Completion Manager 10415</APPLICATION_LABEL>
+      <ELECTRONIC_APPLICATION MODUS="yes" AUTOMATIC_RESPONSE="yes" />
+      <MOREINFO>
+        <URL />
+        <URLTEXT />
+      </MOREINFO>
+      <NO_OF_POSITIONS>1</NO_OF_POSITIONS>
+    </JOB>
+  </OBJECT>
+</FINN.IF.JOB>
+

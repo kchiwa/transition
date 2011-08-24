@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>21897</Client>
+<Contacts>
+<Contact>
+<Name>Magne Horsfjord</Name>
+<Email>magne.horsfjord@krogsveen.no</Email>
+<Phone>74 22 60 80</Phone>
+<Mobile>916 61 545</Mobile>
+<Fax>74 22 60 81</Fax>
+<Address Street="Tiendeholmveien 9" PostCode="7800" City="NAMSOS" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>KR851189</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2011-08-15" ToDate="2011-12-27"/>
+<Type>tomannsbolig</Type>
+<AdType>bolig_salg</AdType>
+<Title>Namsos - Bjørum Pen bolig i attraktivt område.</Title>
+<Address Street="Nordahl Griegs veg 9 B" PostCode="7800" City="NAMSOS" CountryCode="NO"/>
+<Matrikkel Kommune="1703" GNR="17" BNR="3" FNR="220"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">1680000</Price>
+<Price Name="Lånetakst" Curr="NOK">1500000</Price>
+<Price Name="Verditakst" Curr="NOK">1700000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">288833</Price>
+<Price Name="Kommunale avgifter" Curr="NOK">13827</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruttoareal">143</Area>
+<Area Name="Tomteareal">380</Area>
+<Area Name="primaererom_areal">118</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder">&lt;B&gt;Bruksareal: &lt;/B&gt;&lt;BR&gt;Kjeller: 39m&amp;sup2;&lt;BR&gt;1. etasje: 42m&amp;sup2;&lt;BR&gt;2. etasje: 44m&amp;sup2;&lt;BR&gt;&lt;B&gt;Primærrom:&lt;/B&gt;&lt;BR&gt;&amp;middot; Kjeller: &lt;BR&gt;Trapperom/gang, kjellerstue og vaskerom.: 32 m&amp;sup2;&lt;BR&gt;&amp;middot; 1. etasje: &lt;BR&gt;Vindfang, trapperom, kjøkken og stue.: 42 m&amp;sup2;&lt;BR&gt;&amp;middot; 2. etasje: &lt;BR&gt;3 soverom, gang/trapperom og bad/wc.: 44 m&amp;sup2;&lt;BR&gt;&lt;B&gt;Sekundærrom:&lt;/B&gt;&lt;BR&gt;&amp;middot; Kjeller: &lt;BR&gt;2 boder.: 7 m&amp;sup2;</Text>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>festet</LotOwnershipType>
+<BuiltYear>1966</BuiltYear>
+<BedRooms>3</BedRooms>
+<Viewings>
+<Viewing Date="2011-08-30" From="16:30" To="17:30"/>
+</Viewings>
+<TextFields>
+<Text Name="Beliggenhet:">Eiendommen ligger i veletablert og populært boligfelt på Bjørum. Det er kort avtand til alle sentrumsfunksjoner, skoler og barnehager. Det er nærhet til turterreng, skiløyper, svømmehall, idrettsanlegg m.mm</Text>
+<Text Name="Bebyggelse:">Trebygning fundamentert på betongsåler og støpt gulv på grunn. Kjellermurer av betong. Yttervegger av tre kledd med tømmermannspanel. Takkonstruksjon av tre. W-takstoler. Eldre taktekking av metallplater.</Text>
+<Text Name="Standard:">Innvendige gulv er belagt med laminater, gulvbelegg, noe flis og teppegulv. På veggene er det malt stri og tapet samt en del malte trepaneler. I himlingene er det malte plater, malepapir og en del malte trepaneler.</Text>
+<Text Name="Oppvarming:">Elektrisk oppvarming med panelovner. Varmekabler på bad. Peis med innsats i stue. Det er ikke oppvarming i alle beboelsesrom.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="parkett"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+<Option Name="kabel-tv"/>
+<Option Name="off. vann"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Fasade" LastModified="2011-08-15 16:04">file:KR851189-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Fasade og deler av hagen" LastModified="2011-08-15 16:04">file:KR851189-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade " LastModified="2011-08-15 16:04">file:KR851189-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Hagen" LastModified="2011-08-15 16:04">file:KR851189-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade mot nord " LastModified="2011-08-15 16:04">file:KR851189-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken " LastModified="2011-08-15 16:04">file:KR851189-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-08-15 16:04">file:KR851189-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-08-15 16:04">file:KR851189-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-08-15 16:04">file:KR851189-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-08-15 16:04">file:KR851189-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stuen med utgang til terrasse mot sør" LastModified="2011-08-15 16:04">file:KR851189-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrassen" LastModified="2011-08-15 16:04">file:KR851189-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Peis på stuen" LastModified="2011-08-15 16:04">file:KR851189-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terasse med nedgang til hagen" LastModified="2011-08-15 16:04">file:KR851189-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad/wc" LastModified="2011-08-15 16:04">file:KR851189-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="Dusjkabinett på bad" LastModified="2011-08-15 16:04">file:KR851189-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="Hovedsoverom" LastModified="2011-08-15 16:04">file:KR851189-17.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom nr 2" LastModified="2011-08-15 16:04">file:KR851189-18.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom 3" LastModified="2011-08-15 16:04">file:KR851189-19.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kjellerstuen" LastModified="2011-08-15 16:04">file:KR851189-20.JPG</Picture>
+<Picture Type="image:jpeg" Title="Gang inn til kjellerstuen" LastModified="2011-08-15 16:04">file:KR851189-21.JPG</Picture>
+<Picture Type="image:jpeg" Title="Vaskerom" LastModified="2011-08-15 16:04">file:KR851189-22.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

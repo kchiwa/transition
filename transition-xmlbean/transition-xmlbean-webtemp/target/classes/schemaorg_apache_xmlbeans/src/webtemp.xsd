@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="endringer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="utlyststilling" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="utlyststilling">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:integer" />
+                <xs:element name="brukerid" type="xs:string" />
+                <xs:element name="fjernfraportal" type="xs:string" />
+                <xs:element ref="finnparametre" />
+                <xs:element ref="innledning" />
+                <xs:element ref="bemanningsselskap" />
+                <xs:element ref="oppdragsgiver" />
+                <xs:element ref="fritekster" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="finnparametre">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="job_category" />
+                <xs:element name="duration" minOccurs="0" type="xs:string" />
+                <xs:element name="sector" type="xs:string" />
+                <xs:element name="role" minOccurs="0" type="xs:string" />
+                <xs:element name="extent" minOccurs="0" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="job_category">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="category" type="xs:string" />
+                <xs:element name="subcategory" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="innledning">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="overskrift" type="xs:string" />
+                <xs:element name="datoutlyst" type="xs:string" />
+                <xs:element name="stillingsform" type="xs:string" />
+                <xs:element name="stillingstypefritekst" minOccurs="0" type="xs:string" />
+                <xs:element name="stillingstype" type="xs:string" />
+                <xs:element name="stillingshovedkategori" type="xs:string" minOccurs="0" />
+                <xs:element name="antallstillingerutlyst" type="xs:string" />
+                <xs:element name="deltid" type="xs:string" />
+                <xs:element name="heltid" type="xs:string" />
+                <xs:element name="bransje" minOccurs="0" type="xs:string" />
+                <xs:element name="fylke" type="xs:string" />
+                <xs:element name="fylkesnummer" type="xs:integer" />
+                <xs:element name="kommune" type="xs:string" />
+                <xs:element name="kommunenummer" type="xs:integer" />
+                <xs:element name="postnummer" type="xs:integer" />
+                <xs:element name="arbeidssted" minOccurs="0" type="xs:string" />
+                <xs:element name="referansenummer" type="xs:integer" />
+                <xs:element name="søknadsfrist" type="xs:string" />
+                <xs:element name="tiltredelse" minOccurs="0" type="xs:string" />
+                <xs:element name="tildato" minOccurs="0" type="xs:string" />
+                <xs:element name="søkpåstillingen" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+    <xs:element name="bemanningsselskap">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="juridisknavn" type="xs:string" />
+                <xs:element name="avdelingsnavn" type="xs:string" />
+                <xs:element name="kommentar" type="xs:string" />
+                <xs:element ref="kontaktperson" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="oppdragsgiver">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="navn" type="xs:string" />
+                <xs:element name="hjemmeside" minOccurs="0" type="xs:string" />
+                <xs:element name="logo" minOccurs="0" type="xs:string" />
+                <xs:element ref="kontaktperson" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="kontaktperson">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="navn" type="xs:string" />
+                <xs:element name="stilling" minOccurs="0" type="xs:string" />
+                <xs:element name="mobiltelefon" type="xs:string" />
+                <xs:element name="interntelefon" minOccurs="0" type="xs:string" />
+                <xs:element name="email" type="xs:string" />
+                <xs:element name="bilde65px" minOccurs="0" type="xs:string" />
+                <xs:element name="bilde250px" minOccurs="0" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="fritekster">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="enfritekst" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="enfritekst">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="emne" minOccurs="0" type="xs:string" />
+                <xs:element name="fritekst" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

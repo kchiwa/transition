@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- definition of simple elements -->
+    <xs:element name="MEGLER_KONTOR_ID" type="xs:positiveInteger" />
+    <xs:element name="MEGLER_KONTOR_NAVN" type="xs:string"/>
+    <xs:element name="MEGLER_KONTOR_BESOKSADRESSE" type="xs:string"/>
+    <xs:element name="MEGLER_KONTOR_POSTNR" type="xs:string"/>
+    <xs:element name="MEGLER_KONTOR_POSTSTED" type="xs:string"/>
+    <xs:element name="MEGLER_KONTOR_EMAIL" type="xs:string"/>
+    <xs:element name="STATUS" type="xs:string"/>
+    <xs:element name="OPPDRAGSNR" type="xs:string"/>
+    <xs:element name="EIENDOMSNAVN" type="xs:string"/>
+    <xs:element name="OVERSKRIFT1" type="xs:string"/>
+    <xs:element name="BOLIGTYPE" type="xs:string"/>
+    <xs:element name="OPPDRAGHOVEDTYPE" type="xs:integer"/>
+    <xs:element name="KOMMUNENR" type="xs:string"/>
+    <xs:element name="TOMTESTORRELSE" type="xs:integer"/>
+    <xs:element name="PRISANTYDNING_LEDETEKST" type="xs:string"/>
+    <xs:element name="PRISANTYDNING_VERDI" type="xs:integer"/>
+    <xs:element name="GNR" type="xs:string"/>
+    <xs:element name="BNR" type="xs:string"/>
+    <xs:element name="SNR" type="xs:string"/>
+    <xs:element name="FNR" type="xs:string"/>
+    <xs:element name="ENERGY_LABEL" type="xs:string"/>
+    <xs:element name="ENERGY_LABEL_COLOR_CODE" type="xs:string"/>
+    <xs:element name="BRUTTOAREAL" type="xs:integer"/>
+    <xs:element name="BOAREAL" type="xs:integer"/>
+    <xs:element name="HUSLEIEINKLUDERER" type="xs:string"/>
+    <xs:element name="OMKOSTNINGER" type="xs:string"/>
+    <xs:element name="LAANEVILKAARFELLESGJELD" type="xs:string"/>
+    <xs:element name="P-ROM" type="xs:integer"/>
+    <xs:element name="PRIMAERROM_BESKRIVELSE" type="xs:string"/>
+    <xs:element name="PRIMAEREROM_LEDERTEKST" type="xs:string"/>
+    <xs:element name="AREALBESKRIVELSE" type="xs:string"/>
+    <xs:element name="EIERFORM" type="xs:string"/>
+    <xs:element name="EIERFORMTOMT" type="xs:string"/>
+    <xs:element name="TOMTEBESKRIVELSE" type="xs:string"/>
+    <xs:element name="INNHOLD" type="xs:string"/>
+    <xs:element name="STANDARD" type="xs:string"/>
+    <xs:element name="BELIGGENHET" type="xs:string"/>
+    <xs:element name="ADKOMST" type="xs:string"/>
+    <xs:element name="ANTALL_SOVEROM" type="xs:integer"/>
+    <xs:element name="BYGGEAAR" type="xs:integer"/>
+    <xs:element name="MODERNISERINGSAAR" type="xs:integer"/>
+    <xs:element name="MODERNISERINGSAAR_INNVENDIG" type="xs:integer"/>
+    <xs:element name="MODERNISERINGSAAR_UTVENDIG" type="xs:integer"/>
+    <xs:element name="POSTNR" type="xs:string"/>
+    <xs:element name="POSTSTED" type="xs:string"/>
+    <xs:element name="ETASJE" type="xs:integer"/>
+    <xs:element name="VEI_VANN_KLOAKK" type="xs:string"/>
+    <xs:element name="FELLESUTGIFTER" type="xs:string"/>
+    <xs:element name="FELLESGJELD" type="xs:string"/>
+    <xs:element name="FESTEAVGIFT" type="xs:string"/>
+    <xs:element name="MARKEDSVERDI" type="xs:integer"/>
+    <xs:element name="LAANEVERDI" type="xs:integer"/>
+    <xs:element name="SAKSBEHANDLER_NAVN" type="xs:string"/>
+    <xs:element name="SAKSBEHANDLER_EMAIL" type="xs:string"/>
+    <xs:element name="SAKSBEHANDLERS_TELEFON" type="xs:string"/>
+    <xs:element name="SAKSBEHANDLERS_MOBIL" type="xs:string"/>
+    <xs:element name="VISNINGSAVTALE" type="xs:string"/>
+    <xs:element name="VEDLEGGID" type="xs:integer"/>
+    <xs:element name="VEDLEGGSEKVENS" type="xs:integer"/>
+    <xs:element name="VEDLEGGTITTEL" type="xs:string"/>
+    <xs:element name="VEDLEGGURL" type="xs:string"/>
+    <xs:element name="VEDLEGGHASH" type="xs:string"/>
+    <xs:element name="LINKTYPE" type="xs:string"/>
+    <xs:element name="EXTERNALURL" type="xs:string"/>
+
+
+    <!-- definition of attribute elements -->
+    <xs:attribute name="FRA" type="xs:string"/>
+    <xs:attribute name="TIL" type="xs:string"/>
+
+    <!-- definition of complex elements -->
+    <xs:element name="LINKER">
+        <xs:complexType>
+            <xs:sequence>
+                 <xs:element ref="LINKTYPE"/>
+                 <xs:element ref="EXTERNALURL"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="VEDLEGG">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="VEDLEGGID"/>
+                <xs:element ref="VEDLEGGSEKVENS"/>
+                <xs:element ref="VEDLEGGTITTEL"/>
+                <xs:element ref="VEDLEGGURL"/>
+                <xs:element ref="VEDLEGGHASH"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="VISNING">
+         <xs:complexType>
+             <xs:attribute ref="FRA"/>
+             <xs:attribute ref="TIL"/>
+         </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="VISNINGSTIDER">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="VISNING"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="OPPDRAG">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="STATUS"/>
+                <xs:element ref="OPPDRAGSNR"/>
+                <xs:element ref="EIENDOMSNAVN"/>
+                <xs:element ref="OVERSKRIFT1"/>
+                <xs:element ref="BOLIGTYPE"/>
+                <xs:element ref="OPPDRAGHOVEDTYPE"/>
+                <xs:element ref="KOMMUNENR"/>
+                <xs:element ref="TOMTESTORRELSE"/>
+                <xs:element ref="PRISANTYDNING_LEDETEKST"/>
+                <xs:element ref="PRISANTYDNING_VERDI"/>
+                <xs:element ref="GNR"/>
+                <xs:element ref="BNR"/>
+                <xs:element ref="SNR"/>
+                <xs:element ref="FNR" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL" minOccurs="0"/>
+                <xs:element ref="ENERGY_LABEL_COLOR_CODE" minOccurs="0"/>
+                <xs:element ref="BRUTTOAREAL"/>
+                <xs:element ref="BOAREAL"/>
+                <xs:element ref="HUSLEIEINKLUDERER" minOccurs="0"/>
+                <xs:element ref="OMKOSTNINGER" minOccurs="0"/>
+                <xs:element ref="LAANEVILKAARFELLESGJELD" minOccurs="0"/>
+                <xs:element ref="P-ROM"/>
+                <xs:element ref="PRIMAERROM_BESKRIVELSE" minOccurs="0"/>
+                <xs:element ref="PRIMAEREROM_LEDERTEKST"/>
+                <xs:element ref="AREALBESKRIVELSE" minOccurs="0"/>
+                <xs:element ref="EIERFORM"/>
+                <xs:element ref="EIERFORMTOMT"/>
+                <xs:element ref="TOMTEBESKRIVELSE"/>
+                <xs:element ref="INNHOLD" minOccurs="0"/>
+                <xs:element ref="STANDARD" minOccurs="0"/>
+                <xs:element ref="BELIGGENHET"/>
+                <xs:element ref="ADKOMST"/>
+                <xs:element ref="ANTALL_SOVEROM"/>
+                <xs:element ref="BYGGEAAR"/>
+                <xs:element ref="MODERNISERINGSAAR"/>
+                <xs:element ref="MODERNISERINGSAAR_INNVENDIG"/>
+                <xs:element ref="MODERNISERINGSAAR_UTVENDIG"/>
+                <xs:element ref="POSTNR"/>
+                <xs:element ref="POSTSTED"/>
+                <xs:element ref="ETASJE"/>
+                <xs:element ref="VEI_VANN_KLOAKK"/>
+                <xs:element ref="FELLESUTGIFTER" minOccurs="0"/>
+                <xs:element ref="FELLESGJELD" minOccurs="0"/>
+                <xs:element ref="FESTEAVGIFT" minOccurs="0"/>
+                <xs:element ref="MARKEDSVERDI"/>
+                <xs:element ref="LAANEVERDI"/>
+                <xs:element ref="SAKSBEHANDLER_NAVN"/>
+                <xs:element ref="SAKSBEHANDLER_EMAIL"/>
+                <xs:element ref="SAKSBEHANDLERS_TELEFON"/>
+                <xs:element ref="SAKSBEHANDLERS_MOBIL"/>
+                <xs:element ref="VISNINGSAVTALE"/>
+                <xs:element ref="VISNINGSTIDER" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="VEDLEGG" minOccurs="0" maxOccurs="50"/>
+                <xs:element ref="LINKER" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="MEGLERDATA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="MEGLER_KONTOR_ID"/>
+                <xs:element ref="MEGLER_KONTOR_NAVN"/>
+                <xs:element ref="MEGLER_KONTOR_BESOKSADRESSE"/>
+                <xs:element ref="MEGLER_KONTOR_POSTNR"/>
+                <xs:element ref="MEGLER_KONTOR_POSTSTED"/>
+                <xs:element ref="MEGLER_KONTOR_EMAIL"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="DATA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="MEGLERDATA"/>
+                <xs:element ref="OPPDRAG" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:intelliplan="http://www.intelliplan.se"
+           targetNamespace="http://www.intelliplan.se">
+
+    <!-- definition of Intelliplan simple elements -->
+    <xs:element name="descriptionheader" type="xs:string"/>
+    <xs:element name="descriptiontext" type="xs:string"/>
+    <xs:element name="id" type="xs:string"/>
+    <xs:element name="numberofpositionstofill" type="xs:string"/>
+    <xs:element name="type" type="xs:string"/>
+    <xs:element name="jobpositiontitle" type="xs:string"/>
+    <xs:element name="jobpositiontitleid" type="xs:string"/>
+    <xs:element name="jobpositioncategoryid" type="xs:string"/>
+    <xs:element name="joblocation" type="xs:string"/>
+    <xs:element name="joblocationid" type="xs:string"/>
+    <xs:element name="joboccupation" type="xs:string"/>
+    <xs:element name="joboccupationid" type="xs:string"/>
+    <xs:element name="jobcategory" type="xs:string"/>
+    <xs:element name="jobcategoryid" type="xs:string"/>
+    <xs:element name="service" type="xs:string"/>
+    <xs:element name="servicecategory" type="xs:string"/>
+    <xs:element name="country" type="xs:string"/>
+    <xs:element name="countryid" type="xs:string"/>
+    <xs:element name="state" type="xs:string"/>
+    <xs:element name="stateid" type="xs:string"/>
+    <xs:element name="municipality" type="xs:string"/>
+    <xs:element name="municipalityid" type="xs:string"/>
+    <xs:element name="company" type="xs:string"/>
+    <xs:element name="companylogourl" type="xs:string"/>
+    <xs:element name="employmentextent" type="xs:string"/>
+    <xs:element name="employmentextentid" type="xs:string"/>
+    <xs:element name="employmenttype" type="xs:string"/>
+    <xs:element name="employmenttypeid" type="xs:string"/>
+    <xs:element name="joblevel" type="xs:string"/>
+    <xs:element name="joblevelid" type="xs:string"/>
+    <xs:element name="contact1name" type="xs:string"/>
+    <xs:element name="contact1email" type="xs:string"/>
+    <xs:element name="contact1phone" type="xs:string"/>
+    <xs:element name="contact2name" type="xs:string"/>
+    <xs:element name="contact2email" type="xs:string"/>
+    <xs:element name="contact2phone" type="xs:string"/>
+    <xs:element name="contact3name" type="xs:string"/>
+    <xs:element name="contact3email" type="xs:string"/>
+    <xs:element name="contact3phone" type="xs:string"/>
+    <xs:element name="pubdateto" type="xs:string"/>
+    <xs:element name="lastupdated" type="xs:string"/>
+
+
+
+    <!-- definition of complex elements -->
+    <xs:element name="description">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="intelliplan:descriptionheader" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="intelliplan:descriptiontext" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="descriptions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="intelliplan:description" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

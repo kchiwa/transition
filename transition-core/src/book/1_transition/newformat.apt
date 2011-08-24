@@ -1,0 +1,208 @@
+                -----
+                How to add new customer format
+                -----
+
+Check List
+
+ *Make sure the new format has an XSD for it. If not, create one.
+
+ *Create a module for XMLBeans for the new format. Follow the structure of other format.
+
+ *Add new xmlbean driver for new format in TransitionDriverManager.java
+
+ *Create unit test make sure the new format can be validated. See example in validate package in test.
+
+ *Add new AdSplitter driver for the new format in XmlAdSplitter.java
+
+ *Create unit test make sure the new format can be split correctly. See example in splitter package in test.
+
+ *Add new MediaHandler driver for new format in TransitionDriverManager.java
+
+ *Create unit test make sure the new format's media can be handled. See example in mediahandler package in test.
+
+ *Add new Transformer driver for the new format in TransitionDriverManager.java
+
+ *While you working on Transformation driver, you may realize that you need some value mapping. In this case, you need
+ to create a value mapping file for this format in resource/customer (transition-core) The file name must be the same as
+ customer name text value defined in CustomerFormat.java
+
+ *Create unit test make sure the new format can be transformed correctly. See example in transform package in test.
+
+ *After you have created all drivers for the new format. Try create happyday and badday test to test the whole process.
+ See example in UploadPageController.java
+
+ []
+
+Zett Attributes
+
+ When you do Transformation you may need to map some values with Zett Attributes. Below are attributes that used in Zett.
+
++-------------------
+<Attributes>
+	<!-- Auto/Motor attributes -->
+	<Attribute Order="" Name="basecolor" Type="STRING" Label="Basisfarge"></Attribute>
+	<Attribute Order="" Name="doors" Type="INTEGER" Label="Antall dører"></Attribute>
+	<Attribute Order="" Name="enginevolume" Type="INTEGER" Label="Motorvolum"></Attribute>
+	<Attribute Order="" Name="cylindercapacity" Type="INTEGER" Label="Slagvolum"></Attribute>
+	<Attribute Order="" Name="feature" Type="STRING" Label="Nøkkelinformasjon"></Attribute>
+	<Attribute Order="" Name="fueltype" Type="STRING" Label="Drivstoff"></Attribute>
+	<Attribute Order="" Name="geartype" Type="STRING" Label="Girtype"></Attribute>
+	<Attribute Order="" Name="guarantee" Type="STRING" Label="Garanti"></Attribute>
+	<Attribute Order="" Name="interiorcolor" Type="STRING" Label="Interiørfarge"></Attribute>
+	<Attribute Order="" Name="make" Type="STRING" Label="Merke"></Attribute>
+	<Attribute Order="" Name="mileage" Type="INTEGER" Label="Kilometerstand"></Attribute>
+	<Attribute Order="" Name="model" Type="STRING" Label="Modell"></Attribute>
+	<Attribute Order="" Name="modelyear" Type="INTEGER" Label="Årsmodell"></Attribute>
+	<Attribute Order="" Name="operationhours" Type="INTEGER" Label="Driftstimer"></Attribute>
+	<Attribute Order="" Name="registrationnumber" Type="STRING" Label="Registreringsnr."></Attribute>
+	<Attribute Order="" Name="reregistrationfee" Type="PRICE_NOK" Label="Omreg. avgift"></Attribute>
+	<Attribute Order="" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv"></Attribute>
+	<Attribute Order="" Name="firstregistration" Type="STRING" Label="1. gang registrert"></Attribute>
+  	<Attribute Order="" Name="variant" Type="STRING" Label="Variant"></Attribute>
+  	<Attribute Order="" Name="vehicletype" Type="STRING" Label="Kjøretøy"></Attribute>
+  	<Attribute Order="" Name="wheeldrive" Type="STRING" Label="Drivhjul"></Attribute>
+  	<Attribute Order="" Name="frontwheels" Type="STRING" Label="Dekk foran"></Attribute>
+	<Attribute Order="" Name="rearwheels" Type="STRING" Label="Dekk bak"></Attribute>
+	<Attribute Order="" Name="yearlyfee" Type="PRICE_NOK" Label="Årsavgift"></Attribute>
+  	<Attribute Order="" Name="yearlyfeepaid" Type="STRING" Label="Årsavgift inklusiv"></Attribute>
+  	<Attribute Order="" Name="height" Type="INTEGER" Label="Høyde (cm)"></Attribute>
+  	<Attribute Order="" Name="chassis" Type="STRING" Label="Ramme"></Attribute>
+  	<Attribute Order="" Name="berth" Type="INTEGER" Label="Soveplasser"></Attribute>
+  	<Attribute Order="" Name="owners" Type="INTEGER" Label="Antall eiere"></Attribute>
+  	<Attribute Order="" Name="stowage" Type="INTEGER" Label="Lasterom"></Attribute>
+  	<Attribute Order="" Name="load" Type="INTEGER" Label="Nyttelast"></Attribute>
+  	<Attribute Order="" Name="cargotype" Type="STRING" Label="Skaptype"></Attribute>
+  	<Attribute Order="" Name="euapprovedto" Type="STRING" Label="Eu godkjent til"></Attribute>
+  	<Attribute Order="" Name="broomurl" Type="STRING" Label="broom.no"></Attribute>
+  	<Attribute Order="" Name="broomplus" Type="STRING" Label="Pluss"></Attribute>
+  	<Attribute Order="" Name="broomminus" Type="STRING" Label="Minus"></Attribute>
+  	<Attribute Order="" Name="broombestbuy" Type="STRING" Label="Beste kjøp"></Attribute>
+  	<!-- Property/Eiendom attributes -->
+  	<Attribute Order="" Name="apartmentnumber" Type="INTEGER" Label="Leilighetsnr"></Attribute>
+  	<Attribute Order="" Name="area" Type="AREA_SIZE" Label="Areal/Bruttoareal"></Attribute>
+  	<Attribute Order="" Name="availablefrom" Type="STRING" Label="Ledig fra"></Attribute>
+  	<Attribute Order="" Name="basearea" Type="AREA_SIZE" Label="Grunnflate"></Attribute>
+  	<Attribute Order="" Name="bathrooms" Type="INTEGER" Label="Antall baderom"></Attribute>
+  	<Attribute Order="" Name="bedrooms" Type="INTEGER" Label="Antall soverom"></Attribute>
+  	<Attribute Order="" Name="beds" Type="INTEGER" Label="Antall sengeplasser"></Attribute>
+  	<Attribute Order="" Name="buildyear" Type="INTEGER" Label="Byggeår"></Attribute>
+  	<Attribute Order="" Name="cadastralnumber" Type="INTEGER" Label="Gårdsnr"></Attribute>
+  	<Attribute Order="" Name="deposit" Type="PRICE_NOK" Label="Depositum"></Attribute>
+  	<Attribute Order="" Name="extratoilets" Type="INTEGER" Label="Antall ekstra toaletter"></Attribute>
+  	<Attribute Order="" Name="settles" Type="INTEGER" Label="Antall beboere"></Attribute>
+  	<Attribute Order="" Name="floor" Type="INTEGER" Label="Etasje"></Attribute>
+  	<Attribute Order="" Name="floors" Type="INTEGER" Label="Antall plan/Etasjer"></Attribute>
+  	<Attribute Order="" Name="furniturestatus" Type="STRING" Label="Møblering"></Attribute>
+  	<Attribute Order="" Name="grossarea" Type="AREA_SIZE" Label="Bruttoareal BTA"></Attribute>
+  	<Attribute Order="" Name="holdingnumber" Type="INTEGER" Label="Bruksnr."></Attribute>
+  	<Attribute Order="" Name="housebankfinancing" Type="STRING" Label="Husbankfinansiering tilgjengelig"></Attribute>
+  	<Attribute Order="" Name="housenumber" Type="INTEGER" Label="Husnr."></Attribute>
+  	<Attribute Order="" Name="husbankfinancing" Type="STRING" Label="Husbankfinansiering"></Attribute>
+  	<Attribute Order="" Name="charges" Type="STRING" Label="Omkostninger"></Attribute>
+  	<Attribute Order="" Name="leasefee" Type="PRICE_NOK" Label="Festeavgift"></Attribute>
+  	<Attribute Order="" Name="leasenumber" Type="INTEGER" Label="Festenr."></Attribute>
+  	<Attribute Order="" Name="lifespanstandard" Type="STRING" Label="Livsløpsstandard"></Attribute>
+  	<Attribute Order="" Name="livingarea" Type="AREA_SIZE" Label="Boligareal BOA"></Attribute>
+  	<Attribute Order="" Name="livingrooms" Type="INTEGER" Label="Antall oppholdsrom"></Attribute>
+  	<Attribute Order="" Name="loanestimate" Type="PRICE_NOK" Label="Lånetakst"></Attribute>
+  	<Attribute Order="" Name="lotarea" Type="AREA_SIZE" Label="Tomteareal"></Attribute>
+  	<Attribute Order="" Name="lotownership" Type="STRING" Label="Tomt eierform"></Attribute>
+  	<Attribute Order="" Name="minimumleasearea" Type="AREA_SIZE" Label="Minste utleieareal"></Attribute>
+  	<Attribute Order="" Name="modernizedyear" Type="INTEGER" Label="Moderniseringsår"></Attribute>
+  	<Attribute Order="" Name="monthlyrent" Type="PRICE_NOK" Label="Månedsleie"></Attribute>
+  	<Attribute Order="" Name="dailyrent" Type="PRICE_NOK" Label="Dagsleie"></Attribute>
+  	<Attribute Order="" Name="municipalexpences" Type="PRICE_NOK" Label="Kommunale avgifter"></Attribute>
+  	<Attribute Order="" Name="municipalnumber" Type="INTEGER" Label="Kommunenr"></Attribute>
+  	<Attribute Order="" Name="officespaces" Type="INTEGER" Label="Antall kontorplasser"></Attribute>
+  	<Attribute Order="" Name="orderlink" Type="URL" Label="Gå til bestilling"></Attribute>
+  	<Attribute Order="" Name="ownership" Type="STRING" Label="Eieform"></Attribute>
+  	<Attribute Order="" Name="parkingspaces" Type="INTEGER" Label="Parkeringplasser"></Attribute>
+  	<Attribute Order="" Name="preemptiverightdeadline" Type="STRING" Label="Frist forkjøpsrett"></Attribute>
+  	<Attribute Order="" Name="propertycount" Type="INTEGER" Label="Antall enheter"></Attribute>
+  	<Attribute Order="" Name="propertytype" Type="STRING" Label="Eiendomstype"></Attribute>
+  	<Attribute Order="" Name="renovatedyear" Type="INTEGER" Label="Renovert år"></Attribute>
+  	<Attribute Order="" Name="rooms" Type="INTEGER" Label="Antall rom"></Attribute>
+  	<Attribute Order="" Name="saledocumenturl" Type="URL" Label="Salgsoppgave"></Attribute>
+  	<Attribute Order="" Name="sectionnumber" Type="INTEGER" Label="Seksjonsnr"></Attribute>
+  	<Attribute Order="" Name="shareddebt" Type="PRICE_NOK" Label="Fellesgjeld"></Attribute>
+  	<Attribute Order="" Name="shareddebtcondition" Type="STRING" Label="Lånevilkår for fellesgjeld"></Attribute>
+  	<Attribute Order="" Name="sharedexpences" Type="PRICE_NOK" Label="Fellesutg."></Attribute>
+  	<Attribute Order="" Name="sharedexpencesdesc" Type="STRING" Label="Fellesutg. inkl."></Attribute>
+  	<Attribute Order="" Name="sharedfortune" Type="PRICE_NOK" Label="Fellesformue"></Attribute>
+  	<Attribute Order="" Name="taxvalue" Type="PRICE_NOK" Label="Ligningstakst"></Attribute>
+  	<Attribute Order="" Name="technicalvalue" Type="PRICE_NOK" Label="Teknisk verdi"></Attribute>
+  	<Attribute Order="" Name="toilets" Type="INTEGER" Label="Antall toaletter"></Attribute>
+  	<Attribute Order="" Name="valueestimate" Type="PRICE_NOK" Label="Verditakst"></Attribute>
+  	<Attribute Order="" Name="valueestimateurl" Type="URL" Label="Takst"></Attribute>
+  	<!-- Used when there is a random text for displaying viewing date -->
+  	<Attribute Order="" Name="viewing" Type="STRING" Label="Visning"></Attribute>
+  	<!--  Used when there is a defined viewing date -->
+  	<Attribute Order="" Name="viewingtime" Type="STRING" Label="Visning"></Attribute>
+  	<Attribute Order="" Name="wanteddate" Type="STRING" Label="Ønskes fra"></Attribute>
+  	<Attribute Order="" Name="weeklyrent" Type="PRICE_NOK" Label="Ukesleie"></Attribute>
+  	<Attribute Order="" Name="primaryroomarea" Type="AREA_SIZE" Label="Primær rom areal"></Attribute>
+  	<Attribute Order="" Name="primaryroomcontains" Type="STRING" Label="Primær rom beskrivelse"></Attribute>
+  	<Attribute Order="" Name="availablearea" Type="AREA_SIZE" Label="Bruksareal"></Attribute>
+  	<Attribute Order="" Name="yearlyrent" Type="PRICE_NOK" Label="Årsleie"></Attribute>
+  	<Attribute Order="" Name="location" Type="STRING" Label="Beliggenhet"></Attribute>
+  	<Attribute Order="" Name="areadescription" Type="STRING" Label="Areal beskrivelse"></Attribute>
+  	<Attribute Order="" Name="interiorchangeurl" Type="URL" Label="Møbleringsverktøy"></Attribute>
+  	<Attribute Order="" Name="rentprofit" Type="STRING" Label="Leieinntekter"></Attribute>
+    <Attribute Order="" Name="energy" Type="STRING" Label="Energikarakter"></Attribute>
+    <Attribute Order="" Name="heating" Type="STRING" Label="Oppvarmingskarakter"></Attribute>
+<!-- Job/Stilling and Voluntary/Frivillig attributes -->
+	<Attribute Order="" Name="applicationdue" Type="STRING" Label="Søknadsfrist"></Attribute>
+	<Attribute Order="" Name="applicationemail" Type="STRING" Label="Søknad sendes via e-post"></Attribute>
+	<Attribute Order="" Name="applicationmail" Type="STRING" Label="Søknad sendes via post (adresse)"></Attribute>
+	<Attribute Order="" Name="applicationtag" Type="STRING" Label="Merkes"></Attribute>
+	<Attribute Order="" Name="applicationurl" Type="URL" Label="Søknadskjema"></Attribute>
+	<Attribute Order="" Name="education" Type="STRING" Label="Utdannelse"></Attribute>
+	<Attribute Order="" Name="employer" Type="STRING" Label="Arbeidsgiver"></Attribute>
+	<Attribute Order="" Name="employerdescription" Type="STRING" Label="Firmabeskrivelse, Om firma"></Attribute>
+	<Attribute Order="" Name="employerhomepage" Type="URL" Label="Arbeidsgivers hjemmeside"></Attribute>
+	<Attribute Order="" Name="engagementtype" Type="STRING" Label="Arbeidsforhold"></Attribute>
+	<Attribute Order="" Name="positioncount" Type="INTEGER" Label="Antall stillinger"></Attribute>
+	<Attribute Order="" Name="positiontitle" Type="STRING" Label="Stillingstittel"></Attribute>
+	<Attribute Order="" Name="salary" Type="STRING" Label="Årslønn"></Attribute>
+	<Attribute Order="" Name="starttime" Type="STRING" Label="Tiltredelse"></Attribute>
+	<Attribute Order="" Name="workeara" Type="STRING" Label="Arbeidsområde"></Attribute>
+	<Attribute Order="" Name="workhours" Type="STRING" Label="Arbeidstid"></Attribute>
+	<Attribute Order="" Name="worklocation" Type="STRING" Label="Arbeidssted"></Attribute>
+	<Attribute Order="" Name="workrole" Type="STRING" Label="Stillingsfunksjon"></Attribute>
+	<Attribute Order="" Name="worksector" Type="STRING" Label="Sektor"></Attribute>
+	<Attribute Order="" Name="group" Type="STRING" Label="Aldersgruppe"></Attribute>
+<!-- Classified/Småttogstort attributes -->
+<!-- Classified doesnt have any definitions on its own yet -->
+<!-- Boat/Båt attributes -->
+	<Attribute Order="" Name="length" Type="LENGTH_FEET" Label="Antall fot"></Attribute>
+	<Attribute Order="" Name="length_feet" Type="INTEGER" Label="Antall fot"></Attribute>
+	<Attribute Order="" Name="topspeed" Type="STRING" Label="Maks fart"></Attribute>
+	<Attribute Order="" Name="material" Type="STRING" Label="Materiale"></Attribute>
+	<Attribute Order="" Name="enginemake" Type="STRING" Label="Motormerke"></Attribute>
+	<Attribute Order="" Name="enginetype" Type="STRING" Label="Motortype"></Attribute>
+<!-- Common attributes, can be used on 2 or more categories -->
+	<Attribute Order="" Name="color" Type="STRING" Label="Farge"></Attribute>
+	<Attribute Order="" Name="enginehp" Type="INTEGER" Label="Motorstyrke (HK)"></Attribute>
+	<Attribute Order="" Name="type" Type="STRING" Label="Type"></Attribute>
+	<Attribute Order="" Name="price" Type="PRICE_NOK" Label="Pris"></Attribute>
+	<Attribute Order="" Name="pricecomment" Type="STRING" Label="Pris merknad"></Attribute>
+	<Attribute Order="" Name="saletype" Type="STRING" Label="Selgertype"></Attribute>
+	<Attribute Order="" Name="text" Type="PREFORMATTED_STRING" Label="Beskrivelse"></Attribute>
+	<Attribute Order="" Name="length_cm" Type="INTEGER" Label="Lengde (cm)"></Attribute>
+	<Attribute Order="" Name="condition" Type="STRING" Label="Tilstand"></Attribute>
+	<Attribute Order="" Name="conditionreport" Type="STRING" Label="Tilstandsrapport"></Attribute>
+	<Attribute Order="" Name="conditionreporturl" Type="URL" Label="URL til Tilstandsrapport"></Attribute>
+	<Attribute Order="" Name="weight" Type="INTEGER" Label="Vekt"></Attribute>
+	<Attribute Order="" Name="ownweight" Type="INTEGER" Label="Egenvekt"></Attribute>
+	<Attribute Order="" Name="seats" Type="INTEGER" Label="Antall seter"></Attribute>
+	<Attribute Order="" Name="width" Type="INTEGER" Label="Bredde"></Attribute>
+	<Attribute Order="" Name="width_cm" Type="INTEGER" Label="Bredde (cm)"></Attribute>
+	<Attribute Order="" Name="videourl" Type="URL" Label="Videovisning"></Attribute>
+    <Attribute Order="" Name="whitelabel" Type="STRING" Label="Tilhører"></Attribute>
+<!-- Strange name for this, but it has been chosen long time ago. Changing this name means changing alot of codes -->
+	<Attribute Order="" Name="ext_ref" Type="URL" Label="Kjøp produktet her"></Attribute>
+	<Attribute Order="" Name="itemnumber" Type="STRING" Label="Varenr"></Attribute>
+	<!-- Own financing url for the company -->
+	<Attribute Order="" Name="ownfinancing" Type="URL" Label="Finansiering"></Attribute>
+</Attributes>
++-------------------

@@ -1,0 +1,12 @@
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'ztibe', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'zaocrete', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'zkelly', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'zhrmanager', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'ztinde', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'zkond', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'zglobesoft', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'triolink', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'znotar', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'ftp1168098', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'zxtest', 2, 'password');
+INSERT INTO partnerlogin ( customerformat, login, protocol, loginpassword) VALUES ( 'zettxml', 'ftp595557', 2, 'password');

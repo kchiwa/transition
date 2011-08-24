@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- attribute list -->
+    <xs:attribute name="timestamp" type="xs:string"/>
+    <xs:attribute name="source" type="xs:string"/>
+    <xs:attribute name="job" type="xs:string"/>
+    <xs:attribute name="user_login" type="xs:string"/>
+    <xs:attribute name="id_source" type="xs:string"/>
+    <xs:attribute name="ad_id" type="xs:string"/>
+    <xs:attribute name="created" type="xs:string"/>
+    <xs:attribute name="modified" type="xs:string"/>
+    <xs:attribute name="deleted" type="xs:string"/>
+    <xs:attribute name="login" type="xs:string"/>
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="code" type="xs:string"/>
+    <xs:attribute name="id" type="xs:string"/>
+    <xs:attribute name="email" type="xs:string"/>
+    <xs:attribute name="street" type="xs:string"/>
+    <xs:attribute name="postal_code" type="xs:string"/>
+    <xs:attribute name="postal_address" type="xs:string"/>
+    <xs:attribute name="country" type="xs:string"/>
+    <xs:attribute name="number" type="xs:string"/>
+    <xs:attribute name="start" type="xs:string"/>
+    <xs:attribute name="end" type="xs:string"/>
+    <xs:attribute name="format" type="xs:string"/>
+    <xs:attribute name="heading" type="xs:string"/>
+    <xs:attribute name="fieldname" type="xs:string"/>
+    <xs:attribute name="fieldcode" type="xs:string"/>
+    <xs:attribute name="value" type="xs:string"/>
+    <xs:attribute name="mimetype" type="xs:string"/>
+    <xs:attribute name="filename" type="xs:string"/>
+
+    <xs:element name="ad_export">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ad" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute ref="timestamp"/>
+            <xs:attribute ref="source"/>
+            <xs:attribute ref="job"/>
+            <xs:attribute ref="user_login"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ad">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="creator"/>
+                <xs:element ref="paper_product"/>
+                <xs:element ref="customer"/>
+                <xs:element ref="object"/>
+            </xs:sequence>
+            <xs:attribute ref="id_source"/>
+            <xs:attribute ref="ad_id"/>
+            <xs:attribute ref="created"/>
+            <xs:attribute ref="modified"/>
+            <xs:attribute ref="deleted"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="creator">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="login"/>
+                    <xs:attribute ref="name"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="paper_product">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="code"/>
+                    <xs:attribute ref="name"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="customer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="address_strict"/>
+                <xs:element ref="telephone"/>
+            </xs:sequence>
+            <xs:attribute ref="id"/>
+            <xs:attribute ref="name"/>
+            <xs:attribute ref="email"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="address_strict">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="street"/>
+                    <xs:attribute ref="postal_code"/>
+                    <xs:attribute ref="postal_address"/>
+                    <xs:attribute ref="country"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="telephone">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="number"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="object">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="type"/>
+                <xs:element ref="publish"/>
+                <xs:element ref="title"/>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element ref="text" maxOccurs="unbounded"/>
+                    <xs:element ref="contacts"/>
+                    <xs:element ref="metadata" maxOccurs="unbounded"/>
+                    <xs:element ref="media_object" maxOccurs="unbounded" minOccurs="0"/>
+                </xs:choice>
+            </xs:sequence>
+            <xs:attribute ref="id"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="type">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="code"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="publish">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="start"/>
+                    <xs:attribute ref="end"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="title">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="format"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="text">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="heading"/>
+                    <xs:attribute ref="format"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="metadata">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="fieldname"/>
+                    <xs:attribute ref="fieldcode"/>
+                    <xs:attribute ref="value"/>
+                    <xs:attribute ref="code"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="media_object">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="mimetype"/>
+                    <xs:attribute ref="filename"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="contacts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="contact" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="contact">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="field" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="field">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="fieldname"/>
+                    <xs:attribute ref="fieldcode"/>
+                    <xs:attribute ref="value"/>
+                    <xs:attribute ref="code"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

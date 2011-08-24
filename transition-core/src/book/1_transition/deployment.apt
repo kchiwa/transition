@@ -1,0 +1,137 @@
+                    ------
+                    Deploy Transition
+                    ------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Obtain transition.zip
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ The transition.zip is locate in /transition-app folder. Copy the file to prefer location. Eg. /target/transition.
+ And then unzip it.
+
++----------
+cd ~/workspace/git/code/transition/transition-app/target
+mkdir transition
+cp transition.zip transition
+cd transition
+unzip transition.zip
++----------
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. Run after installation script
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ After you have unzipped the file. You will see a folder "bin". Inside the folder there are scripts. The first script
+  we need to run is afterInstallation.sh
+
++---------------
+cd bin
+chmod 755 *
+./afterInstallation.sh
++---------------
+
+ After you have run the script. Look on the screen you will see "You start the application by writing (in the bin directory)"
+  You need to run the all commands after this line. For example...
+
++---------------
+export JETTY_HOME=/home/pongvech/workspace/git/code/transition/transition-app/target/transition/bin/..
+export TMP=$JETTY_HOME/tmp
+export JETTY_RUN=$TMP
+export JETTY_LOG=$JETTY_HOME/log
+echo mkdir -p $TMP $JETTY_LOG
+export JAVA_OPTIONS="-Djava.awt.headless=true -Xmx256m -Xms128m -XX:PermSize=128m -XX:MaxPermSize=256m -XX:NewSize=64m -XX:MaxNewSize=128m"
++---------------
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+3. Make sure the configuration file is correct
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Before you start the application you need to make sure the settings is correct. After you unzipped the file you will
+ see a folder "etc". Inside the folder there is a configuration file call "jetty.xml" Look inside the file make sure all
+ the databases service and address are setup correctly and also the jetty port number.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4. Run the Transition!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Inside "bin" folder you will se a script "jetty.sh". To run the application you can run "./jetty.sh run". The log file
+ will be written to "/var/log/app/transition/transition.log" (Make sure you have this folder created and also check the permission"
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5. (Optional) Configuring Transition with multiple instances
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ It's possible to run Transition with multiple instances. For example, we might wanted to seperate database and
+ application. Below are the configuration you need to set...
+ Firstly, you need to config which database server and activemq server to use in /etc/jetty.xml file
+
+ In below configuration getting from jetty.xml. You could change "transitionmq" "transitionstate" "zett" databases to
+ be in different instances. By change the <<"localhost">> to the address of that instance.
+
++------------------------
+<New id="transitionDs" class="org.mortbay.jetty.plus.naming.Resource">
+                <Arg>jdbc/DSTransitionMQ</Arg>
+                <Arg>
+                        <New class="com.mchange.v2.c3p0.ComboPooledDataSource">
+                                <Set name="DriverClass">com.mysql.jdbc.Driver</Set>
+                                <Set name="jdbcUrl">jdbc:mysql://localhost/transitionmq?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</Set>
+                                <Set name="User">transitionmq</Set>
+                                <Set name="Password">password</Set>
+                                <Set name="maxIdleTime">3600</Set>
+                        </New>
+                </Arg>
+        </New>
+        <New id="importStateDs" class="org.mortbay.jetty.plus.naming.Resource">
+                <Arg>jdbc/DSTransitionState</Arg>
+                <Arg>
+                        <New class="com.mchange.v2.c3p0.ComboPooledDataSource">
+                                <Set name="DriverClass">com.mysql.jdbc.Driver</Set>
+                                <Set name="jdbcUrl">jdbc:mysql://localhost/transitionstate?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true</Set>
+                                <Set name="User">transitionstate</Set>
+                                <Set name="Password">password</Set>
+                                <Set name="maxIdleTime">3600</Set>
+                        </New>
+                </Arg>
+        </New>
+        <New id="zettDs" class="org.mortbay.jetty.plus.naming.Resource">
+                <Arg>jdbc/DSZett</Arg>
+                <Arg>
+                        <New class="com.mchange.v2.c3p0.ComboPooledDataSource">
+                                <Set name="DriverClass">org.postgresql.Driver</Set>
+                                <Set name="jdbcUrl">jdbc:postgresql://localhost:5432/zett</Set>
+                                <Set name="User">zett</Set>
+                                <Set name="Password">password</Set>
+                                <Set name="maxIdleTime">3600</Set>
+                        </New>
+                </Arg>
+        </New>
+        <New class="org.mortbay.jetty.plus.naming.EnvEntry">
+                        <Arg></Arg>
+                        <Arg>zettMemcachedHost</Arg>
+                        <Arg type="java.lang.String">localhost:11211</Arg> <!-- In bkk we use nana for zettmemcached aswell, since we have a different database -->
+                        <Arg type="boolean">true</Arg>
+        </New>
++------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.1 Configuring database server to accept outside connection
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ For the machine that used to be a database server. You need to change the "bind-address" setting in "/etc/mysql/my.cnf" to "0.0.0.0"
+
++------------------------
+bind-address = 0.0.0.0
++------------------------
+
+ And then restart the mysql
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5.2 Configuring activemq
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ We need one activemq broker. We need to config "transition-camel-activemq.xml". And then rebuild the Transition.
+
+

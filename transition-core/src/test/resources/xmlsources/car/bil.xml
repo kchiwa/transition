@@ -1,0 +1,83 @@
+ <Rec>
+<Bil unikid="1_1007" kontroll="3" kommando="update">
+<Kjoretoygruppe>1</Kjoretoygruppe>
+<Merke>Volvo</Merke>
+<Modell>V50</Modell>
+<Karosserifasong>4</Karosserifasong>
+<Pris>169000</Pris>
+<Arsmodell>2005</Arsmodell>
+<Kmstand>93000</Kmstand>
+<Motorstorrelse>1.6</Motorstorrelse>
+<Variant>1,6 D Kinetic</Variant>
+<ChassisNr>158555</ChassisNr>
+<Solgt>0</Solgt>
+<Farge>S&#248;lv met.</Farge>
+<Effekt>109</Effekt>
+<Bilder>
+<Bilde bilde="1_1007L.JPG" prioritet="0" md5="170B547F84FA62A3C72AFF2571255A48" desc="Hovedbilde"/>
+<Bilde bilde="1_1007L_1.JPG" prioritet="1" md5="8BE5BC47222B13425696486525A749D2" desc="Bilde 1"/>
+<Bilde bilde="1_1007L_2.JPG" prioritet="2" md5="4D62D5A15C51C89883D0C0C0099D92A8" desc="Bilde 2"/>
+<Bilde bilde="1_1007L_3.JPG" prioritet="3" md5="CD481E76F733A5D887B1E64C21A14F11" desc="Bilde 3"/>
+<Bilde bilde="1_1007L_4.JPG" prioritet="4" md5="0104E535B34D697B70DB7082EB504867" desc="Bilde 4"/>
+<Bilde bilde="1_1007L_5.JPG" prioritet="5" md5="C944699ED504BA172495E22E075C1383" desc="Bilde 5"/>
+<Bilde bilde="1_1007L_6.JPG" prioritet="6" md5="4EA1F5AFE77FD631A8F38DC5725B8C03" desc="Bilde 6"/>
+<Bilde bilde="1_1007L_7.JPG" prioritet="7" md5="070EAEB35BF42707E6ED9DF80CF40E15" desc="Bilde 7"/>
+<Bilde bilde="1_1007L_8.JPG" prioritet="8" md5="821C2D7A42A210120810093825219516" desc="Bilde 8"/>
+<Bilde bilde="1_1007L_9.JPG" prioritet="9" md5="51D5C11C5AC60BC726090F3E5ECE82B7" desc="Bilde 9"/>
+<Bilde bilde="1_1007L_10.JPG" prioritet="10" md5="510F50BF90990D8F8B669D3B8592B8BE" desc="Bilde 10"/>
+</Bilder>
+<InklOmreg>1</InklOmreg>
+<InklArsavg>1</InklArsavg>
+<Ekstrautstyr>;ABS-bremser,ABS-bremser;Airbag foran,Airbag foran;Antiskrens,Antiskrens;Antiskrens,DSTC;Antispinn,Antispinn;El. justerbare speil,El. justerbare speil;El.vinduer,El.vinduer;Farget glass,Farget glass;Justerbart baksete,Justerbart baksete;Kj&#248;recomputer,Kj&#248;recomputer;Klima-automatikk,Klima-automatikk;Lettmet. felg sommer,Lettmet. felg sommer;Lettmet. felg vinter,Lettmet. felg vinter;Metallic lakk,Metallic lakk;Midtarmlene,Midtarmlene;Cruisekontroll,Cruisekontroll;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sideairbager,Sideairbager;Startsperre,Startsperre;Stabilitetsprogram,Stabilitetsprogram;Takrails,Takrails;Tiltratt,Tiltratt;Vinterhjul u/pigg,Vinterhjul u/pigg</Ekstrautstyr>
+<Reservert>0</Reservert>
+<KommerInn/>
+<SomForevist>0</SomForevist>
+<Drivstoff>D</Drivstoff>
+<Lastevolum/>
+<AntEiere/>
+<AntSeter>5</AntSeter>
+<Kommentar>Pen og velholdt bil.
+3 mnd bruktbilgaranti
+Bilen leveres verkstedkontrollert og fri for feil og mangler.
+Innbyttte/finans fra kr. 0,-
+Velkommen til Bilforum Follo i Ski. Snart 30 &#229;r i Follo som merkeforhandler. Det tas forbehold om trykkfeil i anonsen.</Kommentar>
+<Vekt>1333</Vekt>
+<Garanti>Bruktbilgaranti</Garanti>
+<RegNr>KZ53534</RegNr>
+<Demobil>0</Demobil>
+<Kommisjonsbil>0</Kommisjonsbil>
+<Basisfarge>14</Basisfarge>
+<Drivhjul>Forhjulsdrift</Drivhjul>
+<Girtype>Manuell</Girtype>
+<Slepevekt>1300</Slepevekt>
+<FargeInnvendig>Gr&#229;tt</FargeInnvendig>
+<OmregAvgift/>
+<Kontaktpersoner>
+<Kontaktperson>1_1</Kontaktperson>
+</Kontaktpersoner>
+</Bil>
+
+<Kontaktpunktliste>
+
+<Kontaktpunkt id="1_1">
+<Navn>Martin Harila</Navn>
+<Telefon>78955902</Telefon>
+<Mobil>95705399</Mobil>
+<Email>martin.harila@moller.no</Email>
+<Beskrivelse>Martin Harila</Beskrivelse>
+<Javascript></Javascript>
+</Kontaktpunkt>
+
+ <Kontaktpunkt id="1_2">
+<Navn>Hans Kristiansen</Navn>
+<Telefon/>
+<Mobil/>
+<Email></Email>
+<Beskrivelse>Hans Kristiansen</Beskrivelse>
+<Javascript></Javascript>
+</Kontaktpunkt>
+    
+</Kontaktpunktliste>
+     
+</Rec>
+        

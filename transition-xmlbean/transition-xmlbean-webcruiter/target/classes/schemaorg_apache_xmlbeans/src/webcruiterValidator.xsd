@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:wc="http://webcruiter.no/xml/">
+    <xs:import namespace="http://webcruiter.no/xml/" schemaLocation="wc.xsd"/>
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="webcruiterValidator.xsd"/>
+
+    <!-- definition of element -->
+    <xs:element name="Client" type="xs:string"/>
+    <xs:element name="AdType" type="xs:string"/>
+    <xs:element name="Type" type="xs:string"/>
+    <xs:element name="Street" type="xs:string"/>
+    <xs:element name="PostCode" type="xs:string"/>
+    <xs:element name="City" type="xs:string"/>
+    <xs:element name="Name" type="xs:string"/>
+    <xs:element name="Phone" type="xs:string"/>
+    <xs:element name="Mobile" type="xs:string"/>
+    <xs:element name="Fax" type="xs:string"/>
+    <xs:element name="ClientsRef" type="xs:string"/>
+    <!--<xs:element name="RefNr" type="xs:string"/>-->
+    <xs:element name="Title" type="xs:string"/>
+    <xs:element name="Date"  type="xs:string"/>
+    <xs:element name="DisplayRef" type="xs:string"/>
+    <xs:element name="Email" type="xs:string"/>
+    <xs:element name="SendToAddress" type="xs:string"/>
+
+
+    <!-- definition of attribute -->
+    <xs:attribute name="Title" type="xs:string"/>
+    <xs:attribute name="Name" type="xs:string"/>
+    <xs:attribute name="Code" type="xs:string"/>
+    <xs:attribute name="Format" type="xs:string"/>
+    <xs:attribute name="Type" type="xs:string"/>
+    <xs:attribute name="FromDate" type="xs:string"/>
+    <xs:attribute name="ToDate" type="xs:string"/>
+    <xs:attribute name="Street" type="xs:string"/>
+    <xs:attribute name="PostCode" type="xs:string"/>
+    <xs:attribute name="City" type="xs:string"/>
+
+
+    <!-- definition of complex element -->
+    <xs:element name="Address">
+        <xs:complexType>
+                <xs:attribute ref="Street"/>
+                <xs:attribute ref="PostCode"/>
+                <xs:attribute ref="City"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Contact">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Name"/>
+                <xs:element ref="Email" minOccurs="0"/>
+                <xs:element ref="Phone" minOccurs="0"/>
+                <xs:element ref="Mobile" minOccurs="0"/>
+                <xs:element ref="Fax" minOccurs="0"/>
+                <xs:element ref="Address" minOccurs="0"/>
+                <xs:element ref="Title" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Contacts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Contact" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Status">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Code"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Publish">
+        <xs:complexType>
+            <xs:attribute ref="FromDate"/>
+            <xs:attribute ref="ToDate"/>
+        </xs:complexType>
+
+    </xs:element>
+
+    <xs:element name="Position">
+        <xs:complexType mixed="true">
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Title"/>
+                    <xs:attribute ref="Format"/>
+                </xs:extension>
+            </xs:simpleContent>
+
+
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Company">
+        <xs:complexType mixed="true">
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                      <xs:attribute ref="Name"/>
+                </xs:extension>
+            </xs:simpleContent>
+
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EngagementType">
+        <xs:complexType>
+            <xs:attribute ref="Name"/>
+        </xs:complexType>
+
+    </xs:element>
+
+    <xs:element name="Hours">
+        <xs:complexType>
+            <xs:attribute ref="Name"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Role">
+        <xs:complexType>
+            <xs:attribute ref="Name"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Sector">
+        <xs:complexType>
+            <xs:attribute ref="Name"/>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
+
+
+
+    <xs:element name="Application">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Date"/>
+                <xs:element ref="Email" minOccurs="0"/>
+                <xs:element ref="SendToAddress" minOccurs="0"/>
+                <xs:element ref="Link" minOccurs="0"/>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Link">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Type"/>
+                    <xs:attribute ref="Title"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Links">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Link"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Logo">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Type"/>
+                    <xs:attribute ref="Title"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Media">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Logo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Job">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Client"/>
+                <xs:element ref="AdType"/>
+                <xs:element ref="Type"/>
+                <xs:element ref="Title"/>
+                <xs:element ref="Address"/>
+                <xs:element ref="Contacts" minOccurs="0"/>
+                <xs:element ref="ClientsRef"/>
+                <xs:element ref="wc:RefNr" minOccurs="0"/>
+                <xs:element ref="DisplayRef" minOccurs="0"/>
+                <xs:element ref="Status" minOccurs="0"/>
+                <xs:element ref="Publish" minOccurs="0"/>
+                <xs:element ref="Position"/>
+                <xs:element ref="Company"/>
+                <xs:element ref="EngagementType"/>
+                <xs:element ref="Hours"/>
+                <xs:element ref="Role"/>
+                <xs:element ref="Sector"/>
+                <xs:element ref="Application"/>
+                <xs:element ref="Links" minOccurs="0"/>
+                <xs:element ref="Media" minOccurs="0"/>
+            </xs:sequence>
+
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="TAS.Import">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Job" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="Version" type="xs:string"/>
+            <xs:attribute ref="xml:lang"/>
+        </xs:complexType>
+
+
+    </xs:element>
+
+
+</xs:schema>

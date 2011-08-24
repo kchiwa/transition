@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>21743</Client>
+<Contacts>
+<Contact>
+<Name>Robin Rodahl</Name>
+<Email>rr@eie.no</Email>
+<Phone>23 25 44 88</Phone>
+<Mobile>466 92 608</Mobile>
+<Address Street="Vækerøveien 26" PostCode="0282" City="OSLO" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE521078</ClientsRef>
+<Status Code="TRUKKET"/>
+<Publish FromDate="2010-10-23" ToDate="2011-01-02"/>
+<Deleted Date="2010-11-08" Time="15:35"/>
+<Type>leilighet</Type>
+<AdType>bolig_salg</AdType>
+<Title>3 (4) roms selveier på Ullern -</Title>
+<Address Street="Ullern alle 113" PostCode="0381" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="28" BNR="1031" SNR="100"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">4600000</Price>
+<Price Name="Lånetakst" Curr="NOK">4150000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">2832</Price>
+<Price Name="Verditakst" Curr="NOK">4900000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">767776</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">37776</Price>
+<Price Name="Formue" Curr="NOK">8902</Price>
+<Price Name="Omkostninger_for_kjoper">Dokumentavgift: 2,5% av kjøpesum. Tinglysing av skjøte: Kr. 1 548,-. Tinglysing av pantedokument: Kr. 1 935,-. Attestgebyr: Kr. 202,-. Eierskiftegebyr til OBOS: Kr. 4 300,-
+Totale omkostninger ved kjøp på prisantydning: Kr. 122 985,-</Price>
+<Price Name="Laanevilkaar_fellesgjeld">Sameiet har tre lån i OBOS. Alle lån har flytende rente og 12 terminer per år.
+
+1: Restsaldo 1.527.087,- restløpetid 6 år 3 mnd, rente 3,85%.
+2: Restsaldo 2.563.063,- restløpetid 6 år 3 mnd, rente 4,35%.
+3: Restasldo 2.293.323,- restløpetid 13 år 4 mnd, rente 4,35%.</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruttoareal">125</Area>
+<Area Name="Bruksareal">117</Area>
+<Area Name="Tomteareal">41297</Area>
+<Area Name="primaererom_areal">117</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1982</BuiltYear>
+<BedRooms>3</BedRooms>
+<Floor>2</Floor>
+<Viewings>
+<ViewingText>Kontakt megler på tlf. 46 69 26 08 for avtale om privat visning.</ViewingText>
+</Viewings>
+<TextFields>
+<Text Name="Innhold">Gang, 2 soverom, 2 bad/wc, kjøkken, spisestue og stue. Utgang fra stue til delvis overbygget terrasse på ca 15 kvm. Utgang fra spisestue til overbygget balkong på ca 10 kvm.</Text>
+<Text Name="Boder">Leiligheten har bod på terrassen, samt to boder i kjeller.</Text>
+<Text Name="Standard">&lt;b&gt;Lys og attraktiv 3 (4) roms selveierleilighet i 2. etasje med balkong og terrasse. Innholdsrik bolig med tidsriktig standard, gjennomgående gode lysforhold, peis i stuen og to nyere, lekre bad. Terrassen er sydvent og gir noe utsikt og gode solforhold, samt noe kveldssol på balkongen. Elegant og praktisk garderobeløsning i entré og soverom, downlights med justerbare dimmere i samtlige rom. Boligen er en del av Ullernparken boligsameie, et veletablert sameie i et meget rolig og populært boligområde innerst i blindvei på Åsjordet.&lt;/b&gt;</Text>
+<Text Name="Kjøkken">Originalt kjøkken fra byggetiden med enkelte oppgraderinger. Kjøkkenet er beliggende i eget rom, med doble dører mot nåværende spisestue. Kjøkkenet har godt med benk- og skapplass med umalte trefronter. Kjøkkenet er oppgradert med pen laminat benkeplate og fliser på veggen over benk. Kjøkkenet har en praktisk løsning med grovkjøkken noe adskilt fra kjøkkenets hoveddel. Her er det plass til hvitevarer som kjøleskap, fryser, vaskemaskin og tørketrommel.
+
+Spisestuen som kjøkkenet vender mot er lys og romslig og har utgang til balkongen. Rommet var opprinnelig to rom; et mindre spiserom samt et tredje soverom. Om ønskelig, kan denne løsningen enkelt og rimelig restaureres ved å sette opp en lettvegg og dør, og det vil fremdeles være plass til et mindre spisebord, evt. ha spisestue i stuen.</Text>
+<Text Name="Gulv">Parkett i alle innvendige oppholdsrom og kjøkken, fliser på gulv i begge bad, fliser på balkong og terrasse.</Text>
+<Text Name="Bad">&lt;b&gt;Bad/wc 1:&lt;/b&gt; Svært lekkert og romslig bad med fliser i delikate fargekombinasjoner av beige og lys brun, pusset opp av fagfolk i 2006. Downlights med dimmer omringer rommet og gir badet en elegant belysning. Badet har dusjhjørne med pene dører av pusset glass, stor og lekker servant og ellers elegant innredning med WC og bidét. Speil, lamper og håndkleholdere på vegger. Varmekabler i gulv.
+
+&lt;b&gt;Bad/wc 2:&lt;/b&gt; Strøkent bad med god arealutnyttelse pusset opp av fagdolk i 2009. Flott standard med vakre detaljer. Badet har dusjhjørne med glassdør, veggklosett, pen servant og skap med speilfront. Downlights med dimmere. Varmekabler i gulv.</Text>
+<Text Name="Vegger">Innvendige vegger av stenderverk og betong med overflater av lysmalt tapet i samtlige oppholdsrom. Fliser på begge bad.</Text>
+<Text Name="Himling">Innvendig himling av sparklet og malt betong.</Text>
+<Text Name="Diverse">Leiligheten har installert alarmsystem for brann og innbrudd.
+Dørtelefon med åpner.</Text>
+<Text Name="Bebyggelse">Terrasseblokk oppført ca. 1980. Garasjeanlegg i byggets underetasje med enkel adkomst direkte til leilighetsplan. Etasjeskillere i mur/betongkonstruksjon. Isolerglassvinduer. Se takst for ytterligere opplysninger.</Text>
+<Text Name="Tomt">Pent opparbeidet eiertomt, parkmessige fellesarealer med beplantning, lekearealer og asfalterte adkomstveier.</Text>
+<Text Name="Adkomst">Fra Vækerøveien kjører man inn Ullern allé, som er en blindvei. Leiligheten ligger i moderne bygg helt innerst; bilfritt, stille og rolig. Se kartskisse.
+
+Det vil bli skiltet med Eie visningsskilt under visning.</Text>
+<Text Name="Parkering">Det medfølger en parkeringsplass i felles garasjeanlegg. Inngangen har fjernstyrt portåpner, og det er enkel adkomst til leiligheten fra garasjeanlegget via trappegangen.
+
+Ellers god plass til gjesteparkering på utendørs biloppstillingsplass.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="parkett"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+<Option Name="kabel-tv"/>
+<Option Name="garasje"/>
+<Option Name="off. vann"/>
+<Option Name="alarm"/>
+<Option Name="utsikt"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="plantegning" LastModified="2010-10-21 15:01">file:EIE521078-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-10-21 15:01">file:EIE521078-17.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

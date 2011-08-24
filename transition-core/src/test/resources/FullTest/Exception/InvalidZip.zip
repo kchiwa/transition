@@ -1,0 +1,12 @@
+public class Singleton{
+	private volatile static Singleton uniqueInstance;
+	public static Singleton getInstance(){
+		if(uniqueInstnce == null){
+		synchronized(Sindgleton.class){
+				if(uniqueInstance == null){
+					uniqueInstance = new Singleton();
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,131 @@
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:amq="http://activemq.apache.org/schema/core"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:camel="http://camel.apache.org/schema/spring"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns:beans="http://xbean.apache.org/schemas/spring/1.0"
+        xmlns:cxf="http://camel.apache.org/schema/cxf"
+        xsi:schemaLocation=
+                "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd
+        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+
+	<import resource="classpath:META-INF/cxf/cxf.xml"/>
+	<import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
+	<!--  <import resource="classpath:META-INF/cxf/cxf-extension-http-jetty.xml"/> -->
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+
+    <amq:broker useJmx="false">    
+        <amq:destinationPolicy>
+            <amq:policyMap>
+                <amq:defaultEntry>
+                    <amq:policyEntry topic="*">
+                        <amq:dispatchPolicy>
+                            <amq:strictOrderDispatchPolicy/>
+                        </amq:dispatchPolicy>
+                        <amq:subscriptionRecoveryPolicy>
+                            <amq:lastImageSubscriptionRecoveryPolicy/>
+                        </amq:subscriptionRecoveryPolicy>
+                    </amq:policyEntry>
+                </amq:defaultEntry>
+            </amq:policyMap>
+        </amq:destinationPolicy>
+        <amq:destinations>
+            <!-- Put queues that doesn't have listeners but you still want to grab statistics for here -->
+            <amq:queue physicalName="export.dmq" />
+        </amq:destinations>
+        <amq:persistenceAdapter>
+            <amq:jdbcPersistenceAdapter dataDirectory="activemq-data" dataSource="#mysql-ds">
+        </amq:jdbcPersistenceAdapter>
+        </amq:persistenceAdapter>
+        <amq:plugins>
+            <amq:statisticsBrokerPlugin/>
+          </amq:plugins>
+                <amq:systemUsage>
+            <amq:systemUsage sendFailIfNoSpace="true">
+                <amq:memoryUsage>
+                    <amq:memoryUsage limit="128 mb"/>
+                </amq:memoryUsage>
+                <amq:storeUsage>
+                    <amq:storeUsage limit="100 gb"/>
+                </amq:storeUsage>
+                <amq:tempUsage>
+                    <amq:tempUsage limit="10 gb"/>
+                </amq:tempUsage>
+            </amq:systemUsage>
+        </amq:systemUsage>
+        <amq:transportConnectors>
+            <amq:transportConnector name="transition" uri="tcp://localhost:61616" enableStatusMonitor="true" />
+        </amq:transportConnectors>
+    </amq:broker>
+
+	<!-- using jndi
+    <bean id="mysql-ds" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/transition?relaxAutoCommit=true"/>
+        <property name="username" value="transition"/>
+        <property name="password" value="pingu123"/>
+        <property name="poolPreparedStatements" value="true"/>
+    </bean>
+ 	-->
+
+ 	<bean id="mysql-ds" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiName"
+			value="java:comp/env/jdbc/DSTransitionMQ">
+		</property>
+	</bean>
+
+    <!-- JMS ConnectionFactory to use, configuring the embedded broker using XML -->
+    <amq:connectionFactory id="jmsFactory" brokerURL="tcp://localhost:61616" />
+
+    <bean id="pooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory">
+		<property name="connectionFactory" ref="jmsFactory" />
+	</bean>
+
+     <bean id="jmsConfig" class="org.apache.camel.component.jms.JmsConfiguration">
+           <property name="connectionFactory" ref="pooledConnectionFactory"/>
+           <property name="transacted" value="false"/>
+           <property name="concurrentConsumers" value="10"/>
+       </bean>
+
+    <!-- lets configure the default ActiveMQ broker URL (localhost) -->
+   <bean id="activemq" class="org.apache.camel.component.jms.JmsComponent">
+       <property name="configuration" ref="jmsConfig"/>
+   </bean>
+
+<bean id="quartz" class="org.apache.camel.component.quartz.QuartzComponent">
+    <property name="startDelayedSeconds" value="10"/>
+</bean>
+
+    <!-- Spring JMS Template -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory">
+            <!-- lets wrap in a pool to avoid creating a connection per send -->
+            <bean class="org.springframework.jms.connection.SingleConnectionFactory">
+                <property name="targetConnectionFactory">
+                    <ref local="jmsFactory"/>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="jmsDao" class="com.abctech.transition.core.jms.JmsDao"/>
+    <bean id="jmsMessageManager" class="com.abctech.transition.core.jms.JmsMessageManager"/>
+	
+	<bean id="adPersistTransport" class="com.abctech.transition.webapp.camel.bean.AdPersistTransport" />
+
+     <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+        <package>com.abctech.transition.webapp.camel.routes</package>
+        <jmxAgent id="agent" disabled="true" createConnector="false"/>
+        <consumerTemplate id="consumerTemplate" />
+        <template id="producerTemplate"/>
+        <!-- define the default thread pool profile to be used in Camel -->
+        <threadPoolProfile id="myDefaultProfile"
+                           defaultProfile="true"
+                           poolSize="10" keepAliveTime="25" maxPoolSize="30" maxQueueSize="500" rejectedPolicy="Abort"/>
+     </camelContext>
+     
+</beans>

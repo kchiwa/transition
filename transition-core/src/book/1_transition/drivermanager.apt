@@ -1,0 +1,25 @@
+                -----
+                Transition Driver Manager
+                -----
+
+TransitionDriverManager
+
+
+ One ideal use of TransitionDriverManager (factory pattern) is in the concept of drivers.
+ Take, for instance, the Transition that has a several type of XmlBean, Transformation
+ and MediaHandling that depend on customer format.  If you encapsulate each driver
+ into its own interchangeable class, your factory can produce one driver
+ instance on the fly, and the rest of your code can use that
+ TransitionDriverManager class, not caring which customer format it
+ is using to or what the differences are between the customer format.
+
+[images/TransitionDriver.png]
+
+   As the Class Diagram Transition have 3 abstract class AXmlBeanDriver,AtransformationDriver
+   and AMediaHandlerDriver that have several implementation class
+   with it (equal to number of customer format).
+
+  The Transition would be create the concrete class(implementation class) on
+  the fly that depend on the customer format that using on that time.
+
+

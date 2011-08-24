@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>1800570 </Client>
+<Contacts>
+<Contact>
+<Name>Daniel Bjørn</Name>
+<Email>db@eie.no</Email>
+<Mobile>926 95 090</Mobile>
+<Address CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE5010138</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2010-11-06" ToDate="2011-04-27"/>
+<Type>leilighet</Type>
+<AdType>bolig_salg</AdType>
+<Title>Loftsleil. på Persbråtan/Røa</Title>
+<Address Street="Persbråtan 11" PostCode="0770" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="32" BNR="588"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">1500000</Price>
+<Price Name="Lånetakst" Curr="NOK">1350000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">2536</Price>
+<Price Name="Verditakst" Curr="NOK">1600000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">159578</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">191502</Price>
+<Price Name="Formue" Curr="NOK">17495</Price>
+<Price Name="Omkostninger_for_kjoper">Panteattest: 220,-
+Eierskifte-/transportgebyr: 5875,-
+Pantenotering-/urådighetsgebyr: 2600,-
+
+Totalt kr 8 695,-.</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruttoareal">37</Area>
+<Area Name="Bruksareal">35</Area>
+<Area Name="Tomteareal">35936</Area>
+<Area Name="primaererom_areal">35</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+</AreaFields>
+<OwnershipType>aksje</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1957</BuiltYear>
+<BedRooms>1</BedRooms>
+<Rooms>1</Rooms>
+<Viewings>
+<ViewingText>KOntakt megler for privat visning.</ViewingText>
+</Viewings>
+<TextFields>
+<Text Name="Innhold">Svært tiltalende og pent oppusset leilighet inneholder; Entre, kjøkken, stue med utgang til balkong, sovealkove, dusjbad/wc.
+Bod og kott/garderobe (utenfor målbart areale).
+Leilighetens gulvflate er ca. 57 kvm. Balkong på ca. 5 kvm. Kjellerbod på ca. 3,8 kvm. Fellesvaskeri i annet bygg.Alt garderobeinventar følger med. Dvs. tre stk. kurvsett, en skohylle og et stativ til oppheng av jakker etc. Alkove: Garderobeskap følger med.</Text>
+<Text Name="Boder">Romslig kjellerbod med skap. Flere fellesboder til sykler, barnevogn, ski, møbler etc.</Text>
+<Text Name="Standard">Delikat 1 roms leilighet med arealeffektiv planløsning, beliggende i 4. etasje/loft. Stue med utgang til balkong. Leiligheten ligger usjenert til med utsyn mot grøntarealer. Kjøkkeninnredningen er oppgradert i senere år. Badet er totalrehabilitert i 2007/08 i regi av boligselskapet. I samme forbindelse ble det lagt nye fliser i entre og kjøkken.</Text>
+<Text Name="Kjøkken">Ikea innredning med hvite fronter med profiler, laminat benkeplater,
+beslag med kum. Kullfiltervifte. Opplegg for vaskemaskin. Kjøleskap og ovn følger med. Begge er fra 2004.</Text>
+<Text Name="Gulv">Fliser i entre, kjøkken og bad, malt furugulv i stue og sovealkove.</Text>
+<Text Name="Bad">Dusjbad/wc med dusjhjørne (glasvegg/dusjvegg), servant med
+underskap og toalett. Varmtvannsbereder er plassert i loftsboden ( i isolert kasse med kar under, godkjent av våtromsingiør). Badet er rehabilitert og varmtvannsbereder skiftet i 2007/08. Bad: Stoppekranen er plassert under en godt merket luke på loftsboden rett ved siden av varmtvannstanken.</Text>
+<Text Name="Vegger">Tapet og malt strietap på kjøkken og stuevegg mot kjøkken. Øvrige vegger i stuen er helsparklede og malte. Felt med glassbyggersten mellom stue og sovealkove, fliser på bad.</Text>
+<Text Name="Himling">Skråhimling med malte plater.</Text>
+<Text Name="Diverse">Styreleder er Kristin Larsen.
+
+Forretningsfører er OBOS Eiendomsforvaltning AS.
+
+De reserverte parkeringsplassene er forbeholdt boligselskapets beboere. 
+
+Dyrehold styregodkjennes (med unntak av Borettslagslovens bestemmelser). Hunder må føres i bånd til enhver tid, det er ikke tillatt med kamphundslignende hunder. 
+
+Det er fellesvaskeri i oppgang 3 for beboere i bl.a denne oppgangen. Se husordensregler for vaskeregler. 
+
+Det er utendørs tørkeplass for tørk av vasketøy.
+
+Det er trimrom, hobbyrom, velferdsrom og frysebokslag.
+
+Velferdsrom i nr. 17: Kan lånes gratis mot at en vasker og rydder etter seg. Velferdsrommet Inneholder en stue på ca. 30 kvadrat, som er møbelet med to sofagrupper, en sittegruppe og et langbord.
+Videre har velferdsrommet et romslig te-kjøkken med kokeplater, kaffetrakter, kjøleskap, mikrobølgeovn, noe service, stekepanne og kasseroller, vask og oppvaskkum. 
+
+Vaktmester ivaretar den daglige driften og vedlikeholdet i selskapet. 
+
+En gang i året bestiller boligselskapet komprimatorbil, så beboerne kan bli kvitt skrot vederlagsfritt. 
+
+Boligselskapet er tilsluttet samarbeidsavtalen mellom Telenor og OBOS Eiendomsforvaltning om rabattordning for beboere med telefonabonnement i Telenor. -Også rabatt for ADSL, oppringt internett, mobiltelefoni og bredbåndstelefoni.
+
+Akjsjelaget har byttet til Vikenfibernett i løpet av 2010. 
+
+Maling av tak, vedlikehold av hovedavløpsledninger  er gjennomført.
+
+Samtlige vinduer og balkongdører ble skrapet og malt sommeren/tidlig høst 2009. 
+
+Bærekonstruksjonene til samtlige leiligheter med for svak konstruksjon ble utbedret oktober-november 2009.</Text>
+<Text Name="Tomt">Felles eiet tomt med lekeplass, plen, busker, trær, parkeringsplasser m.m.
+
+Boligselskapet eier en ca 8 mål (ca. 8000 m2)stor tomt bak garasjen. Tomten er en del av boligselskapets totale tomteareal og er i dag regulert til boligbygging. 
+
+-Tomten har en antatt markedsverdi på 20-25 millioner kroner.
+-Ved eventuelt salg er det tatt utgangspunkt i at brorparten av salgssummen vil benyttes til å nedbetale fellesgjeld. Et salg vil kunne redusere fellesgjelden per aksjonær med anslagsvis ca. 150 000 kr. Rundt regnet utgjør dette i underkant av 1000 kroner per enhet i måneden i reduserte fellesutgifter. Andelen av salgssummen er avhengig hva slags type leilighet aksjonæren har. 
+-Styret tror det vil gå 3 til 5 år fra et eventuelt tomtesalg til oppstart av anleggsarbeider.</Text>
+<Text Name="Adkomst">Fra Røa-krysset følger du Sørkedalsveien forbi Persbråtan vgs og så til venstre. Fra Smestad flger du Sørkedalsveien forbi Makrellbekken og Njårdhallen,så til høyre rett ved Gardeleieren.</Text>
+<Text Name="Parkering">Alle aksjonærer får gratis ett p-oblat som gir rett til parkering på boligselskapets p-plasser. Boligselskapet har 85 oppstillingsplasser (ingen faste plasser) og det er pt ingen plassproblemer.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="parkett"/>
+<Option Name="ingen gjenboere"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+<Option Name="kabel-tv"/>
+<Option Name="off. vann"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Balkong 17. mai" LastModified="2010-11-05 18:18">file:EIE5010138-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="" LastModified="2010-11-05 18:18">file:EIE5010138-16.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

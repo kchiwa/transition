@@ -1,0 +1,28 @@
+                -----
+                Transformation
+                -----
+
+Transformation
+
+ In transformation, our main goal is to transform XML ad into AdObject. By mapping values in XML into AdObject variables.
+ For example, AdObject has one variable TemporaryCompanyId. For itmakeriet, we need to map with value in <Client> element.
+ For instance, "itmakerietAdObject.setTemporaryCompanyId(Integer.parseInt(property.getClient()));"
+
+ In transformation, we use XMLBeans for getting value from XML ad in the object oriented way. Which is much more cleaner than using DOM.
+
+ We use TransitionDriverManager for transformation. The flow is pretty much like media handle system. Each format has it own
+ mapping pattern.
+
+
+Route overview with Transformation Component as follows.
+
+ As the Class Diagram the Transformation Component will consume the ad from the Transformation Queue that pass by the MediaCopy Component after do transform the ad will pass to the Persist Queue.
+
+[images/TransformationRoute.png]
+
+
+The overview of the Transformation system is as follows:
+
+[images/TransformationOverview.png]
+
+  Transformation Component starting with create an XmlBeanDriverValue by extract the data from Exchange Header that pass by the camel. it's use the XmlBeanDriverValue pass to TransitionDriverManager to get the wanted TransformationDriver. After that the component trigger the run method that do the transformation the xmlAdString in to the AdObject by implement the mapper() method to set the AdObject data from the XmlBeans that generate by TransformationDriver Constructor.

@@ -1,0 +1,57 @@
+                        ---
+                        MemCached Installation
+                        ---
+
+Environment Requirement
+
++---
+1.libevent - an event notification library
+2.Memcached library.
++---
+
+* Add the artifact into the pom file
+
+%{snippet|id=java-memcached|file=pom.xml}
+
+* Installation:
+
++---
+$ sudo apt-get install memcached
++---
+
+* How to configuration memcached
+
+  You can configuration memcached in /etc/memcached.conf
+
+  Configuration memory
+
++---
+-m 64
++---
+
+  Configuration port
+
++---
+-p 11211
++---
+
+  Configuration IP address
+
++---
+-l 127.0.0.1
++---
+
+* How to register the memcached service as a startup service
+
+   Don't do anything because memcached create /etc/init.d/memcached automatic after you install it.
+   You don't need "$ update-rc.d memcached defaults" for register the memcached service as a startup service.
+
+* How to start/stop/restart memcached
+
++---
+$ sudo service memcached start
+
+$ sudo service memcached stop
+
+$ sudo service memcached restart
++---

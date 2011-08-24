@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+  <!--
+        Document generated: 18.10.2010 11:48:02
+        PropertyID:	465292-->
+  <!--
+        CommisionTypeID: 1-->
+  <MEGLERDATA>
+    <MEGLER_KONTOR_ID>21913</MEGLER_KONTOR_ID>
+    <MEGLER_KONTOR_NAVN>Sotra</MEGLER_KONTOR_NAVN>
+    <MEGLER_KONTOR_BESOKSADRESSE>Sartor Senter </MEGLER_KONTOR_BESOKSADRESSE>
+    <MEGLER_KONTOR_POSTNR>5342</MEGLER_KONTOR_POSTNR>
+    <MEGLER_KONTOR_POSTSTED>STRAUME</MEGLER_KONTOR_POSTSTED>
+    <MEGLER_KONTOR_EMAIL>emv@emvest.no</MEGLER_KONTOR_EMAIL>
+  </MEGLERDATA>
+  <OPPDRAG>
+    <!--
+        STATUS 
+        0 - ukjent
+        1 - Online
+        2 - Solgt
+        3 - Trukket
+      -->
+    <STATUS>1</STATUS>
+    <OPPDRAGSNR>5100156</OPPDRAGSNR>
+    <EIENDOMSNAVN>Arebakken 9</EIENDOMSNAVN>
+    <OVERSKRIFT1>Flott rekkehus med god standard. Sentralt på Brattholmen.</OVERSKRIFT1>
+    <BOLIGTYPE>pr04</BOLIGTYPE>
+    <!--
+        OPPDRAGS_TYPE:
+        0 Salg
+        1 Utleie
+      -->
+    <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+    <KOMMUNENR>1246</KOMMUNENR>
+    <TOMTESTORRELSE>1936</TOMTESTORRELSE>
+    <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+    <PRISANTYDNING_VERDI>2790000</PRISANTYDNING_VERDI>
+    <GNR>43</GNR>
+    <BNR>627</BNR>
+    <SNR>2</SNR>
+    <FNR>0</FNR>
+    <BRUTTOAREAL>125</BRUTTOAREAL>
+    <BOAREAL>0</BOAREAL>
+    <HUSLEIEINKLUDERER></HUSLEIEINKLUDERER>
+    <OMKOSTNINGER>1. Dok.avgift til staten: 2,5% av kjøpesum&lt;br&gt;2. Tinglysingsgebyr skjøte kr. 1.548,-&lt;br&gt;3. Evt. tinglysingsgebyr for pantedok. kr. 1.935,-&lt;br&gt;4. Grunnboksutskrift kr. 202,-&lt;br&gt;&lt;br&gt;For prisant. kr. 2.790.000,- utgjør dette samlet kr. 73.435,-.&lt;br&gt;&lt;br&gt;</OMKOSTNINGER>
+    <LAANEVILKAARFELLESGJELD />
+    <P-ROM>110</P-ROM>
+    <PRIMAERROM_BESKRIVELSE>Primærrom 1.etg: vindfang, gang, bad, vaskerom, stue, kjøkken. 2.etg: mellomgang, bad og 3 soverom.&lt;br&gt;&lt;br&gt;Ikke med i p-rom: utebod.</PRIMAERROM_BESKRIVELSE>
+    <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+    <AREALBESKRIVELSE></AREALBESKRIVELSE>
+    <EIERFORM>Selveier</EIERFORM>
+    <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+    <TOMTEBESKRIVELSE>Tomten er flott opparbeidet med en usjenert terrasse på ca 35 kvm på fremstiden av boligen samt en mindre terrasse, mur, bed m.m. ved boligens inngangsparti. &lt;br&gt;Stor gruset plass for parkering på fellesareal.</TOMTEBESKRIVELSE>
+    <INNHOLD>Innholdsrikt rekkehus over to plan som fremstår med følgende planløsning: &lt;br&gt;Hovedplan: Entre, gang, trapperom med kontorkrok, bad, vaskerom, stue og kjøkken. &lt;br&gt;2.etg: Mellomgang, bad samt 3 soverom hvorav et stort med tilhørende garderoberom&lt;br&gt;1. utvendig sportsbod.</INNHOLD>
+    <STANDARD>Boligen fremstår som lys, trivelig og med gjennomgående gode kvaliteter. &lt;br&gt;&lt;br&gt;Romslig stue med vedovn, store vindusflater/ gode lysforhold samt  utgang til usjenert terrasse. &lt;br&gt;Kjøkken med spiseplass og innredning med god skap- og benkeplass. Flotte fliser på vegg over benkeplaten. &lt;br&gt;Flott flislagt bad på hovedplan fra 2009. Badet er innrednet med wc, designinnredning samt stor dusjnisje bak glassbyggerstein. &lt;br&gt;Også flott flislagt bad i 2.etg. Dette badet er fra 2005 og er innredet med wc, stor baderomsinnredning, hjørnebadekar samt massasjedusj(2008)&lt;br&gt;Ellers på gulv: Laminat, fliser og belegg på vaskerom. På vegg: Strie malt i lyse farger. &lt;br&gt;Videre:&lt;br&gt;Skyvedørsgarderobe i entre, sikringsskap med automatsikringer, nymalt utvendig(i år) &lt;br&gt;&lt;br&gt;&lt;br&gt;Boligen har helt ny varmtvannstank og avtrekksvifte på kjøkken. Boligen har videre nye innvendige tak i stue og på kjøkken. &lt;br&gt;&lt;br&gt;Se også eiendommens takst som er vedlagt salgsoppgaven.</STANDARD>
+    <BELIGGENHET>Eiendommen ligger i et rolig og populært boligområdet, kun et par min kjøring fra Sartor Storsenter / Fjell kommunesenter med alle daglige servicetilbud. Eiendommen har gode solforhold og noe utsikt  mot sør med byfjellene i det fjerne. Fra eiendommen er det det ca 15 min  kjøring til Bergen sentrum. Se også nabolagsprofil som er vedlagt salgsoppgaven for andre avstander.</BELIGGENHET>
+    <ADKOMST>Fra Sartor Storsenter, følg veien nedover mot Brattholmen, forbi Sotra Bruk og videre nedover mot Arefjord. I bunnen av bakken, ta stikkvei til venstre og boligen kan sees på høyre side av veien mot toppen av bakken. &lt;br&gt;Under fellesvisninger blir det skiltet med visningskilt i fra hovedvei og frem til eiendommen .</ADKOMST>
+    <ANTALL_SOVEROM>3</ANTALL_SOVEROM>
+    <BYGGEAAR>1991</BYGGEAAR>
+    <MODERNISERINGSAAR>0</MODERNISERINGSAAR>
+    <MODERNISERINGSAAR_INNVENDIG>0</MODERNISERINGSAAR_INNVENDIG>
+    <MODERNISERINGSAAR_UTVENDIG>0</MODERNISERINGSAAR_UTVENDIG>
+    <POSTNR>5353</POSTNR>
+    <POSTSTED>STRAUME</POSTSTED>
+    <ETASJE>0</ETASJE>
+    <VEI_VANN_KLOAKK>Privat vei. Eienodmmen er tilkoblet kommunalt vann og avløp.</VEI_VANN_KLOAKK>
+    <FELLESUTGIFTER>0</FELLESUTGIFTER>
+    <FELLESGJELD>0</FELLESGJELD>
+    <FESTEAVGIFT>0</FESTEAVGIFT>
+    <MARKEDSVERDI>3000000</MARKEDSVERDI>
+    <LAANEVERDI>2700000</LAANEVERDI>
+    <SAKSBEHANDLER_NAVN>Bjarne Kahrs</SAKSBEHANDLER_NAVN>
+    <SAKSBEHANDLER_EMAIL>bjarne.kahrs@emvest.no</SAKSBEHANDLER_EMAIL>
+    <SAKSBEHANDLERS_TELEFON>56 32 34 82</SAKSBEHANDLERS_TELEFON>
+    <SAKSBEHANDLERS_MOBIL>91 66 44 14</SAKSBEHANDLERS_MOBIL>
+    <VISNINGSAVTALE></VISNINGSAVTALE>
+    <VISNINGSTIDER>
+      <VISNING FRA="21.10.2010 18:30" TIL="19:15" />
+    </VISNINGSTIDER>
+     <VEDLEGG>
+            <VEDLEGGID>8894932</VEDLEGGID>
+            <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_10</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://localhost/emproftest/happyday/1151411.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>9998864613EB6EA1A4427099C96F98E</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894933</VEDLEGGID>
+            <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_11</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://localhost/emproftest/happyday/1151412.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>47-00-B9-69-7C-77-E7-61-97-BB-0D-2B-C6-16-88-FF</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894934</VEDLEGGID>
+            <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_18</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://localhost/emproftest/happyday/1151413.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>98-C0-35-BF-E7-35-9D-0D-F4-24-90-17-67-0D-D5-7A</VEDLEGGHASH>
+        </VEDLEGG>
+    <LINKER>
+      <LINKTYPE>URL-C360TOURNR</LINKTYPE>
+      <EXTERNALURL>http://efilm.fotoringen.no/6492</EXTERNALURL>
+    </LINKER>
+  </OPPDRAG>
+</DATA>

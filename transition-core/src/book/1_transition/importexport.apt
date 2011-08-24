@@ -1,0 +1,145 @@
+                -----
+                Import/Export Component
+                -----
+
+~~~~~~~~~~~~~~~~~~~~~~
+Error Queue Exportation
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+ You can export "Error Queue Information" into the CSV file by going to the "Error Queue Information" page then click on "Export to CSV" button.
+
+[images/ExportErrorQueue.png]
+
+
+ Then the system ask you to save the export_error.csv, so same to some location in your machine, so you can open it by "Open Office" program by using the option as below.
+
+[images/OpenErrorExport.png]
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+ValueMap Exportation
+~~~~~~~~~~~~~~~~~~~~~~
+
+  You can export "ValueMap Table" into the CSV file  by going to the "ValueMap" page then click on "Export All Data" button.
+
+[images/ExportValueMap.png]
+
+   Then the system ask you to save the export_error.csv, so same to some location in your machine, so you can open it by "Open Office" program by using the option as the same to the "Export Error Queue".
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~
+ValueMap Importation
+~~~~~~~~~~~~~~~~~~~~~~
+
+  You can import the ValueMap from CSV file  into the "ValueMap" table by uploading the file into the Transition, going to the "ValueMap" page then browse the csv file after theat click on "Import" button.
+
+[images/ImportValueMap.png]
+
+
+ *** The format of the CSV file is as below.
+
++---------------
+ID|Format|Field|Lookup|Zett Value|CategoryID
+1|carweb|karosserifasong|1|Kombi|0
+2|carweb|karosserifasong|2|Kombi|0
+3|carweb|karosserifasong|3|Sedan|0
+4|carweb|karosserifasong|4|Stasjonsvogn|0
+5|carweb|karosserifasong|5|Flerbruksbil|0
+6|carweb|karosserifasong|6|Coupe|0
+7|carweb|karosserifasong|7|Cabriolet|0
+8|carweb|karosserifasong|8|Pick-up|0
+9|carweb|karosserifasong|9|Off-road|0
+10|carweb|karosserifasong|10|Kasse|0
+........
+........
++---------------
+
+
+ *** If you want to add the new ValueMap just leave the first column blank as below.
+
++---------------
+ID|Format|Field|Lookup|Zett Value|CategoryID
+1|carweb|karosserifasong|1|Kombi|0
+2|carweb|karosserifasong|2|Kombi|0
+3|carweb|karosserifasong|3|Sedan|0
+4|carweb|karosserifasong|4|Stasjonsvogn|0
+5|carweb|karosserifasong|5|Flerbruksbil|0
+6|carweb|karosserifasong|6|Coupe|0
+7|carweb|karosserifasong|7|Cabriolet|0
+8|carweb|karosserifasong|8|Pick-up|0
+9|carweb|karosserifasong|9|Off-road|0
+10|carweb|karosserifasong|10|Kasse|0
+........
+........
+|carweb|New Value|10|New Value|0
++---------------
+
+ Then the Transition will be add the "|carweb|New Value|10|New Value|0" into the ValueMap Table.
+
+
+ *** If you want to delete the ValueMap just remove the row that you want to remove from the CSV for example if we want to delete the ID 5,9 just remove it's from CSV file.
+ The CSV file look like as below.
+
++---------------
+ID|Format|Field|Lookup|Zett Value|CategoryID
+1|carweb|karosserifasong|1|Kombi|0
+2|carweb|karosserifasong|2|Kombi|0
+3|carweb|karosserifasong|3|Sedan|0
+4|carweb|karosserifasong|4|Stasjonsvogn|0
+6|carweb|karosserifasong|6|Coupe|0
+7|carweb|karosserifasong|7|Cabriolet|0
+8|carweb|karosserifasong|8|Pick-up|0
+10|carweb|karosserifasong|10|Kasse|0
+........
+........
+|carweb|New Value|10|New Value|0
++---------------
+
+
+  Then the Transition will be remove the ID 5 and 9 from the ValueMap Table.
+
+
+ *** If you want to edit the ValueMap just edit the text in the CSV file and do not edit the ID Column as below. (remember to export the new CSV file every time that you want to edit ValueMap)
+
+
++---------------
+ID|Format|Field|Lookup|Zett Value|CategoryID
+1|carweb|karosserifasong edited|1|Kombi|0
+2|carweb|karosserifasong|2|Kombi|0
+3|carweb|karosserifasong|3|Sedan|0
+4|carweb|karosserifasong edited|4|Stasjonsvogn|0
+6|carweb|karosserifasong|6|Coupe|0
+7|carweb|karosserifasong|7|Cabriolet|0
+8|carweb|karosserifasong|8|Pick-up|0
+10|carweb|karosserifasong|10|Kasse|0
+........
+........
++---------------
+
+
+ <<Note>>: The line could not be Blank or empty if it is, the Transition would be complain like this.
+
+
+ .
+
+[images/ValueMapEmpty.png]
+
+
+ <<Note>>: The Transition will be ignore the file you uploading that the same file with the latest time you uploaded as below.
+
+[images/ValueMapIgnore.png]
+
+
+
+
+
+
+
+
+
+
+
+
+

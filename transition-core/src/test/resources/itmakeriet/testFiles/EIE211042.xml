@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>22115</Client>
+<Contacts>
+<Contact>
+<Name>Per-Christian Søreng</Name>
+<Email>pcs@eie.no</Email>
+<Phone>22 83 37 00</Phone>
+<Mobile>900 53 795</Mobile>
+<Address CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE211042</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2010-10-18" ToDate="2011-02-19"/>
+<Type>enebolig</Type>
+<AdType>bolig_salg</AdType>
+<Title>Unik og romslig enebolig på Nordstrand i rolige omgivelser.</Title>
+<Address Street="Freidigveien 4" PostCode="1163" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="183" BNR="183"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">12900000</Price>
+<Price Name="Lånetakst" Curr="NOK">12800000</Price>
+<Price Name="Verditakst" Curr="NOK">15000000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">3233045</Price>
+<Price Name="Kommunale avgifter" Curr="NOK">10507</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">506</Area>
+<Area Name="Tomteareal">1511</Area>
+<Area Name="primaererom_areal">474</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1992</BuiltYear>
+<BedRooms>5</BedRooms>
+<Viewings>
+<Viewing Date="2010-10-24" From="13:00" To="14:00"/>
+</Viewings>
+<TextFields>
+<Text Name="Innhold">Romslig eiet enebolig over 3 plan.
+Størrelse: Bra 506 kvm. og P-rom 474 kvm. 
+Boligen har følgende romfordeling:
+
+Underetasje: Entré, hall, soverom, allrom, kjøkken, wc, gang,
+bad/wc, badstue, peisestue, hagestue, teknisk rom, bod og bod 2.
+Det er også en egen inngang på siden av boligen slik at det er mulig med separat 2 rom med kjøkken og wc. 
+
+1. etasje: Vaskerom, wc, kjøkken, stue, stue 2, stue 3,
+spisestue, trapperom og kjølerom.
+
+2. etasje: Gang, trapperom, bad/wc, bad/wc 2, bad/wc 3, wc,
+soverom, soverom 2, soverom 3, soverom 4 og stue.
+
+På tomten finnes også:
+Skrivestue på Bra 10 kvm. 
+Garasje på Bra 28.
+Dukkestue på ca. 6 kvm.</Text>
+<Text Name="Standard">Boligen som er oppført fra 1990-1992 og har følgende standard:
+
+Innvendige dører:
+Malte 3 og 4-speils innerdør og dobbelfløyede innerdører med glassfelt.
+
+Himlinger:
+Panel i kjølerom og badstue, ellers malte flater, malt panel, malte flater m/dekorlist og takplater.
+
+Innvendige gulv, trapper og ramper:
+Malt betonggulv i boder og teknisk rom, tremmegulv i badstue, belingaparkett i stue, soverom og gang i 2.etasje og gang i underetasje, ellers marmorfliser på overflater. Slukrister i marmor på baderom.
+Elektriske varmekabler på baderom og under- og 1. etasje med unntak av
+boder og tekniske rom.
+
+Innvendige vegger:
+Panel i badstue og kjølerom,
+marmorfliser på baderom, ellers malt panel malt brystningspanel og
+malte overflater.
+
+Trapper og ramper:
+Innvendig tretrapp fra hagestue til kjøkken, ellers hovedtrapp i hvit
+marmor mellom etasjene.
+
+Vest-/sydvestvendt terrasse med adkomst fra stue og spisestue.
+Terrassen er belagt med marmor. Vest-/sydvestvendt veranda med
+adkomst fra stue i 2. etasje.
+Utbedret marmorfliser på utvendig terrasse i 2007.
+
+Åpen peis i peisestue og spisestue, kakkelovn på kjøkken og
+kakkelovner "Svenskeovner" i stue i 1. etasje og 2. etasje. Det er montert
+avtrekksvifte for peis i underetasjen i 2006.
+
+Kjøkkeninnredning i Oregonpine med 1-speils fronter, 6 stk.
+glassfronter, marmor benkeplate, 1 1/2 oppvaskkum, ventilator i børstet
+stål, og integert komfyr, koketopp og oppvaskmaskin.
+Kjøkkeninnredning i praktikantdel i Oregonpine med 1-speils fronter,
+marmor benkeplate, enkel oppvaskkum, mikroovn og integrert komfyr
+og koketopp.
+Kjøkkeninnredninger er plassbygget og holder en høy standard på
+utførelse og materialvalg.
+
+Hovedbad/wc i 2. etasje består av innfliset badekar, dusj på vegg, 2 stk.
+søyleservanter og wc, alt i klassisk design.
+
+2 stk. bad i 2 etasje med dusjnisje, servant m/underskap, innfliset speil,
+overlys og veggklosett. 
+
+Wc i 2 etasje med servant, innfliset speil, overlys
+og veggklosett. 
+
+Wc i 1. etasje med servant m/underskap, innfliset speil
+og veggklosett.
+
+Bad i underetasjen med innfliset badekar, servant,
+innfliset speil og wc og wc i underetasjen med servant, veggklosett og
+speil.
+
+Plassbygget seng og garderobeskap i Oregonpine på 1 soverom,
+plassbygede garderobeskap i Oregonpine på soverom og plassbygde
+bokhyller i stue. Hyller i kjøerom og bod.
+
+Vaskerom består av skapinnredning, utslagsvask og opplegg for
+vaskemaskin. Varmtvannsbereder på 287 liter fra 1991 er plassert i bod.
+
+Kjølerom i 1. etasje med vegghengt motorenhet.
+
+Boligen er utstyrt med Villavent Maxi 1100, komplett
+ventilasjonsanlegg og aggregat utstyrt med varmegjennvinning. Det
+opplyses i tidligere takst at aggregat er fra 2000.
+
+Automatsikringer i sikringsskap med 74 kurser og minimumm 16 amp.
+kurser. Sikringsskap er plassert i teknisk rom.
+
+Belysningsutsyr i boligen er levert av Louis Poulsen. Automatiske
+lysbrytere på utvendig belysning.
+
+kabel-Tv, bredbånd, husalarm for brann og tyveri med mulighet for
+tilknytning av abonnement og direkte tilkobling til alarmsentral (leverandør: Niscayah).
+
+Det er montert BeoLink anlegg i 2 stuer i 1. etasje, 1 stue i 2. etasje og 1.
+stue i underetasjen i 2004.
+
+Se taksten som er vedlagt salgsoppgaven for ytterligere teknisk beskrivelse.</Text>
+<Text Name="Bebyggelse">Enebolig, garasje, dukkestue og hagestue.</Text>
+<Text Name="Tomt">eiet. Stor flott opparbeidet hage med dukkestue, skrivestue og garasje.</Text>
+<Text Name="Adkomst">Eiendommer ligger i Freidigveien mellom Lindbäckveien og Munkerudveien.</Text>
+<Text Name="Parkering">Garasje.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="barnevennlig"/>
+<Option Name="rolig"/>
+<Option Name="kabel-tv"/>
+<Option Name="garasje"/>
+<Option Name="off. vann"/>
+<Option Name="alarm"/>
+<Option Name="utsikt"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Stuen" LastModified="2010-10-18 11:28">file:EIE211042-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Fasade" LastModified="2010-10-18 11:28">file:EIE211042-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="fasade og hage" LastModified="2010-10-18 11:28">file:EIE211042-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Porten" LastModified="2010-10-18 11:28">file:EIE211042-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Spisestue" LastModified="2010-10-18 11:28">file:EIE211042-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue og bibliotek" LastModified="2010-10-18 11:28">file:EIE211042-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Glassdør" LastModified="2010-10-18 11:28">file:EIE211042-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="stue" LastModified="2010-10-18 11:28">file:EIE211042-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="bibliotek" LastModified="2010-10-18 11:28">file:EIE211042-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="hagestue" LastModified="2010-10-18 11:28">file:EIE211042-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Stue 2 etg" LastModified="2010-10-18 11:28">file:EIE211042-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="terrasse" LastModified="2010-10-18 11:28">file:EIE211042-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Terrassedør fra kjøkken" LastModified="2010-10-18 11:28">file:EIE211042-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="kjøkken" LastModified="2010-10-18 11:28">file:EIE211042-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="kjøkken2" LastModified="2010-10-18 11:28">file:EIE211042-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="bad" LastModified="2010-10-18 11:28">file:EIE211042-16.JPG</Picture>
+<Picture Type="image:jpeg" Title="skrivestue" LastModified="2010-10-18 11:28">file:EIE211042-17.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasadedetaljer" LastModified="2010-10-18 11:28">file:EIE211042-18.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade ved inngangsparti" LastModified="2010-10-18 11:28">file:EIE211042-19.JPG</Picture>
+<Picture Type="image:jpeg" Title="Inngangsparti" LastModified="2010-10-18 11:28">file:EIE211042-20.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

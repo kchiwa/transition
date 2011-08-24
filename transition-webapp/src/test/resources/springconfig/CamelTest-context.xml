@@ -1,0 +1,196 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:amq="http://activemq.apache.org/schema/core" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:camel="http://camel.apache.org/schema/spring" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:cxf="http://camel.apache.org/schema/cxf"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core-5.4.1.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://camel.apache.org/schema/cxf http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+
+	<bean id="springApplicationContext" class="no.api.pantheon.spring.SpringApplicationContextProvider" />
+	<import resource="classpath:/META-INF/apiproperties-applicationContext.xml" />
+	<import resource="classpath:META-INF/cxf/cxf.xml"/>
+	<!-- <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/> -->
+	<!-- <import resource="classpath:META-INF/cxf/cxf-extension-http-jetty.xml"/> -->
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+	<!-- <import resource="classpath:META-INF/spring/camel-cxf.xml" /> -->
+	
+	<context:component-scan base-package="com.abctech.transition.core.dao.**" />
+	<context:component-scan base-package="com.abctech.transition.core.helpers.dao.**" />
+	<context:component-scan base-package="com.abctech.transition.core.transformation.**" />
+	<context:component-scan base-package="com.abctech.transition.core.memcached.**" />
+	<context:component-scan base-package="com.abctech.transition.webapp.camel.**" />
+    <context:component-scan base-package="com.abctech.transition.webapp.manager.queue.**" />
+    <context:component-scan base-package="com.abctech.transition.webapp.manager.syncronize.**" />
+    <context:component-scan base-package="com.abctech.transition.webapp.manager.camel.**" />
+    <context:component-scan base-package="com.abctech.transition.webapp.controller.**" />
+    <context:component-scan base-package="com.abctech.transition.webapp.webservice.**" />
+    <context:component-scan base-package="com.abctech.transition.core.utility.**"/>
+   <!-- <context:component-scan base-package="com.abctech.transition.webapp.Hydra.**" /> -->
+
+	<!-- lets create an embedded ActiveMQ Broker -->
+	<amq:broker useJmx="false" persistent="false">
+		<amq:transportConnectors>
+			<amq:transportConnector name="transition-webapp"
+				uri="tcp://localhost:61619" enableStatusMonitor="true" />
+		</amq:transportConnectors>
+	</amq:broker>
+
+
+
+	<!-- JMS ConnectionFactory to use, configuring the embedded broker using XML -->
+	<amq:connectionFactory id="jmsFactory" brokerURL="vm://localhost" />
+
+    <bean id="pooledConnectionFactory" class="org.apache.activemq.pool.PooledConnectionFactory">
+		<property name="connectionFactory" ref="jmsFactory" />
+	</bean>
+
+    <bean id="jmsConfig" class="org.apache.camel.component.jms.JmsConfiguration">
+		<property name="connectionFactory" ref="pooledConnectionFactory" />
+		<property name="transacted" value="false" />
+		<property name="concurrentConsumers" value="10" />
+	</bean>
+
+    <!-- lets configure the default ActiveMQ broker URL (localhost) -->
+    <bean id="activemq" class="org.apache.camel.component.jms.JmsComponent">
+        <property name="configuration" ref="jmsConfig" />
+    </bean>
+
+
+	<!-- Spring JMS Template -->
+	<bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory">
+			<!-- lets wrap in a pool to avoid creating a connection per send -->
+			<bean class="org.springframework.jms.connection.SingleConnectionFactory">
+				<property name="targetConnectionFactory">
+					<ref local="jmsFactory" />
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="importStateDataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="org.hsqldb.jdbcDriver" />
+		<property name="url" value="jdbc:hsqldb:mem://localhost:9001" />
+		<property name="username" value="sa" />
+		<property name="password" value="" />
+		<property name="poolPreparedStatements" value="true" />
+	</bean>
+
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource">
+			<ref bean="importStateDataSource" />
+		</property>
+	</bean>
+
+      <bean id="databaseCreator" class="com.abctech.transition.core.dao.DatabaseCreator" scope="singleton">
+        <property name="production" value="false" />
+	</bean>
+
+	<bean id="adStateManager" class="com.abctech.transition.core.dao.adstate.AdStateManager" />
+	<bean id="fileStateManager" class="com.abctech.transition.core.dao.filestate.FileStateManager" />
+	<bean id="mediaStateManager" class="com.abctech.transition.core.dao.mediastate.MediaStateManager" />
+
+
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="importStateDataSource" />
+	</bean>
+
+	<bean id="transitionProperties" class="com.abctech.transition.core.TransitionProperties">
+		<property name="apiPropertiesManager" ref="apiPropertiesManager" />
+	</bean>
+
+    <bean id="emprofController" class="com.abctech.transition.webapp.controller.EmprofController"/>
+    <bean id="zettController" class="com.abctech.transition.webapp.controller.ZettXmlController"/>
+    <bean id="uploadPageController" class="com.abctech.transition.webapp.controller.UploadPageController"/>
+
+	<!-- <bean id="ftpRoute" class="com.abctech.transition.webapp.camel.routes.ErrorAndReceiptRouteReceiptRoute" /> -->
+	<bean id="errorWrapperTestRoute" class="com.abctech.transition.webapp.camel.test.routes.ErrorWrapperTestRoute" />
+	<bean id="adPersistTransport" class="com.abctech.transition.webapp.camel.bean.MockAdPersistTransport" />
+
+    <bean id="systemCheck" class="com.abctech.transition.webapp.adminPing.SystemCheck" />
+
+    <bean id="archiveFileComponent" class="com.abctech.transition.webapp.camel.ArchiveFileComponent" />
+    <bean id="archiveFileController" class="com.abctech.transition.webapp.controller.ArchiveFileController" />
+    <bean id="schedulerAdminController" class="com.abctech.transition.webapp.controller.SchedulerAdminController" />
+
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<camelContext id="camelContext" xmlns="http://camel.apache.org/schema/spring">
+		<package>com.abctech.transition.webapp.camel.routes</package>
+		<camel:consumerTemplate id="consumerTemplate" />
+        <camel:template id="producerTemplate"/>
+		<camel:routeBuilder ref="errorWrapperTestRoute" />
+	</camelContext>
+
+    <!-- Snippet is used in hydra doc - do not change -->
+    <!--START SNIPPET: hydraspring-->
+    <!-- Information which is sent to Hydra for login registration purposes -->
+    <bean id="hydraRegistrationComponent" class="no.api.hydra.client.HydraClientRegistration" init-method="register" destroy-method="unregister" scope="singleton">
+        <property name="directorManager" ref="directorManager"/>
+        <property name="propertiesManager" ref="apiPropertiesManager" />
+        <property name="apiAdminPingURL" value="http://localhost/dummy_values_as_this_is_not_used_in_tests" />
+        <property name="hydraShallCallbackHere" value="http://localhost/dummy_values_as_this_is_not_used_in_tests" />
+        <property name="serviceName" value="Transition" />
+        <property name="clientTitle" value="Transition" />
+        <property name="clientDescription" value="Transition Application" />
+        <property name="acceptedAcls">
+            <list>
+                <value>ROLE_USER</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Contains common and often used functionality, such as ping-back -->
+    <bean id="hydraClient" class="no.api.hydra.client.HydraClient">
+        <property name="directorManager" ref="directorManager"/>
+        <property name="propertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+
+    <!-- Used for extracting Hydra related properties during startup -->
+    <bean id="apiPropertiesFacade" class="no.api.properties.api.spring.ApiPropertiesFacade">
+        <property name="apiPropertiesManager" ref="apiPropertiesManager"/>
+    </bean>
+
+    <!-- You do not need an iris provider if you shall only implement hydra support -->
+    <bean id="providerManager" class="no.api.director.provider.ProviderManagerImpl">
+        <property name="providers">
+            <list>
+                <ref bean="hydraProvider"/>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Director manager is used in the registration component -->
+    <bean id="directorManager" class="no.api.director.DirectorManagerImpl" autowire="byName">
+        <property name="providerManager" ref="providerManager"/>
+    </bean>
+
+    <!-- Hydra support for login services, used when calling hydra -->
+    <bean id="hydraProvider" class="no.api.hydra.director.HydraProvider">
+       <property name="apiPropertiesManager" ref="apiPropertiesManager"/>
+   </bean>
+    <!--END SNIPPET: hydraspring -->
+
+    <bean id="principalSecurityComponent" class="com.abctech.transition.webapp.Hydra.PrincipalSecurityComponent" >
+        <property name="useHydraAuthentication" value="false"/>
+    </bean>
+
+
+    <bean id="identicalQueueDeleteComponent" class="com.abctech.transition.webapp.camel.IdenticalQueueDeleteComponent" />
+
+    <bean id="activeMQConnectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL">
+            <value>vm://localhost?broker.persistent=false</value>
+        </property>
+    </bean>
+
+    <bean id="jmsDao" class="com.abctech.transition.core.jms.JmsDao"/>
+    <bean id="jmsMessageManager" class="com.abctech.transition.core.jms.JmsMessageManager"/>
+
+</beans>

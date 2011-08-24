@@ -1,0 +1,52 @@
+                -----
+                Resin Installation
+                -----
+
+ Resin is a high-performance, scalable Java/PHP application server.
+
+[images/resin.png]
+
+ * {{{http://www.caucho.com/download/}Resin 3.1.11 download}}
+
+Checkout zett
+
+ Setup zett-site locally, good for showing transformed ads while implementing new import formats.
+
++---
+svn co http://svn.api.no/svn/zett/trunk/zett
++---
+
+ Build with maven.
+
++--
+~zett$ mvn clean install
++---
+
+
+Deploy zett-site to resin
+
+ Install Resin.
+
++---
+~/usr/local/share$ tar -vzxf resin-3.1.11.tar.gz
++---
+
+ And,then put "zett.war" file into the follow directory "/usr/local/share/resin-3.1.11/webapps".
+
+ <<Note:>> "zett.war" is in the follow directory "/zett/zett-site/target/".
+
+Change folder permission
+
++--
+~/usr/local/share$ sudo -R chmod 777 resin-3.1.11/
++--
+
+Start Resin
+
++---
+Run java -jar resin/lib/resin.jar
+
+    Or run resin/bin/httpd.sh
++---
+
+ Browse{{{http://localhost:8080/zett/index.html} http://localhost:8080/zett/index.html}}

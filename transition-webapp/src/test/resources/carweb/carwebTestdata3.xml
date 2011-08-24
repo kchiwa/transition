@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bildata>
+    <Forhandler brukerid="32017" passord="ramb894" navn="Toyota Ramstad Bil AS avd Askim" adresse1="Sagveien 1" adresse2="" adresse3="" postnr="1814" poststed="ASKIM" url="www.ramstadbil.no" tlf="69 84 44 00" fax="69 84 44 01" epost="post.askim@toyota.no" fullupdate="1">
+        <Bil unikid="1_375" kontroll="9" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Peugeot</Merke>
+            <Modell>307</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>109000</Pris>
+            <Arsmodell>2005</Arsmodell>
+            <Kmstand>108200</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>XS klimaanlegg</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>bl&#229;/gr&#229; Metallic</Farge>
+            <Effekt>109</Effekt>
+            <Bilder>
+                <Bilde bilde="1_375L.JPG" prioritet="0" md5="bbeaec4492db0b04c42aeaa0e70ed6a5" desc="Hovedbilde"/>
+                <Bilde bilde="1_375L_1.JPG" prioritet="1" md5="15326ed4f5e7ddafc0eebec3b8b17518" desc="Bilde 2"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>1</InklArsavg>
+            <Ekstrautstyr>;Antiskrens,ESP;ABS-bremser,ABS-bremser;Air Condition,Air Condition;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Hengerfeste,Hengerfeste;Klimaanlegg,Klimaanlegg;Metallic lakk,Metallic lakk;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen 307 Selges,Bilen har tidligere kun hatt 1 EIER!  Bilen er bra utstyrt med Feks Automatisk klimaanegg.Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ59160</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>5</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1200</Slepevekt>
+            <FargeInnvendig>Sort stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>  
+        <Kontaktpunktliste>
+            <Kontaktpunkt id="1_2">
+                <Navn>Avd Askim bilmeglingsansvarlig</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Daglig leder/bilmeglingsansvar</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+        </Kontaktpunktliste>
+    </Forhandler>
+</Bildata>

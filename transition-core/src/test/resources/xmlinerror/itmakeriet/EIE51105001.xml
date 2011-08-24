@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>1800572</Client>
+<Contacts>
+<Contact>
+<Name>Eileen Vammervold Dreyer</Name>
+<Email>ee@eie.no</Email>
+<Phone>23 25 44 88</Phone>
+<Mobile>452 82 444</Mobile>
+<Address CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE51105001</ClientsRef>
+<Status Code="AKTIV"/>
+<Publish FromDate="2010-02-11" ToDate="2010-12-31"/>
+<Type>leilighet</Type>
+<AdType>nybygg</AdType>
+<Title>99 Nye selveierleiligheter sentralt i Oslo</Title>
+<Address Street="Jørgen Løvlandsgate 1" PostCode="0568" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="227" BNR="573"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">1690000</Price>
+<Price Name="Pris fra" Curr="NOK">1450000</Price>
+<Price Name="Pris til" Curr="NOK">3190000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">870</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">31</Area>
+<Area Name="Tomteareal">1705</Area>
+<Area Name="primaererom_areal">31</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder"/>
+<Area Name="Bruttoareal fra">25</Area>
+<Area Name="Bruttoareal til">58</Area>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<Rooms>1</Rooms>
+<TextFields>
+<Text Name="Innhold">Lyst på ny bolig med snarlig innflytning? KMI er snart ferdigstillt og har innflytning fra desember !
+
+Hvorfor leie når du kan eie! 
+
+Kom å se hvor fint det blir, Velkommen på visning.
+
+&lt;b&gt;KMI - en salgsuksess! Fortsatt mange flotte 1 og 2 roms for salg!&lt;/b&gt;
+
+Sentralt beliggende ved Carl Berner, idyllisk tilbaketrukket i grønne omgivelser. Bygget er på 6 etasjer med heis og vil inneholde moderne  leiligheter med meget god takhøyde, de fleste med balkong eller markterrasse. Mulighet for hems på leilighetene med ekstra god takhøyde på bakkeplan. 
+Takterrasse med kjøkkenfasiliteter på toppen, med panoramautsikt over hele Oslo. Mulighet for kjøp av garasjeplass i parkeringsanlegg.(begrenset antall plasser)
+
+
+&lt;b&gt;www.kmibolig.no&lt;/b&gt;
+
+Kontakt gjerne en av våre prosjektmeglere for å avtale visning eller om du har spørsmål om prosjektet:
+tlf 4000 4876</Text>
+</TextFields>
+<Options/>
+<Media>
+<MainPicture Type="image:jpeg" Title="Takterrasseinterior_rev" LastModified="2010-07-08 13:52">file:EIE51105001-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Utsikt mot Oslo fjorden" LastModified="2010-07-08 13:52">file:EIE51105001-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Utsikt mot kolonihaven" LastModified="2010-07-08 13:52">file:EIE51105001-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kart KMI" LastModified="2010-07-08 13:52">file:EIE51105001-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Nærområde" LastModified="2010-07-08 13:52">file:EIE51105001-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Dagens fasade" LastModified="2010-07-08 13:52">file:EIE51105001-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Grønt parkdrag" LastModified="2010-07-08 13:52">file:EIE51105001-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Carl Berner" LastModified="2010-07-08 13:52">file:EIE51105001-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="alle" LastModified="2010-07-08 13:52">file:EIE51105001-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="trikk02" LastModified="2010-07-08 13:52">file:EIE51105001-10.JPG</Picture>
+<Picture Type="image:jpeg" Title="Leilighet_1etg" LastModified="2010-07-08 13:52">file:EIE51105001-11.JPG</Picture>
+<Picture Type="image:jpeg" Title="Takterrasse_Natt_low" LastModified="2010-07-08 13:52">file:EIE51105001-12.JPG</Picture>
+<Picture Type="image:jpeg" Title="Interior_topp01rev" LastModified="2010-07-08 13:52">file:EIE51105001-13.JPG</Picture>
+<Picture Type="image:jpeg" Title="interiør hjørneleilighet" LastModified="2010-07-08 13:52">file:EIE51105001-14.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade_front" LastModified="2010-07-08 13:52">file:EIE51105001-15.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade_rev02" LastModified="2010-07-08 13:52">file:EIE51105001-16.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

@@ -1,0 +1,21 @@
+                -----
+                XML Ad Splitter
+                -----
+
+XMLAdSplitter
+
+ After an ad pass the XSD validation, if it's contains multiple ad inside. It needed to be split into multiple XML files.
+
+ Basically, the explanations of how it works is as below.
+
+ *Look inside XML if it contains multiple ad. Eg. For carweb format we look for <bil>, for example.
+
+ *If found multiple ad then extract the ad inside
+
+ *And construct new XML file contains single ad.
+
+ []
+
+ Please see the overview of how we do it for carweb format below...
+
+[images/XmlAdSplitter2.png]

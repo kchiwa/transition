@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATA>
+  <!--
+        Document generated: 21.01.2011 19:28:01
+        PropertyID:	483570-->
+  <!--
+        CommisionTypeID: 1-->
+  <MEGLERDATA>
+    <MEGLER_KONTOR_ID>21913</MEGLER_KONTOR_ID>
+    <MEGLER_KONTOR_NAVN>Trondheim sentrum</MEGLER_KONTOR_NAVN>
+    <MEGLER_KONTOR_BESOKSADRESSE>Olav Tryggvasons gate 40 </MEGLER_KONTOR_BESOKSADRESSE>
+    <MEGLER_KONTOR_POSTNR>7011</MEGLER_KONTOR_POSTNR>
+    <MEGLER_KONTOR_POSTSTED>TRONDHEIM</MEGLER_KONTOR_POSTSTED>
+    <MEGLER_KONTOR_EMAIL>trondheim@aktiveiendom.no</MEGLER_KONTOR_EMAIL>
+  </MEGLERDATA>
+  <OPPDRAG>
+    <!--
+        STATUS
+        0 - ukjent
+        1 - Online
+        2 - Solgt
+        3 - Trukket
+      -->
+    <STATUS>1</STATUS>
+    <OPPDRAGSNR>7911036</OPPDRAGSNR>
+    <EIENDOMSNAVN>Ubåtsvingen 1 A-B</EIENDOMSNAVN>
+    <OVERSKRIFT1>PERSAUNET- Ny delikat selveierleilighet - 4-roms Fint utsyn - Høy standard - Attraktivt beliggende</OVERSKRIFT1>
+    <BOLIGTYPE>pr02</BOLIGTYPE>
+    <!--
+        OPPDRAGS_TYPE:
+        0 Salg
+        1 Utleie
+      -->
+    <OPPDRAGHOVEDTYPE>0</OPPDRAGHOVEDTYPE>
+    <KOMMUNENR>1601</KOMMUNENR>
+    <TOMTESTORRELSE>766</TOMTESTORRELSE>
+    <PRISANTYDNING_LEDETEKST>Prisantydning</PRISANTYDNING_LEDETEKST>
+    <PRISANTYDNING_VERDI>2890000</PRISANTYDNING_VERDI>
+    <GNR>9</GNR>
+    <BNR>822</BNR>
+    <SNR>8</SNR>
+    <FNR>0</FNR>
+    <ENERGY_LABEL>E</ENERGY_LABEL>
+    <ENERGY_LABEL_COLOR_CODE>ORANGE</ENERGY_LABEL_COLOR_CODE>
+    <BRUTTOAREAL>0</BRUTTOAREAL>
+    <BOAREAL>0</BOAREAL>
+    <HUSLEIEINKLUDERER>Felleskostnader er ikke fastsatt, men&lt;br&gt;bør fastsettes ved konstituering av&lt;br&gt;sameiet.&lt;br&gt;&lt;br&gt;Se vedlagt estimert prisliste som megler på selgers vegne har satt opp som viser følgende:&lt;br&gt;- Leilighetsnummer og fremtidig seksjonsnummer&lt;br&gt;- Antall rom&lt;br&gt;- Areal&lt;br&gt;- prisantydning&lt;br&gt;- kjøpsomkostninger&lt;br&gt;- Estimerte felleskostnader&lt;br&gt;- Vedr. kommunale avgifter for 1 termin 2011.</HUSLEIEINKLUDERER>
+    <OMKOSTNINGER>2,5% + kr. 3.685,-</OMKOSTNINGER>
+    <LAANEVILKAARFELLESGJELD>Sameiet har ved stiftelse ingen lån.</LAANEVILKAARFELLESGJELD>
+    <P-ROM>79</P-ROM>
+    <PRIMAERROM_BESKRIVELSE></PRIMAERROM_BESKRIVELSE>
+    <PRIMAEREROM_LEDERTEKST>Arealbeskrivelse</PRIMAEREROM_LEDERTEKST>
+    <AREALBESKRIVELSE></AREALBESKRIVELSE>
+    <EIERFORM>Selveier</EIERFORM>
+    <EIERFORMTOMT>Selveier</EIERFORMTOMT>
+    <TOMTEBESKRIVELSE>Eiet tomt som disponeres av sameiet iht. vedtekter. Forøvrig ligger det store grøntarealer, lekeplasser, rekreasjonsareal og friområder i området.</TOMTEBESKRIVELSE>
+    <INNHOLD>Ærverdig militær kaserne som er innvendig rehabilitert i 2010-2011 og omgjort til nye stilfulle leiligheter. Alle leilighetene er innvendig topp moderne og profesjonelt oppusset. Høy standard med Bla. utstrakt bruk av parkett, lyse overflater, påkostede og flislagte bad samt kvalitets kjøkken fra Brovold snekkeri med integrerte hvitevarer. Felles parkeringsplass.&lt;br&gt;&lt;br&gt;Vi tilbyr nå: &lt;br&gt;1 stk. 2-roms, 50 kvm, med prisantydning kr. 1 890 000,- 1 etg. med egen inngang.&lt;br&gt;1 stk. 3-roms, 67 kvm, med prisantydning kr. 2 390 000,- Beliggende i 2 etg. med utsikt.&lt;br&gt;1 stk. 4-roms, 79 kvm, med prisantydning kr. 2 890 000,- Beliggende i 2 etg. med utsikt.&lt;br&gt;&lt;br&gt;Litt byggteknisk: Ny himling, nye flater på vegger og gulv. Bygget er noe etterisolert fra innsiden, elektrisk anlegg er nytt, rørsystemer er nye. Leilighetene er tilknyttet fjernvarme.&lt;br&gt;&lt;br&gt;Følgende rom inngår i primærareal (2-roms):&lt;br&gt;1 etg.: 1 soverom, entré, bad, stue og kjøkken.&lt;br&gt;&lt;br&gt;Følgende rom inngår i primærareal (3-roms):&lt;br&gt;2 etg.: 2 soverom, entré, gang, bad, stue og kjøkken.&lt;br&gt;&lt;br&gt;Følgende rom inngår i primærareal (4-roms):&lt;br&gt;2 etg.: 3 soverom, entré, bad, stue og kjøkken.</INNHOLD>
+    <STANDARD>Alle leiligheter har parkett på gulv med unntak av bad som har fliser på vegger og tak.&lt;br&gt;&lt;br&gt;Noe etterisolerte vegger med malte gips plater.&lt;br&gt;&lt;br&gt;Hvitmalt gips himling (tak). &lt;br&gt;&lt;br&gt;2-roms i 1 etg. består av: Entré med flislagt gulv og varmekabler. Romslig stue og &lt;br&gt;kjøkkenløsning med flott Brovold kjøkken. Integrerte hvitevarer. Meget flott bad som har servant med over og underskap, dusjhjørne med innfellbare glassdører, wc, opplegg for vaskemaskin. I tillegg til soverom.&lt;br&gt;&lt;br&gt;3- roms i 2 etg. består av: Entré, romslig stue og &lt;br&gt;kjøkkenløsning med flott Brovold kjøkken. Integrerte hvitevarer. Meget flott bad som har servant med over og underskap, dusjhjørne med innfellbare glassdører, wc, opplegg for vaskemaskin samt 2 stk. soverom.&lt;br&gt;&lt;br&gt;4-roms i 2 etg. består av: Entré, romslig stue og &lt;br&gt;kjøkkenløsning med flott Brovold kjøkken. Integrerte hvitevarer. Meget flott bad som har servant med over og underskap, dusjhjørne med innfellbare glassdører, wc, opplegg for vaskemaskin, samt 3 stk. soverom.&lt;br&gt;&lt;br&gt;Alle leiligheter har egen bod i kjeller. Se egen vedlagt planskisse for plassering av leilighet i bygget samt kjellerplanskisse med oversikt over boder. &lt;br&gt;&lt;br&gt;Bygget er under seksjonering!&lt;br&gt;</STANDARD>
+    <BELIGGENHET>Leilighetene ligger til i tidligere Persaunet Leir. Herfra er det kort vei til flere av byens studiesteder, så som NTNU Gløshaugen, Dronning Maud og HiST Rotvoll. Også kort vei til KBS, Solsiden og Trondheim Sentrum.</BELIGGENHET>
+    <ADKOMST>Kjør inn i gamle Persaunet Leir. Ta så første til høyre. Ubåtsvingen 1 ligger da som 2 bygg på høyre side. Det vil bli skiltet med Aktiv Eiendom visningsskilter ved fellesvisninger.</ADKOMST>
+    <ANTALL_SOVEROM>3</ANTALL_SOVEROM>
+    <BYGGEAAR>1940</BYGGEAAR>
+    <MODERNISERINGSAAR>2010</MODERNISERINGSAAR>
+    <MODERNISERINGSAAR_INNVENDIG>2010</MODERNISERINGSAAR_INNVENDIG>
+    <MODERNISERINGSAAR_UTVENDIG>2010</MODERNISERINGSAAR_UTVENDIG>
+    <POSTNR>7045</POSTNR>
+    <POSTSTED>TRONDHEIM</POSTSTED>
+    <ETASJE>2</ETASJE>
+    <VEI_VANN_KLOAKK>Offentlig. Private stikkledninger ut til offentlig nett.</VEI_VANN_KLOAKK>
+    <FELLESUTGIFTER>0</FELLESUTGIFTER>
+    <FELLESGJELD>0</FELLESGJELD>
+    <FESTEAVGIFT>0</FESTEAVGIFT>
+    <MARKEDSVERDI>0</MARKEDSVERDI>
+    <LAANEVERDI>0</LAANEVERDI>
+    <SAKSBEHANDLER_NAVN>Eirik Døsen</SAKSBEHANDLER_NAVN>
+    <SAKSBEHANDLER_EMAIL>eirik.dosen@aktiveiendom.no</SAKSBEHANDLER_EMAIL>
+    <SAKSBEHANDLERS_TELEFON>73 99 22 57</SAKSBEHANDLERS_TELEFON>
+    <SAKSBEHANDLERS_MOBIL>97 05 92 20</SAKSBEHANDLERS_MOBIL>
+    <VISNINGSAVTALE></VISNINGSAVTALE>
+    <VISNINGSTIDER>
+      <VISNING FRA="26.01.2011 18:00" TIL="19:00" />
+    </VISNINGSTIDER>
+        <VEDLEGG>
+            <VEDLEGGID>8894932</VEDLEGGID>
+            <VEDLEGGSEKVENS>1</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_10</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://localhost/emproftest/happyday/1151411.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>99-98-86-46-13-eb-6e-a1-a4-42-70-99-c9-6f-98-e</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894933</VEDLEGGID>
+            <VEDLEGGSEKVENS>2</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_11</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://localhost/emproftest/happyday/1151412.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>47-00-B9-69-7C-77-E7-61-97-BB-0D-2B-C6-16-88-FF</VEDLEGGHASH>
+        </VEDLEGG>
+        <VEDLEGG>
+            <VEDLEGGID>8894934</VEDLEGGID>
+            <VEDLEGGSEKVENS>3</VEDLEGGSEKVENS>
+            <VEDLEGGTITTEL>Omraade_18</VEDLEGGTITTEL>
+            <VEDLEGGURL>http://localhost/emproftest/happyday/notExists.JPG
+            </VEDLEGGURL>
+            <VEDLEGGHASH>98-C0-35-BF-E7-35-9D-0D-F4-24-90-17-67-0D-D5-7A</VEDLEGGHASH>
+        </VEDLEGG>
+  </OPPDRAG>
+</DATA>

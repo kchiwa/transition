@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- definition of simple elements -->
+    <xs:element name="ClientID" type="xs:string"/>
+    <xs:element name="MidasAdRef" type="xs:string"/>
+    <xs:element name="ZettID" type="xs:string"/>
+    <xs:element name="ZettCode" type="xs:string"/>
+    <xs:element name="URL" type="xs:string"/>
+
+    <xs:element name="ImageURL" type="xs:string"/>
+    <xs:element name="ImageRef" type="xs:string"/>
+
+    <!-- definition of attributes -->
+    <xs:attribute name="Code" type="xs:string"/>
+
+    <!-- definition of complex elements -->
+    <xs:element name="Status">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Code" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Ad">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ClientID" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="MidasAdRef"  minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="ZettID"  minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="ZettCode"  minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="URL"  minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="Status"  minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Attachment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="MidasAdRef" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="ImageURL" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="ImageRef" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="Status" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Receipt">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Ad" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="Attachment" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

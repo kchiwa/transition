@@ -1,0 +1,316 @@
+                        ---
+                        Rest Service
+                        ---
+
+Rest Service
+
+
+  Transition has the RESTful Web service that use of HTTP methods, is defined as a data-producing method that's intended
+  to be used by a client application to retrieve a resource, to fetch data from a Web server and Transition will respond
+  with a set of ZettReceive format resources to the client.
+
+ The Transition REST design principle establishes a one-to-one mapping between create, read, update, and delete (CRUD)
+ operations and HTTP methods. According to this mapping:
+
++---
+    * To create a resource on the server, use POST.
+    * To retrieve a resource, use GET.
+    * To change the state of a resource or to update it, use PUT.
+    * To remove or delete a resource, use DELETE.
++---
+
+
+Rest with GET method
+
+    This service provide for the client to retrieve the adstate information by using the Url Patter as below
+
+    http://server/transition/zettxml/zettxml/{clientId}/{adExternalRef}.xml   as this example we use
+
+    http://localhost:8080/transition/zettxml/794668/000085.xml      ( clientid = 794668, and adExternalRef = 000085)
+
+   Transition will give the adstate's information by (clientId and adExternalRef) send the ZettReceive as below.
+
++---
+ <?xml version="1.0" encoding="UTF-8"?>
+<receipt>
+    <ad>
+        <adstateid>56</adstateid>
+        <status>PRODUCTION</status>
+        <clientid>794668</clientid>
+        <adexternalref>000085</adexternalref>
+        <shahash>374616779bd61eed813e13fe6d350c877fa66209</shahash>
+        <file>
+            <customerformat>zettxml</customerformat>
+            <owner>triolink</owner>
+            <filename>zett_triolink-794668.xml</filename>
+            <createdtime>2011-04-08T10:29:05.394+07:00</createdtime>
+        </file>
+        <medias>
+            <media>
+                <title>Opel Meriva</title>
+                <contenttype>IMAGE</contenttype>
+                <extref>http://localhost:8080/transition/test/zettxml/zett1.jpg</extref>
+                <status>PRODUCTION</status>
+                <sequencenum>1</sequencenum>
+                <md5hash/>
+                <prodref>c0/be/c0be9975d1bcdfa5c79287103234561c</prodref>
+                <lastModified>2011-04-08T10:29:05.728+07:00</lastModified>
+            </media>
+            <media>
+                <title>Opel Meriva</title>
+                <contenttype>IMAGE</contenttype>
+                <extref>http://localhost:8080/transition/test/zettxml/zett2.jpg</extref>
+                <status>PRODUCTION</status>
+                <sequencenum>2</sequencenum>
+                <md5hash/>
+                <prodref>2d/78/2d78747617532f13da5e07ac453e362e</prodref>
+                <lastModified>2011-04-08T10:29:05.728+07:00</lastModified>
+            </media>
+            <media>
+                <title>Opel Meriva</title>
+                <contenttype>IMAGE</contenttype>
+                <extref>http://localhost:8080/transition/test/zettxml/zett3.jpg</extref>
+                <status>PRODUCTION</status>
+                <sequencenum>3</sequencenum>
+                <md5hash/>
+                <prodref>05/9b/059b1f6b8848b765a85b974b4048efe7</prodref>
+                <lastModified>2011-04-08T10:29:05.728+07:00</lastModified>
+            </media>
+        </medias>
+    </ad>
+</receipt>
++---
+
+    And when the customer send non-existed ad the Transition will respond the error as below
+
++---
+<?xml version="1.0" encoding="UTF-8"?>
+<receipt>
+    <ad>
+        <error>
+            <clientId>794668</clientId>
+            <adExternalRef>000086</adExternalRef>
+            <message>Can not find Adstate with clientID : 794668 adExternalRef : 000086</message>
+        </error>
+    </ad>
+</receipt>
++---
+
+
+
+Rest with PUT method
+
+    This service provide for the client to upload image (zip file)  by using the URL Pattern as below;
+
+    http://server/transition/zettxml/zettxml/{clientName}/{clientId}/{adExternalRef}.xml   as this example we use
+
+    http://localhost:8080/transition/zettxml/triolink/794668/000085.xml      (clientname = triolink, clientid = 794668,
+    and adExternalRef = 000085)
+
+   Transition will put the zip image file into the ftp path and  return the ZettReceive as below.
+
++---
+    <receipt>
+      <ad>
+        <zettId>0</zettId>
+        <clientId>794668</clientId>
+        <externalReference>000085</externalReference>
+        <format>zettxml</format>
+        <clientName>triolink</clientName>
+        <returnHeader>OK</returnHeader>
+        <returnText>Success</returnText>
+        <createdTime>2011-04-08 10:12:26</createdTime>
+      </ad>
+    </receipt>
++---
+
+    And when the customer send non-existed ad the Transition will respond the error as below
+
++---
+    <receipt>
+        <ad>
+            <zettId>0</zettId>
+            <clientId>794668</clientId>
+            <externalReference>000085x</externalReference>
+            <format>zettxml</format>
+            <clientName>triolink</clientName>
+            <returnHeader>ERROR</returnHeader>
+            <returnText>
+            Can not foud zettid from client id = 794668 and client ref = 000089 Has a problem for close this ad(client name = triolinkclient id = 794668 adExternalRef = 000085x
+            </returnText>
+            <createdTime>2011-04-08 10:13:58</createdTime>
+        </ad>
+    </receipt>
++---
+
+Rest with DELETE method.
+
+    This service provide for the client to Close the adstate by using the URL Pattern as below;
+
+    http://server/transition/zettxml/zettxml/{clientName}/{clientId}/{adExternalRef}.xml   as this example we use
+
+    http://localhost:8080/transition/zettxml/triolink/794668/000085.xml   (clientname = triolink, clientid = 794668, and adExternalRef = 000085)
+
+   Transition will close the ad by (clientId and adExternalRef) send the ZettReceive as below.
+
++---
+<?xml version="1.0" encoding="UTF-8"?>
+<receipt>
+    <ad>
+        <zettId>0</zettId>
+        <clientId>794668</clientId>
+        <externalReference>000085</externalReference>
+        <format>zettxml</format>
+        <clientName>triolink</clientName>
+        <returnHeader>OK</returnHeader>
+        <returnText>Success</returnText>
+        <createdTime>2011-04-08 10:19:3</createdTime>
+    </ad>
+</receipt>
++---
+
+    And when the customer send non-existed ad to close, the Transition will respond the error as below
+
++---
+                         <?xml version="1.0" encoding="UTF-8"?>
+                         <receipt>
+                             <ad>
+                                 <zettId>0</zettId>
+                                 <clientId>794668</clientId>
+                                 <externalReference>000087</externalReference>
+                                 <format>zettxml</format>
+                                 <clientName>triolink</clientName>
+                                 <returnHeader>ERROR</returnHeader>
+                                 <returnText>Can not foud zettid from client id = 794668 and client ref = 000087 Has a problem for close this ad(client name = triolinkclient id = 10200 adExternalRef = 000087</returnText>
+                                 <createdTime>2011-04-08 10:18:12</createdTime>
+                             </ad>
+
++---
+
+Rest with POST method
+
+    This service provide for the client to send the adstate information to Transition by using the Url Patter as below
+
+    http://server/transition/zettxml/zettxml/{clientId}/{adExternalRef}.xml   as this example we use
+
+    http://localhost:8080/transition/zettxml/triolink/794668/000085.xml     (clientname = triolink, clientid = 794668, and adExternalRef = 000085)
+
+    And send the zett format as below:
+
++---
+<?xml version="1.0" encoding="UTF-8"?>
+<zett.no>
+  <Ad Status="ACTIVE" PublishFromTime="2011-01-29 18:04:03" CreatedBy="TriolinkWebAdServer" TransactionType="FOR_SALE" TransactionStatus="OPEN" PublishingStatus="PUBLISHED" AdCategoryId="10200" ContactPrivacyStatus="SHOW_ALL" Company="794668">
+    <Title>Opel Meriva 1.7 DT -A (2004)</Title>
+    <Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="794668" System="TriolinkWebAdServer" SystemVersion="1.7.5" Type="COMPANY_REFERENCE">000085</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="Bjørn Wiggo Engeskog Olsen" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE"></ContactAttribute>
+            <ContactAttribute Order="2" Type="MOBILE">97 07 57 24 </ContactAttribute>
+            <ContactAttribute Order="3" Type="FAX">61 13 63 01</ContactAttribute>
+            <ContactAttribute Order="4" Type="ADDRESS">Amsrudveien 5</ContactAttribute>
+            <ContactAttribute Order="5" Type="POSTCODE">2827</ContactAttribute>
+            <ContactAttribute Order="6" Type="POSTLOCATION">Hunndalen</ContactAttribute>
+            <ContactAttribute Order="7" Type="HOMEPAGE">www.gustavsenbil.no</ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Order="1" Name="vehicletype" Type="STRING" Label="Kjøretøy">Personbil</Attribute>
+      <Attribute Order="1" Name="make" Type="STRING" Label="Merke">Opel</Attribute>
+      <Attribute Order="1" Name="model" Type="STRING" Label="Modell">Meriva</Attribute>
+      <Attribute Order="1" Name="type" Type="STRING" Label="Type">Kombi (5-dørs)</Attribute>
+      <Attribute Order="1" Name="price" Type="PRICE_NOK" Label="Pris">112253</Attribute>
+      <Attribute Order="1" Name="modelyear" Type="INTEGER" Label="Årsmodell">2004</Attribute>
+      <Attribute Order="1" Name="mileage" Type="INTEGER" Label="Kilometerstand">107000</Attribute>
+      <Attribute Order="1" Name="enginevolume" Type="INTEGER" Label="Motorvolum">1.7 DT</Attribute>
+      <Attribute Order="1" Name="variant" Type="STRING" Label="Variant">-A</Attribute>
+      <Attribute Order="1" Name="color" Type="STRING" Label="Farge">Sølv</Attribute>
+      <Attribute Order="1" Name="enginehp" Type="INTEGER" Label="Hestekrefter">75</Attribute>
+      <Attribute Order="1" Name="yearlyfeepaid" Type="STRING" Label="Årsavgift betalt">Nei</Attribute>
+      <Attribute Order="1" Name="fueltype" Type="STRING" Label="Drivstoff">Diesel</Attribute>
+      <Attribute Order="1" Name="seats" Type="INTEGER" Label="Antall seter">5</Attribute>
+      <Attribute Order="1" Name="text" Type="STRING" Label="Beskrivelse">Ryddig, pen en eiers bil. Meget rimelig i drift med denne turbodieselmotor. Utstyrt med meget gode dekk. Siste service tatt nå. Selges verkstedkontrollert, med tilstandsrapport og garanti. Vi kan tilby meget god og rimelig forsikring og fiansiering. Velkommen til oss på Gustavsen Bil AS i Hunndalen, ved Gjøvik.  ( forbehold om finansiering )</Attribute>
+      <Attribute Order="1" Name="guarantee" Type="STRING" Label="Garanti" />
+      <Attribute Order="1" Name="wheeldrive" Type="STRING" Label="Drivhjul">Forhjulsdrift</Attribute>
+      <Attribute Order="1" Name="geartype" Type="STRING" Label="Girtype">Manuell</Attribute>
+      <Attribute Order="1" Name="saletype" Type="STRING" Label="Selgertype">Forhandler</Attribute>
+      <Attribute Order="1" Name="reregistrationfee" Type="STRING" Label="Omregistrering">6747</Attribute>
+      <Attribute Order="1" Name="reregistrationfeepaid" Type="STRING" Label="Omreg. inklusiv">Nei</Attribute>
+      <Attribute Order="1" Name="feature" Type="STRING" Label="Vinterhjul">Vinterhjul</Attribute>
+      <Attribute Order="2" Name="feature" Type="STRING" Label="Tilhengerfeste">Tilhengerfeste</Attribute>
+      <Attribute Order="3" Name="feature" Type="STRING" Label="Servostyring">Servostyring</Attribute>
+      <Attribute Order="4" Name="feature" Type="STRING" Label="Sentrallås">Sentrallås</Attribute>
+      <Attribute Order="5" Name="feature" Type="STRING" Label="Radio/CD">Radio/CD</Attribute>
+      <Attribute Order="6" Name="feature" Type="STRING" Label="Metallic lakk">Metallic lakk</Attribute>
+      <Attribute Order="7" Name="feature" Type="STRING" Label="Kollisjonsputer (sider)">Kollisjonsputer (sider)</Attribute>
+      <Attribute Order="8" Name="feature" Type="STRING" Label="Kollisjonsputer (foran)">Kollisjonsputer (foran)</Attribute>
+      <Attribute Order="9" Name="feature" Type="STRING" Label="El. vinduer">El. vinduer</Attribute>
+      <Attribute Order="10" Name="feature" Type="STRING" Label="El. speil">El. speil</Attribute>
+      <Attribute Order="11" Name="feature" Type="STRING" Label="Aircondition">Aircondition</Attribute>
+      <Attribute Order="12" Name="feature" Type="STRING" Label="ABS-bremser">ABS-bremser</Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Order="1" Reference="http://localhost:8080/transition/test/zettxml/zett1.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="2" Reference="http://localhost:8080/transition/test/zettxml/zett2.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+      <MediaElement Order="3" Reference="http://localhost:8080/transition/test/zettxml/zett3.jpg" Type="IMAGE">
+        <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+</zett.no>
++---
+
+
+   Transition will give the adstate's information by (clientId and adExternalRef) send the ZettReceive as below.
+
++---
+   <?xml version="1.0" encoding="UTF-8"?>
+    <receipt>
+        <ad>
+            <zettId>0</zettId>
+            <clientId>794668</clientId>
+            <externalReference>85</externalReference>
+            <format>zettxml</format>
+            <clientName>triolink</clientName>
+            <returnHeader>OK</returnHeader>
+            <returnText>Success</returnText>
+            <createdTime>2011-04-08 9:13:42</createdTime>
+        </ad>
+    </receipt>
++---
+
+   If the client send the wrong xml or something error the Transition will send the ZettReceive as below.
+
++---
+ <?xml version="1.0" encoding="UTF-8"?>
+ <receipt>
+    <ad>
+        <zettId>0</zettId>
+        <clientId>794668</clientId>
+        <externalReference>85</externalReference>
+        <format>zettxml</format>
+        <clientName>triolink</clientName>
+        <returnHeader>ERROR</returnHeader>
+        <returnText/>
+        <createdTime>2011-04-08 9:19:2</createdTime>
+    </ad>
+ </receipt
++---
+
+

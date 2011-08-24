@@ -1,0 +1,474 @@
+                        -----
+                        Zett XML
+                        -----
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Zett XML Structure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ The completed Zett xml should have structure like the following example.
+
++---------------
+<?xml version="1.0" encoding="UTF-8"?>
+<zett.no>
+	<Ad AdCategoryId="10200" Company="794668" TransactionStatus="OPEN" TransactionType="FOR_SALE">
+		<Title>Test Zett Ad</Title>
+		<Address>
+		      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+		      <PostCode>2827</PostCode>
+		      <PostLocation>Hunndalen</PostLocation>
+		      <Geography>Norge</Geography>
+		</Address>
+		<ExternalReferences>
+      			<Reference Source="794668" System="TriolinkWebAdServer">000085</Reference>
+		</ExternalReferences>
+		<Contacts>
+		    <Contact Name="test person" Email="testperson@mail.com">
+                <ContactAttributes>
+                    <ContactAttributeSection Name="DEFAULT">
+                        <ContactAttribute Order="1" Type="PHONE">1234567</ContactAttribute>
+                    </ContactAttributeSection>
+                </ContactAttributes>
+		    </Contact>
+		</Contacts>
+		<Attributes>
+		    <Attribute Name="text" Type="STRING">Ryddig, pen en eiers bil.</Attribute>
+		</Attributes>
+		<Media>
+		      <MediaElement Order="1" Reference="http://1151411.JPG" Type="IMAGE">
+			    <ElementTitle>Opel Meriva</ElementTitle>
+		      </MediaElement>
+		</Media>
+	</Ad>
+</zett.no>
++---------------
+
+ from the example, Zett xml will consist of 7 important parts as follows.
+
+ [[1]] Ad attributes
+
+ [[2]] Title
+
+ [[3]] Address
+
+ [[4]] ExternalReferences
+
+ [[5]] Contacts
+
+ [[6]] Attributes
+
+ [[7]] Media
+
+ []
+
+=======================================================================
+
+
+* Ad attributes Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  This section for describe about detail of the ads in various field, for example the company that belong is ad ,
+  Zett ad category id of this xml or the date of start and end for publish of this ad.
+  In this section has the fields that need the customer to provide as shown in table 1.
+
+
+*------+------+------+------+
+|| Attribute Name ||Data Type|| Require || Description ||
+*------+------+------+------+
+| AdCategoryId |Integer|yes |the category id of this ad|
+*------+------+------+------+
+| Company |Integer| yes | the company id from Zett|
+*------+------+------+------+
+| TransactionStatus |String| yes | the status of the ad, if the ad is open status = 'OPEN' , but the ad is close status = 'CLOSED' |
+*------+------+------+------+
+| TransactionType |String| yes | the type of this ad eg. FOR_SALE, FOR_RENT , etc. |
+*------+------+------+------+
+| ContactPrivacyStatus |String| no |default value = 'SHOW_ALL' |
+*------+------+------+------+
+| CreatedBy |String| no |default value = 'SHOW_ALL' |
+*------+------+------+------+
+| PublishFromTime |String| no | starting time for display this ad |
+*------+------+------+------+
+| PublishToTime |String| no | ending time for display this ad  |
+*------+------+------+------+
+| PublishingStatus |String| no | status for publish this ad |
+*------+------+------+------+
+| Status |String| no | the status of the ad, if the ad is open status = 'ACTIVE' , but the ad is close status = 'CLOSED' |
+*------+------+------+------+
+Table 1. The attribute list of \<Ad\> element.
+
+ for the example
+
++---------------
+<Ad AdCategoryId="10200" Company="794668" TransactionStatus="OPEN" TransactionType="FOR_SALE">
+    ...
+</Ad>
++---------------
+
+
+* Title Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ this section for describe about the title of this ad.
+
++---------------
+<Title>Opel Meriva 1.7 DT -A (2004)</Title>
++---------------
+
+
+* Address Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ this section for describe about the address of the publisher who publish this ad. that has child element for provide as shown in table 2.
+
+*------+------+------+
+|| Element Name || Require ||Data Type ||
+*------+------+------+
+| StreetAddress1 | yes |String|
+*------+------+------+
+| PostCode | yes |String|
+*------+------+------+
+| PostLocation | yes |String|
+*------+------+------+
+| Geography | yes |String|
+*------+------+------+
+Table 2. The child element of the address section.
+
+ Can be written as follows:
+
++---------------
+<Address>
+      <StreetAddress1>Amsrudveien 5</StreetAddress1>
+      <PostCode>2827</PostCode>
+      <PostLocation>Hunndalen</PostLocation>
+      <Geography>Norge</Geography>
+</Address>
++---------------
+
+
+
+* External References Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ this section for describe about the refference of this ad. for example, the external customer id for the each of customer.
+ all of these information will be put the child element of ExternalReferences name Reference wherewith   
+ all of attribute of the Reference element will be shown as table 3.
+
+*------+------+------+------+
+|| Attribute Name || Require ||Data Type|| Description ||
+*------+------+------+------+
+| Source | yes |Integer|the Zett Customer Id |
+*------+------+------+------+
+| System | yes |String|name of system for reference|
+*------+------+------+------+
+| SystemVersion | no |String|the version of reference system |
+*------+------+------+------+
+| Type | no |String|type of reference eg. COMPANY_REFERENCE|
+*------+------+------+------+
+Table 3. Attribute list of Reference element
+
+ Can be written as follows:
+
++---------------
+<ExternalReferences>
+    <Reference Source="794668" System="TriolinkWebAdServer">000085</Reference>
+</ExternalReferences>
++---------------
+
+
+* Contacts Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ this section for describe about the person who can be contacted from the people who interest this ad.
+ this section has main element name Contacts and can has many client element name Contact inside.
+ contact element has attribute list as shown in table 4.
+
+*------+------+------+------+
+|| Attribute Name || Require || Data Type || Description ||
+*------+------+------+------+
+| Name | yes |String| Name of contact person |
+*------+------+------+------+
+| Email | yes |String| Email of contact person|
+*------+------+------+------+
+Table 4. Attribute list for contact attribute.
+
+ Can be written as follows:
+
++---------------
+<Contacts>
+      <Contact Name="test person" Email="testperson@mail.com">
+            ...
+      </Contact>
+</Contacts>
++---------------
+
+ for each of contact element, it need to has child element inside name ContactAttributes. this element be used for describe about the contact information of each of person.
+ the ContactAttributes need to has an attribute name Name and has the value "DEFAULT" for tell Zett that this person is the default person who can be contacted. 
+ However , the person can has many chanel for contact such as by mobile phone , phone or fax. you can put all of these chanel inside the child element of ContactAttributeSection as element name as ContactAttribute. ContactAttribute has all of attribute as shown in table 5.
+
+*------+------+------+------+
+|| Attribute Name || Require ||Data Type|| Description ||
+*------+------+------+------+
+| Order | yes |String|order of this contact chanel|
+*------+------+------+------+
+| Type | yes |String|type of communication such as PHONE , MOBILE , FAX , ADDRESS , POSTCODE , POSTLOCATION or HOMEPAGE |
+*------+------+------+------+
+Table 5. Attribute list of ContactAttribute element
+
+ Can be written as follows:
+
++---------------
+<Contacts>
+  <Contact Name="test person" Email="testperson@mail.com">
+    <ContactAttributes>
+        <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="1" Type="PHONE">1234567</ContactAttribute>
+        </ContactAttributeSection>
+    </ContactAttributes>
+  </Contact>
+</Contacts>
++---------------
+
+
+* Attributes Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ this section for add the special data in the ad. you can add these information with attribute element. (but the attribute will accept by Zett before). 
+ you can put that attribute inside the main attribute name Attributes, and add all special data in the child element name Attribute.
+ The attribute of Attribute element will be shown as table 6.
+
+*------+------+------+------+
+|| Attribute Name ||Require|| Data Type || Description ||
+*------+------+------+------+
+| Name | yes |String| the name of this attribute |
+*------+------+------+------+
+| Type | yes |String| data type of this attribute eg. String |
+*------+------+------+------+
+| Order | no |String|ordering of this attribute|
+*------+------+------+------+
+| Label | no |String|label for display of this attribute in the ad |
+*------+------+------+------+
+Table 6. Attribute list of Attribute element.
+
+ Note! The ad must contain attribute name = 'text' at least 1 attribute always.
+ and then put value inside the tag. for the example:
+
++---------------
+<Attributes>
+   <Attribute Name="text" Type="STRING">Ryddig, pen en eiers bil.</Attribute>
+</Attributes>
++---------------
+
+
+* Media Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ this section for describe all of media that be used in this ad. the main element of this section is Media, 
+ and the Media element can has many child element name MediaElement inside. 
+ for each of MediaElement has attributes shown as table 7.
+
+*------+------+------+------+
+|| Attribute Name ||Require||String||Description||
+*------+------+------+------+
+| Reference | yes |String|the URL of this media for download |
+*------+------+------+------+
+| Type | yes |String|the type of this media. posible 3 type : IMAGE,PDF and LOGO |
+*------+------+------+------+
+| Order | yes |Integer|Number for order the media in this ad|
+*------+------+------+------+
+| md5 | no |String|for identical for this media|
+*------+------+------+------+
+Table 7. Attributes list of MediaElement.
+
+ Especially, for each of MediaElement must has child element name ElementTitle always. For describe about the title of this media. Can be written as follows:
+
++---------------
+<Media>
+      <MediaElement Order="1" Reference="http://localhost/1151411.JPG" Type="IMAGE">
+            <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+</Media>
++---------------
+
+=======================================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can we add the multiple ad in single xml
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+ you can add the multiple ad in single Zett xml file by the add <Ad> tag that has completed structure inside the <zett.no> as shown:
+
++---------------
+ <?xml version="1.0" encoding="UTF-8"?>
+    <zett.no>
+        <Ad ...>
+            ...
+        </Ad ...>
+        <Ad ...>
+            ...
+        </Ad ...>
+        <Ad ...>
+            ...
+        </Ad ...>
+    </zett.no>
++---------------
+
+ from the example, this zett xml file will push 3 ads to the Transition.
+
+=======================================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can we add the media to Transition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Zett support way for add the media to the add 3 ways. as follows.
+
+* 1. Specify the url for download the media inside the Zett xml.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ In the media section of Zett xml, it has an attribute name "Reference" , so you can provide the correct url for downloading. 
+ If the url is correct Transition will download this media and put it to the ad automaticly. as follows.
+
++---------------
+<Media>
+      <MediaElement Order="1" Reference="http://localhost/1151411.JPG" Type="IMAGE">
+            <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+</Media>
++---------------
+
+ for this way, customer can prevent uploading the duplicated media to the Transition by specify the md5 attribute in the
+ MediaElement tag that can be written as follows:
+
++---------------
+<Media>
+      <MediaElement Order="1" md5="98-C0-35-BF-E7-35-9D-0D-F4-24-90-17-67-0D-D5-7A" Reference="http://localhost/1151411.JPG" Type="IMAGE">
+            <ElementTitle>Opel Meriva</ElementTitle>
+      </MediaElement>
+</Media>
++---------------
+
+ When you provide the md5 for this media, in the media handle process of Transition. it will check that the system has the media data which contain
+ this md5 or not. If it has already. Transition will not download this media file but it's not,Transition will download the media like as usual.
+
+* 2. Upload the file to the ftp folder.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ User can upload the media file to the ftp folder directly by using ftp path as shown.
+
++---------------
+ /ftp/zettxml/{clientName}
++---------------
+
+ From the example, if the customer name is triolink , the ftp path should be : /ftp/zettxml/triolink, so customer can upload the media file to this path directly.
+
+ But the media file that you would like to upload to the ftp folder , should be .jpg , .gif and .png or zip extension.
+
+
+* 3. Using Transition Web Service.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ user can upload the media via Transition REST web service. for using the web service, user need to pack all of media file to the zip format.
+ and send to the Transition Web Service by using method PUT and URL Structure like this
+
++---------------
+ http://.../zettxml/{clientName}/{clientId}/{adExternalRef}.xml
++---------------
+
+*------+------+------+
+|| Element || Description || Example ||
+*------+------+------+
+| clientName | the name of client |triolink |
+*------+------+------+
+| clientId | the zett customer id. | 1000 |
+*------+------+------+
+| adExternalRef | the reference of this ad from the customer | 80455 |
+*------+------+------+
+
+ The zip file that be put. will be uploaded to the ftp folder for this client automaticly.
+
+=======================================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can we delete/close the ad that we uploaded.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ If you want to delete/close the ad. You need to upload the Zett xml that has structure like this.
+
++---------------
+<?xml version="1.0" encoding="UTF-8"?>
+<zett.no>
+  <Ad Status="CLOSED" TransactionType="" TransactionStatus="CLOSED" AdCategoryId="1200" ContactPrivacyStatus="" Company="1000">
+    <Title></Title>
+    <Address>
+      <StreetAddress1></StreetAddress1>
+      <PostCode></PostCode>
+      <PostLocation></PostLocation>
+      <Geography></Geography>
+    </Address>
+    <ExternalReferences>
+      <Reference Source="1000" System="" SystemVersion="">80455</Reference>
+    </ExternalReferences>
+    <Contacts>
+      <Contact Name="" Email="">
+        <ContactAttributes>
+          <ContactAttributeSection Name="DEFAULT">
+            <ContactAttribute Order="" Type=""></ContactAttribute>
+          </ContactAttributeSection>
+        </ContactAttributes>
+      </Contact>
+    </Contacts>
+    <Attributes>
+      <Attribute Name="" Type=""></Attribute>
+    </Attributes>
+    <Media>
+      <MediaElement Reference="" Type="">
+        <ElementTitle></ElementTitle>
+      </MediaElement>
+    </Media>
+  </Ad>
+</zett.no>
++---------------
+
+ but you need to add the value to xml for describe the ad that you want to delete/close as shown in table 8
+
+ Table 8. List of tag and attribute needs to be add for delete/close ad via Zett xml.
+
+*------+------+------+
+|| Tag / Attribute Name || Description || Example ||
+*------+------+------+
+| Company | the zett customer id. | 1000 |
+*------+------+------+
+| Source Attribute | the zett customer id. | 1000 |
+*------+------+------+
+| ExternalReferences | customer reference for the customer. | 80455 |
+*------+------+------+
+| AdCategoryId | category id for this ad. | 12000 |
+*------+------+------+
+
+ By the way, you can delete/closw the ad by the send the REST webservice to the Transition by using this url with and HTTP method = DELETE
+
++---------------
+http://... /zettxml/{clientName}/{clientId}/{adExternalRef}.xml
++---------------
+
+ All of element of the url can be shown as follows.
+
+*------+------+------+
+|| Element || Description || Example ||
+*------+------+------+
+| clientName | the name of client |triolink |
+*------+------+------+
+| clientId | the zett customer id. | 1000 |
+*------+------+------+
+| adExternalRef | the reference of this ad from the customer | 80455 |
+*------+------+------+
+
+ The example of url can be shown as follows.
+
++---------------
+http://... /zettxml/triolink/1000/80455.xml
++---------------
+
+
+

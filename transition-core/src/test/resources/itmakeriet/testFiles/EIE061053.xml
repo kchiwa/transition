@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>22115</Client>
+<Contacts>
+<Contact>
+<Name>Marie-Christine Christensen</Name>
+<Email>mcc@eie.no</Email>
+<Phone>22 83 37 00</Phone>
+<Mobile>9820 2996</Mobile>
+<Address Street="Bryggetorget 13-15" PostCode="0250 " City="OSLO" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE061053</ClientsRef>
+<Status Code="TRUKKET"/>
+<Publish FromDate="2010-04-29" ToDate="2010-10-24"/>
+<Deleted Date="2010-10-25" Time="07:06"/>
+<Type>leilighet</Type>
+<AdType>bolig_leie</AdType>
+<Title>3 roms på Briskeby</Title>
+<Address Street="President Harbitz gate 19" PostCode="0259" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="213" BNR="359" SNR="14"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">0</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">19000</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">0</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">130</Area>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>eiet</LotOwnershipType>
+<BuiltYear>1904</BuiltYear>
+<BedRooms>2</BedRooms>
+<Rooms>3</Rooms>
+<Floor>4</Floor>
+<TextFields>
+<Text Name="Innhold">Leiligheten har 3 plan. 
+
+Første plan ( 4.etg ):
+Gang med lagringsplass under trappen, stort kjøkken fra Kvikk med hvite blanke fronter og med spisebord til 12 personer, soverom med stor skyvedørsgarderobe og bad med vaskemaskin, wc og dusjnisje med vegger i glass man kan skyve inn mot veggen.
+
+Andre plan:
+Stor stue med peis som er synlig fra store deler av stuen med sittegruppe og utgang til balkong på 16 kvm med utsikt over store deler av byen, soverom med stor skyvedørsgarderobe og stort bad med dusjkabinett og skyvedørsgarderobe i speil.
+
+Tredje plan:
+Kontor med muligheter for å ha overnattingsbesøk på sovesofa.</Text>
+<Text Name="Boder">Det følger en bod i samme oppgang i 4.etg.</Text>
+<Text Name="Standard">Leiligheten fremstår som lys og med god standard.
+Om det ønskelig, kan man få fullt møblert kjøkken, sengetøy og hånklær.</Text>
+<Text Name="Diverse">Meget pent opparbeidet klassisk Frognergård.
+Bakgård med sykkelparkering. Det er ny heis i bygget.
+
+* Dyr er tillatt
+* Det er ikke lov å røyke
+* Man kan overta internettabonnementet til utleier</Text>
+<Text Name="Tomt">Felles eiet tomt på 915 kvm. Opparbeidet tomt/bakgård.</Text>
+<Text Name="Adkomst">Enkel adkomst fra President Harbitz gate. Det er heis opp til leilighetene.</Text>
+<Text Name="Parkering">Parkering i gate etter stedets gjeldende regler.</Text>
+</TextFields>
+<Options>
+<Option Name="møblert"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="Kjøkken " LastModified="2010-04-29 14:47">file:EIE061053-1.JPG</MainPicture>
+<Picture Type="image:jpeg" Title="Stue" LastModified="2010-04-29 14:47">file:EIE061053-2.JPG</Picture>
+<Picture Type="image:jpeg" Title="Kontoret " LastModified="2010-04-29 14:47">file:EIE061053-3.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom på andre plan" LastModified="2010-04-29 14:47">file:EIE061053-4.JPG</Picture>
+<Picture Type="image:jpeg" Title="Soverom på første plan" LastModified="2010-04-29 14:47">file:EIE061053-5.JPG</Picture>
+<Picture Type="image:jpeg" Title="Badet på første plan" LastModified="2010-04-29 14:47">file:EIE061053-6.JPG</Picture>
+<Picture Type="image:jpeg" Title="Bad på andre plan" LastModified="2010-04-29 14:47">file:EIE061053-7.JPG</Picture>
+<Picture Type="image:jpeg" Title="Gang" LastModified="2010-04-29 14:47">file:EIE061053-8.JPG</Picture>
+<Picture Type="image:jpeg" Title="Balkong" LastModified="2010-04-29 14:47">file:EIE061053-9.JPG</Picture>
+<Picture Type="image:jpeg" Title="Fasade" LastModified="2010-04-29 14:47">file:EIE061053-10.JPG</Picture>
+</Media>
+</Property>
+</TAS.Import>

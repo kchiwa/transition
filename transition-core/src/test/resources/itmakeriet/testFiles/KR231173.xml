@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+    <Property>
+        <Client>1882118</Client>
+        <Contacts>
+            <Contact>
+                <Name>Erik Rabstad</Name>
+                <Email>Erik.Rabstad@krogsveen.no</Email>
+                <Phone>33 50 00 53</Phone>
+                <Mobile>980 23 577</Mobile>
+                <Address Street="Heibergs gate 37 B" PostCode="3257" City="LARVIK" CountryCode="NO"/>
+            </Contact>
+        </Contacts>
+        <ClientsRef>KR231173</ClientsRef>
+        <Status Code="AKTIV"/>
+        <Publish FromDate="2011-07-04" ToDate="2011-12-16"/>
+        <Type>hytte</Type>
+        <AdType>fritid_salg</AdType>
+        <Title>Larvik - Viksfjord - landsted på Tørbergholmen.</Title>
+        <Address Street="Viksfjord - Tørbergholmen 3" PostCode="3261" City="LARVIK" CountryCode="NO"/>
+        <Matrikkel Kommune="0709" GNR="1012" BNR="29"/>
+        <PriceFields>
+            <Price Name="Prisantydning" Curr="NOK">6500000</Price>
+            <Price Name="Verditakst" Curr="NOK">6600000</Price>
+            <Price Name="Ligningsverdi" Curr="NOK">805761</Price>
+            <Price Name="Kommunale avgifter" Curr="NOK">2944</Price>
+            <Price Name="Andel disponible midler" Curr="NOK">0</Price>
+            <Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+            <Price Name="Formue" Curr="NOK">0</Price>
+            <Price Name="Fellesutgifter_inkluderer">Hytteierne på Tørbergholmen har felles ansvar for vedlikehold av bryggeanlegg, vannforsyning, felles boder og naust samt alle fellesarealer.
+                Kostnader forbundet med dette fordeles mellom eierne ved  behov.</Price>
+            <Price Name="Omkostninger_for_kjoper">1)	Dokumentavgift til Staten, 2,5% av kjøpesummen, samt
+                2)	kr 1.548,- i tinglysingsgebyr for skjøte.
+                3)	Tinglysingsgebyr for kjøpers eventuelle panterettsdokumenter; kr 2.137,- pr. stk.
+                4)	Total kjøpesum inkl. gebyrer/avgifter og evt. øvrige kostnader ved kjøp til prisantydning: kr 6.666.185,-.</Price>
+        </PriceFields>
+        <AreaFields>
+            <Area Name="Bruttoareal">94</Area>
+            <Area Name="Tomteareal">15000</Area>
+            <Area Name="primaererom_areal">86</Area>
+            <Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+            <Text Name="primaererom_inneholder"/>
+        </AreaFields>
+        <OwnershipType>selveier</OwnershipType>
+        <LotOwnershipType>eiet</LotOwnershipType>
+        <BuiltYear>1935</BuiltYear>
+        <BedRooms>3</BedRooms>
+        <Beds>6</Beds>
+        <Rooms>5</Rooms>
+        <Viewings>
+            <Viewing Date="2011-07-10" From="12:00" To="14:00"/>
+        </Viewings>
+        <TextFields>
+            <Text Name="Adkomst">Ta til høyre ved Gloppe bro, deretter til venstre mot Kaupang i neste rundkjøring. Ta grusvei til høyre mot Huestranda, hold rett frem mot bryggene der veien deler seg.&lt;br/&gt;Det vil være godt merket ved visning.</Text>
+            <Text Name="Beliggenhet:">Vakker beliggenhet på Tørbergholmen med sol fra tidlig morgen og til sen kveld. Panoramautsikt/rundskue. Felles bryggeanlegg av god kvalitet på øya. Båtplass og parkering på Kaupang 250 meter unna.</Text>
+            <Text Name="Bebyggelse:">Frittliggende sommerhytte. Enkle trekonstruksjoner på søyler og steinmurer til fast fjell.</Text>
+            <Text Name="Standard:">Hytta holder enkel standard. Påkostninger bør påregnes.</Text>
+            <Text Name="Oppvarming:">Vedovn i stue. Åpen peis/grue i gammel peisestue.  Det er ikke elektrisitet i hytta. Belysning skjer via solcellepaneler/vindgenerator.&lt;br/&gt;Kjøleskap og kokeapparat drives på gass.</Text>
+        </TextFields>
+        <Options>
+            <Option Name="strandlinje"/>
+            <Option Name="fiskemuligheter"/>
+            <Option Name="bademuligheter"/>
+            <Option Name="vann"/>
+            <Option Name="båtplass"/>
+            <Option Name="off. vann"/>
+            <Option Name="bilvei"/>
+            <Option Name="utsikt"/>
+        </Options>
+        <Media>
+            <MainPicture Type="image:jpeg" Title="Lavflyfoto" LastModified="2011-07-04 10:21">file:KR231173-1.JPG</MainPicture>
+            <Picture Type="image:jpeg" Title="Utsikt" LastModified="2011-07-04 10:21">file:KR231173-2.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Lavflyfoto" LastModified="2011-07-04 10:21">file:KR231173-3.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Utsikt" LastModified="2011-07-04 10:21">file:KR231173-4.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Lavflyfoto" LastModified="2011-07-04 10:21">file:KR231173-5.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Utsikt" LastModified="2011-07-04 10:21">file:KR231173-6.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Lavflyfoto" LastModified="2011-07-04 10:21">file:KR231173-7.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Lavflyfoto" LastModified="2011-07-04 10:21">file:KR231173-8.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Annet" LastModified="2011-07-04 10:21">file:KR231173-9.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Annet" LastModified="2011-07-04 10:21">file:KR231173-10.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Annet" LastModified="2011-07-04 10:21">file:KR231173-11.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Annet" LastModified="2011-07-04 10:21">file:KR231173-12.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade" LastModified="2011-07-04 10:21">file:KR231173-13.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade" LastModified="2011-07-04 10:21">file:KR231173-14.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade" LastModified="2011-07-04 10:21">file:KR231173-15.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Fasade" LastModified="2011-07-04 10:21">file:KR231173-16.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Stue" LastModified="2011-07-04 10:21">file:KR231173-17.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-07-04 10:21">file:KR231173-18.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Kjøkken" LastModified="2011-07-04 10:21">file:KR231173-19.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrasse" LastModified="2011-07-04 10:21">file:KR231173-20.JPG</Picture>
+            <Picture Type="image:jpeg" Title="Terrasse" LastModified="2011-07-04 10:21">file:KR231173-21.JPG</Picture>
+            <Picture Type="image:jpeg" Title="kart" LastModified="2011-07-04 10:21">file:KR231173-22.JPG</Picture>
+        </Media>
+    </Property>
+</TAS.Import>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="itmakerietValidatorSrc.xsd" />
+    
+    <!-- definition of simple element -->
+    <xs:element name="Client" type="xs:string"/>
+    <xs:element name="Name" type="xs:string"/>
+    <xs:element name="Email" type="xs:string"/>
+    <xs:element name="Phone" type="xs:string"/>
+    <xs:element name="Mobile" type="xs:string"/>
+    <xs:element name="Fax" type="xs:string"/>
+    <xs:element name="ClientsRef" type="xs:string"/>
+    <xs:element name="Type" type="xs:string"/>
+    <xs:element name="AdType" type="xs:string"/>
+    <xs:element name="Title" type="xs:string"/>
+    <xs:element name="OwnershipType" type="xs:string"/>
+    <xs:element name="LotOwnershipType" type="xs:string"/>
+    <xs:element name="BuiltYear" type="xs:positiveInteger"/>
+    <xs:element name="BedRooms" type="xs:positiveInteger"/>
+    <xs:element name="Beds" type="xs:positiveInteger"/>
+    <xs:element name="Rooms" type="xs:positiveInteger"/>
+    <xs:element name="Floor" type="xs:string"/>
+    <xs:element name="ViewingText" type="xs:string"/>
+
+    <!-- definition of attribute -->
+    <xs:attribute name="Version" type="xs:string"/>
+    <xs:attribute name="CountryCode" type="xs:string"/>
+    <xs:attribute name="Code" type="xs:string"/>
+    <xs:attribute name="FromDate" type="xs:date"/>
+    <xs:attribute name="ToDate" type="xs:date"/>
+    <xs:attribute name="Street" type="xs:string"/>
+    <xs:attribute name="PostCode" type="xs:string"/>
+    <xs:attribute name="City" type="xs:string"/>
+    <xs:attribute name="Kommune" type="xs:integer"/>
+    <xs:attribute name="GNR" type="xs:integer"/>
+    <xs:attribute name="BNR" type="xs:integer"/>
+    <xs:attribute name="FNR" type="xs:integer"/>
+    <xs:attribute name="SNR" type="xs:integer"/>
+    <xs:attribute name="Name" type="xs:string"/>
+    <xs:attribute name="Curr" type="xs:string"/>
+    <xs:attribute name="Display" type="xs:string"/>
+    <xs:attribute name="Per" type="xs:string"/> 
+    <xs:attribute name="Date" type="xs:date"/>
+    <xs:attribute name="Time" type="xs:string"/>
+    <xs:attribute name="From" type="xs:string"/>
+    <xs:attribute name="To" type="xs:string"/>
+    <xs:attribute name="Type" type="xs:string"/>
+    <xs:attribute name="Title" type="xs:string"/>
+    <xs:attribute name="LastModified" type="xs:string"/>
+    <xs:attribute name="Energy" type="xs:string"/>
+    <xs:attribute name="Heating" type="xs:string"/>
+    <xs:element name="EnergyClass" type="xs:string"/>
+    <xs:element name="HeatingColorCode" type="xs:string"/>
+
+    <!-- definition of complex element -->
+
+    <xs:element name="Picture">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Type"/>
+                    <xs:attribute ref="Title"/>
+                    <xs:attribute ref="LastModified"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PDF">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Type"/>
+                    <xs:attribute ref="Title"/>
+                    <xs:attribute ref="LastModified"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="MainPicture">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Type"/>
+                    <xs:attribute ref="Title"/>
+                    <xs:attribute ref="LastModified"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Media">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="MainPicture"/>
+                <xs:element ref="Picture" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="PDF" minOccurs="0" maxOccurs="10" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Option">
+        <xs:complexType>
+            <xs:attribute ref="Name"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Options">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Option" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Links">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Link" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Link">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Type"/>
+                    <xs:attribute ref="Title"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="TextFields">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Text" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="RentPeriod">
+        <xs:complexType>
+            <xs:attribute ref="FromDate"/>
+            <xs:attribute ref="ToDate"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Viewing">
+        <xs:complexType>
+            <xs:attribute ref="Date"/>
+            <xs:attribute ref="From"/>
+            <xs:attribute ref="To"/>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="Viewings">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Viewing" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="ViewingText" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Text">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Name"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Area">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Name"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="AreaFields">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Area"/>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="Text"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Price">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="Name"/>
+                    <xs:attribute ref="Curr"/>
+                    <xs:attribute ref="Display"/>
+                    <xs:attribute ref="Per"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="PriceFields">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Price" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Matrikkel">
+        <xs:complexType>
+            <xs:attribute ref="Kommune"/>
+            <xs:attribute ref="GNR"/>
+            <xs:attribute ref="BNR"/>
+            <xs:attribute ref="SNR"/>
+            <xs:attribute ref="FNR"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Address">
+        <xs:complexType>
+            <xs:attribute ref="Street"/>
+            <xs:attribute ref="PostCode"/>
+            <xs:attribute ref="City"/>
+            <xs:attribute ref="CountryCode"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EMS">
+    	<xs:complexType>
+            <xs:simpleContent>
+            	<xs:extension base="xs:string">
+       	     		<xs:attribute ref="Energy"/>
+            		<xs:attribute ref="Heating"/>
+            	</xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Deleted">
+        <xs:complexType>
+            <xs:attribute ref="Date"/>
+            <xs:attribute ref="Time"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Sold">
+        <xs:complexType>
+            <xs:attribute ref="Date"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Publish">
+        <xs:complexType>
+            <xs:attribute ref="FromDate"/>
+            <xs:attribute ref="ToDate"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Status">
+        <xs:complexType>
+            <xs:attribute ref="Code"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Contact">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="Name"/>
+                <xs:element ref="Email" minOccurs="0"/>
+                <xs:element ref="Phone" minOccurs="0"/>
+                <xs:element ref="Mobile" minOccurs="0"/>
+                <xs:element ref="Fax" minOccurs="0"/>
+                <xs:element ref="Address"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Contacts">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Contact"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- main complex element -->
+    <xs:element name="Property">
+        <xs:complexType>
+            <xs:all>
+                <xs:element ref="Client"/>
+                <xs:element ref="Contacts"/>
+                <xs:element ref="ClientsRef"/>
+                <xs:element ref="Status"/>
+                <xs:element ref="Publish"/>
+                <xs:element ref="Sold" minOccurs="0"/>
+                <xs:element ref="Deleted" minOccurs="0"/>
+                <xs:element ref="Type"/>
+                <xs:element ref="AdType"/>
+                <xs:element ref="Title"/>
+                <xs:element ref="Address"/>
+                <xs:element ref="Matrikkel" minOccurs="0"/>
+                <xs:element ref="PriceFields"/>
+                <xs:element ref="AreaFields" minOccurs="0" />
+                <xs:element ref="OwnershipType" minOccurs="0" />
+                <xs:element ref="LotOwnershipType" minOccurs="0" />
+                <xs:element ref="BuiltYear" minOccurs="0"/>
+                <xs:element ref="BedRooms" minOccurs="0"/>
+                <xs:element ref="Beds" minOccurs="0"/>
+                <xs:element ref="Rooms" minOccurs="0"/>
+                <xs:element ref="Floor" minOccurs="0"/>
+                <xs:element ref="EMS" minOccurs="0" />
+                <xs:element ref="RentPeriod" minOccurs="0"/>
+                <xs:element ref="EnergyClass" minOccurs="0"/>
+                <xs:element ref="HeatingColorCode" minOccurs="0"/>
+                <xs:element ref="Viewings" minOccurs="0"/>
+                <xs:element ref="TextFields" minOccurs="0"/>
+                <xs:element ref="Options" minOccurs="0"/>
+                <xs:element ref="Links" minOccurs="0"/>
+                <xs:element ref="Media" minOccurs="0"/>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="TAS.Import">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Property" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="Version" type="xs:string"/>
+            <xs:attribute ref="xml:lang"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

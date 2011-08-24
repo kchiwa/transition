@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.tietoenator.com"
+           xmlns:mpw="http://www.tietoenator.com">
+
+    <!-- definition of simple elements -->
+    <xs:element name="version" type="xs:string"/>
+    <xs:element name="gendate" type="xs:string"/>
+    <xs:element name="gentime" type="xs:string"/>
+    <xs:element name="user" type="xs:string"/>
+    <xs:element name="description" type="xs:string"/>
+    <xs:element name="status" type="xs:string"/>
+    <xs:element name="ordernumber" type="xs:string"/>
+    <xs:element name="date" type="xs:string"/>
+    <xs:element name="time" type="xs:string"/>
+    <xs:element name="orderplacementcode" type="xs:string"/>
+    <xs:element name="adresulted" type="xs:string"/>
+    <xs:element name="code" type="xs:string"/>
+    <xs:element name="name" type="xs:string"/>
+    <xs:element name="startdate" type="xs:string"/>
+    <xs:element name="enddate" type="xs:string"/>
+    <xs:element name="id" type="xs:integer"/>
+    <xs:element name="address" type="xs:string"/>
+    <xs:element name="co_address" type="xs:string"/>
+    <xs:element name="zipcode" type="xs:string"/>
+    <xs:element name="city" type="xs:string"/>
+    <xs:element name="telephone1" type="xs:string"/>
+    <xs:element name="telephone2" type="xs:string"/>
+    <xs:element name="telephone3" type="xs:string"/>
+    <xs:element name="contact_name" type="xs:string"/>
+    <xs:element name="email" type="xs:string"/>
+    <xs:element name="pdffile_name" type="xs:string"/> 
+    <xs:element name="adsoriginal_id" type="xs:integer"/>
+    <xs:element name="placementcode" type="xs:string"/>
+    <xs:element name="deviant_zipcode" type="xs:string"/>
+    <xs:element name="quantity_chars_title" type="xs:string"/>
+    <xs:element name="ad_title" type="xs:string"/>
+    <xs:element name="quantity_chars_text" type="xs:string"/>
+    <xs:element name="ad_text" type="xs:string"/>
+    <xs:element name="search_notion_id" type="xs:integer"/>
+    <xs:element name="search_notion_name" type="xs:string"/>
+    <xs:element name="search_notion_display_name" type="xs:string"/>
+    <xs:element name="search_notion_value" type="xs:string"/>
+    <xs:element name="media_object_type" type="xs:string"/>
+    <xs:element name="media_object_title" type="xs:string"/>
+    <xs:element name="media_object_address" type="xs:string"/>
+    <xs:element name="media_object_inline" type="xs:string"/>
+
+
+    <!-- definition of complex elements -->
+    <xs:element name="order_created">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:date"/>
+                <xs:element ref="mpw:time"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="order_modified">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:date"/>
+                <xs:element ref="mpw:time"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="product_paper">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:code"/>
+                <xs:element ref="mpw:name"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="product_paper_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:product_paper" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="product_web">
+        <xs:complexType>
+            <!-- Code and name should be in a list. In some files, this is not the case, and this is a work around -->
+            <xs:sequence maxOccurs="unbounded">
+                <xs:element ref="mpw:code"  />
+                <xs:element ref="mpw:name"  />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="salesperson">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:name"/>
+                <xs:element ref="mpw:code"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="customer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:id"/>
+                <xs:element ref="mpw:name"/>
+                <xs:element ref="mpw:co_address" minOccurs="0"/>
+                <xs:element ref="mpw:address" minOccurs="0"/>
+                <xs:element ref="mpw:zipcode"/>
+                <xs:element ref="mpw:city"/>
+                <xs:element ref="mpw:telephone1"/>
+                <xs:element ref="mpw:telephone2" minOccurs="0"/>
+                <xs:element ref="mpw:telephone3" minOccurs="0"/>
+                <xs:element ref="mpw:contact_name" minOccurs="0"/>
+                <xs:element ref="mpw:email" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="customer_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:customer" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="search_notion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:search_notion_id"/>
+                <xs:element ref="mpw:search_notion_name"/>
+                <xs:element ref="mpw:search_notion_display_name"/>
+                <xs:element ref="mpw:search_notion_value" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="search_notion_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:search_notion" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="media_object">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:media_object_type"/>
+                <xs:element ref="mpw:media_object_title"/>
+                <xs:element ref="mpw:media_object_address"/>
+                <xs:element ref="mpw:media_object_inline"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="media_object_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:media_object" maxOccurs="50"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="adsoriginal_deleted">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:date"/>
+                <xs:element ref="mpw:time"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="adsoriginal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:adsoriginal_id"/>
+                <xs:element ref="mpw:adsoriginal_deleted" minOccurs="0" />                
+                <xs:element ref="mpw:placementcode" minOccurs="0" />
+                <xs:element ref="mpw:deviant_zipcode" minOccurs="0" />
+                <xs:element ref="mpw:quantity_chars_title" minOccurs="0"/>
+                <xs:element ref="mpw:ad_title" minOccurs="0"/>
+                <xs:element ref="mpw:quantity_chars_text" minOccurs="0"/>
+                <xs:element ref="mpw:ad_text" minOccurs="0"/>
+                <xs:element ref="mpw:search_notion_list" minOccurs="0"/>
+                <xs:element ref="mpw:media_object_list" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="adsoriginal_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:adsoriginal" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="weborder">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:status"/>
+                <xs:element ref="mpw:ordernumber"/>
+                <xs:element ref="mpw:order_created" minOccurs="0"/>
+                <xs:element ref="mpw:order_modified" minOccurs="0"/>
+                <xs:element ref="mpw:orderplacementcode" minOccurs="0"/>
+                <xs:element ref="mpw:adresulted" minOccurs="0"/>
+                <xs:element ref="mpw:product_paper_list" minOccurs="0"/>
+                <xs:element ref="mpw:product_web" minOccurs="0"/>
+                <xs:element ref="mpw:salesperson" minOccurs="0"/>
+                <xs:element ref="mpw:startdate" minOccurs="0"/>
+                <xs:element ref="mpw:enddate" minOccurs="0"/>
+                <xs:element ref="mpw:customer_list" minOccurs="0"/>
+                <xs:element ref="mpw:pdffile_name" minOccurs="0"/>
+                <xs:element ref="mpw:adsoriginal_list" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="weborder_list">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:weborder" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="fileinfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:gendate"/>
+                <xs:element ref="mpw:gentime"/>
+                <xs:element ref="mpw:user"/>
+                <xs:element ref="mpw:description"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="mpresswebmarket">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mpw:version"/>
+                <xs:element ref="mpw:fileinfo"/>
+                <xs:element ref="mpw:weborder_list"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

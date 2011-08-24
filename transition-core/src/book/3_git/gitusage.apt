@@ -1,0 +1,209 @@
+                ------
+                How to use git
+                ------
+
+ Short overview of resources, preparations, and how
+ to check out our material.
+
+Resources
+
+ * {{{http://git-scm.com/documentation/}Documentation from git-scm.com}}
+
+ * {{{http://nvie.com/posts/a-successful-git-branching-model/}A successful Git branching model}}
+
+ * {{{http://www.spheredev.org/wiki/Git_for_the_lazy}Git for the lazy}}
+
+ * {{{http://progit.org/}Pro Git}} - notice that it also contains a book
+
+ * {{{http://git-scm.com/course/svn.html}Git for subversion-uses}}
+
+ * {{{http://betterexplained.com/articles/a-visual-guide-to-version-control/}A
+Visual Guide to Version Control}},
+and even more importantly: 
+{{{http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/}Intro 
+to Distributed Version Control}}
+
+ * {{{http://marklodato.github.com/visual-git-guide/}A Visual Git Reference}}
+
+ * {{{http://jeffkreeftmeijer.com/2010/the-magical-and-not-harmful-rebase/}A good rebase explanation}}
+
+ * {{{http://ariejan.net/2009/06/08/best-practice-the-git-development-cycle/}Best
+ practice: The git development cycle}}
+
+[]
+
+Preparations for using git
+
+ First of all, you need to install it. On Ubuntu, that is:
+
++---
+apt-get install git-core
++---
+
+~~ Disregard the following if you have not heard anything about the test repository - it
+~~ is in the process of being moved.
+~~ In order to use that test git directory residing at dynamicus.org, edit
+~~ (or create it, if it does not already exist) $HOME/.netrc, and
+~~ add:
+
+~~ machine dynamicus.org
+~~ login YOUR USER_NAME
+~~ password YOUR_UNENCRYPTED_PASSWORD
+
+ Supply name and email configuration:
+
++---
+git config --global user.name "Your Name Comes Here"
+git config --global user.email you@yourdomain.example.com
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
++---
+
+~~ * Checkout of the test project
+
+~~ The test project code can (at the moment) be found in the following manner.
+~~ Make a separate directory for the git source.
+
+~~ mkdir $HOME/git
+~~ cd $HOME/git
+~~ git clone  http://dynamicus.org/git/abctech
+
+~~ Notice that we use dynamicus.org as a central repository.
+
+
+* Clone the repository
+~~~~~~~~~~~~~~~~~~~~~~
+
+ We have set up an internal repository on the APDM machine
+ ({{http://apdm.int.abctech-thailand.com}}). The following
+ explains how you clone the repository.
+
+ Cloning a repository is the same as checking out a repository, if you think in parallels to subversion.
+
++---
+cd $HOME/git
+mkdir -p code
+cd code
+git clone apdm.int.abctech-thailand.com:/opt/git/code/transition.git
+git clone apdm.int.abctech-thailand.com:/opt/git/code/first.git
+cd ..
+mkdir -p static
+cd static
+git clone apdm.int.abctech-thailand.com:/opt/git/static/presentations.git
++---
+
+ Notice that you needed to create an extra subdirectory. This is due to structuring considerations.
+
+ Krazip does not reside in this repo anymore, as it has been moved to
+ {{{http://github.com/abctech/krazip}a krazip github repo under abctech}}.
+
+
+** If you have a different user on your workstation and the apdm machine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ If your local user is not the same as the user on the apdm machine, you need to do
+ the following: Open the file <<$HOME/.ssh/config>> in your favorite text editor. You may need to
+ create it if it does not exist already. Add:
+
++---
+Host apdm.int.abctech-thailand.com
+    User *username*
++---
+
+** If you are connecting to the git repository outside of the offices
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ It is possible to use the "greatatuin" server as a proxy for the apdm. You
+ (obviously) need to have a user there.
+
+ The proxy configuration in <<$HOME/.ssh/config>>:
+
++---
+# Some general configuration you would like to have
+ServerAliveInterval 60
+Compression yes
+# Normally you want to be careful with using forward agent,
+# it will expose your private key in the internal memory of the
+# machines you log onto, if I remember correctly.
+ForwardAgent yes
+# If your user name is different from the local names, add:
+Host *.abctech-thailand.com
+  User *username*
+# Host configuration for a specific host: 
+Host apdm.int.abctech-thailand.com
+     ProxyCommand ssh greatatuin.abctech-thailand.com exec nc %h %p
+     User *username*
++---
+
+ Test connection by doing:
+
++---
+ssh greatatuin.abctech-thailand.com
+exit
+ssh apdm.int.abctech-thailand.com
+exit
++---
+
+ For both of these lines, you are expected to confirm the ssh host key.
+
+The most important git commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ Pushing and pulling source from the central repository.
+
++---
+git pull --rebase  # Fetch code from foreign repository
+git push           # Push the code to the remote repository
+remote -v          # See which remote repositories you use.
++---
+
+ Checking in code (which is local until you push it):
+
++---
+git commit
+git commit -a
++---
+
+ Finding status:
+
++---
+git status
++---
+
+
+* Branching and merging
+~~~~~~~~~~~~~~~~~~~~~~
+
++---
+cd git/abctech
+git status               # To see current branch
+git branch branchname
+git checkout branchname
+git branch               # Shows you the branches
+git checkout master      # switches back to master branch
+git merge branchname     # Put changes back into master
+git branch -d branchname # Delete unneeded branch
++---
+
+* Git stash
+
+ Stash is useful when you have pending local changes, but do not want to
+ perform a commit before doing, for example, <<<git pull --rebase>>>
+
++---
+git-stash
+git pull --rebase  # for instance
+git-stash apply
+git-stash clear
++---
+
+* Deleting git tag in remote repository
+
+ In order to delete a tag in a remote repository, the following can
+ be performed. Exchange the example tag with something else:
+
++---
+git tag -d sometag-123
+git push origin :refs/tags/sometag-123
++---

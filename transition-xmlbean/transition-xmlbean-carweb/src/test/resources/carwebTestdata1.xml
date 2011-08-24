@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Bildata>
+    <Forhandler brukerid="32017" passord="ramb894" navn="Toyota Ramstad Bil AS avd Askim" adresse1="Sagveien 1" adresse2="" adresse3="" postnr="1814" poststed="ASKIM" url="www.ramstadbil.no" tlf="69 84 44 00" fax="69 84 44 01" epost="post.askim@toyota.no" fullupdate="1">
+        <Bil unikid="1_375" kontroll="9" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Peugeot</Merke>
+            <Modell>307</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>109000</Pris>
+            <Arsmodell>2005</Arsmodell>
+            <Kmstand>108200</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>XS klimaanlegg</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>bl&#229;/gr&#229; Metallic</Farge>
+            <Effekt>109</Effekt>
+            <Bilder>
+                <Bilde bilde="1_375L.JPG" prioritet="0" md5="4A009865D1A8283BB68317114C741D72" desc="Hovedbilde"/>
+                <Bilde bilde="1_375L_1.JPG" prioritet="1" md5="83D1032632417AE89417FF1B41D57ABF" desc="Bilde 2"/>
+                <Bilde bilde="1_375L_2.JPG" prioritet="2" md5="7389CC574A818D3B1A575C32552B8468" desc="Bilde 3"/>
+                <Bilde bilde="1_375L_3.JPG" prioritet="3" md5="0399594917E2F695285AB6947E1D270B" desc="Bilde 4"/>
+                <Bilde bilde="1_375L_4.JPG" prioritet="4" md5="A95DED4B35C79D525BD130312A48B9F2" desc="Bilde 5"/>
+                <Bilde bilde="1_375L_5.JPG" prioritet="5" md5="747D67756844A4E36100CBCF114C995D" desc="Bilde 6"/>
+                <Bilde bilde="1_375L_6.JPG" prioritet="6" md5="32244C0C1166FF7E7271900CCB4DD9A0" desc="Bilde 7"/>
+                <Bilde bilde="1_375L_7.JPG" prioritet="7" md5="281445963BC0C4A6B46B66E66CBC762D" desc="Bilde 8"/>
+                <Bilde bilde="1_375L_8.JPG" prioritet="8" md5="DED64797AB354F6E976AB5BF070555F3" desc="Bilde 9"/>
+                <Bilde bilde="1_375L_9.JPG" prioritet="9" md5="7FAFD13B40A93495828C5CAE21FB10E7" desc="Bilde 10"/>
+                <Bilde bilde="1_375L_10.JPG" prioritet="10" md5="3551C3D54C5AE8C17F971B5224515F94" desc="Bilde 11"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>1</InklArsavg>
+            <Ekstrautstyr>;Antiskrens,ESP;ABS-bremser,ABS-bremser;Air Condition,Air Condition;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Hengerfeste,Hengerfeste;Klimaanlegg,Klimaanlegg;Metallic lakk,Metallic lakk;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen 307 Selges,Bilen har tidligere kun hatt 1 EIER!  Bilen er bra utstyrt med Feks Automatisk klimaanegg.Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ59160</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>5</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1200</Slepevekt>
+            <FargeInnvendig>Sort stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_384" kontroll="6" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Opel</Merke>
+            <Modell>Astra</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>134233</Pris>
+            <Arsmodell>2004</Arsmodell>
+            <Kmstand>66500</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>Twinport Automat!</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Lys bl&#229; Metallic</Farge>
+            <Effekt>105</Effekt>
+            <Bilder>
+                <Bilde bilde="1_384L.JPG" prioritet="0" md5="D3D295CB924CAF0F10CDE7C638CEDEC2" desc="Hovedbilde"/>
+                <Bilde bilde="1_384L_1.JPG" prioritet="1" md5="C597C3A5680B23AFCB950E7A07AB257B" desc="Bilde 2"/>
+                <Bilde bilde="1_384L_2.JPG" prioritet="2" md5="9AED1ACF5A251EDC4644E488FD62EE11" desc="Bilde 3"/>
+                <Bilde bilde="1_384L_3.JPG" prioritet="3" md5="D2497FA64334616E2161366DED8AC00B" desc="Bilde 4"/>
+                <Bilde bilde="1_384L_4.JPG" prioritet="4" md5="519551D8672AD536A0F4D13C068D2420" desc="Bilde 5"/>
+                <Bilde bilde="1_384L_5.JPG" prioritet="5" md5="D73AF37B938FC441F8AF8CBEBE9A0590" desc="Bilde 6"/>
+                <Bilde bilde="1_384L_6.JPG" prioritet="6" md5="E0ECC3A37BE4F8BB9993FDBDEBE53F76" desc="Bilde 7"/>
+                <Bilde bilde="1_384L_7.JPG" prioritet="7" md5="B0C85D4E5AFA46B47E5C7EB694A5620A" desc="Bilde 8"/>
+                <Bilde bilde="1_384L_8.JPG" prioritet="8" md5="3832DB2DF9CB1346531DFEAB16AEDF46" desc="Bilde 9"/>
+                <Bilde bilde="1_384L_9.JPG" prioritet="9" md5="D42663EF4CC31D2B4A7007478E4506C9" desc="Bilde 10"/>
+                <Bilde bilde="1_384L_10.JPG" prioritet="10" md5="C352C15DC44953FF87D7BBCBCCEC3EE8" desc="Bilde 11"/>
+                <Bilde bilde="1_384L_11.JPG" prioritet="11" md5="43A3B8DF96BACA546ED426797C07C51C" desc="Bilde 12"/>
+                <Bilde bilde="1_384L_12.JPG" prioritet="12" md5="F1B41A3F3B6E4FFEAD909BB99750D7A1" desc="Bilde 13"/>
+                <Bilde bilde="1_384L_13.JPG" prioritet="13" md5="456AFAAF58083CC562D3A2C98232108B" desc="Bilde 14"/>
+                <Bilde bilde="1_384L_14.JPG" prioritet="14" md5="02E6AF5331453D1A0F98FE2238C830A1" desc="Bilde 15"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Automat,Automat;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;Automatgir,Automatgir;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Lettmet. felg sommer,Lettmet. felg sommer;Metallic lakk,Metallic lakk;Oppvarmede seter,Oppvarmede seter;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Meget vellholdt Opel Astra Automat selges! Bilen har Alu felger p&#229; sommer hjul og fremst&#229;r som meget godt behandlet!  Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt>1190</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ57879</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>2</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Automat</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>sort/gr&#229;tt Stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_390" kontroll="4" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Land Cruiser</Modell>
+            <Karosserifasong>5</Karosserifasong>
+            <Pris>400000</Pris>
+            <Arsmodell>2003</Arsmodell>
+            <Kmstand>175000</Kmstand>
+            <Motorstorrelse>3.0</Motorstorrelse>
+            <Variant>VX med skinn</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Champange</Farge>
+            <Effekt>163</Effekt>
+            <Bilder>
+                <Bilde bilde="1_390L.JPG" prioritet="0" md5="F9A536D2EE6FAD69BE5C62FBD9F754D6" desc="Hovedbilde"/>
+                <Bilde bilde="1_390L_1.JPG" prioritet="1" md5="6C3E9913FEF2747FF2677E069AFD5CB9" desc="Bilde 2"/>
+                <Bilde bilde="1_390L_2.JPG" prioritet="2" md5="A1360BBAB971A219E71F06F4CD23B9EB" desc="Bilde 3"/>
+                <Bilde bilde="1_390L_3.JPG" prioritet="3" md5="1AFADFD1DA92274BB25E3ABFE7F56879" desc="Bilde 4"/>
+                <Bilde bilde="1_390L_4.JPG" prioritet="4" md5="EF0F98E8AFD740288CD3D48EF3E18A8E" desc="Bilde 5"/>
+                <Bilde bilde="1_390L_5.JPG" prioritet="5" md5="E4301521B847D75579A4F80FF95534C1" desc="Bilde 6"/>
+                <Bilde bilde="1_390L_6.JPG" prioritet="6" md5="7533A0D15322D636E8AC0E6C7B284321" desc="Bilde 7"/>
+                <Bilde bilde="1_390L_7.JPG" prioritet="7" md5="6AEBA46870DE4E054EF751EF41F581DC" desc="Bilde 8"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Automat,Automat;Firehjulstrekk,4WD;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;Antiskrens,VSC;Antiskrens,Antiskrens;Antispinn,Antispinn;CD-spiller,CD-spiller;Cruisekontroll,Cruisekontroll;El.vinduer,El.vinduer;Firehjulstrekk,Firehjulstrekk;Front b&#248;yle,Front b&#248;yle;Hengerfeste,Hengerfeste;Klimaanlegg,Klimaanlegg;Lettmetallfelger,Lettmetallfelger;Metallic lakk,Metallic lakk;Midtarmlene,Midtarmlene;Vinterhjul,Vinterhjul;Sentrall&#229;s,Sentrall&#229;s;Sommerhjul,Sommerhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Meget hel og pen Land Cruiser Personbil selges! Bilen har godkjent frontb&#248;yle med 2 stk &quot;1000 metere&quot; Bilen selges for kunde, ta kontakt med Knut Torgersen p&#229; tlf 98 20 93 16      Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti/>
+            <RegNr>AJ56558</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>1</Basisfarge>
+            <Drivhjul>4WD</Drivhjul>
+            <Girtype>Automat</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>m&#248;rkt skinn</FargeInnvendig>
+            <OmregAvgift>8574</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_391" kontroll="6" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Avensis</Modell>
+            <Karosserifasong>4</Karosserifasong>
+            <Pris>236556</Pris>
+            <Arsmodell>2008</Arsmodell>
+            <Kmstand>92700</Kmstand>
+            <Motorstorrelse>2.0</Motorstorrelse>
+            <Variant>Sol NaviTech</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>1G3 Ashgrey metallic</Farge>
+            <Effekt>126</Effekt>
+            <Bilder>
+                <Bilde bilde="1_391L.JPG" prioritet="0" md5="F3A1EAF9E0563A26FDCE0EBCF4A3142E" desc="Hovedbilde"/>
+                <Bilde bilde="1_391L_1.JPG" prioritet="1" md5="BDCA3B8AAA36DF7BFA21F92BA63B0482" desc="Bilde 2"/>
+                <Bilde bilde="1_391L_2.JPG" prioritet="2" md5="9B3F55E65C21AF9DAA253DB7C0A1E9DF" desc="Bilde 3"/>
+                <Bilde bilde="1_391L_3.JPG" prioritet="3" md5="BEE6A0A81D9A9FF1016974F3CFDFDB1D" desc="Bilde 4"/>
+                <Bilde bilde="1_391L_4.JPG" prioritet="4" md5="656BC497AAD2A51CE2E26656C766FF08" desc="Bilde 5"/>
+                <Bilde bilde="1_391L_5.JPG" prioritet="5" md5="EDA86E6768FC43DCC7D2FD923BD102C2" desc="Bilde 6"/>
+                <Bilde bilde="1_391L_6.JPG" prioritet="6" md5="6BF42275448B0D7A27310707C5F2A53E" desc="Bilde 7"/>
+                <Bilde bilde="1_391L_7.JPG" prioritet="7" md5="8A55F02C3711CB1DC5C3685C248043B7" desc="Bilde 8"/>
+                <Bilde bilde="1_391L_8.JPG" prioritet="8" md5="43A19DDA5E4E6B3165E3C52047DBB8FF" desc="Bilde 9"/>
+                <Bilde bilde="1_391L_9.JPG" prioritet="9" md5="76EBC58DB86DA10799FCEEDBBA2F08B2" desc="Bilde 10"/>
+                <Bilde bilde="1_391L_10.JPG" prioritet="10" md5="FA80226FA030A6861FB8235DC15FC9AA" desc="Bilde 11"/>
+                <Bilde bilde="1_391L_11.JPG" prioritet="11" md5="F39DC37E96D0E0DB9F29FDD83F52D22A" desc="Bilde 12"/>
+                <Bilde bilde="1_391L_12.JPG" prioritet="12" md5="3B2E7BB7F6A98F4C3D024EFABE3EAB10" desc="Bilde 13"/>
+                <Bilde bilde="1_391L_13.JPG" prioritet="13" md5="D24686F65804DF8807EEB9528C19FB40" desc="Bilde 14"/>
+                <Bilde bilde="1_391L_14.JPG" prioritet="14" md5="B174D9EF55705F4F075BE3320CF04785" desc="Bilde 15"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Klimaanlegg,2 Sone Klimaanlegg;Bagasjeromstrekk,Bagasjeromstrekk;Cruisekontroll,Cruisekontroll;El.vinduer,El.vinduer;Elektriske speil,Elektriske speil;Hengerfeste,Hengerfeste;Kj&#248;recomputer,Kj&#248;recomputer;Metallic lakk,Metallic lakk;Midtarmlene,Midtarmlene;Multifunksjonsratt,Multifunksjonsratt;Oppvarmede seter,Oppvarmede seter;Radio/CD,Radio/CD;Regnsensor,Regnsensor;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sideairbager,Sideairbager;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;Startsperre,Startsperre;Takrails,Takrails;T&#229;kelys,T&#229;kelys;Navigasjonssystem,Navigasjonssystem;Antiskrens,Antiskrens;Antispinn,Antispinn;Antiskrens,VSC</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Meget hel og pen Toyota Avensis Diesel stasjonsvogn selges! Bilen selges med NYE sommerdekk! Meget popul&#230;r utgave med sota ruter, navi, regnsensor, klimaanlegg +++ Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ66102</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>5</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>Stoff</FargeInnvendig>
+            <OmregAvgift>13344</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_393" kontroll="4" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Ford</Merke>
+            <Modell>Focus</Modell>
+            <Karosserifasong>4</Karosserifasong>
+            <Pris>65000</Pris>
+            <Arsmodell>2000</Arsmodell>
+            <Kmstand>161000</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>Trend M/ Hengerfeste EU Godkjent 04.06.2010</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>R&#248;d</Farge>
+            <Effekt>101</Effekt>
+            <Bilder>
+                <Bilde bilde="1_393L.JPG" prioritet="0" md5="57D79E259E8265EAF6759CF37E4BAC8F" desc="Hovedbilde"/>
+                <Bilde bilde="1_393L_1.JPG" prioritet="1" md5="2A6BE0B814427049C1F1747D449858DE" desc="Bilde 2"/>
+                <Bilde bilde="1_393L_2.JPG" prioritet="2" md5="865753FFC33C822601222BEA7B2643C4" desc="Bilde 3"/>
+                <Bilde bilde="1_393L_3.JPG" prioritet="3" md5="75EF838871D9C82C732A82A65413FF9D" desc="Bilde 4"/>
+                <Bilde bilde="1_393L_4.JPG" prioritet="4" md5="DCD78F4FD0057E0AAF6177E2960A5669" desc="Bilde 5"/>
+                <Bilde bilde="1_393L_5.JPG" prioritet="5" md5="1AB71D8350F4EB932B6A7C3205D8CD9C" desc="Bilde 6"/>
+                <Bilde bilde="1_393L_6.JPG" prioritet="6" md5="D832E9AAE5E8BEF9F717727CA93CB62C" desc="Bilde 7"/>
+                <Bilde bilde="1_393L_7.JPG" prioritet="7" md5="018F2EB1500CF64DD89DB357B4C7DC67" desc="Bilde 8"/>
+                <Bilde bilde="1_393L_8.JPG" prioritet="8" md5="D73CE68003146862D729914691C3E367" desc="Bilde 9"/>
+                <Bilde bilde="1_393L_9.JPG" prioritet="9" md5="8B40AF156B5DE4FFF65E421C6884AD18" desc="Bilde 10"/>
+                <Bilde bilde="1_393L_10.JPG" prioritet="10" md5="6970D2A176BA6A3C3AD4852B856D5145" desc="Bilde 11"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;Antispinn,Antispinn;Radio/CD,Radio/CD;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;Tilhengerfeste,Tilhengerfeste</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Romslig og fin stasjons vogn med Aircondition og hengerfeste selges! Ta kontakt for pr&#248;vekj&#248;ring!                 Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AX76636</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>12</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_394" kontroll="4" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Yaris</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>115033</Pris>
+            <Arsmodell>2005</Arsmodell>
+            <Kmstand>74000</Kmstand>
+            <Motorstorrelse>1.0</Motorstorrelse>
+            <Variant>SOL</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>S&#248;lv Metallic</Farge>
+            <Effekt>65</Effekt>
+            <Bilder>
+                <Bilde bilde="1_394L.JPG" prioritet="0" md5="1AB910BCD7B57D5A87D17CFF671838EE" desc="Hovedbilde"/>
+                <Bilde bilde="1_394L_1.JPG" prioritet="1" md5="09E79AB42EAC4AE8766F8608C958B096" desc="Bilde 2"/>
+                <Bilde bilde="1_394L_2.JPG" prioritet="2" md5="C03C23B0A68692EE47999A098A7E324D" desc="Bilde 3"/>
+                <Bilde bilde="1_394L_3.JPG" prioritet="3" md5="A3104BEAC84981AA18AB29C2DE2DB739" desc="Bilde 4"/>
+                <Bilde bilde="1_394L_4.JPG" prioritet="4" md5="6390BC8DDFF4DCC9D332DEF42FA488FE" desc="Bilde 5"/>
+                <Bilde bilde="1_394L_5.JPG" prioritet="5" md5="37C78DCC1131DF8BCF8813802E055497" desc="Bilde 6"/>
+                <Bilde bilde="1_394L_6.JPG" prioritet="6" md5="2D40442597A67AC0FF38C9809CD817C8" desc="Bilde 7"/>
+                <Bilde bilde="1_394L_7.JPG" prioritet="7" md5="FEDAA1A2F427A791E85DDC57CDE843A1" desc="Bilde 8"/>
+                <Bilde bilde="1_394L_8.JPG" prioritet="8" md5="10981A215EF0F218729C868EAC26EE96" desc="Bilde 9"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;ABS-bremser,ABS-bremser;Air Condition,Air Condition;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Lettmet. felg sommer,Lettmet. felg sommer;Metallic lakk,Metallic lakk;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen Yaris Selges. Selges med gode sommer og vinterhjul! Dette er en av de mest driftsikre bilene man kan kj&#248;pe, kom og pr&#248;vekj&#248;r bilen se hvorfor denne bilen er blandt de mest solgte sm&#229;bilene p&#229; markedet! Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr/>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>14</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_402" kontroll="5" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Nissan</Merke>
+            <Modell>Primera</Modell>
+            <Karosserifasong>3</Karosserifasong>
+            <Pris>49000</Pris>
+            <Arsmodell>1998</Arsmodell>
+            <Kmstand>106500</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>SX Sjekk km! 1 tidl. eier!</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Burgunder r&#248;d metallic</Farge>
+            <Effekt>99</Effekt>
+            <Bilder>
+                <Bilde bilde="1_402L.JPG" prioritet="0" md5="36C2F1A6E338317CF81008401C927C5B" desc="Hovedbilde"/>
+                <Bilde bilde="1_402L_1.JPG" prioritet="1" md5="59091976B5F744C8F2436392A1C465E6" desc="Bilde 2"/>
+                <Bilde bilde="1_402L_2.JPG" prioritet="2" md5="DD8359B7DAA0298E480E187F0C916C85" desc="Bilde 3"/>
+                <Bilde bilde="1_402L_3.JPG" prioritet="3" md5="82287F8FE93EB372A15DACFBCF35197B" desc="Bilde 4"/>
+                <Bilde bilde="1_402L_4.JPG" prioritet="4" md5="2BCCC6BD5EA58900EF6E63FD6B9CD811" desc="Bilde 5"/>
+                <Bilde bilde="1_402L_5.JPG" prioritet="5" md5="0A229424E4AA2DC78495C827F1A034FA" desc="Bilde 6"/>
+                <Bilde bilde="1_402L_6.JPG" prioritet="6" md5="418C373270D105F751437553C3D751A2" desc="Bilde 7"/>
+                <Bilde bilde="1_402L_7.JPG" prioritet="7" md5="D80E245935761C83C0EE95DC1E3334D2" desc="Bilde 8"/>
+                <Bilde bilde="1_402L_8.JPG" prioritet="8" md5="F19E6FACED84BC08E9E5420666FA4282" desc="Bilde 9"/>
+                <Bilde bilde="1_402L_9.JPG" prioritet="9" md5="67953B017C5E612848AE3565C9871F02" desc="Bilde 10"/>
+                <Bilde bilde="1_402L_10.JPG" prioritet="10" md5="C52AD2C2E30A4EF3BC0C5DD3D041F169" desc="Bilde 11"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;ABS-bremser,ABS-bremser;Airbag foran,Airbag foran;CD-spiller,CD-spiller;Metallic lakk,Metallic lakk;Sentrall&#229;s,Sentrall&#229;s;Radio/CD,Radio/CD;Servostyring,Servostyring;Vinterhjul,Vinterhjul;Sommerhjul,Sommerhjul</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen bil selges! Bilen har kun hatt 1 tidligere eier! Gode sommer og vinterhjul medf&#248;lger! Og bilen er EU-Godkjent i &#229;r! Ta kontakt for pr&#248;vekj&#248;ring!          Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ46971</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>12</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig/>
+            <OmregAvgift>1557</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_403" kontroll="5" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>RAV4</Modell>
+            <Karosserifasong>9</Karosserifasong>
+            <Pris>178372</Pris>
+            <Arsmodell>2003</Arsmodell>
+            <Kmstand>165500</Kmstand>
+            <Motorstorrelse>2.0</Motorstorrelse>
+            <Variant>D-4D</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Sort</Farge>
+            <Effekt>116</Effekt>
+            <Bilder>
+                <Bilde bilde="1_403L.JPG" prioritet="0" md5="61BF701551964E99506BC1A7E85F5C3D" desc="Hovedbilde"/>
+                <Bilde bilde="1_403L_8.JPG" prioritet="1" md5="3DA9A3D8A68829530BE4E05067093FEB" desc="Tidligere hovedbilde 1"/>
+                <Bilde bilde="1_403L_1.JPG" prioritet="2" md5="493CAB1033D2B9EDF13DD66B3F4D11C6" desc="Bilde 2"/>
+                <Bilde bilde="1_403L_9.JPG" prioritet="3" md5="97B0FA3A9954D0655AD9784B29B64A3F" desc="Bilde 10"/>
+                <Bilde bilde="1_403L_2.JPG" prioritet="4" md5="C00FF66AF0F6D40D7C3180AD5A795128" desc="Bilde 3"/>
+                <Bilde bilde="1_403L_3.JPG" prioritet="5" md5="2E7DBA0CF861E0EA890369EBF8FDF0F3" desc="Bilde 4"/>
+                <Bilde bilde="1_403L_4.JPG" prioritet="6" md5="3DAB0C0997E4A859C8E7D419E4CA54A1" desc="Bilde 5"/>
+                <Bilde bilde="1_403L_5.JPG" prioritet="7" md5="1C842328D2F1D42C6B5D1BE2A9BC35A4" desc="Bilde 6"/>
+                <Bilde bilde="1_403L_6.JPG" prioritet="8" md5="19739AEF2AB58A56630E7DFEA3E9591B" desc="Bilde 7"/>
+                <Bilde bilde="1_403L_7.JPG" prioritet="9" md5="A4AA93F08CFA46D2E43F806F34D03065" desc="Bilde 8"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Firehjulstrekk,4WD;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Firehjulstrekk,Firehjulstrekk;Lettmet. felg sommer,Lettmet. felg sommer;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;T&#229;kelys,T&#229;kelys</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Meget hel og pen bil selges! flott farge kombinasjon i sort og gr&#229;tt, pene alu felger p&#229; sommerhjul. selges ogs&#229; med gode piggdekk p&#229; vinterhjula. Ta kontakt for pr&#248;vekj&#248;ring!               Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ55654</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>13</Basisfarge>
+            <Drivhjul>4WD</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>stoff</FargeInnvendig>
+            <OmregAvgift>6628</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_404" kontroll="6" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Corolla</Modell>
+            <Karosserifasong>4</Karosserifasong>
+            <Pris>104233</Pris>
+            <Arsmodell>2002</Arsmodell>
+            <Kmstand>145000</Kmstand>
+            <Motorstorrelse>1.6</Motorstorrelse>
+            <Variant>SOL Automat</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Bl&#229; Metallic</Farge>
+            <Effekt>110</Effekt>
+            <Bilder>
+                <Bilde bilde="1_404L.JPG" prioritet="0" md5="B70203D7D01749AA7C91E2695E333907" desc="Hovedbilde"/>
+                <Bilde bilde="1_404L_1.JPG" prioritet="1" md5="980F5DA26954FDDA37F872E887FC19E4" desc="Tidligere hovedbilde 1"/>
+                <Bilde bilde="1_404L_2.JPG" prioritet="2" md5="8A6D799B9A67CDBCDCDC9B20AAC776FD" desc="Bilde 3"/>
+                <Bilde bilde="1_404L_3.JPG" prioritet="3" md5="CC1F31CF23244AD8C00949441026B940" desc="Bilde 4"/>
+                <Bilde bilde="1_404L_4.JPG" prioritet="4" md5="575DC20DFD5AB24B78FAED623390D3F1" desc="Bilde 5"/>
+                <Bilde bilde="1_404L_5.JPG" prioritet="5" md5="A0C08CDC8BA80602312570D329241A8C" desc="Bilde 6"/>
+                <Bilde bilde="1_404L_6.JPG" prioritet="6" md5="6BBC8A016F700DBC3654D916A23722FF" desc="Bilde 7"/>
+                <Bilde bilde="1_404L_7.JPG" prioritet="7" md5="CD3F5AF3A793F4AF709FA287B5B22FC3" desc="Bilde 8"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Automat,Automat;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Klimaanlegg,Klimaanlegg;Metallic lakk,Metallic lakk;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sideairbager,Sideairbager;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;Tilhengerfeste,Tilhengerfeste;Automatgir,Automatgir</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen Corolla stasjonsvogn selges for kunde! Dette er den popul&#230;re og godt utstyrte &quot;Sol&quot; utgaven som feks har automatisk klimaanlegg.            Ta kontakt for pr&#248;vekj&#248;ring!          Forbehold om feil i annonse.</Kommentar>
+            <Vekt/>
+            <Garanti/>
+            <RegNr>AJ53790</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>2</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Automat</Girtype>
+            <Slepevekt/>
+            <FargeInnvendig>M&#248;rkt stoff</FargeInnvendig>
+            <OmregAvgift>4767</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_406" kontroll="3" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>RAV4</Modell>
+            <Karosserifasong>9</Karosserifasong>
+            <Pris>192372</Pris>
+            <Arsmodell>2003</Arsmodell>
+            <Kmstand>155600</Kmstand>
+            <Motorstorrelse>2.0</Motorstorrelse>
+            <Variant>D-4D SPORT Skinn seter &amp;  Webasto varmer!</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>S&#248;lv Metallic</Farge>
+            <Effekt>116</Effekt>
+            <Bilder>
+                <Bilde bilde="1_406L.JPG" prioritet="0" md5="DA2E26B466547170DF01B3760F1C241C" desc="Hovedbilde"/>
+                <Bilde bilde="1_406L_1.JPG" prioritet="1" md5="F8A816290693601A6264F51F3464DD91" desc="Bilde 2"/>
+                <Bilde bilde="1_406L_2.JPG" prioritet="2" md5="E91EE9D32B2AB2037A251B6507C42A11" desc="Bilde 3"/>
+                <Bilde bilde="1_406L_3.JPG" prioritet="3" md5="10F5B232989A1439EB91A1198F09C3AF" desc="Bilde 4"/>
+                <Bilde bilde="1_406L_4.JPG" prioritet="4" md5="53E2974081B4BC94E8926CCE81082B9E" desc="Bilde 5"/>
+                <Bilde bilde="1_406L_5.JPG" prioritet="5" md5="5D96985AF88E41146A65C66BA23B71A5" desc="Bilde 6"/>
+                <Bilde bilde="1_406L_6.JPG" prioritet="6" md5="EDC97D3B8BE9B75D3795C1903662041F" desc="Bilde 7"/>
+                <Bilde bilde="1_406L_7.JPG" prioritet="7" md5="F96104D51EFED3E8529B23278F544FBB" desc="Bilde 8"/>
+                <Bilde bilde="1_406L_8.JPG" prioritet="8" md5="3D4D8B02B9E73121553B02E0D39E4358" desc="Bilde 9"/>
+                <Bilde bilde="1_406L_9.JPG" prioritet="9" md5="9F19966280A9FF841B975F0ACC044133" desc="Bilde 10"/>
+                <Bilde bilde="1_406L_10.JPG" prioritet="10" md5="D736431A48D31F16C119A53B355372ED" desc="Bilde 11"/>
+                <Bilde bilde="1_406L_11.JPG" prioritet="11" md5="B7B46003E032AF32A783AB26AB56F9A8" desc="Bilde 12"/>
+                <Bilde bilde="1_406L_12.JPG" prioritet="12" md5="521304FEB111127D52AA665538FB0A8B" desc="Bilde 13"/>
+                <Bilde bilde="1_406L_13.JPG" prioritet="13" md5="646D4D5201F819F3B59CB84B7698C8C8" desc="Bilde 14"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Firehjulstrekk,4WD;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;CD-spiller,CD-spiller;El.vinduer,El.vinduer;Firehjulstrekk,Firehjulstrekk;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;T&#229;kelys,T&#229;kelys;Avtagbart hengerfeste,Avtagbart hengerfeste;Ekstralys,Ekstralys;Front b&#248;yle,Front b&#248;yle;Lettmetallfelger,Lettmetallfelger;Metallic lakk,Metallic lakk;Midtarmlene,Midtarmlene;Motorvarmer,Motorvarmer;Oppvarmede seter,Oppvarmede seter;Skinninteri&#248;r,Skinninteri&#248;r;Takrails,Takrails</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Meget hel og pen Rav4 Sport selges! flott farge kombinasjon S&#248;lv metallic og gr&#229; skinn seter, pene alu felger p&#229; sommer og vinterhjul. Bilen har Orginal Sport styling som Skjermbredere samt frontb&#248;yle, stigtrinn p&#229; siden og bak, samt spoiler p&#229; bakd&#248;r. Frontb&#248;ylen har 2 stykk &quot;Hella Chrome&quot; lamper de, og er godkjent i vognkortet. Bilen har ogs&#229; ettermontert Webastovarmer med tidsur og fjernkontroll!  Registerreim blir ogs&#229; skiftet f&#248;r overlevering og 150 000 Hoved service er utf&#248;rt i Oktober! Ta kontakt for pr&#248;vekj&#248;ring!                   Forbehold om feil i annonse.</Kommentar>
+            <Vekt>1440</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>BD35270</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>14</Basisfarge>
+            <Drivhjul>4WD</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1500</Slepevekt>
+            <FargeInnvendig>Gr&#229;tt skinn</FargeInnvendig>
+            <OmregAvgift>6628</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_407" kontroll="4" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Ford</Merke>
+            <Modell>Focus C-Max</Modell>
+            <Karosserifasong>5</Karosserifasong>
+            <Pris>129000</Pris>
+            <Arsmodell>2004</Arsmodell>
+            <Kmstand>82000</Kmstand>
+            <Motorstorrelse>1.8</Motorstorrelse>
+            <Variant/>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>S&#248;lv Metallic</Farge>
+            <Effekt>120</Effekt>
+            <Bilder>
+                <Bilde bilde="1_407L.JPG" prioritet="0" md5="4F09F8221589695F4419966FA28158E8" desc="Hovedbilde"/>
+                <Bilde bilde="1_407L_1.JPG" prioritet="1" md5="949FF4BF3F2C643303F7C10A1E7BCE67" desc="Bilde 2"/>
+                <Bilde bilde="1_407L_2.JPG" prioritet="2" md5="4DC7DCCD41DE17EEC18D07A8BC6E6B1C" desc="Bilde 3"/>
+                <Bilde bilde="1_407L_3.JPG" prioritet="3" md5="E013643E6EB1E482E17E5AA629F13E97" desc="Bilde 4"/>
+                <Bilde bilde="1_407L_4.JPG" prioritet="4" md5="373935B5116F62C8D590CE7A524D5E22" desc="Bilde 5"/>
+                <Bilde bilde="1_407L_5.JPG" prioritet="5" md5="BDADC31E7D395CC762529EA6002DC1AF" desc="Bilde 6"/>
+                <Bilde bilde="1_407L_6.JPG" prioritet="6" md5="638F5D15B31809250EB995DCFA25D0D5" desc="Bilde 7"/>
+                <Bilde bilde="1_407L_7.JPG" prioritet="7" md5="4F795577F781735A572EADCB55E89FA6" desc="Bilde 8"/>
+                <Bilde bilde="1_407L_8.JPG" prioritet="8" md5="98268B63EBC515BA1F2A53D7548CC31D" desc="Bilde 9"/>
+                <Bilde bilde="1_407L_9.JPG" prioritet="9" md5="3404206012B27280BEC6325B8B91A994" desc="Bilde 10"/>
+                <Bilde bilde="1_407L_10.JPG" prioritet="10" md5="10F7005AB875CD89C4E0A47F089AAD03" desc="Bilde 11"/>
+                <Bilde bilde="1_407L_11.JPG" prioritet="11" md5="74CB78DA113FF77A68F44D88B3A2C530" desc="Bilde 12"/>
+                <Bilde bilde="1_407L_12.JPG" prioritet="12" md5="E528ABABAE13A23F4300723721286041" desc="Bilde 13"/>
+                <Bilde bilde="1_407L_13.JPG" prioritet="13" md5="48DD51C65E2EAFC7F9A16A717FD02EDE" desc="Bilde 14"/>
+                <Bilde bilde="1_407L_14.JPG" prioritet="14" md5="CE45315C5705D313E40C6EBC207CE3EA" desc="Bilde 15"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;ABS-bremser,ABS-bremser;Air Condition,Air Condition;Airbag foran,Airbag foran;Antiskrens,ESP;El.vinduer,El.vinduer;Hengerfeste,Hengerfeste;Lettmetallfelger,Lettmetallfelger;Metallic lakk,Metallic lakk;Multifunksjonsratt,Multifunksjonsratt;Oppvarmede seter,Oppvarmede seter;Radio/CD,Radio/CD;Sentrall&#229;s,Sentrall&#229;s;Servostyring,Servostyring;Sideairbager,Sideairbager;Sommerhjul,Sommerhjul;Vinterhjul,Vinterhjul;T&#229;kelys,T&#229;kelys</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>B</Drivstoff>
+            <Lastevolum/>
+            <AntEiere/>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Hel og pen Focus C-Max selges! Dette er en utrolig praktisk bil, med mange fine l&#248;sninger og man sitter h&#248;yt og oversiktlig i bilen. Bilen er godt utstyrt med feks, frontrute med varmetr&#229;der, alu felger, aircondition +++                                                                                                                 Ta kontakt for pr&#248;vekj&#248;ring!          Forbehold om feil i annonse.</Kommentar>
+            <Vekt>1312</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ57009</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>14</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1200</Slepevekt>
+            <FargeInnvendig>Stoff</FargeInnvendig>
+            <OmregAvgift>6628</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Bil unikid="1_409" kontroll="9" kommando="update">
+            <Kjoretoygruppe>1</Kjoretoygruppe>
+            <Merke>Toyota</Merke>
+            <Modell>Auris</Modell>
+            <Karosserifasong>2</Karosserifasong>
+            <Pris>209246</Pris>
+            <Arsmodell>2007</Arsmodell>
+            <Kmstand>77300</Kmstand>
+            <Motorstorrelse>2.0</Motorstorrelse>
+            <Variant>Executive med Navi med Xenon lys!</Variant>
+            <ChassisNr/>
+            <Solgt>0</Solgt>
+            <Farge>Bl&#229; Metallic</Farge>
+            <Effekt>126</Effekt>
+            <Bilder>
+                <Bilde bilde="1_409L.JPG" prioritet="0" md5="1CF383966B539280166EE469C17E1A3C" desc="Hovedbilde"/>
+                <Bilde bilde="1_409L_1.JPG" prioritet="1" md5="88A12A3517A2A1F39ADC7B9369244764" desc="Bilde 2"/>
+                <Bilde bilde="1_409L_2.JPG" prioritet="2" md5="E80640489258B4F2F4BC0CCACE217FF2" desc="Bilde 3"/>
+                <Bilde bilde="1_409L_3.JPG" prioritet="3" md5="46BA0E4FD05A05023EC7295E8DEF0008" desc="Bilde 4"/>
+                <Bilde bilde="1_409L_4.JPG" prioritet="4" md5="C56D5E05F5A440EEA97A469254509DB9" desc="Bilde 5"/>
+                <Bilde bilde="1_409L_5.JPG" prioritet="5" md5="A42BC8D8171745BC8149065435DE7C82" desc="Bilde 6"/>
+                <Bilde bilde="1_409L_6.JPG" prioritet="6" md5="1B72BAB71AFE097D3DBA5E36C2FF13CF" desc="Bilde 7"/>
+                <Bilde bilde="1_409L_7.JPG" prioritet="7" md5="1DC3317878D001FB43DFDC2BD24173C2" desc="Bilde 8"/>
+                <Bilde bilde="1_409L_8.JPG" prioritet="8" md5="89C5060D83468E66B8FEA91888B59AE3" desc="Bilde 9"/>
+                <Bilde bilde="1_409L_9.JPG" prioritet="9" md5="F6FAFC396526C509F2E4282112DFB688" desc="Bilde 10"/>
+                <Bilde bilde="1_409L_10.JPG" prioritet="10" md5="DDDCD01B2145D335210B0778E4CFAFD9" desc="Bilde 11"/>
+                <Bilde bilde="1_409L_11.JPG" prioritet="11" md5="771E7B1E83A99BA678447966F9D6FE4E" desc="Bilde 12"/>
+                <Bilde bilde="1_409L_12.JPG" prioritet="12" md5="651A4FEBD549B6FE5139B433F2B2366F" desc="Bilde 13"/>
+                <Bilde bilde="1_409L_13.JPG" prioritet="13" md5="8B729D08A48DED323B65FA3C64CD80C4" desc="Bilde 14"/>
+                <Bilde bilde="1_409L_14.JPG" prioritet="14" md5="9DC9EA0B7FBAC5249CD0A6695296017C" desc="Bilde 15"/>
+                <Bilde bilde="1_409L_15.JPG" prioritet="15" md5="19DFED11BDAA228C93A42EF9CDE41D9B" desc="Bilde 16"/>
+                <Bilde bilde="1_409L_16.JPG" prioritet="16" md5="ECB663158C0C4D8610D28EBC3CB827C7" desc="Bilde 17"/>
+                <Bilde bilde="1_409L_17.JPG" prioritet="17" md5="45E9A9300A730D0714B6AA1C0E3F61D8" desc="Bilde 18"/>
+                <Bilde bilde="1_409L_18.JPG" prioritet="18" md5="262C0C9D49C6D34D7E346D06564DB278" desc="Bilde 19"/>
+            </Bilder>
+            <InklOmreg>0</InklOmreg>
+            <InklArsavg>0</InklArsavg>
+            <Ekstrautstyr>;Alarm,Alarm;ABS-bremser,ABS-bremser;Antiskrens,VSC;Antiskrens,Antiskrens;Antispinn,Antispinn;Bl&#229;tann handsfree,Bl&#229;tann handsfree;CD-spiller,CD-spiller;Cruisekontroll,Cruisekontroll;El.vinduer,El.vinduer;Elektriske speil,Elektriske speil;Kj&#248;recomputer,Kj&#248;recomputer;Klimaanlegg,2 Sone Klimaanlegg;Lasteholdere/skistativ,Lasteholdere/skistativ;Lettmet. felg sommer,Lettmet. felg sommer;Lettmet. felg vinter,Lettmet. felg vinter;Metallic lakk,Metallic lakk;Midtarmlene,Midtarmlene;Multifunksjonsratt,Multifunksjonsratt;Navigasjonssystem,Navigasjonssystem;Oppvarmede seter,Oppvarmede seter;Radio/CD,Radio/CD;Servostyring,Servostyring;Sommerhjul,Sommerhjul;Tilhengerfeste,Tilhengerfeste;Vinterhjul,Vinterhjul;Xenonlys,Xenonlys;T&#229;kelys,T&#229;kelys;Keyless go,Keyless go</Ekstrautstyr>
+            <Reservert>0</Reservert>
+            <KommerInn/>
+            <SomForevist>0</SomForevist>
+            <Drivstoff>D</Drivstoff>
+            <Lastevolum/>
+            <AntEiere>1</AntEiere>
+            <AntSeter>5</AntSeter>
+            <Kommentar>Toyota Auris 2.0l Diesel med Diesel partikkel filter selges! Bilen er meget godt utstyrt med feks, Xenon-lys, Navigasjon, Bl&#229;tann handsfree, alufelger, N&#248;kkelfri l&#248;sning, Alarm +++. Er mulig ogs&#229; og f&#229; med takstativ og takboks.                               Ta kontakt for pr&#248;vekj&#248;ring!          Forbehold om feil i annonse.</Kommentar>
+            <Vekt>1405</Vekt>
+            <Garanti>Bruktbilgaranti</Garanti>
+            <RegNr>AJ64963</RegNr>
+            <Demobil>0</Demobil>
+            <Kommisjonsbil>0</Kommisjonsbil>
+            <Basisfarge>2</Basisfarge>
+            <Drivhjul>Forhjulsdrift</Drivhjul>
+            <Girtype>Manuell</Girtype>
+            <Slepevekt>1500</Slepevekt>
+            <FargeInnvendig>Sort stoff</FargeInnvendig>
+            <OmregAvgift>9754</OmregAvgift>
+            <Kontaktpersoner>
+                <Kontaktperson>1_2</Kontaktperson>
+            </Kontaktpersoner>
+        </Bil>
+        <Kontaktpunktliste>
+            <Kontaktpunkt id="1_2">
+                <Navn>Avd Askim bilmeglingsansvarlig</Navn>
+                <Telefon/>
+                <Mobil/>
+                <Email/>
+                <Beskrivelse>Daglig leder/bilmeglingsansvar</Beskrivelse>
+                <Javascript></Javascript>
+            </Kontaktpunkt>
+        </Kontaktpunktliste>
+    </Forhandler>
+</Bildata>

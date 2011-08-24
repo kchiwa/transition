@@ -1,0 +1,19 @@
+                -----
+                System overview
+                -----
+
+The overview of the import system is as follows:
+
+[images/ImportArchitecture.png]
+
+ Roughly divided into sprints it looks like this:
+
+[images/ImportArchitecture_as_sprints.png]
+
+As of Sprint9, Transition overview look like below:
+
+[images/OverviewTransitionS9.png]
+
+Router, Queue and Database Overview
+
+[images/RouterDiagramAndDatabase.png]

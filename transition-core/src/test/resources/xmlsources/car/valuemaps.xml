@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valuemap>
+	<map format="carweb" field="karosserifasong" lookup="1" zettvalue="Kombi" />
+	<map format="carweb" field="karosserifasong" lookup="2" zettvalue="Kombi" />
+	<map format="carweb" field="karosserifasong" lookup="3" zettvalue="Sedan" />
+	<map format="carweb" field="karosserifasong" lookup="4" zettvalue="Stasjonsvogn" />
+	<map format="carweb" field="karosserifasong" lookup="5" zettvalue="Flerbruksbil" />
+	<map format="carweb" field="karosserifasong" lookup="6" zettvalue="Coupe" />
+	<map format="carweb" field="karosserifasong" lookup="7" zettvalue="Cabriolet" />
+	<map format="carweb" field="karosserifasong" lookup="8" zettvalue="Pick-up" />
+	<map format="carweb" field="karosserifasong" lookup="9" zettvalue="Off-road" />
+	<map format="carweb" field="karosserifasong" lookup="10" zettvalue="Kasse" />
+	<map format="carweb" field="kjoretoygruppe" lookup="1" zettvalue="Personbil" />
+	<map format="carweb" field="kjoretoygruppe" lookup="2" zettvalue="Varebil" />
+	<map format="carweb" field="kjoretoygruppe" lookup="3" zettvalue="Kombinertbil" />
+	<map format="carweb" field="kjoretoygruppe" lookup="4" zettvalue="Minibuss" />
+	<map format="carweb" field="kjoretoygruppe" lookup="5" zettvalue="Lett lastebil" />
+	<map format="carweb" field="drivstoff" lookup="B" zettvalue="Bensin" />
+	<map format="carweb" field="drivstoff" lookup="D" zettvalue="Diesel" />
+	<map format="carweb" field="drivstoff" lookup="G" zettvalue="Gass" />
+	<map format="carweb" field="drivstoff" lookup="Hybrid" zettvalue="Hybrid" />
+	<map format="carweb" field="drivstoff" lookup="5" zettvalue="Hybrid" />
+	<map format="carweb" field="drivstoff" lookup="S" zettvalue="Elektrisk" />
+	<map format="carweb" field="drivstoff" lookup="El" zettvalue="Elektrisk" />
+	<map format="carweb" field="drivstoff" lookup="6" zettvalue="Elektrisk" />
+	<map format="carweb" field="drivstoff" lookup="Metanol" zettvalue="Metanol" />
+	<map format="carweb" field="drivstoff" lookup="4" zettvalue="Metanol" />
+	<map format="atex" field="privacy" lookup="Ingen kontaktinfo skal vises"
+		zettvalue="SHOW_NONE" />
+	<map format="atex" field="privacy" lookup="Email vises" zettvalue="SHOW_EMAIL" />
+	<map format="atex" field="privacy" lookup="Navn og Telefonnummer"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="atex" field="privacy" lookup="Navn og Telefonnummer vises"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="atex" field="privacy" lookup="Email, navn og telefonnummer vises"
+		zettvalue="SHOW_EMAIL_PHONE" />
+	<map format="atex" field="privacy" lookup="Email navn og telefonnummer vises"
+		zettvalue="SHOW_EMAIL_NAME_PHONE" />
+	<map format="atex" field="privacy" lookup="All kontaktinfo kan vises på annonsen."
+		zettvalue="SHOW_ALL" />
+	<map format="atex" field="defaultprivacy" lookup="10056" zettvalue="SHOW_NONE" />
+	<map format="atex" field="transaction" lookup="Selges" zettvalue="FOR_SALE" />
+	<map format="atex" field="transaction" lookup="Til salgs"
+		zettvalue="FOR_SALE" />
+	<map format="atex" field="transaction" lookup="Til leie" zettvalue="FOR_RENT" />
+	<map format="atex" field="transaction" lookup="Ønskes kjøpt"
+		zettvalue="WANTED_BUY" />
+	<map format="atex" field="transaction" lookup="Ønskes leid"
+		zettvalue="WANTED_RENT" />
+	<map format="atex" field="transaction" lookup="Byttes" zettvalue="TRADE" />
+	<map format="atex" field="transaction" lookup="Gis bort" zettvalue="GIVE_AWAY" />
+	<map format="atex" field="transaction" lookup="Arbeidskraft søkes"
+		zettvalue="SERVICES_WANTED" />
+	<map format="atex" field="transaction" lookup="Tapt/Funnet"
+		zettvalue="LOST_AND_FOUND" />
+	<map format="atex" field="transaction" lookup="Annet" zettvalue="OTHER" />
+	<map format="atex" field="transaction" lookup="Stilling ledig"
+		zettvalue="JOB_AVAILABLE" />
+	<map format="atex" field="country" lookup="Norway" zettvalue="Norge" />
+	<map format="atex" field="source" lookup="Forhandler" zettvalue="Bilforhandler" />
+	<map format="atex" field="source" lookup="Privat selger" zettvalue="Privat" />
+	<map format="atex" field="type" lookup="Landbruk-maskiner/utstyr"
+		zettvalue="Landbruk - maskiner/utstyr" />
+	<map format="atex" field="type" lookup="Snøscootere" zettvalue="Snøscooter" />
+	<map format="atex" field="type" lookup="Sport og Fritid" zettvalue="Sport- og fritidsutstyr" />
+	<map format="atex" field="type" lookup="Motor og utstyr" zettvalue="Annet" />
+	<map format="atex" field="type" lookup="Andre" zettvalue="Annet" />
+	<map format="atex" field="type" lookup="Diverse" zettvalue="Annet" />
+	<map format="atex" field="type" lookup="Yrkesbåt/sjark/skøyte"
+		zettvalue="Yrkesbåt/Sjark/Skøyte" />
+	<map format="atex" field="type" lookup="Mat og Drikke" zettvalue="Mat og drikke" />
+	<map format="atex" field="type" lookup="Trebåt/snekke" zettvalue="Trebåt/Snekke" />
+	<map format="atex" field="type" lookup="Garasje/Opplag" zettvalue="Garasje/opplag" />
+	<map format="atex" field="workarea" lookup="Håndtverkstjenster"
+		zettvalue="Håndverksfag" />
+	<map format="atex" field="workarea" lookup="Helse, Sosial og Omsorg"
+		zettvalue="Helse, Sykepleie, Sosial og Omsorg" />
+	<map format="atex" field="workarea" lookup="Sesongarbeid"
+		zettvalue="Annet" />
+	<map format="atex" field="workarea" lookup="Jordbrukstjenester"
+		zettvalue="Jordbruk, Skogbruk og Fiske" />
+	<map format="atex" field="workarea" lookup="Tomterydding/Hagearbeid/Jordbruk"
+		zettvalue="Jordbruk, Skogbruk og Fiske" />
+	<map format="atex" field="workarea" lookup="Undervisningstjenester"
+		zettvalue="Undervisning og Pedagogikk" />
+	<map format="atex" field="workarea" lookup="Undervisning og pedagogikk"
+		zettvalue="Undervisning og Pedagogikk" />
+	<map format="atex" field="workarea" lookup="IT-tjenester"
+		zettvalue="Data og IT" />
+	<map format="atex" field="workarea" lookup="Helse og skjønnhet"
+		zettvalue="Helse og Skjønnhet" />
+	<map format="atex" field="workarea" lookup="Bud- og transport tjenester"
+		zettvalue="Bud- og Transport-tjenester" />
+	<map format="onlinebooking" field="privacy" lookup="Ingen kontaktinfo skal vises"
+		zettvalue="SHOW_NONE" />
+	<map format="onlinebooking" field="privacy" lookup="Email vises"
+		zettvalue="SHOW_EMAIL" />
+	<map format="onlinebooking" field="privacy" lookup="Telefonnummer vises"
+		zettvalue="SHOW_PHONE" />
+	<map format="onlinebooking" field="privacy" lookup="Navn og telefonnummer vises"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="onlinebooking" field="privacy" lookup="Epost og telefonnummer vises"
+		zettvalue="SHOW_EMAIL_PHONE" />
+	<map format="onlinebooking" field="privacy"
+		lookup="Email, navn og telefonnummer vises" zettvalue="SHOW_EMAIL_NAME_PHONE" />
+	<map format="onlinebooking" field="privacy"
+		lookup="All kontaktinfo kan vises på annonsen" zettvalue="SHOW_ALL" />
+	<map format="onlinebooking" field="transaction" lookup="Til salgs"
+		zettvalue="FOR_SALE" />
+	<map format="onlinebooking" field="transaction" lookup="Til leie"
+		zettvalue="FOR_RENT" />
+	<map format="onlinebooking" field="transaction" lookup="Ønskes kjøpt"
+		zettvalue="WANTED_BUY" />
+	<map format="onlinebooking" field="transaction" lookup="Ønskes leid"
+		zettvalue="WANTED_RENT" />
+	<map format="onlinebooking" field="transaction" lookup="Byttes"
+		zettvalue="TRADE" />
+	<map format="onlinebooking" field="transaction" lookup="Gis bort"
+		zettvalue="GIVE_AWAY" />
+	<map format="onlinebooking" field="transaction" lookup="Gis bort/Byttes"
+		zettvalue="GIVE_AWAY" />
+	<map format="onlinebooking" field="transaction" lookup="Arbeidskraft søkes"
+		zettvalue="SERVICES_WANTED" />
+	<map format="onlinebooking" field="transaction" lookup="Tapt/Funnet"
+		zettvalue="LOST_AND_FOUND" />
+	<map format="onlinebooking" field="transaction" lookup="Annet"
+		zettvalue="OTHER" />
+	<map format="onlinebooking" field="transaction" lookup="Stilling ledig"
+		zettvalue="JOB_AVAILABLE" />
+	<map format="onlinebooking" field="country" lookup="Norway"
+		zettvalue="Norge" />
+	<map format="onlinebooking" field="taxpaid" lookup="0" zettvalue="Nei" />
+	<map format="onlinebooking" field="taxpaid" lookup="1" zettvalue="Ja" />
+	<map format="onlinebooking" field="workarea" lookup="Håndtverkstjenester"
+		zettvalue="Håndverksfag" />
+	<map format="onlinebooking" field="workarea" lookup="Salgstjenester"
+		zettvalue="Salg" />
+	<map format="onlinebooking" field="workarea" lookup="Helse, Sosial og Omsorg"
+		zettvalue="Helse, Sykepleie, Sosial og Omsorg" />
+	<map format="onlinebooking" field="workarea"
+		lookup="Helse, sykepleie, sosial og omsorg" zettvalue="Helse, Sykepleie, Sosial og Omsorg" />
+	<map format="onlinebooking" field="workarea" lookup="Bud- og transport tjenester"
+		zettvalue="Bud- og Transport-tjenester" />
+	<map format="onlinebooking" field="workarea"
+		lookup="Tomterydding/Hagearbeid/Jordbruk" zettvalue="Jordbruk, Skogbruk og Fiske" />
+	<map format="onlinebooking" field="workarea" lookup="IT-tjenester"
+		zettvalue="Data og IT" />
+	<map format="onlinebooking" field="workarea"
+		lookup="Finansielle/økonomiske tjenester" zettvalue="Bank og Finans" />
+	<map format="onlinebooking" field="workarea" lookup="Helse og skjønnhet"
+		zettvalue="Helse og Skjønnhet" />
+	<map format="onlinebooking" field="type" lookup="Mat og Drikke"
+		zettvalue="Mat og drikke" />
+	<map format="onlinebooking" field="type" lookup="Landbruks- maskiner/utstyr"
+		zettvalue="Landbruk - maskiner/utstyr" />
+	<map format="onlinebooking" field="type" lookup="Snøscootere"
+		zettvalue="Snøscooter" />
+	<map format="onlinebooking" field="type" lookup="Sport og Fritid"
+		zettvalue="Sport- og fritidsutstyr" />
+	<map format="onlinebooking" field="type" lookup="Gummibåt/jolle/robåt"
+		zettvalue="Gummibåt/Jolle/Robåt" />
+	<map format="onlinebooking" field="type" lookup="Skjærgårdsjeep/landstedsbåt"
+		zettvalue="Skjærgårdsjeep/Landstedbåt" />
+	<map format="onlinebooking" field="type" lookup="Yrkesbåt/sjark/skøyte"
+		zettvalue="Yrkesbåt/Sjark/Skøyte" />
+	<map format="onlinebooking" field="type" lookup="Trebåt/snekke"
+		zettvalue="Trebåt/Snekke" />
+	<map format="onlinebooking" field="type" lookup="Hus og Hjem diverse"
+		zettvalue="Annet" />
+	<map format="onlinebooking" field="type" lookup="Bolig"
+		zettvalue="Hus og Hjem diverse" />
+	<map format="onlinebooking" field="type" lookup="Andre" zettvalue="Annet" />
+	<map format="mactive" field="privacy" lookup="Ingen kontaktinfo skal vises"
+		zettvalue="SHOW_NONE" />
+	<map format="mactive" field="privacy" lookup="Email vises"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="privacy" lookup="Telefonnummer vises"
+		zettvalue="SHOW_PHONE" />
+	<map format="mactive" field="privacy" lookup="Navn og telefonnummer vises"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="mactive" field="privacy" lookup="Navn og Telefonnummer"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="mactive" field="privacy" lookup="Epost og telefonnummer vises"
+		zettvalue="SHOW_EMAIL_PHONE" />
+	<map format="mactive" field="privacy" lookup="Email, navn og telefonnummer vises"
+		zettvalue="SHOW_EMAIL_NAME_PHONE" />
+	<map format="mactive" field="privacy"
+		lookup="All kontaktinfo kan vises på annonsen." zettvalue="SHOW_ALL" />
+	<map format="mactive" field="defaultprivacy" lookup="10009"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="defaultprivacy" lookup="10016"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="overrideprivacy" lookup="10016"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="defaultprivacy" lookup="10061"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="overrideprivacy" lookup="10061"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="defaultprivacy" lookup="10063"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="overrideprivacy" lookup="10063"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="defaultprivacy" lookup="10020"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="overrideprivacy" lookup="10020"
+		zettvalue="SHOW_EMAIL" />
+	<map format="mactive" field="transaction" lookup="Til salgs"
+		zettvalue="FOR_SALE" />
+	<map format="mactive" field="transaction" lookup="Selges"
+		zettvalue="FOR_SALE" />
+	<map format="mactive" field="transaction" lookup="Til leie"
+		zettvalue="FOR_RENT" />
+	<map format="mactive" field="transaction" lookup="Ønskes kjøpt"
+		zettvalue="WANTED_BUY" />
+	<map format="mactive" field="transaction" lookup="Ønskes leid"
+		zettvalue="WANTED_RENT" />
+	<map format="mactive" field="transaction" lookup="Byttes"
+		zettvalue="TRADE" />
+	<map format="mactive" field="transaction" lookup="Gis bort"
+		zettvalue="GIVE_AWAY" />
+	<map format="mactive" field="transaction" lookup="Gis bort/Byttes"
+		zettvalue="GIVE_AWAY" />
+	<map format="mactive" field="transaction" lookup="Arbeidskraft søkes"
+		zettvalue="SERVICES_WANTED" />
+	<map format="mactive" field="transaction" lookup="Tapt/Funnet"
+		zettvalue="LOST_AND_FOUND" />
+	<map format="mactive" field="transaction" lookup="Annet" zettvalue="OTHER" />
+	<map format="mactive" field="transaction" lookup="Stilling ledig"
+		zettvalue="JOB_AVAILABLE" />
+	<map format="mactive" field="country" lookup="Norway" zettvalue="Norge" />
+	<map format="mactive" field="source" lookup="Bilforhandler"
+		zettvalue="Forhandler" />
+	<map format="mactive" field="source" lookup="Privat selger"
+		zettvalue="Privat" />
+	<map format="mactive" field="workarea" lookup="Dagmamma/Barnepass"
+		zettvalue="Dagmamma/Praktikant" />
+	<map format="mactive" field="workarea" lookup="Håndtverkstjenster"
+		zettvalue="Håndverksfag" />
+	<map format="mactive" field="type" lookup="Snøscootere" zettvalue="Snøscooter" />
+	<map format="mactive" field="type" lookup="Mat og Drikke"
+		zettvalue="Mat og drikke" />
+	<map format="mactive" field="type" lookup="Garasje/Opplag"
+		zettvalue="Garasje/opplag" />
+	<map format="mactive" field="type" lookup="Sport og Fritid"
+		zettvalue="Sport- og fritidsutstyr" />
+	<map format="mactive" field="type" lookup="Skjærgårdsjeep/landstedsbåt"
+		zettvalue="Skjærgårdsjeep/Landstedbåt" />
+	<map format="mactive" field="type" lookup="--- Stort og smått ---"
+		zettvalue="Annet" />
+	<map format="mactive" field="type" lookup="Diverse" zettvalue="Annet" />
+	<map format="robot" field="transaction" lookup="Til salgs"
+		zettvalue="FOR_SALE" />
+	<map format="robot" field="transaction" lookup="Til leie"
+		zettvalue="FOR_RENT" />
+	<map format="robot" field="transaction" lookup="Ønskes kjøpt"
+		zettvalue="WANTED_BUY" />
+	<map format="robot" field="transaction" lookup="Ønskes leid"
+		zettvalue="WANTED_RENT" />
+	<map format="robot" field="transaction" lookup="Byttes" zettvalue="TRADE" />
+	<map format="robot" field="transaction" lookup="Gis bort"
+		zettvalue="GIVE_AWAY" />
+	<map format="robot" field="transaction" lookup="Gis bort/Byttes"
+		zettvalue="GIVE_AWAY" />
+	<map format="robot" field="transaction" lookup="Arbeidskraft søkes"
+		zettvalue="SERVICES_WANTED" />
+	<map format="robot" field="transaction" lookup="Tapt/Funnet"
+		zettvalue="LOST_AND_FOUND" />
+	<map format="robot" field="transaction" lookup="Annet" zettvalue="OTHER" />
+	<map format="robot" field="transaction" lookup="Stilling ledig"
+		zettvalue="JOB_AVAILABLE" />
+	<map format="robot" field="country" lookup="NO" zettvalue="Norge" />
+	<map format="robot" field="country" lookup="DK" zettvalue="Danmark" />
+	<map format="robot" field="country" lookup="SE" zettvalue="Sverige" />
+	<map format="robot" field="workarea" lookup="Kunst, kultur, sport og fritid"
+		zettvalue="Kunst, Kultur, Sport og Fritid" />
+	<map format="robot" field="workarea" lookup="Offentlige tjenester"
+		zettvalue="Offentlige Tjenester" />
+	<map format="robot" field="workarea" lookup="Ingeniør og teknikk"
+		zettvalue="Ingeniør og Teknikk" />
+	<map format="robot" field="workarea" lookup="Helse, Sosial og Omsorg"
+		zettvalue="Helse, Sykepleie, Sosial og Omsorg" />
+	<map format="robot" field="workarea" lookup="Undervisning og pedagogikk"
+		zettvalue="Undervisning og Pedagogikk" />
+	<map format="robot" field="workarea" lookup="- Velg arbeidsområde -"
+		zettvalue="Annet" />
+	<map format="tietoenator" field="privacy" lookup="Ingen kontaktinfo skal vises"
+		zettvalue="SHOW_NONE" />
+	<map format="tietoenator" field="privacy" lookup="Email vises"
+		zettvalue="SHOW_EMAIL" />
+	<map format="tietoenator" field="privacy" lookup="Telefonnummer vises"
+		zettvalue="SHOW_PHONE" />
+	<map format="tietoenator" field="privacy" lookup="Navn og telefonnummer"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="tietoenator" field="privacy" lookup="Navn og Telefonnummer"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="tietoenator" field="privacy" lookup="Navn og telefonnummer vises"
+		zettvalue="SHOW_NAME_PHONE" />
+	<map format="tietoenator" field="privacy" lookup="Epost og telefonnummer vises"
+		zettvalue="SHOW_EMAIL_PHONE" />
+	<map format="tietoenator" field="privacy"
+		lookup="Email, navn og telefonnummer vises" zettvalue="SHOW_EMAIL_NAME_PHONE" />
+	<map format="tietoenator" field="privacy"
+		lookup="All kontaktinfo kan vises på annonsen." zettvalue="SHOW_ALL" />
+	<map format="tietoenator" field="defaultprivacy" lookup="10031"
+		zettvalue="SHOW_EMAIL" />
+	<map format="tietoenator" field="defaultprivacy" lookup="10009"
+		zettvalue="SHOW_EMAIL" />
+	<map format="tietoenator" field="defaultprivacy" lookup="10025"
+		zettvalue="SHOW_EMAIL" />
+	<map format="tietoenator" field="transaction" lookup="Selges"
+		zettvalue="FOR_SALE" />
+	<map format="tietoenator" field="transaction" lookup="Til leie"
+		zettvalue="FOR_RENT" />
+	<map format="tietoenator" field="transaction" lookup="Til Leie"
+		zettvalue="FOR_RENT" />
+	<map format="tietoenator" field="transaction" lookup="Ønskes kjøpt"
+		zettvalue="WANTED_BUY" />
+	<map format="tietoenator" field="transaction" lookup="Ønskes leid"
+		zettvalue="WANTED_RENT" />
+	<map format="tietoenator" field="transaction" lookup="Byttes"
+		zettvalue="TRADE" />
+	<map format="tietoenator" field="transaction" lookup="Gis bort"
+		zettvalue="GIVE_AWAY" />
+	<map format="tietoenator" field="transaction" lookup="Arbeidskraft søkes"
+		zettvalue="SERVICES_WANTED" />
+	<map format="tietoenator" field="transaction" lookup="Tapt/Funnet"
+		zettvalue="LOST_AND_FOUND" />
+	<map format="tietoenator" field="transaction" lookup="Annet"
+		zettvalue="OTHER" />
+	<map format="tietoenator" field="country" lookup="Norway"
+		zettvalue="Norge" />
+	<map format="tietoenator" field="country" lookup="Sweden"
+		zettvalue="Sverige" />
+	<map format="tietoenator" field="country" lookup="Denmark"
+		zettvalue="Danmark" />
+	<map format="tietoenator" field="country" lookup="Spain" zettvalue="Spania" />
+	<map format="tietoenator" field="country" lookup="Thailand"
+		zettvalue="Thailand" />
+	<map format="tietoenator" field="source" lookup="Forhandler"
+		zettvalue="Bilforhandler" />
+	<map format="tietoenator" field="source" lookup="Privat selger"
+		zettvalue="Privat" />
+	<map format="tietoenator" field="workarea" lookup="Helse, Sosial og Omsorg"
+		zettvalue="Helse, Sykepleie, Sosial og Omsorg" />
+	<map format="tietoenator" field="workarea" lookup="Organisasjon, menighet og huma"
+		zettvalue="Organisasjon, Menighet og Humanitær" />
+	<map format="tietoenator" field="workarea" lookup="Juridiske tjenester"
+		zettvalue="Juridiske Tjenester" />
+	<map format="tietoenator" field="workarea" lookup="Bud- og transport-tjenester"
+		zettvalue="Bud- og Transport-tjenester" />
+	<map format="tietoenator" field="workarea" lookup="IT-tjenester"
+		zettvalue="Data og IT" />
+	<map format="tietoenator" field="workarea" lookup="Salgstjenester"
+		zettvalue="Salg" />
+	<map format="tietoenator" field="workarea" lookup="Helse og skjønnhet"
+		zettvalue="Helse og Skjønnhet" />
+	<map format="tietoenator" field="workarea" lookup="Undervisningstjenester"
+		zettvalue="Undervisning og Pedagogikk" />
+	<map format="itmakeriet" field="type" lookup="hytte" zettvalue="Fritidsbolig" />
+	<map format="tietoenator" field="workarea" lookup="Undervisning og pedagogikk"
+		zettvalue="Undervisning og Pedagogikk" />
+	<map format="tietoenator" field="workarea" lookup="Håndverkstjenester"
+		zettvalue="Håndverksfag" />
+	<map format="tietoenator" field="workarea" lookup="Håndtverkstjenester"
+		zettvalue="Håndverksfag" />
+	<map format="tietoenator" field="workarea" lookup="Dagmamma/Barnepass"
+		zettvalue="Dagmamma/Praktikant" />
+	<map format="tietoenator" field="type" lookup="Snøscootere"
+		zettvalue="Snøscooter" />
+	<map format="tietoenator" field="type" lookup="Garasje/Opplag"
+		zettvalue="Garasje/opplag" />
+	<map format="tietoenator" field="type" lookup="Skjærgårdsjeep/Landstedsbåt"
+		zettvalue="Skjærgårdsjeep/Landstedbåt" />
+	<map format="tietoenator" field="type" lookup="Mat og Drikke"
+		zettvalue="Mat og drikke" />
+	<map format="tietoenator" field="type" lookup="Sport og Fritid"
+		zettvalue="Sport- og fritidsutstyr" />
+	<map format="tietoenator" field="type" lookup="Trebåt/snekke"
+		zettvalue="Trebåt/Snekke" />
+	<map format="tietoenator" field="type" lookup="Brunevarer og elektriske artik"
+		zettvalue="Brunevarer og elektriske artikler" />
+	<map format="tietoenator" field="type" lookup="Landbruks- maskiner/utstyr"
+		zettvalue="Landbruk - maskiner/utstyr" />
+	<map format="tietoenator" field="type" lookup="--- Hus og Hjem ---"
+		zettvalue="Annet" />
+	<map format="tietoenator" field="type" lookup="--- Stort og smått ---"
+		zettvalue="Annet" />
+	<map format="tietoenator" field="type" lookup="Andre" zettvalue="Annet" />
+	<map format="sologstrand" field="country" lookup="DK" zettvalue="Danmark" />
+	<map format="webmegler" field="country" lookup="34" zettvalue="Spania" />
+	<map format="webmegler" field="country" lookup="45" zettvalue="Danmark" />
+	<map format="webmegler" field="country" lookup="46" zettvalue="Sverige" />
+	<map format="webmegler" field="country" lookup="47" zettvalue="Norge" />
+	<map format="webmegler" field="country" lookup="Kypros" zettvalue="Kypros" />
+	<map format="webmegler" field="country" lookup="Tyrkia" zettvalue="Tyrkia" />
+	<map format="webmegler" field="country" lookup="Brasil" zettvalue="Brasil" />
+	<map format="webmegler" field="country" lookup="Thailand"
+		zettvalue="Thailand" />
+	<map format="webmegler" field="type" lookup="1" zettvalue="Enebolig" />
+	<map format="webmegler" field="type" lookup="2" zettvalue="Leilighet" />
+	<map format="webmegler" field="type" lookup="3" zettvalue="Rekkehus" />
+	<map format="webmegler" field="type" lookup="4" zettvalue="Boligtomt" />
+	<map format="webmegler" field="type" lookup="7" zettvalue="Annet" />
+	<map format="webmegler" field="type" lookup="8" zettvalue="Hybel" />
+	<map format="webmegler" field="type" lookup="9" zettvalue="Tomannsbolig" />
+	<map format="webmegler" field="type" lookup="10" zettvalue="Småbruk" />
+	<map format="webmegler" field="type" lookup="5" zettvalue="Fritidsbolig" />
+	<map format="webmegler" field="type" lookup="6" zettvalue="Hyttetomt" />
+	<map format="webmegler" field="type" lookup="11" zettvalue="Fritidsbolig" />
+	<map format="webmegler" field="type" lookup="28" zettvalue="Fritidsbolig" />
+	<map format="webmegler" field="type" lookup="20" zettvalue="Kontor" />
+	<map format="webmegler" field="type" lookup="21" zettvalue="Kombinasjonslokaler" />
+	<map format="webmegler" field="type" lookup="22"
+		zettvalue="Forretningslokale/Butikk" />
+	<map format="webmegler" field="type" lookup="23" zettvalue="Lager" />
+	<map format="webmegler" field="type" lookup="27" zettvalue="Hotell/Overnatting" />
+	<map format="webmegler" field="type" lookup="29" zettvalue="Gårdsbruk" />
+	<map format="webmegler" field="type" lookup="24" zettvalue="Annet" />
+	<map format="webmegler" field="type" lookup="25" zettvalue="Annet" />
+	<map format="webmegler" field="type" lookup="26" zettvalue="Annet" />
+	<map format="webmegler" field="type" lookup="30" zettvalue="Annet" />
+	<map format="webmegler" field="type" lookup="31" zettvalue="Annet" />
+	<map format="emprof" field="type" lookup="pr01" zettvalue="Hybel" />
+	<map format="emprof" field="type" lookup="pr02" zettvalue="Leilighet" />
+	<map format="emprof" field="type" lookup="pr03" zettvalue="Enebolig" />
+	<map format="emprof" field="type" lookup="pr04" zettvalue="Rekkehus" />
+	<map format="emprof" field="type" lookup="pr05" zettvalue="Tomannsbolig" />
+	<map format="emprof" field="type" lookup="pr06" zettvalue="Småbruk" />
+	<map format="emprof" field="type" lookup="pr07" zettvalue="Bofellesskap" />
+	<map format="emprof" field="type" lookup="pr08" zettvalue="Boligtomt" />
+	<map format="emprof" field="type" lookup="pr09" zettvalue="Garasje/Parkering" />
+	<map format="emprof" field="type" lookup="pr99" zettvalue="Annet" />
+	<map format="emprof" field="type" lookup="ph01" zettvalue="Hyttetomt" />
+	<map format="emprof" field="type" lookup="ph02" zettvalue="Fritidsbolig" />
+	<map format="emprof" field="type" lookup="ph03" zettvalue="Ferieleilighet" />
+	<map format="emprof" field="type" lookup="pc01" zettvalue="Kontor" />
+	<map format="emprof" field="type" lookup="pc02" zettvalue="Forretningslokale/Butikk" />
+	<map format="emprof" field="type" lookup="pc03" zettvalue="Produksjon/Industri" />
+	<map format="emprof" field="type" lookup="pc04" zettvalue="Lager" />
+	<map format="emprof" field="type" lookup="pc05" zettvalue="Kombinasjonslokaler" />
+	<map format="emprof" field="type" lookup="pc06" zettvalue="Gårdsbruk" />
+	<map format="emprof" field="type" lookup="pc11" zettvalue="Hotell/Overnatting" />
+	<map format="emprof" field="type" lookup="pc99" zettvalue="Annet" />
+	<map format="emprof" field="ownership" lookup="Selveier" zettvalue="Selveier" />
+	<map format="emprof" field="ownership" lookup="Eierpart leilighet"
+		zettvalue="Selveier" />
+	<map format="emprof" field="ownership" lookup="Andel" zettvalue="Borettslag" />
+	<map format="emprof" field="ownership" lookup="Andelsleilighet"
+		zettvalue="Borettslag" />
+	<map format="emprof" field="ownership" lookup="Obligasjon"
+		zettvalue="Obligasjonsleilighet" />
+	<map format="emprof" field="ownership" lookup="Obligasjonsleilighet"
+		zettvalue="Obligasjonsleilighet" />
+	<map format="emprof" field="ownership" lookup="Aksje" zettvalue="Aksjeleilighet" />
+	<map format="emprof" field="ownership" lookup="Aksjeleilighet"
+		zettvalue="Aksjeleilighet" />
+	<map format="emprof" field="ownership" lookup="Timeshare andel"
+		zettvalue="Timeshare andel" />
+	<map format="itmakeriet" field="transaction" lookup="til salgs"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="nybygg"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="bolig_salg"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="fritid_salg"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="næring_salg"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="bolig_tomt"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="næring_tomt"
+		zettvalue="FOR_SALE" />
+	<map format="itmakeriet" field="transaction" lookup="til leie"
+		zettvalue="FOR_RENT" />
+	<map format="itmakeriet" field="transaction" lookup="bolig_leie"
+		zettvalue="FOR_RENT" />
+	<map format="itmakeriet" field="transaction" lookup="fritid_utleie"
+		zettvalue="FOR_RENT" />
+	<map format="itmakeriet" field="transaction" lookup="næring_utleie"
+		zettvalue="FOR_RENT" />
+	<map format="itmakeriet" field="transaction" lookup="ønskes leid"
+		zettvalue="WANTED_RENT" />
+	<map format="itmakeriet" field="transaction" lookup="bolig_ønskes_leid"
+		zettvalue="WANTED_RENT" />
+	<map format="itmakeriet" field="country" lookup="NO" zettvalue="Norge" />
+	<map format="itmakeriet" field="country" lookup="DK" zettvalue="Danmark" />
+	<map format="itmakeriet" field="country" lookup="SE" zettvalue="Sverige" />
+	<map format="itmakeriet" field="ownership" lookup="selveier"
+		zettvalue="Selveier" />
+	<map format="itmakeriet" field="ownership" lookup="borettslag"
+		zettvalue="Borettslag" />
+	<map format="itmakeriet" field="ownership" lookup="andel"
+		zettvalue="Borettslag" />
+	<map format="itmakeriet" field="ownership" lookup="obligasjonsleilighet"
+		zettvalue="Obligasjonsleilighet" />
+	<map format="itmakeriet" field="ownership" lookup="obligasjon"
+		zettvalue="Obligasjonsleilighet" />
+	<map format="itmakeriet" field="ownership" lookup="aksjeleilighet"
+		zettvalue="Aksjeleilighet" />
+	<map format="itmakeriet" field="ownership" lookup="aksje"
+		zettvalue="Aksjeleilighet" />
+	<map format="itmakeriet" field="ownership" lookup="timeshare andel"
+		zettvalue="Timeshare andel" />
+	<map format="itmakeriet" field="ownership" lookup="annet"
+		zettvalue="Annet" />
+	<map format="itmakeriet" field="type" lookup="hybel" zettvalue="Hybel" />
+	<map format="itmakeriet" field="type" lookup="leilighet" zettvalue="Leilighet" />
+	<map format="itmakeriet" field="type" lookup="enebolig" zettvalue="Enebolig" />
+	<map format="itmakeriet" field="type" lookup="rekkehus" zettvalue="Rekkehus" />
+	<map format="itmakeriet" field="type" lookup="tomannsbolig"
+		zettvalue="Tomannsbolig" />
+	<map format="itmakeriet" field="type" lookup="småbruk" zettvalue="Småbruk" />
+	<map format="itmakeriet" field="type" lookup="smaabruk" zettvalue="Småbruk" />
+	<map format="itmakeriet" field="type" lookup="bofellesskap"
+		zettvalue="Bofellesskap" />
+	<map format="itmakeriet" field="type" lookup="boligtomt" zettvalue="Boligtomt" />
+	<map format="itmakeriet" field="type" lookup="bolig_tomt"
+		zettvalue="Boligtomt" />
+	<map format="itmakeriet" field="type" lookup="tomt" zettvalue="Boligtomt" />
+	<map format="itmakeriet" field="type" lookup="garasje/parkering"
+		zettvalue="Garasje/Parkering" />
+	<map format="itmakeriet" field="type" lookup="annet" zettvalue="Annet" />
+	<map format="itmakeriet" field="type" lookup="hyttetomt" zettvalue="Hyttetomt" />
+	<map format="itmakeriet" field="type" lookup="hytte_tomt"
+		zettvalue="Hyttetomt" />
+	<map format="itmakeriet" field="type" lookup="fritidsbolig"
+		zettvalue="Fritidsbolig" />
+	<map format="itmakeriet" field="type" lookup="annet-fritid"
+		zettvalue="Fritidsbolig" />
+	<map format="itmakeriet" field="type" lookup="ferieleilighet"
+		zettvalue="Ferieleilighet" />
+	<map format="itmakeriet" field="type" lookup="kontor" zettvalue="Kontor" />
+	<map format="itmakeriet" field="type" lookup="forretningslokale/butikk"
+		zettvalue="Forretningslokale/Butikk" />
+	<map format="itmakeriet" field="type" lookup="forretning"
+		zettvalue="Forretningslokale/Butikk" />
+	<map format="itmakeriet" field="type" lookup="produksjon/industri"
+		zettvalue="Produksjon/Industri" />
+	<map format="itmakeriet" field="type" lookup="lager" zettvalue="Lager" />
+	<map format="itmakeriet" field="type" lookup="kombinasjonslokaler"
+		zettvalue="Kombinasjonslokaler" />
+	<map format="itmakeriet" field="type" lookup="kombinasjonslokale"
+		zettvalue="Kombinasjonslokaler" />
+	<map format="itmakeriet" field="type" lookup="gårdsbruk" zettvalue="Gårdsbruk" />
+	<map format="itmakeriet" field="type" lookup="gaardsbruk"
+		zettvalue="Gårdsbruk" />
+	<map format="itmakeriet" field="type" lookup="flermannsbolig/bygårder"
+		zettvalue="Flermannsbolig/Bygårder" />
+	<map format="itmakeriet" field="type" lookup="flermannsbolig"
+		zettvalue="Flermannsbolig/Bygårder" />
+	<map format="itmakeriet" field="type" lookup="kjøpesenter"
+		zettvalue="Kjøpesenter" />
+	<map format="itmakeriet" field="type" lookup="verksted" zettvalue="Verksted" />
+	<map format="itmakeriet" field="type" lookup="hotell/overnatting"
+		zettvalue="Hotell/Overnatting" />
+	<map format="itmakeriet" field="type" lookup="hotell" zettvalue="Hotell/Overnatting" />
+	<map format="itmakeriet" field="type" lookup="serveringslokale/kantine"
+		zettvalue="Serveringslokale/Kantine" />
+	<map format="itmakeriet" field="type" lookup="undervisning/arrangement"
+		zettvalue="Undervisning/Arrangement" />
+	<map format="itmakeriet" field="type" lookup="prosjekt" zettvalue="Prosjekt" />
+	<map format="itmakeriet" field="type" lookup="kuriositeter"
+		zettvalue="Kuriositeter" />
+	<map format="itmakeriet" field="type" lookup="næringstomt"
+		zettvalue="Næringstomt" />
+	<map format="novasol" field="country" lookup="A" zettvalue="Østerrike" />
+	<map format="novasol" field="country" lookup="B" zettvalue="Belgia" />
+	<map format="novasol" field="country" lookup="HR" zettvalue="Kroatia" />
+	<map format="novasol" field="country" lookup="CZ" zettvalue="Tsjekkia" />
+	<map format="novasol" field="country" lookup="DK" zettvalue="Danmark" />
+	<map format="novasol" field="country" lookup="F" zettvalue="Frankrike" />
+	<map format="novasol" field="country" lookup="D" zettvalue="Tyskland" />
+	<map format="novasol" field="country" lookup="G" zettvalue="Hellas" />
+	<map format="novasol" field="country" lookup="H" zettvalue="Ungarn" />
+	<map format="novasol" field="country" lookup="IE" zettvalue="Irland" />
+	<map format="novasol" field="country" lookup="I" zettvalue="Italia" />
+	<map format="novasol" field="country" lookup="NL" zettvalue="Nederland" />
+	<map format="novasol" field="country" lookup="N" zettvalue="Norge" />
+	<map format="novasol" field="country" lookup="PL" zettvalue="Polen" />
+	<map format="novasol" field="country" lookup="PT" zettvalue="Portugal" />
+	<map format="novasol" field="country" lookup="SL" zettvalue="Slovakia" />
+	<map format="novasol" field="country" lookup="E" zettvalue="Spania" />
+	<map format="novasol" field="country" lookup="S" zettvalue="Sverige" />
+	<map format="novasol" field="country" lookup="UK" zettvalue="Storbritania" />
+	<map format="novasol" field="stars" lookup="1" zettvalue="1 stjerne" />
+	<map format="novasol" field="stars" lookup="2" zettvalue="2 stjerner" />
+	<map format="novasol" field="stars" lookup="3" zettvalue="3 stjerner" />
+	<map format="novasol" field="stars" lookup="4" zettvalue="4 stjerner" />
+	<map format="novasol" field="stars" lookup="5" zettvalue="5 stjerner" />
+	<map format="novasol" field="dayofchange" lookup="1"
+		zettvalue="Overlevering mandager fra kl. 16.00" />
+	<map format="novasol" field="dayofchange" lookup="2"
+		zettvalue="Overlevering tirsdager fra kl. 16.00" />
+	<map format="novasol" field="dayofchange" lookup="3"
+		zettvalue="Overlevering onsdager fra kl. 16.00" />
+	<map format="novasol" field="dayofchange" lookup="4"
+		zettvalue="Overlevering torsdager fra kl. 16.00" />
+	<map format="novasol" field="dayofchange" lookup="5"
+		zettvalue="Overlevering fredager fra kl. 16.00" />
+	<map format="novasol" field="dayofchange" lookup="6"
+		zettvalue="Overlevering lørdager fra kl. 16.00" />
+	<map format="novasol" field="dayofchange" lookup="7"
+		zettvalue="Overlevering søndager fra kl. 16.00" />
+	<map format="novasol" field="optionalarrival" lookup="A"
+		zettvalue="Valgfri ankomstdag i enkelte perioder" />
+	<map format="novasol" field="optionalarrival" lookup="B"
+		zettvalue="Valgfri ankomstdag i enkelte perioder" />
+	<map format="novasol" field="pets" lookup="Y" zettvalue="Husdyr tillatt" />
+	<map format="novasol" field="waterpark" lookup="Y" zettvalue="Badeland" />
+	<map format="novasol" field="tennis" lookup="Y" zettvalue="Tennisbane i nærheten" />
+	<map format="novasol" field="golf" lookup="Y" zettvalue="Golfbane i nærheten" />
+	<map format="novasol" field="art" lookup="Y" zettvalue="Kunstby" />
+	<map format="norbooking" field="country" lookup="NO" zettvalue="Norge" />
+	<map format="norbooking" field="country" lookup="DK" zettvalue="Danmark" />
+	<map format="norbooking" field="country" lookup="SE" zettvalue="Sverige" />
+	<map format="norbooking" field="country" lookup="SF" zettvalue="Finland" />
+	<map format="dancenter" field="country" lookup="DK" zettvalue="Danmark" />
+	<map format="atex" field="transaction" lookup="Arbeid utføres"
+		zettvalue="JOB_PERFORMED" />
+	<map format="onlinebooking" field="transaction" lookup="Arbeid utføres"
+		zettvalue="JOB_PERFORMED" />
+	<map format="mactive" field="transaction" lookup="Arbeid utføres"
+		zettvalue="JOB_PERFORMED" />
+	<map format="robot" field="transaction" lookup="Arbeid utføres"
+		zettvalue="JOB_PERFORMED" />
+	<map format="tietoenator" field="transaction" lookup="Arbeid utføres"
+		zettvalue="JOB_PERFORMED" />
+	<map format="tietoenator" field="privacy" lookup="Anonym"
+		zettvalue="SHOW_EMAIL" />
+</valuemap>

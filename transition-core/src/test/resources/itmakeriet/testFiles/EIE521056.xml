@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TAS.Import SYSTEM "http://www.tinde.com/TAS/ImportFilter/4.1/DTD">
+<TAS.Import Version="1.0" xml:lang="no">
+<Property>
+<Client>21743</Client>
+<Contacts>
+<Contact>
+<Name>Beate Borger Berget</Name>
+<Email>bbb@eie.no</Email>
+<Phone>23 25 44 88</Phone>
+<Mobile>975 61 843</Mobile>
+<Address Street="Vækerøveien 26" PostCode="0282" City="OSLO" CountryCode="NO"/>
+</Contact>
+</Contacts>
+<ClientsRef>EIE521056</ClientsRef>
+<Status Code="TRUKKET"/>
+<Publish FromDate="2010-05-03" ToDate="2010-11-03"/>
+<Deleted Date="2010-11-04" Time="07:07"/>
+<Type>leilighet</Type>
+<AdType>bolig_salg</AdType>
+<Title>ULLERN/KAJALUND  3r. seniorleiligh. Fortr.rett sykehj.plass.</Title>
+<Address Street="Sollerudveien 33 D" PostCode="0283" City="OSLO" CountryCode="NO"/>
+<Matrikkel Kommune="0301" GNR="10" BNR="810" SNR="61"/>
+<PriceFields>
+<Price Name="Prisantydning" Curr="NOK">3350000</Price>
+<Price Name="Lånetakst" Curr="NOK">2850000</Price>
+<Price Name="Husleie" Curr="NOK" Per="Måned">2505</Price>
+<Price Name="Verditakst" Curr="NOK">3350000</Price>
+<Price Name="Ligningsverdi" Curr="NOK">438054</Price>
+<Price Name="Andel disponible midler" Curr="NOK">0</Price>
+<Price Name="Andel fellesgjeld" Curr="NOK">0</Price>
+<Price Name="Formue" Curr="NOK">18528</Price>
+<Price Name="Omkostninger_for_kjoper">Dokumentavgift til Staten 2,5 % av kjøpesummen. 
+kr. 1 548,- i tinglysningsgebyr for skjøte
+kr. 1 935,- i tinglysningsgebyr for pantedokument
+Kr 2 000 i eierskiftegebyr til forretningsfører
+Attestgebyr kr 202,-</Price>
+</PriceFields>
+<AreaFields>
+<Area Name="Bruksareal">67</Area>
+<Area Name="primaererom_areal">67</Area>
+<Text Name="primaererom_ledetekst">Arealbeskrivelse</Text>
+<Text Name="primaererom_inneholder">&amp;middot; 2. etasje: &lt;BR&gt;Entre, bad/wc, 2 soverom, stue/spisestue og kjøkken.: 67 m&amp;sup2;</Text>
+</AreaFields>
+<OwnershipType>selveier</OwnershipType>
+<LotOwnershipType>festet</LotOwnershipType>
+<BuiltYear>1968</BuiltYear>
+<BedRooms>2</BedRooms>
+<Rooms>3</Rooms>
+<Floor>2</Floor>
+<Viewings>
+<ViewingText>Ta kontakt med ansv. megler for avtale.</ViewingText>
+</Viewings>
+<TextFields>
+<Text Name="Innhold">* Lys, delikat leilighet i 2 etg.Kun to trinn opp.
+* Flislagt bad/dusj med varmekabler nytt 2007.
+* Hvit kjøkkeninnredning ny 2007
+* Integrerte hvitevarer- komfyr-oppvaskmaskin-kjøleskap.
+* Peis i stuen.
+* Overbygget balkong med el. markise.
+* Garasjeplass i fellesanlegg.
+* Porttelefon med døråpner.
+* Tilgang til fellesvaskeri i underetg.
+* To hybler på området kan leies for Sameiets gjester.
+* Vaktmester
+* Vakthold om natten.
+* Rolig område.
+* Store beplantede grøntarealer på fellesområdet.
+* Kajalund Boliganleggs beboere har fortrinnsrett til plass ved sykehjemmet som ligger på området.
+
+Entre, bad,  2 soverom, kjøkken, stue/spisestue med peis og utgang til balkong.</Text>
+<Text Name="Boder">Det er to boder som følger leiligheten, en i oppgangen og en i underetasjen.</Text>
+<Text Name="Standard">Romslig og lys leilighet i sentralt beliggende boligsameie på Ullern. Innvendig har leiligheten pen standard. Bad og kjøkken ble oppgradert i 2007 og vil av de fleste betegnes som innflyttingsklar. 
+
+&lt;B&gt;Kjøkken:&lt;/B&gt; Lys og pen kjøkkeninnredning  fra 2007. Integrert keramisk koketopp, komfyr, oppvaskmaskin og kjøleskap.Ventilator.  Fliser over benkeplate. Plass til lite spisebord.
+&lt;B&gt;Stue/ spisestue:&lt;/B&gt; Koselig stue/spisestue med  flott peis og utsyn. Fra stuen er det utgang til usjernert overbygget balkong på ca 7 kvm med elektrisk markise. Stuen vender mot syd. Fin utsikt  mot Sollerud. 
+ &lt;B&gt;Soverom:&lt;/B&gt; Opprinnelig ett stort soverom som er delt med en fast lettvegg slik at det i dag benyttes som soverom og kontor/soverom. Lar seg lett gjøre om hvis ønskelig. 
+&lt;B&gt;Dusjbad/wc:&lt;/B&gt; Heldekkende servant med underskap. Overskap med speil og belysning. Høyskap. Dusjkabinett. Toalett. 
+&lt;B&gt;Entré:&lt;/B&gt; Skyvedørsgarderobe med speildører. Porttelefon med døråpner. 
+
+&lt;B&gt;For øvrig:&lt;/B&gt; Med leiligheten følger 1 bod i oppgang og 1 bod i kjeller.Tilgang til fellesvaskeri i kjelleretasjen.
+
+&lt;B&gt;Vegger:&lt;/B&gt; Lysmalte flater. Fliser på bad.
+&lt;B&gt;Gulv:&lt;/B&gt; Parkett. Fliser på dusjbad/wc.
+Malte flater i himling.</Text>
+<Text Name="Kjøkken">Lyst og koselig kjøkken med ny kjøkkeninnredning  fra 2007 med integrert komfyr, kjøleskap og oppvaskmaskin. Fliser over benk og avtrekksvifte.</Text>
+<Text Name="Gulv">Innvendige gulvoverflater av parkett.</Text>
+<Text Name="Bad">Romslig, flislagt bad med varmekabler, nytt i 2007. Innredet med servantinnredning, dusjhjørne og wc. Takstmann har målt med fuktindikator på vegger i dusjsone. Det ble ikke funnet verdier utover det som anses som normalt.</Text>
+<Text Name="Vegger">Innervegger av stenderverk og betong med overflater av tapet. Fliser på baderom.</Text>
+<Text Name="Himling">Innvendige himlinger av sparklet og malt betong samt malte plater. Utbedring av sprekker/riss i overgang vegg/himling i spisestue bør påregnes.</Text>
+<Text Name="Diverse">
+Leiligheten er klausulert for beboere over 50 år. Med leiligheten medfølger bl.a. andelsobligasjon i Kajalund Sykehjem som gir fortrinnsrett til plass på sykehjemmet.
+
+Kajalund Boligsameie består av 73 eierseksjoner i flere delvis sammenhengende teglsteinsbygninger. Sameiet har egen resepsjon og fullt møblert peisestue, spisestue, kjøkken, garderobe og toalett som beboerne kan leie. I tillegg finnes to rom med bad som kan leies til f.eks. gjester.
+Det er ikke tillatt med dyr eller små barn i sameiet.
+
+Tilgang til fellesvaskeri. 
+Solmarkiser med elektrisk styring er montert.
+Dørtelefon og Kabel-Tv.</Text>
+<Text Name="Bebyggelse">Hovedsakelig leilighets- og villabebyggelse.</Text>
+<Text Name="Tomt">Festet tomt på 22 792 kvm. Festekontrakten løper i nye 50 år etter 2014. Festeavgiften indeksreguleres hvert år og betales gjennom fellesutgiftene.
+Flotte parkmessige fellsarealer med koselig eplehage som kan benyttes av beboere til hyggelig samvær i sommersesongen.</Text>
+<Text Name="Parkering">Garasjeplass for 1 bil i fellesanlegg. Gjesteparkering på området.</Text>
+</TextFields>
+<Options>
+<Option Name="balkong"/>
+<Option Name="peis"/>
+<Option Name="parkett"/>
+<Option Name="rolig"/>
+<Option Name="kabel-tv"/>
+<Option Name="garasje"/>
+<Option Name="off. vann"/>
+<Option Name="felles vaskerom"/>
+</Options>
+<Media>
+<MainPicture Type="image:jpeg" Title="50340066" LastModified="2010-05-03 23:35">file:EIE521056-1.JPG</MainPicture>
+</Media>
+</Property>
+</TAS.Import>
